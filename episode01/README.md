@@ -52,7 +52,12 @@ Copy the [`argv-fuzz-inl.h`](argv-fuzz-inl.h) into the sudo source code in `/pwd
 
 Now you can try to instrument sudo with [afl](https://github.com/google/AFL) (but this will not work, as shown in the video).
 
-```
+```bash
 cd /pwd/sudo-1.8.31p2
 CC=afl-gcc ./configure --disable-shared
+make
+mkdir /tmp/in
+mkdir /tmp/out
+echo -en "-l\x00" > /tmp/in/1.testcase
+afl-fuzz -i /tmp/in -i /tmp/out ./src/sudo
 ```
