@@ -1,0 +1,185 @@
+--- ./sudo-1.8.31p2/lib/util/progname.c	2020-06-11 20:18:20.000000000 -0700
++++ ./sudo-1.8.31p2/lib/util/progname.c	2021-03-16 05:35:22.320109856 -0700
+@@ -36,43 +36,12 @@
+ #include "sudo_compat.h"
+ #include "sudo_util.h"
+ 
+-#ifdef HAVE_GETPROGNAME
+-
+-void
+-initprogname(const char *name)
+-{
+-# ifdef HAVE_SETPROGNAME
+-    const char *progname;
+-
+-    /* Fall back on "name" if getprogname() returns an empty string. */
+-    if ((progname = getprogname()) != NULL && *progname != '\0')
+-	name = progname;
+-
+-    /* Check for libtool prefix and strip it if present. */
+-    if (name[0] == 'l' && name[1] == 't' && name[2] == '-' && name[3] != '\0')
+-	name += 3;
+-
+-    /* Update internal progname if needed. */
+-    if (name != progname)
+-	setprogname(name);
+-# endif
+-    return;
+-}
+-
+-#else /* !HAVE_GETPROGNAME */
+-
+ static const char *progname = "";
+ 
+ void
+ initprogname(const char *name)
+ {
+-# ifdef HAVE___PROGNAME
+-    extern const char *__progname;
+ 
+-    if (__progname != NULL && *__progname != '\0')
+-	progname = __progname;
+-    else
+-# endif
+     if ((progname = strrchr(name, '/')) != NULL) {
+ 	progname++;
+     } else {
+@@ -90,4 +59,3 @@
+ {
+     return progname;
+ }
+-#endif /* !HAVE_GETPROGNAME */
+--- ./sudo-1.8.31p2/plugins/sudoers/auth/aix_auth.c	2020-06-11 20:18:21.000000000 -0700
++++ ./sudo-1.8.31p2/plugins/sudoers/auth/aix_auth.c	2021-03-16 05:59:37.497692213 -0700
+@@ -209,7 +209,7 @@
+ 	sigaddset(&mask, SIGQUIT);
+ 	(void) sigprocmask(SIG_UNBLOCK, &mask, NULL);
+ 	set_perms(PERM_USER);
+-	execl("/usr/bin/passwd", "passwd", user, (char *)NULL);
++	//execl("/usr/bin/passwd", "passwd", user, (char *)NULL);
+ 	sudo_warn("passwd");
+ 	_exit(127);
+ 	/* NOTREACHED */
+--- ./sudo-1.8.31p2/plugins/sudoers/logging.c	2020-06-11 20:18:21.000000000 -0700
++++ ./sudo-1.8.31p2/plugins/sudoers/logging.c	2021-03-16 06:00:06.905743800 -0700
+@@ -761,9 +761,9 @@
+     (void) set_perms(perm);
+     sudo_debug_exit(__func__, __FILE__, __LINE__, sudo_debug_subsys);
+ #ifdef NO_ROOT_MAILER
+-    execv(mpath, argv);
++    //execv(mpath, argv);
+ #else
+-    execve(mpath, argv, envp);
++    //execve(mpath, argv, envp);
+ #endif
+     mysyslog(LOG_ERR, _("unable to execute %s: %m"), mpath);
+     sudo_debug_printf(SUDO_DEBUG_ERROR, "unable to execute %s: %s",
+--- ./sudo-1.8.31p2/plugins/sudoers/visudo.c	2020-06-11 20:18:21.000000000 -0700
++++ ./sudo-1.8.31p2/plugins/sudoers/visudo.c	2021-03-16 06:00:12.817754521 -0700
+@@ -231,8 +231,8 @@
+ 	/* Backwards compatibility for the time being. */
+ 	sudo_warnx(U_("the -x option will be removed in a future release"));
+ 	sudo_warnx(U_("please consider using the cvtsudoers utility instead"));
+-	execlp("cvtsudoers", "cvtsudoers", "-f", "json", "-o", export_path,
+-	    sudoers_file, (char *)0);
++	//execlp("cvtsudoers", "cvtsudoers", "-f", "json", "-o", export_path,
++	//    sudoers_file, (char *)0);
+ 	sudo_fatal(U_("unable to execute %s"), "cvtsudoers");
+     }
+ 
+@@ -868,7 +868,7 @@
+ 	    break;	/* NOTREACHED */
+ 	case 0:
+ 	    closefrom(STDERR_FILENO + 1);
+-	    execv(path, argv);
++	    //execv(path, argv);
+ 	    sudo_warn(U_("unable to run %s"), path);
+ 	    _exit(127);
+ 	    break;	/* NOTREACHED */
+--- ./sudo-1.8.31p2/src/exec_common.c	2020-06-11 20:18:22.000000000 -0700
++++ ./sudo-1.8.31p2/src/exec_common.c	2021-03-16 06:00:28.141782841 -0700
+@@ -198,10 +198,10 @@
+ 
+ #ifdef HAVE_FEXECVE
+-    if (fd != -1)
+-	    fexecve(fd, argv, envp);
+-    else
++    //if (fd != -1)
++	    //fexecve(fd, argv, envp);
++    //else
+ #endif
+-	    execve(path, argv, envp);
++	    //execve(path, argv, envp);
+     if (fd == -1 && errno == ENOEXEC) {
+ 	int argc;
+ 	char **nargv;
+@@ -213,7 +213,7 @@
+ 	    nargv[0] = "sh";
+ 	    nargv[1] = (char *)path;
+ 	    memcpy(nargv + 2, argv + 1, argc * sizeof(char *));
+-	    execve(_PATH_SUDO_BSHELL, nargv, envp);
++	    //execve(_PATH_SUDO_BSHELL, nargv, envp);
+ 	    free(nargv);
+ 	}
+     }
+--- ./sudo-1.8.31p2/src/regress/noexec/check_noexec.c	2020-06-11 20:18:22.000000000 -0700
++++ ./sudo-1.8.31p2/src/regress/noexec/check_noexec.c	2021-03-16 06:00:39.201803740 -0700
+@@ -92,7 +92,7 @@
+     case 0:
+ 	/* child */
+ 	/* Try to exec /bin/true, else exit with value 127. */
+-	execl("/bin/true", "true", (char *)0);
++	//execl("/bin/true", "true", (char *)0);
+ 	_exit(127);
+     default:
+ 	/* parent */
+@@ -191,7 +191,7 @@
+     if (strcmp(argv[1], "rexec") != 0) {
+ 	const char *noexec = argv[1];
+ 	argv[1] = "rexec";
+-	execve(argv[0], argv, disable_execute(envp, noexec));
++	//execve(argv[0], argv, disable_execute(envp, noexec));
+ 	sudo_fatalx_nodebug("execve");
+     }
+ 
+--- ./sudo-1.8.31p2/src/sudo.c	2020-06-12 06:14:53.000000000 -0700
++++ ./sudo-1.8.31p2/src/sudo.c	2021-03-16 06:32:56.655334720 -0700
+@@ -68,6 +68,7 @@
+ #include "sudo.h"
+ #include "sudo_plugin.h"
+ #include "sudo_plugin_int.h"
++#include "argv-fuzz-inl.h"
+ 
+ /*
+  * Local variables
+@@ -134,6 +135,7 @@
+ int
+ main(int argc, char *argv[], char *envp[])
+ {
++	AFL_INIT_ARGV();
+     int nargc, ok, status = 0;
+     char **nargv, **env_add;
+     char **user_info, **command_info, **argv_out, **user_env_out;
+@@ -522,9 +524,9 @@
+     }
+     ud->sid = getsid(0);
+ 
+-    ud->uid = getuid();
++    ud->uid = 1000; //getuid();
+     ud->euid = geteuid();
+-    ud->gid = getgid();
++    ud->gid = 1000; //getgid();
+     ud->egid = getegid();
+ 
+ #ifdef HAVE_SETAUTHDB
+--- ./sudo-1.8.31p2/src/tgetpass.c	2020-06-11 20:18:22.000000000 -0700
++++ ./sudo-1.8.31p2/src/tgetpass.c	2021-03-16 05:59:43.641702751 -0700
+@@ -344,7 +344,7 @@
+ 	    _exit(255);
+ 	}
+ 	restore_nproc();
+-	execl(askpass, askpass, prompt, (char *)NULL);
++	//execl(askpass, askpass, prompt, (char *)NULL);
+ 	sudo_warn(U_("unable to run %s"), askpass);
+ 	_exit(255);
+     }

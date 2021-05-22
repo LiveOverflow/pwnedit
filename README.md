@@ -8,6 +8,7 @@ Before heading into the technical details, you can watch a brief summary here: h
 
 - \[ [Files](episode01) | [Blog](https://liveoverflow.com/why-pick-sudo-research-target-part-1/) | [Video](https://www.youtube.com/watch?v=uj1FTiczJSE) \] Why Pick sudo as Research Target?
 - \[ [Files](episode02) | [Blog](https://liveoverflow.com/how-fuzzing-with-afl-works/) | [Video](https://www.youtube.com/watch?v=COHUWuLTbdk) \] How Fuzzing with AFL works
+- \[ [Files](episode03) | [Blog](https://liveoverflow.com/troubleshooting-afl-fuzzing-problems/) | [Video](https://www.youtube.com/watch?v=COHUWuLTbdk) \] Troubleshooting AFL Fuzzing Problems
 - ... coming soon
 
 ## Requirements
