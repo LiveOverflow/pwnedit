@@ -1,4 +1,4 @@
-# Episode 3 - Troubleshooting AFL Fuzzing Problems
+# Episode 4 - Troubleshooting AFL Fuzzing Problems
 
 We found a crash with [afl](https://github.com/google/AFL), but it turns out to be a bug in the `argv-fuzz-inl.h` file.
 
