@@ -11,7 +11,7 @@ To configure and build sudo with ASAN, use the following commands. Note that thi
 
 ```bash
 make clean
-./configure CFLAGS="-fsanitize=address,undefined" CC=clang --disabled-shared
+./configure CFLAGS="-fsanitize=address,undefined" CC=clang --disable-shared
 make
 ```
 
