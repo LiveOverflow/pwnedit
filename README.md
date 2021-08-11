@@ -6,13 +6,16 @@ Before heading into the technical details, you can watch a brief summary here: h
 
 ## Episodes
 
+Full playlist on [YouTube here](https://www.youtube.com/playlist?list=PLhixgUqwRTjy0gMuT4C3bmjeZjuNQyqdx).
+
 - \[ [Files](episode01) | [Blog](https://liveoverflow.com/why-pick-sudo-research-target-part-1/) | [Video](https://www.youtube.com/watch?v=uj1FTiczJSE) \] Why Pick sudo as Research Target?
 - \[ [Files](episode02) | [Blog](https://liveoverflow.com/how-fuzzing-with-afl-works/) | [Video](https://www.youtube.com/watch?v=COHUWuLTbdk) \] How Fuzzing with AFL works
 - \[ [Files](episode03) | [Blog](https://liveoverflow.com/troubleshooting-afl-fuzzing-problems/) | [Video](https://www.youtube.com/watch?v=COHUWuLTbdk) \] Troubleshooting AFL Fuzzing Problems
 - \[ [Files](episode04) | [Blog](https://liveoverflow.com/finding-buffer-overflow-with-fuzzing/) | [Video](https://www.youtube.com/watch?v=Do1Ri8TCF0Q) \] Finding Buffer Overflow with Fuzzing
 - \[ [Files](episode05) | [Blog](https://liveoverflow.com/minimizing-afl-testcases-sudo5/) | [Video](https://www.youtube.com/watch?v=YeEGDfPqR0E) \] Found a Crash Through Fuzzing? Minimize AFL Testcases
-- \[ [Files](episode06) | Blog | [Video](https://www.youtube.com/watch?v=_W3D_0erZ00) \] Root Cause Analysis With AddressSanitizer (ASan)
-- \[ [Files](episode07) | Blog | [Video](https://www.youtube.com/watch?v=zdzcTh9kUrc) \] Understanding C Pointer Magic Arithmetic
+- \[ [Files](episode06) | [Blog](https://liveoverflow.com/fuzzer-crash-root-cause-analysis-with-asan-addresssanitizer/) | [Video](https://www.youtube.com/watch?v=_W3D_0erZ00) \] Root Cause Analysis With AddressSanitizer (ASan)
+- \[ [Files](episode07) | [Blog](https://liveoverflow.com/understanding-pointer-magic/) | [Video](https://www.youtube.com/watch?v=zdzcTh9kUrc) \] Understanding C Pointer Magic Arithmetic
+- \[ [Files](episode07) | Blog | [Video](https://www.youtube.com/watch?v=zdzcTh9kUrc) \] Reaching Vulnerable Code in sudo (C code review)
 - ... coming soon
 
 ## Requirements
