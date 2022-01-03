@@ -1,0 +1,304 @@
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fe82500f5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fe8250101e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fe825015187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fe82501cb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fe824d32a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe57cfb120, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe57cfae30) at ./sudoers.c:307
+#6  0x00007fe824d2c12a in sudoers_policy_check (argc=0x3, argv=0x7ffe57cfb120, env_add=0x0, command_infop=0x7ffe57cfaea8, argv_out=0x7ffe57cfaeb0, user_env_out=0x7ffe57cfaeb8) at ./policy.c:872
+#7  0x000055c1aca17151 in policy_check (plugin=0x55c1aca377a0 <policy_plugin>, user_env_out=0x7ffe57cfaeb8, argv_out=0x7ffe57cfaeb0, command_info=0x7ffe57cfaea8, env_add=0x0, argv=0x7ffe57cfb120, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe57cfb140) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f6c06f155c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f6c06f161e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f6c06f1b187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f6c06f22b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f6c06c38a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffc7c3e558, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffc7c3e260) at ./sudoers.c:307
+#6  0x00007f6c06c3212a in sudoers_policy_check (argc=0x3, argv=0x7fffc7c3e558, env_add=0x0, command_infop=0x7fffc7c3e2d8, argv_out=0x7fffc7c3e2e0, user_env_out=0x7fffc7c3e2e8) at ./policy.c:872
+#7  0x0000558f00331151 in policy_check (plugin=0x558f003517a0 <policy_plugin>, user_env_out=0x7fffc7c3e2e8, argv_out=0x7fffc7c3e2e0, command_info=0x7fffc7c3e2d8, env_add=0x0, argv=0x7fffc7c3e558, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffc7c3e578) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f2deac535c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f2deac541e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f2deac59187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f2deac60b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f2dea976a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe9157afc8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe9157acd0) at ./sudoers.c:307
+#6  0x00007f2dea97012a in sudoers_policy_check (argc=0x3, argv=0x7ffe9157afc8, env_add=0x0, command_infop=0x7ffe9157ad48, argv_out=0x7ffe9157ad50, user_env_out=0x7ffe9157ad58) at ./policy.c:872
+#7  0x000055a2ac979151 in policy_check (plugin=0x55a2ac9997a0 <policy_plugin>, user_env_out=0x7ffe9157ad58, argv_out=0x7ffe9157ad50, command_info=0x7ffe9157ad48, env_add=0x0, argv=0x7ffe9157afc8, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe9157afe8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f9075a5b5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f9075a5c1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f9075a61187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f9075a68b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f907577ea0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffef73632c8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffef7362fd0) at ./sudoers.c:307
+#6  0x00007f907577812a in sudoers_policy_check (argc=0x3, argv=0x7ffef73632c8, env_add=0x0, command_infop=0x7ffef7363048, argv_out=0x7ffef7363050, user_env_out=0x7ffef7363058) at ./policy.c:872
+#7  0x0000558d8ccd8151 in policy_check (plugin=0x558d8ccf87a0 <policy_plugin>, user_env_out=0x7ffef7363058, argv_out=0x7ffef7363050, command_info=0x7ffef7363048, env_add=0x0, argv=0x7ffef73632c8, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffef73632e8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fbf078c25c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fbf078c31e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fbf078c8187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fbf078cfb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fbf075e5a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc00ed8338, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc00ed8040) at ./sudoers.c:307
+#6  0x00007fbf075df12a in sudoers_policy_check (argc=0x3, argv=0x7ffc00ed8338, env_add=0x0, command_infop=0x7ffc00ed80b8, argv_out=0x7ffc00ed80c0, user_env_out=0x7ffc00ed80c8) at ./policy.c:872
+#7  0x000055d22a51b151 in policy_check (plugin=0x55d22a53b7a0 <policy_plugin>, user_env_out=0x7ffc00ed80c8, argv_out=0x7ffc00ed80c0, command_info=0x7ffc00ed80b8, env_add=0x0, argv=0x7ffc00ed8338, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc00ed8358) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fd4c45315c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fd4c45321e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fd4c4537187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fd4c453eb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fd4c4254a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffe1469b08, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffe1469810) at ./sudoers.c:307
+#6  0x00007fd4c424e12a in sudoers_policy_check (argc=0x3, argv=0x7fffe1469b08, env_add=0x0, command_infop=0x7fffe1469888, argv_out=0x7fffe1469890, user_env_out=0x7fffe1469898) at ./policy.c:872
+#7  0x00005580691a1151 in policy_check (plugin=0x5580691c17a0 <policy_plugin>, user_env_out=0x7fffe1469898, argv_out=0x7fffe1469890, command_info=0x7fffe1469888, env_add=0x0, argv=0x7fffe1469b08, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffe1469b28) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f951b22a5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f951b22b1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f951b230187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f951b237b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f951af4da0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd6676f930, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd6676f640) at ./sudoers.c:307
+#6  0x00007f951af4712a in sudoers_policy_check (argc=0x3, argv=0x7ffd6676f930, env_add=0x0, command_infop=0x7ffd6676f6b8, argv_out=0x7ffd6676f6c0, user_env_out=0x7ffd6676f6c8) at ./policy.c:872
+#7  0x000055786f79d151 in policy_check (plugin=0x55786f7bd7a0 <policy_plugin>, user_env_out=0x7ffd6676f6c8, argv_out=0x7ffd6676f6c0, command_info=0x7ffd6676f6b8, env_add=0x0, argv=0x7ffd6676f930, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd6676f950) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fb6dfa175c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fb6dfa181e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fb6dfa1d187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fb6dfa24b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fb6df73aa0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc8a30c440, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc8a30c150) at ./sudoers.c:307
+#6  0x00007fb6df73412a in sudoers_policy_check (argc=0x3, argv=0x7ffc8a30c440, env_add=0x0, command_infop=0x7ffc8a30c1c8, argv_out=0x7ffc8a30c1d0, user_env_out=0x7ffc8a30c1d8) at ./policy.c:872
+#7  0x00005603967a3151 in policy_check (plugin=0x5603967c37a0 <policy_plugin>, user_env_out=0x7ffc8a30c1d8, argv_out=0x7ffc8a30c1d0, command_info=0x7ffc8a30c1c8, env_add=0x0, argv=0x7ffc8a30c440, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc8a30c460) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007ff11e4705c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007ff11e4711e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ff11e476187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007ff11e47db6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007ff11e193a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd7d586408, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd7d586110) at ./sudoers.c:307
+#6  0x00007ff11e18d12a in sudoers_policy_check (argc=0x3, argv=0x7ffd7d586408, env_add=0x0, command_infop=0x7ffd7d586188, argv_out=0x7ffd7d586190, user_env_out=0x7ffd7d586198) at ./policy.c:872
+#7  0x0000561aee370151 in policy_check (plugin=0x561aee3907a0 <policy_plugin>, user_env_out=0x7ffd7d586198, argv_out=0x7ffd7d586190, command_info=0x7ffd7d586188, env_add=0x0, argv=0x7ffd7d586408, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd7d586428) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fee023275c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fee023281e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fee0232d187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fee02334b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fee0204aa0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffe9b126e0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffe9b123f0) at ./sudoers.c:307
+#6  0x00007fee0204412a in sudoers_policy_check (argc=0x2, argv=0x7fffe9b126e0, env_add=0x0, command_infop=0x7fffe9b12468, argv_out=0x7fffe9b12470, user_env_out=0x7fffe9b12478) at ./policy.c:872
+#7  0x000056031de56151 in policy_check (plugin=0x56031de767a0 <policy_plugin>, user_env_out=0x7fffe9b12478, argv_out=0x7fffe9b12470, command_info=0x7fffe9b12468, env_add=0x0, argv=0x7fffe9b126e0, argc=0x2) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffe9b126f8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fb3a44f75c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fb3a44f81e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fb3a44fd187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fb3a4504b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fb3a421aa0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff4bcc9c88, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff4bcc9990) at ./sudoers.c:307
+#6  0x00007fb3a421412a in sudoers_policy_check (argc=0x3, argv=0x7fff4bcc9c88, env_add=0x0, command_infop=0x7fff4bcc9a08, argv_out=0x7fff4bcc9a10, user_env_out=0x7fff4bcc9a18) at ./policy.c:872
+#7  0x00005576a2dd7151 in policy_check (plugin=0x5576a2df77a0 <policy_plugin>, user_env_out=0x7fff4bcc9a18, argv_out=0x7fff4bcc9a10, command_info=0x7fff4bcc9a08, env_add=0x0, argv=0x7fff4bcc9c88, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff4bcc9ca8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f9a266c15c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f9a266c21e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f9a266c7187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f9a266ceb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f9a263e4a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd2c2a5be0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd2c2a58f0) at ./sudoers.c:307
+#6  0x00007f9a263de12a in sudoers_policy_check (argc=0x3, argv=0x7ffd2c2a5be0, env_add=0x0, command_infop=0x7ffd2c2a5968, argv_out=0x7ffd2c2a5970, user_env_out=0x7ffd2c2a5978) at ./policy.c:872
+#7  0x000055a9ffaca151 in policy_check (plugin=0x55a9ffaea7a0 <policy_plugin>, user_env_out=0x7ffd2c2a5978, argv_out=0x7ffd2c2a5970, command_info=0x7ffd2c2a5968, env_add=0x0, argv=0x7ffd2c2a5be0, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd2c2a5c00) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f3be256c5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f3be256d1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f3be2572187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f3be2579b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f3be228fa0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffffc2e6cd0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffffc2e69e0) at ./sudoers.c:307
+#6  0x00007f3be228912a in sudoers_policy_check (argc=0x3, argv=0x7ffffc2e6cd0, env_add=0x0, command_infop=0x7ffffc2e6a58, argv_out=0x7ffffc2e6a60, user_env_out=0x7ffffc2e6a68) at ./policy.c:872
+#7  0x0000559eac59e151 in policy_check (plugin=0x559eac5be7a0 <policy_plugin>, user_env_out=0x7ffffc2e6a68, argv_out=0x7ffffc2e6a60, command_info=0x7ffffc2e6a58, env_add=0x0, argv=0x7ffffc2e6cd0, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffffc2e6cf0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fcd35edf5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fcd35ee01e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fcd35ee5187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fcd35eecb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fcd35c02a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffcdc3792b8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcdc378fc0) at ./sudoers.c:307
+#6  0x00007fcd35bfc12a in sudoers_policy_check (argc=0x3, argv=0x7ffcdc3792b8, env_add=0x0, command_infop=0x7ffcdc379038, argv_out=0x7ffcdc379040, user_env_out=0x7ffcdc379048) at ./policy.c:872
+#7  0x000055ecebbad151 in policy_check (plugin=0x55ecebbcd7a0 <policy_plugin>, user_env_out=0x7ffcdc379048, argv_out=0x7ffcdc379040, command_info=0x7ffcdc379038, env_add=0x0, argv=0x7ffcdc3792b8, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcdc3792d8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  0x00007fc11550a5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fc11550b1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fc115510187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fc115517b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fc11522da0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc89b233e8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc89b230f0) at ./sudoers.c:307
+#6  0x00007fc11522712a in sudoers_policy_check (argc=0x2, argv=0x7ffc89b233e8, env_add=0x0, command_infop=0x7ffc89b23168, argv_out=0x7ffc89b23170, user_env_out=0x7ffc89b23178) at ./policy.c:872
+#7  0x00005639e926d151 in policy_check (plugin=0x5639e928d7a0 <policy_plugin>, user_env_out=0x7ffc89b23178, argv_out=0x7ffc89b23170, command_info=0x7ffc89b23168, env_add=0x0, argv=0x7ffc89b233e8, argc=0x2) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc89b23400) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f8980f465c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f8980f471e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f8980f4c187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f8980f53b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f8980c69a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffec6bb46d0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffec6bb43e0) at ./sudoers.c:307
+#6  0x00007f8980c6312a in sudoers_policy_check (argc=0x3, argv=0x7ffec6bb46d0, env_add=0x0, command_infop=0x7ffec6bb4458, argv_out=0x7ffec6bb4460, user_env_out=0x7ffec6bb4468) at ./policy.c:872
+#7  0x0000560a739b8151 in policy_check (plugin=0x560a739d87a0 <policy_plugin>, user_env_out=0x7ffec6bb4468, argv_out=0x7ffec6bb4460, command_info=0x7ffec6bb4458, env_add=0x0, argv=0x7ffec6bb46d0, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffec6bb46f0) at ./sudo.c:254
+

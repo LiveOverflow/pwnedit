@@ -1,0 +1,25 @@
+----------------------------
+rbcreate sudo_getpwnam init_vars envp=envp@entry=0x7ffdcb39e1a0) sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f974037c8ec in __GI___nss_database_lookup2 (database=database@entry=0x7f97403f0784 "shadow", alternate_name=alternate_name@entry=0x7f97403f0727 "passwd", defconfig=defconfig@entry=0x7f97403f3690 "compat [NOTFOUND=return] files", ni=0x7f9740426710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f974037eda1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f97404259d0 <nip>, fct_name=fct_name@entry=0x7f97403efda0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffdcb39dc60) at XXX-lookup.c:66
+#3  0x00007f974037dc69 in setup (all=0x1, startp=0x7f97404259c0 <startp>, nip=0x7f97404259d0 <nip>, fctp=0x7ffdcb39dc60, lookup_fct=0x7f974037ed30 <__GI___nss_shadow_lookup2>, func_name=0x7f97403efda0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f97404259c0 <startp>, nip=0x7f97404259d0 <nip>, fctp=0x7ffdcb39dc60, lookup_fct=0x7f974037ed30 <__GI___nss_shadow_lookup2>, func_name=0x7f97403efda0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f97403efda0 "setspent", lookup_fct=0x7f974037ed30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f97404259d0 <nip>, startp=startp@entry=0x7f97404259c0 <startp>, last_nip=last_nip@entry=0x7f97404259c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f974035d90f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f97401899a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f9740189a4a in sudo_passwd_init (pw=0x5653c6e21368, auth=0x7f97401d56c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f9740188be6 in sudo_auth_init (pw=pw@entry=0x5653c6e21368) at ./auth/sudo_auth.c:119
+#10 0x00007f974018a2b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007f97401a1edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffdcb39e180, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdcb39de90) at ./sudoers.c:418
+#12 0x00007f974019b12a in sudoers_policy_check (argc=0x3, argv=0x7ffdcb39e180, env_add=0x0, command_infop=0x7ffdcb39df08, argv_out=0x7ffdcb39df10, user_env_out=0x7ffdcb39df18) at ./policy.c:872
+#13 0x00005653c6c1b151 in policy_check (plugin=0x5653c6c3b7a0 <policy_plugin>, user_env_out=0x7ffdcb39df18, argv_out=0x7ffdcb39df10, command_info=0x7ffdcb39df08, env_add=0x0, argv=0x7ffdcb39e180, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdcb39e1a0) at ./sudo.c:254
+

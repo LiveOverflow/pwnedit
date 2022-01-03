@@ -1,0 +1,226 @@
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007f1cfc00c06d in _IO_new_fclose (fp=0x5643e2f0a360) at iofclose.c:51
+#1  0x00007f1cfbedf0c3 in sudo_file_close (nss=0x7f1cfbf26980 <sudo_nss_file>) at ./file.c:58
+#2  0x00007f1cfbef144e in sudoers_cleanup () at ./sudoers.c:1302
+#3  0x00007f1cfc1a42de in do_cleanup () at ./fatal.c:74
+#4  0x00007f1cfc1a475c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#5  0x00005643e265aaa7 in tgetpass (prompt=0x5643e2f126c0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffd27944ac0) at ./tgetpass.c:158
+#6  0x00005643e26477a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd27944678, callback=0x7ffd27944ac0) at ./conversation.c:81
+#7  0x00007f1cfbeda29d in auth_getpass (prompt=0x5643e2f126c0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd27944ac0) at ./auth/sudo_auth.c:464
+#8  0x00007f1cfbeda702 in verify_user (pw=0x5643e2f102c8, prompt=<optimized out>, prompt@entry=0x5643e2f126c0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd27944ac0) at ./auth/sudo_auth.c:319
+#9  0x00007f1cfbedb605 in check_user_interactive (closure=0x7ffd27944aa0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#10 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#11 0x00007f1cfbef2edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd27944ee8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd27944bf0) at ./sudoers.c:418
+#12 0x00007f1cfbeec12a in sudoers_policy_check (argc=0x3, argv=0x7ffd27944ee8, env_add=0x0, command_infop=0x7ffd27944c68, argv_out=0x7ffd27944c70, user_env_out=0x7ffd27944c78) at ./policy.c:872
+#13 0x00005643e2646151 in policy_check (plugin=0x5643e26667a0 <policy_plugin>, user_env_out=0x7ffd27944c78, argv_out=0x7ffd27944c70, command_info=0x7ffd27944c68, env_add=0x0, argv=0x7ffd27944ee8, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd27944f08) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f625ba8606d in _IO_new_fclose (fp=0x56288f5f55a0) at iofclose.c:51
+#1  0x00007f625b9590c3 in sudo_file_close (nss=0x7f625b9a0980 <sudo_nss_file>) at ./file.c:58
+#2  0x00007f625b96b44e in sudoers_cleanup () at ./sudoers.c:1302
+#3  0x00007f625bc1e2de in do_cleanup () at ./fatal.c:74
+#4  0x00007f625bc1e75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#5  0x000056288dfedaa7 in tgetpass (prompt=0x56288f5fd590 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fff34a06150) at ./tgetpass.c:158
+#6  0x000056288dfda7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff34a05d08, callback=0x7fff34a06150) at ./conversation.c:81
+#7  0x00007f625b95429d in auth_getpass (prompt=0x56288f5fd590 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff34a06150) at ./auth/sudo_auth.c:464
+#8  0x00007f625b954702 in verify_user (pw=0x56288f5faff8, prompt=<optimized out>, prompt@entry=0x56288f5fd590 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff34a06150) at ./auth/sudo_auth.c:319
+#9  0x00007f625b955605 in check_user_interactive (closure=0x7fff34a06130, mode=<optimized out>, validated=0x60) at ./check.c:149
+#10 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#11 0x00007f625b96cedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff34a06578, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff34a06280) at ./sudoers.c:418
+#12 0x00007f625b96612a in sudoers_policy_check (argc=0x3, argv=0x7fff34a06578, env_add=0x0, command_infop=0x7fff34a062f8, argv_out=0x7fff34a06300, user_env_out=0x7fff34a06308) at ./policy.c:872
+#13 0x000056288dfd9151 in policy_check (plugin=0x56288dff97a0 <policy_plugin>, user_env_out=0x7fff34a06308, argv_out=0x7fff34a06300, command_info=0x7fff34a062f8, env_add=0x0, argv=0x7fff34a06578, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff34a06598) at ./sudo.c:254
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007ffb03dc006d in _IO_new_fclose (fp=0x561cbf6033a0) at iofclose.c:51
+#1  0x00007ffb03c930c3 in sudo_file_close (nss=0x7ffb03cda980 <sudo_nss_file>) at ./file.c:58
+#2  0x00007ffb03ca544e in sudoers_cleanup () at ./sudoers.c:1302
+#3  0x00007ffb03f582de in do_cleanup () at ./fatal.c:74
+#4  0x00007ffb03f5875c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#5  0x0000561cbd881aa7 in tgetpass (prompt=0x561cbf60b9b0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffc5659a210) at ./tgetpass.c:158
+#6  0x0000561cbd86e7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffc56599dc8, callback=0x7ffc5659a210) at ./conversation.c:81
+#7  0x00007ffb03c8e29d in auth_getpass (prompt=0x561cbf60b9b0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffc5659a210) at ./auth/sudo_auth.c:464
+#8  0x00007ffb03c8e702 in verify_user (pw=0x561cbf6095a8, prompt=<optimized out>, prompt@entry=0x561cbf60b9b0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffc5659a210) at ./auth/sudo_auth.c:319
+#9  0x00007ffb03c8f605 in check_user_interactive (closure=0x7ffc5659a1f0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#10 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#11 0x00007ffb03ca6edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc5659a638, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc5659a340) at ./sudoers.c:418
+#12 0x00007ffb03ca012a in sudoers_policy_check (argc=0x3, argv=0x7ffc5659a638, env_add=0x0, command_infop=0x7ffc5659a3b8, argv_out=0x7ffc5659a3c0, user_env_out=0x7ffc5659a3c8) at ./policy.c:872
+#13 0x0000561cbd86d151 in policy_check (plugin=0x561cbd88d7a0 <policy_plugin>, user_env_out=0x7ffc5659a3c8, argv_out=0x7ffc5659a3c0, command_info=0x7ffc5659a3b8, env_add=0x0, argv=0x7ffc5659a638, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc5659a658) at ./sudo.c:254
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007f2664b0506d in _IO_new_fclose (fp=0x5630f5cc4350) at iofclose.c:51
+#1  0x00007f26649d80c3 in sudo_file_close (nss=0x7f2664a1f980 <sudo_nss_file>) at ./file.c:58
+#2  0x00007f26649ea44e in sudoers_cleanup () at ./sudoers.c:1302
+#3  0x00007f2664c9d2de in do_cleanup () at ./fatal.c:74
+#4  0x00007f2664c9d75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#5  0x00005630f45e5aa7 in tgetpass (prompt=0x5630f5ccc930 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffdeed9f700) at ./tgetpass.c:158
+#6  0x00005630f45d27a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffdeed9f2b8, callback=0x7ffdeed9f700) at ./conversation.c:81
+#7  0x00007f26649d329d in auth_getpass (prompt=0x5630f5ccc930 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffdeed9f700) at ./auth/sudo_auth.c:464
+#8  0x00007f26649d3702 in verify_user (pw=0x5630f5cca418, prompt=<optimized out>, prompt@entry=0x5630f5ccc930 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffdeed9f700) at ./auth/sudo_auth.c:319
+#9  0x00007f26649d4605 in check_user_interactive (closure=0x7ffdeed9f6e0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#10 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#11 0x00007f26649ebedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffdeed9fb28, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdeed9f830) at ./sudoers.c:418
+#12 0x00007f26649e512a in sudoers_policy_check (argc=0x2, argv=0x7ffdeed9fb28, env_add=0x0, command_infop=0x7ffdeed9f8a8, argv_out=0x7ffdeed9f8b0, user_env_out=0x7ffdeed9f8b8) at ./policy.c:872
+#13 0x00005630f45d1151 in policy_check (plugin=0x5630f45f17a0 <policy_plugin>, user_env_out=0x7ffdeed9f8b8, argv_out=0x7ffdeed9f8b0, command_info=0x7ffdeed9f8a8, env_add=0x0, argv=0x7ffdeed9fb28, argc=0x2) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdeed9fb40) at ./sudo.c:254
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007f8f1ab5f06d in _IO_new_fclose (fp=0x556b0f3ff3c0) at iofclose.c:51
+#1  0x00007f8f1aa320c3 in sudo_file_close (nss=0x7f8f1aa79980 <sudo_nss_file>) at ./file.c:58
+#2  0x00007f8f1aa4444e in sudoers_cleanup () at ./sudoers.c:1302
+#3  0x00007f8f1acf72de in do_cleanup () at ./fatal.c:74
+#4  0x00007f8f1acf775c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#5  0x0000556b0e62eaa7 in tgetpass (prompt=0x556b0f407920 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffdf3dc7220) at ./tgetpass.c:158
+#6  0x0000556b0e61b7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffdf3dc6dd8, callback=0x7ffdf3dc7220) at ./conversation.c:81
+#7  0x00007f8f1aa2d29d in auth_getpass (prompt=0x556b0f407920 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffdf3dc7220) at ./auth/sudo_auth.c:464
+#8  0x00007f8f1aa2d702 in verify_user (pw=0x556b0f405388, prompt=<optimized out>, prompt@entry=0x556b0f407920 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffdf3dc7220) at ./auth/sudo_auth.c:319
+#9  0x00007f8f1aa2e605 in check_user_interactive (closure=0x7ffdf3dc7200, mode=<optimized out>, validated=0x60) at ./check.c:149
+#10 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#11 0x00007f8f1aa45edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffdf3dc7648, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdf3dc7350) at ./sudoers.c:418
+#12 0x00007f8f1aa3f12a in sudoers_policy_check (argc=0x3, argv=0x7ffdf3dc7648, env_add=0x0, command_infop=0x7ffdf3dc73c8, argv_out=0x7ffdf3dc73d0, user_env_out=0x7ffdf3dc73d8) at ./policy.c:872
+#13 0x0000556b0e61a151 in policy_check (plugin=0x556b0e63a7a0 <policy_plugin>, user_env_out=0x7ffdf3dc73d8, argv_out=0x7ffdf3dc73d0, command_info=0x7ffdf3dc73c8, env_add=0x0, argv=0x7ffdf3dc7648, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdf3dc7668) at ./sudo.c:254
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007fe7df91b06d in _IO_new_fclose (fp=0x56420e1123a0) at iofclose.c:51
+#1  0x00007fe7df7ee0c3 in sudo_file_close (nss=0x7fe7df835980 <sudo_nss_file>) at ./file.c:58
+#2  0x00007fe7df80044e in sudoers_cleanup () at ./sudoers.c:1302
+#3  0x00007fe7dfab32de in do_cleanup () at ./fatal.c:74
+#4  0x00007fe7dfab375c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#5  0x000056420c447aa7 in tgetpass (prompt=0x56420e11a8f0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffd0dc1f200) at ./tgetpass.c:158
+#6  0x000056420c4347a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd0dc1edb8, callback=0x7ffd0dc1f200) at ./conversation.c:81
+#7  0x00007fe7df7e929d in auth_getpass (prompt=0x56420e11a8f0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd0dc1f200) at ./auth/sudo_auth.c:464
+#8  0x00007fe7df7e9702 in verify_user (pw=0x56420e1184a8, prompt=<optimized out>, prompt@entry=0x56420e11a8f0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd0dc1f200) at ./auth/sudo_auth.c:319
+#9  0x00007fe7df7ea605 in check_user_interactive (closure=0x7ffd0dc1f1e0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#10 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#11 0x00007fe7df801edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd0dc1f628, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd0dc1f330) at ./sudoers.c:418
+#12 0x00007fe7df7fb12a in sudoers_policy_check (argc=0x3, argv=0x7ffd0dc1f628, env_add=0x0, command_infop=0x7ffd0dc1f3a8, argv_out=0x7ffd0dc1f3b0, user_env_out=0x7ffd0dc1f3b8) at ./policy.c:872
+#13 0x000056420c433151 in policy_check (plugin=0x56420c4537a0 <policy_plugin>, user_env_out=0x7ffd0dc1f3b8, argv_out=0x7ffd0dc1f3b0, command_info=0x7ffd0dc1f3a8, env_add=0x0, argv=0x7ffd0dc1f628, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd0dc1f648) at ./sudo.c:254
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007ff33a4ba06d in _IO_new_fclose (fp=0x5574c70333c0) at iofclose.c:51
+#1  0x00007ff33a38d0c3 in sudo_file_close (nss=0x7ff33a3d4980 <sudo_nss_file>) at ./file.c:58
+#2  0x00007ff33a39f44e in sudoers_cleanup () at ./sudoers.c:1302
+#3  0x00007ff33a6522de in do_cleanup () at ./fatal.c:74
+#4  0x00007ff33a65275c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#5  0x00005574c6e1eaa7 in tgetpass (prompt=0x5574c703b8c0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffcf79385e0) at ./tgetpass.c:158
+#6  0x00005574c6e0b7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffcf7938198, callback=0x7ffcf79385e0) at ./conversation.c:81
+#7  0x00007ff33a38829d in auth_getpass (prompt=0x5574c703b8c0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffcf79385e0) at ./auth/sudo_auth.c:464
+#8  0x00007ff33a388702 in verify_user (pw=0x5574c7039478, prompt=<optimized out>, prompt@entry=0x5574c703b8c0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffcf79385e0) at ./auth/sudo_auth.c:319
+#9  0x00007ff33a389605 in check_user_interactive (closure=0x7ffcf79385c0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#10 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#11 0x00007ff33a3a0edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffcf7938a08, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcf7938710) at ./sudoers.c:418
+#12 0x00007ff33a39a12a in sudoers_policy_check (argc=0x3, argv=0x7ffcf7938a08, env_add=0x0, command_infop=0x7ffcf7938788, argv_out=0x7ffcf7938790, user_env_out=0x7ffcf7938798) at ./policy.c:872
+#13 0x00005574c6e0a151 in policy_check (plugin=0x5574c6e2a7a0 <policy_plugin>, user_env_out=0x7ffcf7938798, argv_out=0x7ffcf7938790, command_info=0x7ffcf7938788, env_add=0x0, argv=0x7ffcf7938a08, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcf7938a28) at ./sudo.c:254
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007f3fffe8e06d in _IO_new_fclose (fp=0x557b736ef3a0) at iofclose.c:51
+#1  0x00007f3fffd610c3 in sudo_file_close (nss=0x7f3fffda8980 <sudo_nss_file>) at ./file.c:58
+#2  0x00007f3fffd7344e in sudoers_cleanup () at ./sudoers.c:1302
+#3  0x00007f40000262de in do_cleanup () at ./fatal.c:74
+#4  0x00007f400002675c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#5  0x0000557b73104aa7 in tgetpass (prompt=0x557b736f7840 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffed91e8420) at ./tgetpass.c:158
+#6  0x0000557b730f17a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffed91e7fd8, callback=0x7ffed91e8420) at ./conversation.c:81
+#7  0x00007f3fffd5c29d in auth_getpass (prompt=0x557b736f7840 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffed91e8420) at ./auth/sudo_auth.c:464
+#8  0x00007f3fffd5c702 in verify_user (pw=0x557b736f53f8, prompt=<optimized out>, prompt@entry=0x557b736f7840 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffed91e8420) at ./auth/sudo_auth.c:319
+#9  0x00007f3fffd5d605 in check_user_interactive (closure=0x7ffed91e8400, mode=<optimized out>, validated=0x60) at ./check.c:149
+#10 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#11 0x00007f3fffd74edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffed91e8848, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffed91e8550) at ./sudoers.c:418
+#12 0x00007f3fffd6e12a in sudoers_policy_check (argc=0x3, argv=0x7ffed91e8848, env_add=0x0, command_infop=0x7ffed91e85c8, argv_out=0x7ffed91e85d0, user_env_out=0x7ffed91e85d8) at ./policy.c:872
+#13 0x0000557b730f0151 in policy_check (plugin=0x557b731107a0 <policy_plugin>, user_env_out=0x7ffed91e85d8, argv_out=0x7ffed91e85d0, command_info=0x7ffed91e85c8, env_add=0x0, argv=0x7ffed91e8848, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffed91e8868) at ./sudo.c:254
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  __GI__IO_default_finish (fp=0x558c8ff583a0, dummy=<optimized out>) at genops.c:610
+#1  0x00007f91684ebfc1 in _IO_new_fclose (fp=0x558c8ff583a0) at libioP.h:948
+#2  0x00007f91683bf0c3 in sudo_file_close (nss=0x7f9168406980 <sudo_nss_file>) at ./file.c:58
+#3  0x00007f91683d144e in sudoers_cleanup () at ./sudoers.c:1302
+#4  0x00007f91686842de in do_cleanup () at ./fatal.c:74
+#5  0x00007f916868475c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#6  0x0000558c8ef14aa7 in tgetpass (prompt=0x558c8ff60b20 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffe07b11410) at ./tgetpass.c:158
+#7  0x0000558c8ef017a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffe07b10fc8, callback=0x7ffe07b11410) at ./conversation.c:81
+#8  0x00007f91683ba29d in auth_getpass (prompt=0x558c8ff60b20 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffe07b11410) at ./auth/sudo_auth.c:464
+#9  0x00007f91683ba702 in verify_user (pw=0x558c8ff5e578, prompt=<optimized out>, prompt@entry=0x558c8ff60b20 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffe07b11410) at ./auth/sudo_auth.c:319
+#10 0x00007f91683bb605 in check_user_interactive (closure=0x7ffe07b113f0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#11 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#12 0x00007f91683d2edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe07b11838, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe07b11540) at ./sudoers.c:418
+#13 0x00007f91683cc12a in sudoers_policy_check (argc=0x3, argv=0x7ffe07b11838, env_add=0x0, command_infop=0x7ffe07b115b8, argv_out=0x7ffe07b115c0, user_env_out=0x7ffe07b115c8) at ./policy.c:872
+#14 0x0000558c8ef00151 in policy_check (plugin=0x558c8ef207a0 <policy_plugin>, user_env_out=0x7ffe07b115c8, argv_out=0x7ffe07b115c0, command_info=0x7ffe07b115b8, env_add=0x0, argv=0x7ffe07b11838, argc=0x3) at ./sudo.c:1140
+#15 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe07b11858) at ./sudo.c:254
+

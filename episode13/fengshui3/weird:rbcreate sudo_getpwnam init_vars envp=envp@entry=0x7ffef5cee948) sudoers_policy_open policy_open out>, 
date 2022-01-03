@@ -1,0 +1,23 @@
+----------------------------
+rbcreate sudo_getpwnam init_vars envp=envp@entry=0x7ffef5cee948) sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f3735cf9a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f3735e12880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f3735e066e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f3735e12880 <term>) at ./term.c:136
+#2  0x00007f3735e06895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000555d08bc9552 in tgetpass (prompt=0x555d09ee58f0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffef5cee500) at ./tgetpass.c:187
+#4  0x0000555d08bb67a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffef5cee0b8, callback=0x7ffef5cee500) at ./conversation.c:81
+#5  0x00007f3735b3629d in auth_getpass (prompt=0x555d09ee58f0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffef5cee500) at ./auth/sudo_auth.c:464
+#6  0x00007f3735b36702 in verify_user (pw=0x555d09ee34b8, prompt=<optimized out>, prompt@entry=0x555d09ee58f0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffef5cee500) at ./auth/sudo_auth.c:319
+#7  0x00007f3735b37605 in check_user_interactive (closure=0x7ffef5cee4e0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f3735b4eedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffef5cee928, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffef5cee630) at ./sudoers.c:418
+#10 0x00007f3735b4812a in sudoers_policy_check (argc=0x3, argv=0x7ffef5cee928, env_add=0x0, command_infop=0x7ffef5cee6a8, argv_out=0x7ffef5cee6b0, user_env_out=0x7ffef5cee6b8) at ./policy.c:872
+#11 0x0000555d08bb5151 in policy_check (plugin=0x555d08bd57a0 <policy_plugin>, user_env_out=0x7ffef5cee6b8, argv_out=0x7ffef5cee6b0, command_info=0x7ffef5cee6a8, env_add=0x0, argv=0x7ffef5cee928, argc=0x3) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffef5cee948) at ./sudo.c:254
+

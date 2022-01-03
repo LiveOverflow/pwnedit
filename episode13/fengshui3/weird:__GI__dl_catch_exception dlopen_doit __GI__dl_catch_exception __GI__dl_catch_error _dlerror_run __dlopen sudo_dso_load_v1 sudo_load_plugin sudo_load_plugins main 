@@ -1,0 +1,137 @@
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  0x00007fcc979ada14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7fcc97ac6880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007fcc97aba6e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7fcc97ac6880 <term>) at ./term.c:136
+#2  0x00007fcc97aba895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000055ce82408552 in tgetpass (prompt=0x55ce834caf80 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7fffb5a25a80) at ./tgetpass.c:187
+#4  0x000055ce823f57a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fffb5a25638, callback=0x7fffb5a25a80) at ./conversation.c:81
+#5  0x00007fcc977ea29d in auth_getpass (prompt=0x55ce834caf80 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fffb5a25a80) at ./auth/sudo_auth.c:464
+#6  0x00007fcc977ea702 in verify_user (pw=0x55ce834c3e98, prompt=<optimized out>, prompt@entry=0x55ce834caf80 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fffb5a25a80) at ./auth/sudo_auth.c:319
+#7  0x00007fcc977eb605 in check_user_interactive (closure=0x7fffb5a25a60, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007fcc97802edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffb5a25ea8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffb5a25bb0) at ./sudoers.c:418
+#10 0x00007fcc977fc12a in sudoers_policy_check (argc=0x2, argv=0x7fffb5a25ea8, env_add=0x0, command_infop=0x7fffb5a25c28, argv_out=0x7fffb5a25c30, user_env_out=0x7fffb5a25c38) at ./policy.c:872
+#11 0x000055ce823f4151 in policy_check (plugin=0x55ce824147a0 <policy_plugin>, user_env_out=0x7fffb5a25c38, argv_out=0x7fffb5a25c30, command_info=0x7fffb5a25c28, env_add=0x0, argv=0x7fffb5a25ea8, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffb5a25ec0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  0x00007f226d831a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f226d94a880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f226d93e6e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f226d94a880 <term>) at ./term.c:136
+#2  0x00007f226d93e895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000558ba1019552 in tgetpass (prompt=0x558ba170b260 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffd03ec7bf0) at ./tgetpass.c:187
+#4  0x0000558ba10067a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd03ec77a8, callback=0x7ffd03ec7bf0) at ./conversation.c:81
+#5  0x00007f226d66e29d in auth_getpass (prompt=0x558ba170b260 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd03ec7bf0) at ./auth/sudo_auth.c:464
+#6  0x00007f226d66e702 in verify_user (pw=0x558ba1708e38, prompt=<optimized out>, prompt@entry=0x558ba170b260 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd03ec7bf0) at ./auth/sudo_auth.c:319
+#7  0x00007f226d66f605 in check_user_interactive (closure=0x7ffd03ec7bd0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f226d686edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd03ec8010, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd03ec7d20) at ./sudoers.c:418
+#10 0x00007f226d68012a in sudoers_policy_check (argc=0x2, argv=0x7ffd03ec8010, env_add=0x0, command_infop=0x7ffd03ec7d98, argv_out=0x7ffd03ec7da0, user_env_out=0x7ffd03ec7da8) at ./policy.c:872
+#11 0x0000558ba1005151 in policy_check (plugin=0x558ba10257a0 <policy_plugin>, user_env_out=0x7ffd03ec7da8, argv_out=0x7ffd03ec7da0, command_info=0x7ffd03ec7d98, env_add=0x0, argv=0x7ffd03ec8010, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd03ec8028) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  0x00007ff85868ba14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7ff8587a4880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007ff8587986e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7ff8587a4880 <term>) at ./term.c:136
+#2  0x00007ff858798895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x00005557590ec552 in tgetpass (prompt=0x55575a7d7460 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffe7f83d9a0) at ./tgetpass.c:187
+#4  0x00005557590d97a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffe7f83d558, callback=0x7ffe7f83d9a0) at ./conversation.c:81
+#5  0x00007ff8584c829d in auth_getpass (prompt=0x55575a7d7460 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffe7f83d9a0) at ./auth/sudo_auth.c:464
+#6  0x00007ff8584c8702 in verify_user (pw=0x55575a7d5018, prompt=<optimized out>, prompt@entry=0x55575a7d7460 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffe7f83d9a0) at ./auth/sudo_auth.c:319
+#7  0x00007ff8584c9605 in check_user_interactive (closure=0x7ffe7f83d980, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007ff8584e0edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe7f83ddc0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe7f83dad0) at ./sudoers.c:418
+#10 0x00007ff8584da12a in sudoers_policy_check (argc=0x2, argv=0x7ffe7f83ddc0, env_add=0x0, command_infop=0x7ffe7f83db48, argv_out=0x7ffe7f83db50, user_env_out=0x7ffe7f83db58) at ./policy.c:872
+#11 0x00005557590d8151 in policy_check (plugin=0x5557590f87a0 <policy_plugin>, user_env_out=0x7ffe7f83db58, argv_out=0x7ffe7f83db50, command_info=0x7ffe7f83db48, env_add=0x0, argv=0x7ffe7f83ddc0, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe7f83ddd8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f7f14c36a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f7f14d4f880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f7f14d436e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f7f14d4f880 <term>) at ./term.c:136
+#2  0x00007f7f14d43895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x00005620dbf68552 in tgetpass (prompt=0x5620ddf3b430 "Password: ", timeout=0x12c, flags=0x20, callback=callback@entry=0x7ffed77cb280) at ./tgetpass.c:187
+#4  0x00005620dbf557a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffed77cae38, callback=0x7ffed77cb280) at ./conversation.c:81
+#5  0x00007f7f14a7329d in auth_getpass (prompt=0x5620ddf3b430 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffed77cb280) at ./auth/sudo_auth.c:464
+#6  0x00007f7f14a73702 in verify_user (pw=0x5620ddf38f18, prompt=<optimized out>, prompt@entry=0x5620ddf3b430 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffed77cb280) at ./auth/sudo_auth.c:319
+#7  0x00007f7f14a74605 in check_user_interactive (closure=0x7ffed77cb260, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f7f14a8bedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffed77cb6a8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffed77cb3b0) at ./sudoers.c:418
+#10 0x00007f7f14a8512a in sudoers_policy_check (argc=0x2, argv=0x7ffed77cb6a8, env_add=0x0, command_infop=0x7ffed77cb428, argv_out=0x7ffed77cb430, user_env_out=0x7ffed77cb438) at ./policy.c:872
+#11 0x00005620dbf54151 in policy_check (plugin=0x5620dbf747a0 <policy_plugin>, user_env_out=0x7ffed77cb438, argv_out=0x7ffed77cb430, command_info=0x7ffed77cb428, env_add=0x0, argv=0x7ffed77cb6a8, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffed77cb6c0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  0x00007f87d24c4a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f87d25dd880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f87d25d16e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f87d25dd880 <term>) at ./term.c:136
+#2  0x00007f87d25d1895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000055c77c779552 in tgetpass (prompt=0x55c77e5333d0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffca59a8250) at ./tgetpass.c:187
+#4  0x000055c77c7667a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffca59a7e08, callback=0x7ffca59a8250) at ./conversation.c:81
+#5  0x00007f87d230129d in auth_getpass (prompt=0x55c77e5333d0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffca59a8250) at ./auth/sudo_auth.c:464
+#6  0x00007f87d2301702 in verify_user (pw=0x55c77e530f88, prompt=<optimized out>, prompt@entry=0x55c77e5333d0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffca59a8250) at ./auth/sudo_auth.c:319
+#7  0x00007f87d2302605 in check_user_interactive (closure=0x7ffca59a8230, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f87d2319edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffca59a8670, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffca59a8380) at ./sudoers.c:418
+#10 0x00007f87d231312a in sudoers_policy_check (argc=0x2, argv=0x7ffca59a8670, env_add=0x0, command_infop=0x7ffca59a83f8, argv_out=0x7ffca59a8400, user_env_out=0x7ffca59a8408) at ./policy.c:872
+#11 0x000055c77c765151 in policy_check (plugin=0x55c77c7857a0 <policy_plugin>, user_env_out=0x7ffca59a8408, argv_out=0x7ffca59a8400, command_info=0x7ffca59a83f8, env_add=0x0, argv=0x7ffca59a8670, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffca59a8688) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+
+

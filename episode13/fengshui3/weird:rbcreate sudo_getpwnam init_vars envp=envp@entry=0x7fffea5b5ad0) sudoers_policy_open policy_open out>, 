@@ -1,0 +1,17 @@
+----------------------------
+rbcreate sudo_getpwnam init_vars envp=envp@entry=0x7fffea5b5ad0) sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  rbdestroy_int (tree=tree@entry=0x564fb421d930, node=0x3131313131313131, destroy=destroy@entry=0x7f3709f638f0 <sudo_pw_delref_item>) at ./redblack.c:359
+#1  0x00007f3709f68634 in rbdestroy (tree=0x564fb421d930, destroy=destroy@entry=0x7f3709f638f0 <sudo_pw_delref_item>) at ./redblack.c:376
+#2  0x00007f3709f64bd7 in sudo_freepwcache () at ./pwutil.c:458
+#3  0x00007f3709f54b92 in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffea5b5ab8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffea5b57c0) at ./sudoers.c:664
+#4  0x00007f3709f4e12a in sudoers_policy_check (argc=0x2, argv=0x7fffea5b5ab8, env_add=0x0, command_infop=0x7fffea5b5838, argv_out=0x7fffea5b5840, user_env_out=0x7fffea5b5848) at ./policy.c:872
+#5  0x0000564fb2244151 in policy_check (plugin=0x564fb22647a0 <policy_plugin>, user_env_out=0x7fffea5b5848, argv_out=0x7fffea5b5840, command_info=0x7fffea5b5838, env_add=0x0, argv=0x7fffea5b5ab8, argc=0x2) at ./sudo.c:1140
+#6  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffea5b5ad0) at ./sudo.c:254
+

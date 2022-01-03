@@ -1,0 +1,90 @@
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007f3415aa8c87 in _IO_flush_all_lockp (do_lock=do_lock@entry=0x0) at genops.c:695
+#1  0x00007f3415aa8f09 in _IO_cleanup () at genops.c:866
+#2  0x00007f3415a5cb32 in __run_exit_handlers (status=0x1, listp=<optimized out>, run_list_atexit=run_list_atexit@entry=0x1, run_dtors=run_dtors@entry=0x1) at exit.c:130
+#3  0x00007f3415a5cbe0 in __GI_exit (status=<optimized out>) at exit.c:139
+#4  0x000055d1e9c8ebe3 in main (argc=<optimized out>, argv=<optimized out>, envp=<optimized out>) at ./sudo.c:171
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007f6aca522c87 in _IO_flush_all_lockp (do_lock=do_lock@entry=0x0) at genops.c:695
+#1  0x00007f6aca522f09 in _IO_cleanup () at genops.c:866
+#2  0x00007f6aca4d6b32 in __run_exit_handlers (status=0x1, listp=<optimized out>, run_list_atexit=run_list_atexit@entry=0x1, run_dtors=run_dtors@entry=0x1) at exit.c:130
+#3  0x00007f6aca4d6be0 in __GI_exit (status=<optimized out>) at exit.c:139
+#4  0x000056456cf8bbe3 in main (argc=<optimized out>, argv=<optimized out>, envp=<optimized out>) at ./sudo.c:171
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007f0686345c87 in _IO_flush_all_lockp (do_lock=do_lock@entry=0x0) at genops.c:695
+#1  0x00007f0686345f09 in _IO_cleanup () at genops.c:866
+#2  0x00007f06862f9b32 in __run_exit_handlers (status=0x1, listp=<optimized out>, run_list_atexit=run_list_atexit@entry=0x1, run_dtors=run_dtors@entry=0x1) at exit.c:130
+#3  0x00007f06862f9be0 in __GI_exit (status=<optimized out>) at exit.c:139
+#4  0x0000564d98732be3 in main (argc=<optimized out>, argv=<optimized out>, envp=<optimized out>) at ./sudo.c:171
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007f0542651c87 in _IO_flush_all_lockp (do_lock=do_lock@entry=0x0) at genops.c:695
+#1  0x00007f0542651f09 in _IO_cleanup () at genops.c:866
+#2  0x00007f0542605b32 in __run_exit_handlers (status=0x1, listp=<optimized out>, run_list_atexit=run_list_atexit@entry=0x1, run_dtors=run_dtors@entry=0x1) at exit.c:130
+#3  0x00007f0542605be0 in __GI_exit (status=<optimized out>) at exit.c:139
+#4  0x0000560a63bebbe3 in main (argc=<optimized out>, argv=<optimized out>, envp=<optimized out>) at ./sudo.c:171
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007f51c5a09c87 in _IO_flush_all_lockp (do_lock=do_lock@entry=0x0) at genops.c:695
+#1  0x00007f51c5a09f09 in _IO_cleanup () at genops.c:866
+#2  0x00007f51c59bdb32 in __run_exit_handlers (status=0x1, listp=<optimized out>, run_list_atexit=run_list_atexit@entry=0x1, run_dtors=run_dtors@entry=0x1) at exit.c:130
+#3  0x00007f51c59bdbe0 in __GI_exit (status=<optimized out>) at exit.c:139
+#4  0x000056420d853be3 in main (argc=<optimized out>, argv=<optimized out>, envp=<optimized out>) at ./sudo.c:171
+
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  0x00007fdbb37fbc87 in _IO_flush_all_lockp (do_lock=do_lock@entry=0x0) at genops.c:695
+#1  0x00007fdbb37fbf09 in _IO_cleanup () at genops.c:866
+#2  0x00007fdbb37afb32 in __run_exit_handlers (status=0x1, listp=<optimized out>, run_list_atexit=run_list_atexit@entry=0x1, run_dtors=run_dtors@entry=0x1) at exit.c:130
+#3  0x00007fdbb37afbe0 in __GI_exit (status=<optimized out>) at exit.c:139
+#4  0x0000562fb4c4fbe3 in main (argc=<optimized out>, argv=<optimized out>, envp=<optimized out>) at ./sudo.c:171
+

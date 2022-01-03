@@ -1,0 +1,751 @@
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f1faf290e1e in sudoers_lookup_check (nss=0x7f1faf2cd980 <sudo_nss_file>, now=0x61b12a00, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55f524a43e38) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55f524a43e38, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f1faf299b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffa5f47910, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffa5f47620) at ./sudoers.c:325
+#3  0x00007f1faf29312a in sudoers_policy_check (argc=0x2, argv=0x7fffa5f47910, env_add=0x0, command_infop=0x7fffa5f47698, argv_out=0x7fffa5f476a0, user_env_out=0x7fffa5f476a8) at ./policy.c:872
+#4  0x000055f52350c151 in policy_check (plugin=0x55f52352c7a0 <policy_plugin>, user_env_out=0x7fffa5f476a8, argv_out=0x7fffa5f476a0, command_info=0x7fffa5f47698, env_add=0x0, argv=0x7fffa5f47910, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffa5f47928) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f0458d92e1e in sudoers_lookup_check (nss=0x7f0458dcf980 <sudo_nss_file>, now=0x61b12a0f, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55cb39c65df8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55cb39c65df8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f0458d9bb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffca619f8f0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffca619f600) at ./sudoers.c:325
+#3  0x00007f0458d9512a in sudoers_policy_check (argc=0x2, argv=0x7ffca619f8f0, env_add=0x0, command_infop=0x7ffca619f678, argv_out=0x7ffca619f680, user_env_out=0x7ffca619f688) at ./policy.c:872
+#4  0x000055cb397ac151 in policy_check (plugin=0x55cb397cc7a0 <policy_plugin>, user_env_out=0x7ffca619f688, argv_out=0x7ffca619f680, command_info=0x7ffca619f678, env_add=0x0, argv=0x7ffca619f8f0, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffca619f908) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f23774a7e1e in sudoers_lookup_check (nss=0x7f23774e4980 <sudo_nss_file>, now=0x61b12b10, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55aee55a4e38) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55aee55a4e38, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f23774b0b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe76b52368, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe76b52070) at ./sudoers.c:325
+#3  0x00007f23774aa12a in sudoers_policy_check (argc=0x2, argv=0x7ffe76b52368, env_add=0x0, command_infop=0x7ffe76b520e8, argv_out=0x7ffe76b520f0, user_env_out=0x7ffe76b520f8) at ./policy.c:872
+#4  0x000055aee52db151 in policy_check (plugin=0x55aee52fb7a0 <policy_plugin>, user_env_out=0x7ffe76b520f8, argv_out=0x7ffe76b520f0, command_info=0x7ffe76b520e8, env_add=0x0, argv=0x7ffe76b52368, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe76b52380) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f4445735e1e in sudoers_lookup_check (nss=0x7f4445772980 <sudo_nss_file>, now=0x61b12b62, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55d41bd7a048) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55d41bd7a048, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f444573eb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe354949f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe35494700) at ./sudoers.c:325
+#3  0x00007f444573812a in sudoers_policy_check (argc=0x2, argv=0x7ffe354949f8, env_add=0x0, command_infop=0x7ffe35494778, argv_out=0x7ffe35494780, user_env_out=0x7ffe35494788) at ./policy.c:872
+#4  0x000055d41a81b151 in policy_check (plugin=0x55d41a83b7a0 <policy_plugin>, user_env_out=0x7ffe35494788, argv_out=0x7ffe35494780, command_info=0x7ffe35494778, env_add=0x0, argv=0x7ffe354949f8, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe35494a10) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  userlist_matches (parse_tree=0x5555971edb38, pw=pw@entry=0x5555971f3308, list=list@entry=0x545454545464) at ./match.c:125
+#1  0x00007f7bae36fe5c in sudoers_lookup_check (nss=0x7f7bae3ac980 <sudo_nss_file>, now=0x61b12b8c, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x5555971f3308) at ./parse.c:134
+#2  sudoers_lookup (snl=<optimized out>, pw=0x5555971f3308, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#3  0x00007f7bae378b0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe460abc40, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe460ab950) at ./sudoers.c:325
+#4  0x00007f7bae37212a in sudoers_policy_check (argc=0x3, argv=0x7ffe460abc40, env_add=0x0, command_infop=0x7ffe460ab9c8, argv_out=0x7ffe460ab9d0, user_env_out=0x7ffe460ab9d8) at ./policy.c:872
+#5  0x0000555595464151 in policy_check (plugin=0x5555954847a0 <policy_plugin>, user_env_out=0x7ffe460ab9d8, argv_out=0x7ffe460ab9d0, command_info=0x7ffe460ab9c8, env_add=0x0, argv=0x7ffe460abc40, argc=0x3) at ./sudo.c:1140
+#6  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe460abc60) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007fbe61ef7e1e in sudoers_lookup_check (nss=0x7fbe61f34980 <sudo_nss_file>, now=0x61b12cb4, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55b97ed87168) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55b97ed87168, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007fbe61f00b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffed7634828, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffed7634530) at ./sudoers.c:325
+#3  0x00007fbe61efa12a in sudoers_policy_check (argc=0x2, argv=0x7ffed7634828, env_add=0x0, command_infop=0x7ffed76345a8, argv_out=0x7ffed76345b0, user_env_out=0x7ffed76345b8) at ./policy.c:872
+#4  0x000055b97e423151 in policy_check (plugin=0x55b97e4437a0 <policy_plugin>, user_env_out=0x7ffed76345b8, argv_out=0x7ffed76345b0, command_info=0x7ffed76345a8, env_add=0x0, argv=0x7ffed7634828, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffed7634840) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f2256026e1e in sudoers_lookup_check (nss=0x7f2256063980 <sudo_nss_file>, now=0x61b12cc0, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55ff735e3f78) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55ff735e3f78, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f225602fb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd08ff0e10, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd08ff0b20) at ./sudoers.c:325
+#3  0x00007f225602912a in sudoers_policy_check (argc=0x2, argv=0x7ffd08ff0e10, env_add=0x0, command_infop=0x7ffd08ff0b98, argv_out=0x7ffd08ff0ba0, user_env_out=0x7ffd08ff0ba8) at ./policy.c:872
+#4  0x000055ff7268c151 in policy_check (plugin=0x55ff726ac7a0 <policy_plugin>, user_env_out=0x7ffd08ff0ba8, argv_out=0x7ffd08ff0ba0, command_info=0x7ffd08ff0b98, env_add=0x0, argv=0x7ffd08ff0e10, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd08ff0e28) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f161faf2e1e in sudoers_lookup_check (nss=0x7f161fb2f980 <sudo_nss_file>, now=0x61b12cec, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x557f17bb7028) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x557f17bb7028, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f161fafbb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc40e800c8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc40e7fdd0) at ./sudoers.c:325
+#3  0x00007f161faf512a in sudoers_policy_check (argc=0x2, argv=0x7ffc40e800c8, env_add=0x0, command_infop=0x7ffc40e7fe48, argv_out=0x7ffc40e7fe50, user_env_out=0x7ffc40e7fe58) at ./policy.c:872
+#4  0x0000557f1625f151 in policy_check (plugin=0x557f1627f7a0 <policy_plugin>, user_env_out=0x7ffc40e7fe58, argv_out=0x7ffc40e7fe50, command_info=0x7ffc40e7fe48, env_add=0x0, argv=0x7ffc40e800c8, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc40e800e0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f9833085e1e in sudoers_lookup_check (nss=0x7f98330c2980 <sudo_nss_file>, now=0x61b12cf0, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55714ba6df48) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55714ba6df48, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f983308eb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffd38d5a70, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffd38d5780) at ./sudoers.c:325
+#3  0x00007f983308812a in sudoers_policy_check (argc=0x2, argv=0x7fffd38d5a70, env_add=0x0, command_infop=0x7fffd38d57f8, argv_out=0x7fffd38d5800, user_env_out=0x7fffd38d5808) at ./policy.c:872
+#4  0x000055714adff151 in policy_check (plugin=0x55714ae1f7a0 <policy_plugin>, user_env_out=0x7fffd38d5808, argv_out=0x7fffd38d5800, command_info=0x7fffd38d57f8, env_add=0x0, argv=0x7fffd38d5a70, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffd38d5a88) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+getgrouplist sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f3081c7de1e in sudoers_lookup_check (nss=0x7f3081cba980 <sudo_nss_file>, now=0x61b12cfc, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55af5ba69558) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55af5ba69558, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f3081c86b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffcb657d178, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcb657ce80) at ./sudoers.c:325
+#3  0x00007f3081c8012a in sudoers_policy_check (argc=0x2, argv=0x7ffcb657d178, env_add=0x0, command_infop=0x7ffcb657cef8, argv_out=0x7ffcb657cf00, user_env_out=0x7ffcb657cf08) at ./policy.c:872
+#4  0x000055af5aae4151 in policy_check (plugin=0x55af5ab047a0 <policy_plugin>, user_env_out=0x7ffcb657cf08, argv_out=0x7ffcb657cf00, command_info=0x7ffcb657cef8, env_add=0x0, argv=0x7ffcb657d178, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcb657d190) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f46df8dbe1e in sudoers_lookup_check (nss=0x7f46df918980 <sudo_nss_file>, now=0x61b12d30, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x5632f0eddf78) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x5632f0eddf78, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f46df8e4b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffdf1a9f790, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdf1a9f4a0) at ./sudoers.c:325
+#3  0x00007f46df8de12a in sudoers_policy_check (argc=0x2, argv=0x7ffdf1a9f790, env_add=0x0, command_infop=0x7ffdf1a9f518, argv_out=0x7ffdf1a9f520, user_env_out=0x7ffdf1a9f528) at ./policy.c:872
+#4  0x00005632efda6151 in policy_check (plugin=0x5632efdc67a0 <policy_plugin>, user_env_out=0x7ffdf1a9f528, argv_out=0x7ffdf1a9f520, command_info=0x7ffdf1a9f518, env_add=0x0, argv=0x7ffdf1a9f790, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdf1a9f7a8) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  userlist_matches (parse_tree=0x55ccbb6d55f8, pw=pw@entry=0x55ccbb6d8f88, list=list@entry=0x3949) at ./match.c:125
+#1  0x00007f364844ce5c in sudoers_lookup_check (nss=0x7f3648489980 <sudo_nss_file>, now=0x61b12d9e, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55ccbb6d8f88) at ./parse.c:134
+#2  sudoers_lookup (snl=<optimized out>, pw=0x55ccbb6d8f88, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#3  0x00007f3648455b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc8fd1f658, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc8fd1f360) at ./sudoers.c:325
+#4  0x00007f364844f12a in sudoers_policy_check (argc=0x2, argv=0x7ffc8fd1f658, env_add=0x0, command_infop=0x7ffc8fd1f3d8, argv_out=0x7ffc8fd1f3e0, user_env_out=0x7ffc8fd1f3e8) at ./policy.c:872
+#5  0x000055ccba9a0151 in policy_check (plugin=0x55ccba9c07a0 <policy_plugin>, user_env_out=0x7ffc8fd1f3e8, argv_out=0x7ffc8fd1f3e0, command_info=0x7ffc8fd1f3d8, env_add=0x0, argv=0x7ffc8fd1f658, argc=0x2) at ./sudo.c:1140
+#6  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc8fd1f670) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007fa01a795e1e in sudoers_lookup_check (nss=0x7fa01a7d2980 <sudo_nss_file>, now=0x61b12dc0, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55873030b0a8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55873030b0a8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007fa01a79eb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc60b0b080, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc60b0ad90) at ./sudoers.c:325
+#3  0x00007fa01a79812a in sudoers_policy_check (argc=0x2, argv=0x7ffc60b0b080, env_add=0x0, command_infop=0x7ffc60b0ae08, argv_out=0x7ffc60b0ae10, user_env_out=0x7ffc60b0ae18) at ./policy.c:872
+#4  0x000055872e555151 in policy_check (plugin=0x55872e5757a0 <policy_plugin>, user_env_out=0x7ffc60b0ae18, argv_out=0x7ffc60b0ae10, command_info=0x7ffc60b0ae08, env_add=0x0, argv=0x7ffc60b0b080, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc60b0b098) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007efff3509e1e in sudoers_lookup_check (nss=0x7efff3546980 <sudo_nss_file>, now=0x61b12de5, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55e7df24f2a8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55e7df24f2a8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007efff3512b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe10a8d738, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe10a8d440) at ./sudoers.c:325
+#3  0x00007efff350c12a in sudoers_policy_check (argc=0x2, argv=0x7ffe10a8d738, env_add=0x0, command_infop=0x7ffe10a8d4b8, argv_out=0x7ffe10a8d4c0, user_env_out=0x7ffe10a8d4c8) at ./policy.c:872
+#4  0x000055e7dd78d151 in policy_check (plugin=0x55e7dd7ad7a0 <policy_plugin>, user_env_out=0x7ffe10a8d4c8, argv_out=0x7ffe10a8d4c0, command_info=0x7ffe10a8d4b8, env_add=0x0, argv=0x7ffe10a8d738, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe10a8d750) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f500c289e1e in sudoers_lookup_check (nss=0x7f500c2c6980 <sudo_nss_file>, now=0x61b12df5, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55b1dbdaf138) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55b1dbdaf138, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f500c292b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffce85d6678, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffce85d6380) at ./sudoers.c:325
+#3  0x00007f500c28c12a in sudoers_policy_check (argc=0x2, argv=0x7ffce85d6678, env_add=0x0, command_infop=0x7ffce85d63f8, argv_out=0x7ffce85d6400, user_env_out=0x7ffce85d6408) at ./policy.c:872
+#4  0x000055b1db679151 in policy_check (plugin=0x55b1db6997a0 <policy_plugin>, user_env_out=0x7ffce85d6408, argv_out=0x7ffce85d6400, command_info=0x7ffce85d63f8, env_add=0x0, argv=0x7ffce85d6678, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffce85d6690) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f64739cce1e in sudoers_lookup_check (nss=0x7f6473a09980 <sudo_nss_file>, now=0x61b12df7, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x560a99aa2fd8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x560a99aa2fd8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f64739d5b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd414123f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd41412100) at ./sudoers.c:325
+#3  0x00007f64739cf12a in sudoers_policy_check (argc=0x2, argv=0x7ffd414123f8, env_add=0x0, command_infop=0x7ffd41412178, argv_out=0x7ffd41412180, user_env_out=0x7ffd41412188) at ./policy.c:872
+#4  0x0000560a99618151 in policy_check (plugin=0x560a996387a0 <policy_plugin>, user_env_out=0x7ffd41412188, argv_out=0x7ffd41412180, command_info=0x7ffd41412178, env_add=0x0, argv=0x7ffd414123f8, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd41412410) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007fc18afabe1e in sudoers_lookup_check (nss=0x7fc18afe8980 <sudo_nss_file>, now=0x61b12e9c, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x559615226e88) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x559615226e88, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007fc18afb4b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffdb3c8ec88, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdb3c8e990) at ./sudoers.c:325
+#3  0x00007fc18afae12a in sudoers_policy_check (argc=0x2, argv=0x7ffdb3c8ec88, env_add=0x0, command_infop=0x7ffdb3c8ea08, argv_out=0x7ffdb3c8ea10, user_env_out=0x7ffdb3c8ea18) at ./policy.c:872
+#4  0x0000559614760151 in policy_check (plugin=0x5596147807a0 <policy_plugin>, user_env_out=0x7ffdb3c8ea18, argv_out=0x7ffdb3c8ea10, command_info=0x7ffdb3c8ea08, env_add=0x0, argv=0x7ffdb3c8ec88, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdb3c8eca0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f2505ec0e1e in sudoers_lookup_check (nss=0x7f2505efd980 <sudo_nss_file>, now=0x61b12eb5, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x5556186cf3d8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x5556186cf3d8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f2505ec9b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffda1dfd538, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffda1dfd240) at ./sudoers.c:325
+#3  0x00007f2505ec312a in sudoers_policy_check (argc=0x2, argv=0x7ffda1dfd538, env_add=0x0, command_infop=0x7ffda1dfd2b8, argv_out=0x7ffda1dfd2c0, user_env_out=0x7ffda1dfd2c8) at ./policy.c:872
+#4  0x00005556183a4151 in policy_check (plugin=0x5556183c47a0 <policy_plugin>, user_env_out=0x7ffda1dfd2c8, argv_out=0x7ffda1dfd2c0, command_info=0x7ffda1dfd2b8, env_add=0x0, argv=0x7ffda1dfd538, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffda1dfd550) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f2a75aede1e in sudoers_lookup_check (nss=0x7f2a75b2a980 <sudo_nss_file>, now=0x61b12f43, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55578b86aff8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55578b86aff8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f2a75af6b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd3d387720, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd3d387430) at ./sudoers.c:325
+#3  0x00007f2a75af012a in sudoers_policy_check (argc=0x2, argv=0x7ffd3d387720, env_add=0x0, command_infop=0x7ffd3d3874a8, argv_out=0x7ffd3d3874b0, user_env_out=0x7ffd3d3874b8) at ./policy.c:872
+#4  0x0000555789b87151 in policy_check (plugin=0x555789ba77a0 <policy_plugin>, user_env_out=0x7ffd3d3874b8, argv_out=0x7ffd3d3874b0, command_info=0x7ffd3d3874a8, env_add=0x0, argv=0x7ffd3d387720, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd3d387738) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007fe872f64e1e in sudoers_lookup_check (nss=0x7fe872fa1980 <sudo_nss_file>, now=0x61b12f6c, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x558a1aad1f08) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x558a1aad1f08, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007fe872f6db0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffcf759e810, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcf759e520) at ./sudoers.c:325
+#3  0x00007fe872f6712a in sudoers_policy_check (argc=0x2, argv=0x7ffcf759e810, env_add=0x0, command_infop=0x7ffcf759e598, argv_out=0x7ffcf759e5a0, user_env_out=0x7ffcf759e5a8) at ./policy.c:872
+#4  0x0000558a1a75c151 in policy_check (plugin=0x558a1a77c7a0 <policy_plugin>, user_env_out=0x7ffcf759e5a8, argv_out=0x7ffcf759e5a0, command_info=0x7ffcf759e598, env_add=0x0, argv=0x7ffcf759e810, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcf759e828) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007fc363143e1e in sudoers_lookup_check (nss=0x7fc363180980 <sudo_nss_file>, now=0x61b12f9b, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55d739646358) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55d739646358, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007fc36314cb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff5e0a2f58, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff5e0a2c60) at ./sudoers.c:325
+#3  0x00007fc36314612a in sudoers_policy_check (argc=0x2, argv=0x7fff5e0a2f58, env_add=0x0, command_infop=0x7fff5e0a2cd8, argv_out=0x7fff5e0a2ce0, user_env_out=0x7fff5e0a2ce8) at ./policy.c:872
+#4  0x000055d73908f151 in policy_check (plugin=0x55d7390af7a0 <policy_plugin>, user_env_out=0x7fff5e0a2ce8, argv_out=0x7fff5e0a2ce0, command_info=0x7fff5e0a2cd8, env_add=0x0, argv=0x7fff5e0a2f58, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff5e0a2f70) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f19ba7e8e1e in sudoers_lookup_check (nss=0x7f19ba825980 <sudo_nss_file>, now=0x61b12fa4, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55b91fdede38) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55b91fdede38, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f19ba7f1b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff55946838, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff55946540) at ./sudoers.c:325
+#3  0x00007f19ba7eb12a in sudoers_policy_check (argc=0x2, argv=0x7fff55946838, env_add=0x0, command_infop=0x7fff559465b8, argv_out=0x7fff559465c0, user_env_out=0x7fff559465c8) at ./policy.c:872
+#4  0x000055b91df2d151 in policy_check (plugin=0x55b91df4d7a0 <policy_plugin>, user_env_out=0x7fff559465c8, argv_out=0x7fff559465c0, command_info=0x7fff559465b8, env_add=0x0, argv=0x7fff55946838, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff55946850) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f684c4a5e1e in sudoers_lookup_check (nss=0x7f684c4e2980 <sudo_nss_file>, now=0x61b12ffc, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x562c382df018) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x562c382df018, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f684c4aeb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffcb9efe8f0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcb9efe600) at ./sudoers.c:325
+#3  0x00007f684c4a812a in sudoers_policy_check (argc=0x2, argv=0x7ffcb9efe8f0, env_add=0x0, command_infop=0x7ffcb9efe678, argv_out=0x7ffcb9efe680, user_env_out=0x7ffcb9efe688) at ./policy.c:872
+#4  0x0000562c36e3e151 in policy_check (plugin=0x562c36e5e7a0 <policy_plugin>, user_env_out=0x7ffcb9efe688, argv_out=0x7ffcb9efe680, command_info=0x7ffcb9efe678, env_add=0x0, argv=0x7ffcb9efe8f0, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcb9efe908) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+getgrouplist sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007fe5a352ae1e in sudoers_lookup_check (nss=0x7fe5a3567980 <sudo_nss_file>, now=0x61b13051, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x5612b6026ff8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x5612b6026ff8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007fe5a3533b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffcf1818d38, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcf1818a40) at ./sudoers.c:325
+#3  0x00007fe5a352d12a in sudoers_policy_check (argc=0x2, argv=0x7ffcf1818d38, env_add=0x0, command_infop=0x7ffcf1818ab8, argv_out=0x7ffcf1818ac0, user_env_out=0x7ffcf1818ac8) at ./policy.c:872
+#4  0x00005612b415d151 in policy_check (plugin=0x5612b417d7a0 <policy_plugin>, user_env_out=0x7ffcf1818ac8, argv_out=0x7ffcf1818ac0, command_info=0x7ffcf1818ab8, env_add=0x0, argv=0x7ffcf1818d38, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcf1818d50) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f3a9aedce1e in sudoers_lookup_check (nss=0x7f3a9af19980 <sudo_nss_file>, now=0x61b13132, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55c67922ae48) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55c67922ae48, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f3a9aee5b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd48cc2258, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd48cc1f60) at ./sudoers.c:325
+#3  0x00007f3a9aedf12a in sudoers_policy_check (argc=0x2, argv=0x7ffd48cc2258, env_add=0x0, command_infop=0x7ffd48cc1fd8, argv_out=0x7ffd48cc1fe0, user_env_out=0x7ffd48cc1fe8) at ./policy.c:872
+#4  0x000055c678b5b151 in policy_check (plugin=0x55c678b7b7a0 <policy_plugin>, user_env_out=0x7ffd48cc1fe8, argv_out=0x7ffd48cc1fe0, command_info=0x7ffd48cc1fd8, env_add=0x0, argv=0x7ffd48cc2258, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd48cc2270) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f0602bb3e1e in sudoers_lookup_check (nss=0x7f0602bf0980 <sudo_nss_file>, now=0x61b1313b, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x564dd93c4138) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x564dd93c4138, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f0602bbcb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff74b3c378, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff74b3c080) at ./sudoers.c:325
+#3  0x00007f0602bb612a in sudoers_policy_check (argc=0x2, argv=0x7fff74b3c378, env_add=0x0, command_infop=0x7fff74b3c0f8, argv_out=0x7fff74b3c100, user_env_out=0x7fff74b3c108) at ./policy.c:872
+#4  0x0000564dd8aa2151 in policy_check (plugin=0x564dd8ac27a0 <policy_plugin>, user_env_out=0x7fff74b3c108, argv_out=0x7fff74b3c100, command_info=0x7fff74b3c0f8, env_add=0x0, argv=0x7fff74b3c378, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff74b3c390) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f8498912e1e in sudoers_lookup_check (nss=0x7f849894f980 <sudo_nss_file>, now=0x61b1315c, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55e889d33e48) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55e889d33e48, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f849891bb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff13e0b028, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff13e0ad30) at ./sudoers.c:325
+#3  0x00007f849891512a in sudoers_policy_check (argc=0x2, argv=0x7fff13e0b028, env_add=0x0, command_infop=0x7fff13e0ada8, argv_out=0x7fff13e0adb0, user_env_out=0x7fff13e0adb8) at ./policy.c:872
+#4  0x000055e88937f151 in policy_check (plugin=0x55e88939f7a0 <policy_plugin>, user_env_out=0x7fff13e0adb8, argv_out=0x7fff13e0adb0, command_info=0x7fff13e0ada8, env_add=0x0, argv=0x7fff13e0b028, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff13e0b040) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f75ae08fe1e in sudoers_lookup_check (nss=0x7f75ae0cc980 <sudo_nss_file>, now=0x61b13263, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55d9f525fe38) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55d9f525fe38, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f75ae098b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffef89193a0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffef89190b0) at ./sudoers.c:325
+#3  0x00007f75ae09212a in sudoers_policy_check (argc=0x2, argv=0x7ffef89193a0, env_add=0x0, command_infop=0x7ffef8919128, argv_out=0x7ffef8919130, user_env_out=0x7ffef8919138) at ./policy.c:872
+#4  0x000055d9f41c9151 in policy_check (plugin=0x55d9f41e97a0 <policy_plugin>, user_env_out=0x7ffef8919138, argv_out=0x7ffef8919130, command_info=0x7ffef8919128, env_add=0x0, argv=0x7ffef89193a0, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffef89193b8) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007fc4ed741e1e in sudoers_lookup_check (nss=0x7fc4ed77e980 <sudo_nss_file>, now=0x61b1330e, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55c0eaa76478) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55c0eaa76478, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007fc4ed74ab0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe372211f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe37220f00) at ./sudoers.c:325
+#3  0x00007fc4ed74412a in sudoers_policy_check (argc=0x2, argv=0x7ffe372211f8, env_add=0x0, command_infop=0x7ffe37220f78, argv_out=0x7ffe37220f80, user_env_out=0x7ffe37220f88) at ./policy.c:872
+#4  0x000055c0e97ec151 in policy_check (plugin=0x55c0e980c7a0 <policy_plugin>, user_env_out=0x7ffe37220f88, argv_out=0x7ffe37220f80, command_info=0x7ffe37220f78, env_add=0x0, argv=0x7ffe372211f8, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe37221210) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  userlist_matches (parse_tree=0x55bf1b97f518, pw=pw@entry=0x55bf1b982ef8, list=list@entry=0x3949) at ./match.c:125
+#1  0x00007fd765d11e5c in sudoers_lookup_check (nss=0x7fd765d4e980 <sudo_nss_file>, now=0x61b13313, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55bf1b982ef8) at ./parse.c:134
+#2  sudoers_lookup (snl=<optimized out>, pw=0x55bf1b982ef8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#3  0x00007fd765d1ab0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd9258a968, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd9258a670) at ./sudoers.c:325
+#4  0x00007fd765d1412a in sudoers_policy_check (argc=0x2, argv=0x7ffd9258a968, env_add=0x0, command_infop=0x7ffd9258a6e8, argv_out=0x7ffd9258a6f0, user_env_out=0x7ffd9258a6f8) at ./policy.c:872
+#5  0x000055bf1a09b151 in policy_check (plugin=0x55bf1a0bb7a0 <policy_plugin>, user_env_out=0x7ffd9258a6f8, argv_out=0x7ffd9258a6f0, command_info=0x7ffd9258a6e8, env_add=0x0, argv=0x7ffd9258a968, argc=0x2) at ./sudo.c:1140
+#6  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd9258a980) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f033fa8ce1e in sudoers_lookup_check (nss=0x7f033fac9980 <sudo_nss_file>, now=0x61b13317, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x560b2caf5468) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x560b2caf5468, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f033fa95b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc451ae8c8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc451ae5d0) at ./sudoers.c:325
+#3  0x00007f033fa8f12a in sudoers_policy_check (argc=0x2, argv=0x7ffc451ae8c8, env_add=0x0, command_infop=0x7ffc451ae648, argv_out=0x7ffc451ae650, user_env_out=0x7ffc451ae658) at ./policy.c:872
+#4  0x0000560b2b09f151 in policy_check (plugin=0x560b2b0bf7a0 <policy_plugin>, user_env_out=0x7ffc451ae658, argv_out=0x7ffc451ae650, command_info=0x7ffc451ae648, env_add=0x0, argv=0x7ffc451ae8c8, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc451ae8e0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007fa649e19e1e in sudoers_lookup_check (nss=0x7fa649e56980 <sudo_nss_file>, now=0x61b1333d, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x56232efb6df8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x56232efb6df8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007fa649e22b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff66efec10, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff66efe920) at ./sudoers.c:325
+#3  0x00007fa649e1c12a in sudoers_policy_check (argc=0x2, argv=0x7fff66efec10, env_add=0x0, command_infop=0x7fff66efe998, argv_out=0x7fff66efe9a0, user_env_out=0x7fff66efe9a8) at ./policy.c:872
+#4  0x000056232dcb6151 in policy_check (plugin=0x56232dcd67a0 <policy_plugin>, user_env_out=0x7fff66efe9a8, argv_out=0x7fff66efe9a0, command_info=0x7fff66efe998, env_add=0x0, argv=0x7fff66efec10, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff66efec28) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f6d6c7a2e1e in sudoers_lookup_check (nss=0x7f6d6c7df980 <sudo_nss_file>, now=0x61b13384, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55ea8339a048) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55ea8339a048, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f6d6c7abb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffecabbcc98, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffecabbc9a0) at ./sudoers.c:325
+#3  0x00007f6d6c7a512a in sudoers_policy_check (argc=0x2, argv=0x7ffecabbcc98, env_add=0x0, command_infop=0x7ffecabbca18, argv_out=0x7ffecabbca20, user_env_out=0x7ffecabbca28) at ./policy.c:872
+#4  0x000055ea81485151 in policy_check (plugin=0x55ea814a57a0 <policy_plugin>, user_env_out=0x7ffecabbca28, argv_out=0x7ffecabbca20, command_info=0x7ffecabbca18, env_add=0x0, argv=0x7ffecabbcc98, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffecabbccb0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007fe63feffe1e in sudoers_lookup_check (nss=0x7fe63ff3c980 <sudo_nss_file>, now=0x61b133b5, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x557f9a180fd8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x557f9a180fd8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007fe63ff08b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffec1b9b420, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffec1b9b130) at ./sudoers.c:325
+#3  0x00007fe63ff0212a in sudoers_policy_check (argc=0x2, argv=0x7ffec1b9b420, env_add=0x0, command_infop=0x7ffec1b9b1a8, argv_out=0x7ffec1b9b1b0, user_env_out=0x7ffec1b9b1b8) at ./policy.c:872
+#4  0x0000557f99e1d151 in policy_check (plugin=0x557f99e3d7a0 <policy_plugin>, user_env_out=0x7ffec1b9b1b8, argv_out=0x7ffec1b9b1b0, command_info=0x7ffec1b9b1a8, env_add=0x0, argv=0x7ffec1b9b420, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffec1b9b438) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007eff2cf23e1e in sudoers_lookup_check (nss=0x7eff2cf60980 <sudo_nss_file>, now=0x61b13428, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55a46d8a8278) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55a46d8a8278, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007eff2cf2cb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffdd9947d98, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdd9947aa0) at ./sudoers.c:325
+#3  0x00007eff2cf2612a in sudoers_policy_check (argc=0x2, argv=0x7ffdd9947d98, env_add=0x0, command_infop=0x7ffdd9947b18, argv_out=0x7ffdd9947b20, user_env_out=0x7ffdd9947b28) at ./policy.c:872
+#4  0x000055a46c945151 in policy_check (plugin=0x55a46c9657a0 <policy_plugin>, user_env_out=0x7ffdd9947b28, argv_out=0x7ffdd9947b20, command_info=0x7ffdd9947b18, env_add=0x0, argv=0x7ffdd9947d98, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdd9947db0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007ff1a9139e1e in sudoers_lookup_check (nss=0x7ff1a9176980 <sudo_nss_file>, now=0x61b13441, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x5622e325cf48) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x5622e325cf48, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007ff1a9142b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffe9aabf50, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffe9aabc60) at ./sudoers.c:325
+#3  0x00007ff1a913c12a in sudoers_policy_check (argc=0x2, argv=0x7fffe9aabf50, env_add=0x0, command_infop=0x7fffe9aabcd8, argv_out=0x7fffe9aabce0, user_env_out=0x7fffe9aabce8) at ./policy.c:872
+#4  0x00005622e2c31151 in policy_check (plugin=0x5622e2c517a0 <policy_plugin>, user_env_out=0x7fffe9aabce8, argv_out=0x7fffe9aabce0, command_info=0x7fffe9aabcd8, env_add=0x0, argv=0x7fffe9aabf50, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffe9aabf68) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007fee6a2a9e1e in sudoers_lookup_check (nss=0x7fee6a2e6980 <sudo_nss_file>, now=0x61b134c5, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x5627e2f53228) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x5627e2f53228, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007fee6a2b2b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd0c579a18, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd0c579720) at ./sudoers.c:325
+#3  0x00007fee6a2ac12a in sudoers_policy_check (argc=0x2, argv=0x7ffd0c579a18, env_add=0x0, command_infop=0x7ffd0c579798, argv_out=0x7ffd0c5797a0, user_env_out=0x7ffd0c5797a8) at ./policy.c:872
+#4  0x00005627e11a0151 in policy_check (plugin=0x5627e11c07a0 <policy_plugin>, user_env_out=0x7ffd0c5797a8, argv_out=0x7ffd0c5797a0, command_info=0x7ffd0c579798, env_add=0x0, argv=0x7ffd0c579a18, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd0c579a30) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f1a6f7d6e1e in sudoers_lookup_check (nss=0x7f1a6f813980 <sudo_nss_file>, now=0x61b1354c, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x5565fb70c258) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x5565fb70c258, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f1a6f7dfb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe6e32e4d8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe6e32e1e0) at ./sudoers.c:325
+#3  0x00007f1a6f7d912a in sudoers_policy_check (argc=0x2, argv=0x7ffe6e32e4d8, env_add=0x0, command_infop=0x7ffe6e32e258, argv_out=0x7ffe6e32e260, user_env_out=0x7ffe6e32e268) at ./policy.c:872
+#4  0x00005565f9c5f151 in policy_check (plugin=0x5565f9c7f7a0 <policy_plugin>, user_env_out=0x7ffe6e32e268, argv_out=0x7ffe6e32e260, command_info=0x7ffe6e32e258, env_add=0x0, argv=0x7ffe6e32e4d8, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe6e32e4f0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f97341c2e1e in sudoers_lookup_check (nss=0x7f97341ff980 <sudo_nss_file>, now=0x61b13559, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x555b41788858) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x555b41788858, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f97341cbb0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff4f955648, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff4f955350) at ./sudoers.c:325
+#3  0x00007f97341c512a in sudoers_policy_check (argc=0x2, argv=0x7fff4f955648, env_add=0x0, command_infop=0x7fff4f9553c8, argv_out=0x7fff4f9553d0, user_env_out=0x7fff4f9553d8) at ./policy.c:872
+#4  0x0000555b415e4151 in policy_check (plugin=0x555b416047a0 <policy_plugin>, user_env_out=0x7fff4f9553d8, argv_out=0x7fff4f9553d0, command_info=0x7fff4f9553c8, env_add=0x0, argv=0x7fff4f955648, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff4f955660) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f3232724e1e in sudoers_lookup_check (nss=0x7f3232761980 <sudo_nss_file>, now=0x61b1357a, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x557a3e6592e8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x557a3e6592e8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f323272db0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc8bf09a68, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc8bf09770) at ./sudoers.c:325
+#3  0x00007f323272712a in sudoers_policy_check (argc=0x2, argv=0x7ffc8bf09a68, env_add=0x0, command_infop=0x7ffc8bf097e8, argv_out=0x7ffc8bf097f0, user_env_out=0x7ffc8bf097f8) at ./policy.c:872
+#4  0x0000557a3dc35151 in policy_check (plugin=0x557a3dc557a0 <policy_plugin>, user_env_out=0x7ffc8bf097f8, argv_out=0x7ffc8bf097f0, command_info=0x7ffc8bf097e8, env_add=0x0, argv=0x7ffc8bf09a68, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc8bf09a80) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f4e75ba7e1e in sudoers_lookup_check (nss=0x7f4e75be4980 <sudo_nss_file>, now=0x61b13610, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55cffcabc328) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55cffcabc328, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f4e75bb0b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffebe66f928, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffebe66f630) at ./sudoers.c:325
+#3  0x00007f4e75baa12a in sudoers_policy_check (argc=0x2, argv=0x7ffebe66f928, env_add=0x0, command_infop=0x7ffebe66f6a8, argv_out=0x7ffebe66f6b0, user_env_out=0x7ffebe66f6b8) at ./policy.c:872
+#4  0x000055cffbcd0151 in policy_check (plugin=0x55cffbcf07a0 <policy_plugin>, user_env_out=0x7ffebe66f6b8, argv_out=0x7ffebe66f6b0, command_info=0x7ffebe66f6a8, env_add=0x0, argv=0x7ffebe66f928, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffebe66f940) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f750d0bde1e in sudoers_lookup_check (nss=0x7f750d0fa980 <sudo_nss_file>, now=0x61b13615, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x56167c135008) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x56167c135008, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f750d0c6b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc0be8e8f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc0be8e600) at ./sudoers.c:325
+#3  0x00007f750d0c012a in sudoers_policy_check (argc=0x2, argv=0x7ffc0be8e8f8, env_add=0x0, command_infop=0x7ffc0be8e678, argv_out=0x7ffc0be8e680, user_env_out=0x7ffc0be8e688) at ./policy.c:872
+#4  0x000056167b3ee151 in policy_check (plugin=0x56167b40e7a0 <policy_plugin>, user_env_out=0x7ffc0be8e688, argv_out=0x7ffc0be8e680, command_info=0x7ffc0be8e678, env_add=0x0, argv=0x7ffc0be8e8f8, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc0be8e910) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f7f33498e1e in sudoers_lookup_check (nss=0x7f7f334d5980 <sudo_nss_file>, now=0x61b13629, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55b153276e88) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55b153276e88, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f7f334a1b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd8a693e58, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd8a693b60) at ./sudoers.c:325
+#3  0x00007f7f3349b12a in sudoers_policy_check (argc=0x2, argv=0x7ffd8a693e58, env_add=0x0, command_infop=0x7ffd8a693bd8, argv_out=0x7ffd8a693be0, user_env_out=0x7ffd8a693be8) at ./policy.c:872
+#4  0x000055b15322a151 in policy_check (plugin=0x55b15324a7a0 <policy_plugin>, user_env_out=0x7ffd8a693be8, argv_out=0x7ffd8a693be0, command_info=0x7ffd8a693bd8, env_add=0x0, argv=0x7ffd8a693e58, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd8a693e70) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f7c3afffe1e in sudoers_lookup_check (nss=0x7f7c3b03c980 <sudo_nss_file>, now=0x61b1363b, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x5623a68b0038) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x5623a68b0038, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f7c3b008b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd9d149cd8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd9d1499e0) at ./sudoers.c:325
+#3  0x00007f7c3b00212a in sudoers_policy_check (argc=0x2, argv=0x7ffd9d149cd8, env_add=0x0, command_infop=0x7ffd9d149a58, argv_out=0x7ffd9d149a60, user_env_out=0x7ffd9d149a68) at ./policy.c:872
+#4  0x00005623a5fdc151 in policy_check (plugin=0x5623a5ffc7a0 <policy_plugin>, user_env_out=0x7ffd9d149a68, argv_out=0x7ffd9d149a60, command_info=0x7ffd9d149a58, env_add=0x0, argv=0x7ffd9d149cd8, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd9d149cf0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f0b85a1fe1e in sudoers_lookup_check (nss=0x7f0b85a5c980 <sudo_nss_file>, now=0x61b136ad, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55ef5e81df08) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55ef5e81df08, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f0b85a28b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd44a83258, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd44a82f60) at ./sudoers.c:325
+#3  0x00007f0b85a2212a in sudoers_policy_check (argc=0x2, argv=0x7ffd44a83258, env_add=0x0, command_infop=0x7ffd44a82fd8, argv_out=0x7ffd44a82fe0, user_env_out=0x7ffd44a82fe8) at ./policy.c:872
+#4  0x000055ef5d294151 in policy_check (plugin=0x55ef5d2b47a0 <policy_plugin>, user_env_out=0x7ffd44a82fe8, argv_out=0x7ffd44a82fe0, command_info=0x7ffd44a82fd8, env_add=0x0, argv=0x7ffd44a83258, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd44a83270) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f25a8301e1a in sudoers_lookup_check (nss=0x7f25a833e980 <sudo_nss_file>, now=0x61b136b9, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55b6475143e8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55b6475143e8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f25a830ab0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff0bd63e58, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff0bd63b60) at ./sudoers.c:325
+#3  0x00007f25a830412a in sudoers_policy_check (argc=0x3, argv=0x7fff0bd63e58, env_add=0x0, command_infop=0x7fff0bd63bd8, argv_out=0x7fff0bd63be0, user_env_out=0x7fff0bd63be8) at ./policy.c:872
+#4  0x000055b64578f151 in policy_check (plugin=0x55b6457af7a0 <policy_plugin>, user_env_out=0x7fff0bd63be8, argv_out=0x7fff0bd63be0, command_info=0x7fff0bd63bd8, env_add=0x0, argv=0x7fff0bd63e58, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff0bd63e78) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f1d4edcee1e in sudoers_lookup_check (nss=0x7f1d4ee0b980 <sudo_nss_file>, now=0x61b13707, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55ff2736fe48) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55ff2736fe48, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f1d4edd7b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc44111a68, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc44111770) at ./sudoers.c:325
+#3  0x00007f1d4edd112a in sudoers_policy_check (argc=0x2, argv=0x7ffc44111a68, env_add=0x0, command_infop=0x7ffc441117e8, argv_out=0x7ffc441117f0, user_env_out=0x7ffc441117f8) at ./policy.c:872
+#4  0x000055ff25d05151 in policy_check (plugin=0x55ff25d257a0 <policy_plugin>, user_env_out=0x7ffc441117f8, argv_out=0x7ffc441117f0, command_info=0x7ffc441117e8, env_add=0x0, argv=0x7ffc44111a68, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc44111a80) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f2555a99e1e in sudoers_lookup_check (nss=0x7f2555ad6980 <sudo_nss_file>, now=0x61b1378c, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55f62c5cebe8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55f62c5cebe8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f2555aa2b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffcfa0f08f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcfa0f0600) at ./sudoers.c:325
+#3  0x00007f2555a9c12a in sudoers_policy_check (argc=0x2, argv=0x7ffcfa0f08f8, env_add=0x0, command_infop=0x7ffcfa0f0678, argv_out=0x7ffcfa0f0680, user_env_out=0x7ffcfa0f0688) at ./policy.c:872
+#4  0x000055f62b464151 in policy_check (plugin=0x55f62b4847a0 <policy_plugin>, user_env_out=0x7ffcfa0f0688, argv_out=0x7ffcfa0f0680, command_info=0x7ffcfa0f0678, env_add=0x0, argv=0x7ffcfa0f08f8, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcfa0f0910) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007fcb07011e1e in sudoers_lookup_check (nss=0x7fcb0704e980 <sudo_nss_file>, now=0x61b137b9, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x5568a5d6dfc8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x5568a5d6dfc8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007fcb0701ab0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffda6519788, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffda6519490) at ./sudoers.c:325
+#3  0x00007fcb0701412a in sudoers_policy_check (argc=0x2, argv=0x7ffda6519788, env_add=0x0, command_infop=0x7ffda6519508, argv_out=0x7ffda6519510, user_env_out=0x7ffda6519518) at ./policy.c:872
+#4  0x00005568a41c1151 in policy_check (plugin=0x5568a41e17a0 <policy_plugin>, user_env_out=0x7ffda6519518, argv_out=0x7ffda6519510, command_info=0x7ffda6519508, env_add=0x0, argv=0x7ffda6519788, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffda65197a0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f29916b1e1e in sudoers_lookup_check (nss=0x7f29916ee980 <sudo_nss_file>, now=0x61b137f3, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55cd22c8ffa8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55cd22c8ffa8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f29916bab0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffad10cdf0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffad10cb00) at ./sudoers.c:325
+#3  0x00007f29916b412a in sudoers_policy_check (argc=0x2, argv=0x7fffad10cdf0, env_add=0x0, command_infop=0x7fffad10cb78, argv_out=0x7fffad10cb80, user_env_out=0x7fffad10cb88) at ./policy.c:872
+#4  0x000055cd21d1b151 in policy_check (plugin=0x55cd21d3b7a0 <policy_plugin>, user_env_out=0x7fffad10cb88, argv_out=0x7fffad10cb80, command_info=0x7fffad10cb78, env_add=0x0, argv=0x7fffad10cdf0, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffad10ce08) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f21d0b8fe1e in sudoers_lookup_check (nss=0x7f21d0bcc980 <sudo_nss_file>, now=0x61b138e4, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x562e2a337fc8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x562e2a337fc8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f21d0b98b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd6d9a7208, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd6d9a6f10) at ./sudoers.c:325
+#3  0x00007f21d0b9212a in sudoers_policy_check (argc=0x2, argv=0x7ffd6d9a7208, env_add=0x0, command_infop=0x7ffd6d9a6f88, argv_out=0x7ffd6d9a6f90, user_env_out=0x7ffd6d9a6f98) at ./policy.c:872
+#4  0x0000562e299f1151 in policy_check (plugin=0x562e29a117a0 <policy_plugin>, user_env_out=0x7ffd6d9a6f98, argv_out=0x7ffd6d9a6f90, command_info=0x7ffd6d9a6f88, env_add=0x0, argv=0x7ffd6d9a7208, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd6d9a7220) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f8a6066de1e in sudoers_lookup_check (nss=0x7f8a606aa980 <sudo_nss_file>, now=0x61b138ff, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x558626023e68) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x558626023e68, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f8a60676b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd65927d18, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd65927a20) at ./sudoers.c:325
+#3  0x00007f8a6067012a in sudoers_policy_check (argc=0x2, argv=0x7ffd65927d18, env_add=0x0, command_infop=0x7ffd65927a98, argv_out=0x7ffd65927aa0, user_env_out=0x7ffd65927aa8) at ./policy.c:872
+#4  0x000055862529c151 in policy_check (plugin=0x5586252bc7a0 <policy_plugin>, user_env_out=0x7ffd65927aa8, argv_out=0x7ffd65927aa0, command_info=0x7ffd65927a98, env_add=0x0, argv=0x7ffd65927d18, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd65927d30) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  0x00007f362ba09e1e in sudoers_lookup_check (nss=0x7f362ba46980 <sudo_nss_file>, now=0x61b139f3, defs=<synthetic pointer>, matching_cs=<synthetic pointer>, validated=<synthetic pointer>, pw=0x55b9e4191fd8) at ./parse.c:133
+#1  sudoers_lookup (snl=<optimized out>, pw=0x55b9e4191fd8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:311
+#2  0x00007f362ba12b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc2d0ee818, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc2d0ee520) at ./sudoers.c:325
+#3  0x00007f362ba0c12a in sudoers_policy_check (argc=0x2, argv=0x7ffc2d0ee818, env_add=0x0, command_infop=0x7ffc2d0ee598, argv_out=0x7ffc2d0ee5a0, user_env_out=0x7ffc2d0ee5a8) at ./policy.c:872
+#4  0x000055b9e2aee151 in policy_check (plugin=0x55b9e2b0e7a0 <policy_plugin>, user_env_out=0x7ffc2d0ee5a8, argv_out=0x7ffc2d0ee5a0, command_info=0x7ffc2d0ee598, env_add=0x0, argv=0x7ffc2d0ee818, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc2d0ee830) at ./sudo.c:254
+

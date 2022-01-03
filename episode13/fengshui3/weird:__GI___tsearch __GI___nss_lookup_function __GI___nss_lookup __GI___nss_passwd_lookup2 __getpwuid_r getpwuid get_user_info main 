@@ -1,0 +1,573 @@
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f078cf6ca14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f078d085880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f078d0796e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f078d085880 <term>) at ./term.c:136
+#2  0x00007f078d079895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000055892238b552 in tgetpass (prompt=0x558923397790 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffe2e4856c0) at ./tgetpass.c:187
+#4  0x00005589223787a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffe2e485278, callback=0x7ffe2e4856c0) at ./conversation.c:81
+#5  0x00007f078cda929d in auth_getpass (prompt=0x558923397790 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffe2e4856c0) at ./auth/sudo_auth.c:464
+#6  0x00007f078cda9702 in verify_user (pw=0x5589233952a8, prompt=<optimized out>, prompt@entry=0x558923397790 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffe2e4856c0) at ./auth/sudo_auth.c:319
+#7  0x00007f078cdaa605 in check_user_interactive (closure=0x7ffe2e4856a0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f078cdc1edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe2e485ae0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe2e4857f0) at ./sudoers.c:418
+#10 0x00007f078cdbb12a in sudoers_policy_check (argc=0x2, argv=0x7ffe2e485ae0, env_add=0x0, command_infop=0x7ffe2e485868, argv_out=0x7ffe2e485870, user_env_out=0x7ffe2e485878) at ./policy.c:872
+#11 0x0000558922377151 in policy_check (plugin=0x5589223977a0 <policy_plugin>, user_env_out=0x7ffe2e485878, argv_out=0x7ffe2e485870, command_info=0x7ffe2e485868, env_add=0x0, argv=0x7ffe2e485ae0, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe2e485af8) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f4c3591ca14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f4c35a35880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f4c35a296e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f4c35a35880 <term>) at ./term.c:136
+#2  0x00007f4c35a29895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000565520777552 in tgetpass (prompt=0x565522427ac0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffd5717c210) at ./tgetpass.c:187
+#4  0x00005655207647a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd5717bdc8, callback=0x7ffd5717c210) at ./conversation.c:81
+#5  0x00007f4c3575929d in auth_getpass (prompt=0x565522427ac0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd5717c210) at ./auth/sudo_auth.c:464
+#6  0x00007f4c35759702 in verify_user (pw=0x565522425498, prompt=<optimized out>, prompt@entry=0x565522427ac0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd5717c210) at ./auth/sudo_auth.c:319
+#7  0x00007f4c3575a605 in check_user_interactive (closure=0x7ffd5717c1f0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f4c35771edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd5717c630, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd5717c340) at ./sudoers.c:418
+#10 0x00007f4c3576b12a in sudoers_policy_check (argc=0x2, argv=0x7ffd5717c630, env_add=0x0, command_infop=0x7ffd5717c3b8, argv_out=0x7ffd5717c3c0, user_env_out=0x7ffd5717c3c8) at ./policy.c:872
+#11 0x0000565520763151 in policy_check (plugin=0x5655207837a0 <policy_plugin>, user_env_out=0x7ffd5717c3c8, argv_out=0x7ffd5717c3c0, command_info=0x7ffd5717c3b8, env_add=0x0, argv=0x7ffd5717c630, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd5717c648) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f16557a8a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f16558c1880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f16558b56e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f16558c1880 <term>) at ./term.c:136
+#2  0x00007f16558b5895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000559a0fa3c552 in tgetpass (prompt=0x559a10bf6870 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffd9accc7e0) at ./tgetpass.c:187
+#4  0x0000559a0fa297a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd9accc398, callback=0x7ffd9accc7e0) at ./conversation.c:81
+#5  0x00007f16555e529d in auth_getpass (prompt=0x559a10bf6870 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd9accc7e0) at ./auth/sudo_auth.c:464
+#6  0x00007f16555e5702 in verify_user (pw=0x559a10bf4248, prompt=<optimized out>, prompt@entry=0x559a10bf6870 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd9accc7e0) at ./auth/sudo_auth.c:319
+#7  0x00007f16555e6605 in check_user_interactive (closure=0x7ffd9accc7c0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f16555fdedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd9acccc08, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd9accc910) at ./sudoers.c:418
+#10 0x00007f16555f712a in sudoers_policy_check (argc=0x2, argv=0x7ffd9acccc08, env_add=0x0, command_infop=0x7ffd9accc988, argv_out=0x7ffd9accc990, user_env_out=0x7ffd9accc998) at ./policy.c:872
+#11 0x0000559a0fa28151 in policy_check (plugin=0x559a0fa487a0 <policy_plugin>, user_env_out=0x7ffd9accc998, argv_out=0x7ffd9accc990, command_info=0x7ffd9accc988, env_add=0x0, argv=0x7ffd9acccc08, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd9acccc20) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f86c74e9a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f86c7602880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f86c75f66e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f86c7602880 <term>) at ./term.c:136
+#2  0x00007f86c75f6895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x00005557d085f552 in tgetpass (prompt=0x5557d0993510 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffebfc336e0) at ./tgetpass.c:187
+#4  0x00005557d084c7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffebfc33298, callback=0x7ffebfc336e0) at ./conversation.c:81
+#5  0x00007f86c732629d in auth_getpass (prompt=0x5557d0993510 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffebfc336e0) at ./auth/sudo_auth.c:464
+#6  0x00007f86c7326702 in verify_user (pw=0x5557d0991018, prompt=<optimized out>, prompt@entry=0x5557d0993510 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffebfc336e0) at ./auth/sudo_auth.c:319
+#7  0x00007f86c7327605 in check_user_interactive (closure=0x7ffebfc336c0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f86c733eedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffebfc33b00, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffebfc33810) at ./sudoers.c:418
+#10 0x00007f86c733812a in sudoers_policy_check (argc=0x2, argv=0x7ffebfc33b00, env_add=0x0, command_infop=0x7ffebfc33888, argv_out=0x7ffebfc33890, user_env_out=0x7ffebfc33898) at ./policy.c:872
+#11 0x00005557d084b151 in policy_check (plugin=0x5557d086b7a0 <policy_plugin>, user_env_out=0x7ffebfc33898, argv_out=0x7ffebfc33890, command_info=0x7ffebfc33888, env_add=0x0, argv=0x7ffebfc33b00, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffebfc33b18) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fb13f2a4a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7fb13f3bd880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007fb13f3b16e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7fb13f3bd880 <term>) at ./term.c:136
+#2  0x00007fb13f3b1895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000563fe1ba9552 in tgetpass (prompt=0x563fe2c6b870 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7fff8a56eb80) at ./tgetpass.c:187
+#4  0x0000563fe1b967a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff8a56e738, callback=0x7fff8a56eb80) at ./conversation.c:81
+#5  0x00007fb13f0e129d in auth_getpass (prompt=0x563fe2c6b870 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff8a56eb80) at ./auth/sudo_auth.c:464
+#6  0x00007fb13f0e1702 in verify_user (pw=0x563fe2c69238, prompt=<optimized out>, prompt@entry=0x563fe2c6b870 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff8a56eb80) at ./auth/sudo_auth.c:319
+#7  0x00007fb13f0e2605 in check_user_interactive (closure=0x7fff8a56eb60, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007fb13f0f9edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff8a56efa0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff8a56ecb0) at ./sudoers.c:418
+#10 0x00007fb13f0f312a in sudoers_policy_check (argc=0x2, argv=0x7fff8a56efa0, env_add=0x0, command_infop=0x7fff8a56ed28, argv_out=0x7fff8a56ed30, user_env_out=0x7fff8a56ed38) at ./policy.c:872
+#11 0x0000563fe1b95151 in policy_check (plugin=0x563fe1bb57a0 <policy_plugin>, user_env_out=0x7fff8a56ed38, argv_out=0x7fff8a56ed30, command_info=0x7fff8a56ed28, env_add=0x0, argv=0x7fff8a56efa0, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff8a56efb8) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f06df915a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f06dfa2e880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f06dfa226e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f06dfa2e880 <term>) at ./term.c:136
+#2  0x00007f06dfa22895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000561e887b4552 in tgetpass (prompt=0x561e8a589830 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffc720f52a0) at ./tgetpass.c:187
+#4  0x0000561e887a17a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffc720f4e58, callback=0x7ffc720f52a0) at ./conversation.c:81
+#5  0x00007f06df75229d in auth_getpass (prompt=0x561e8a589830 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffc720f52a0) at ./auth/sudo_auth.c:464
+#6  0x00007f06df752702 in verify_user (pw=0x561e8a5871f8, prompt=<optimized out>, prompt@entry=0x561e8a589830 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffc720f52a0) at ./auth/sudo_auth.c:319
+#7  0x00007f06df753605 in check_user_interactive (closure=0x7ffc720f5280, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f06df76aedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc720f56c0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc720f53d0) at ./sudoers.c:418
+#10 0x00007f06df76412a in sudoers_policy_check (argc=0x2, argv=0x7ffc720f56c0, env_add=0x0, command_infop=0x7ffc720f5448, argv_out=0x7ffc720f5450, user_env_out=0x7ffc720f5458) at ./policy.c:872
+#11 0x0000561e887a0151 in policy_check (plugin=0x561e887c07a0 <policy_plugin>, user_env_out=0x7ffc720f5458, argv_out=0x7ffc720f5450, command_info=0x7ffc720f5448, env_add=0x0, argv=0x7ffc720f56c0, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc720f56d8) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007efd44037a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7efd44150880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007efd441446e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7efd44150880 <term>) at ./term.c:136
+#2  0x00007efd44144895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x00005611f33ec552 in tgetpass (prompt=0x5611f457c8b0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7fffe1f05320) at ./tgetpass.c:187
+#4  0x00005611f33d97a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fffe1f04ed8, callback=0x7fffe1f05320) at ./conversation.c:81
+#5  0x00007efd43e7429d in auth_getpass (prompt=0x5611f457c8b0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fffe1f05320) at ./auth/sudo_auth.c:464
+#6  0x00007efd43e74702 in verify_user (pw=0x5611f457a3b8, prompt=<optimized out>, prompt@entry=0x5611f457c8b0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fffe1f05320) at ./auth/sudo_auth.c:319
+#7  0x00007efd43e75605 in check_user_interactive (closure=0x7fffe1f05300, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007efd43e8cedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffe1f05748, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffe1f05450) at ./sudoers.c:418
+#10 0x00007efd43e8612a in sudoers_policy_check (argc=0x2, argv=0x7fffe1f05748, env_add=0x0, command_infop=0x7fffe1f054c8, argv_out=0x7fffe1f054d0, user_env_out=0x7fffe1f054d8) at ./policy.c:872
+#11 0x00005611f33d8151 in policy_check (plugin=0x5611f33f87a0 <policy_plugin>, user_env_out=0x7fffe1f054d8, argv_out=0x7fffe1f054d0, command_info=0x7fffe1f054c8, env_add=0x0, argv=0x7fffe1f05748, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffe1f05760) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f00a836da14 in __tcsetattr (fd=fd@entry=0x4, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f00a8486880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f00a847a6e9 in tcsetattr_nobg (fd=fd@entry=0x4, flags=flags@entry=0x1, tp=tp@entry=0x7f00a8486880 <term>) at ./term.c:136
+#2  0x00007f00a847a895 in sudo_term_noecho_v1 (fd=fd@entry=0x4) at ./term.c:177
+#3  0x0000556193bc1552 in tgetpass (prompt=0x556193e81470 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x0) at ./tgetpass.c:187
+#4  0x0000556193bae7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffcf70e4f78, callback=0x0) at ./conversation.c:81
+#5  0x00007f00a81aa29d in auth_getpass (prompt=0x556193e81470 "Password: ", type=type@entry=0x1, callback=callback@entry=0x0) at ./auth/sudo_auth.c:464
+#6  0x00007f00a81aa702 in verify_user (pw=0x556193e7eeb8, prompt=<optimized out>, prompt@entry=0x556193e81470 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x0) at ./auth/sudo_auth.c:319
+#7  0x00007f00a81ab605 in check_user_interactive (closure=0x7ffcf70e53a0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f00a81c2edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffcf70e57e8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcf70e54f0) at ./sudoers.c:418
+#10 0x00007f00a81bc12a in sudoers_policy_check (argc=0x2, argv=0x7ffcf70e57e8, env_add=0x0, command_infop=0x7ffcf70e5568, argv_out=0x7ffcf70e5570, user_env_out=0x7ffcf70e5578) at ./policy.c:872
+#11 0x0000556193bad151 in policy_check (plugin=0x556193bcd7a0 <policy_plugin>, user_env_out=0x7ffcf70e5578, argv_out=0x7ffcf70e5570, command_info=0x7ffcf70e5568, env_add=0x0, argv=0x7ffcf70e57e8, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcf70e5800) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fa27f2b8a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7fa27f3d1880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007fa27f3c56e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7fa27f3d1880 <term>) at ./term.c:136
+#2  0x00007fa27f3c5895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000055a031f37552 in tgetpass (prompt=0x55a0336d7850 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffff61804a0) at ./tgetpass.c:187
+#4  0x000055a031f247a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffff6180058, callback=0x7ffff61804a0) at ./conversation.c:81
+#5  0x00007fa27f0f529d in auth_getpass (prompt=0x55a0336d7850 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffff61804a0) at ./auth/sudo_auth.c:464
+#6  0x00007fa27f0f5702 in verify_user (pw=0x55a0336d5218, prompt=<optimized out>, prompt@entry=0x55a0336d7850 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffff61804a0) at ./auth/sudo_auth.c:319
+#7  0x00007fa27f0f6605 in check_user_interactive (closure=0x7ffff6180480, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007fa27f10dedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffff61808c0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffff61805d0) at ./sudoers.c:418
+#10 0x00007fa27f10712a in sudoers_policy_check (argc=0x2, argv=0x7ffff61808c0, env_add=0x0, command_infop=0x7ffff6180648, argv_out=0x7ffff6180650, user_env_out=0x7ffff6180658) at ./policy.c:872
+#11 0x000055a031f23151 in policy_check (plugin=0x55a031f437a0 <policy_plugin>, user_env_out=0x7ffff6180658, argv_out=0x7ffff6180650, command_info=0x7ffff6180648, env_add=0x0, argv=0x7ffff61808c0, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffff61808d8) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fa5eed8ca14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7fa5eeea5880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007fa5eee996e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7fa5eeea5880 <term>) at ./term.c:136
+#2  0x00007fa5eee99895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x00005611a6c13552 in tgetpass (prompt=0x5611a74e9860 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffd57bb7240) at ./tgetpass.c:187
+#4  0x00005611a6c007a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd57bb6df8, callback=0x7ffd57bb7240) at ./conversation.c:81
+#5  0x00007fa5eebc929d in auth_getpass (prompt=0x5611a74e9860 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd57bb7240) at ./auth/sudo_auth.c:464
+#6  0x00007fa5eebc9702 in verify_user (pw=0x5611a74e72a8, prompt=<optimized out>, prompt@entry=0x5611a74e9860 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd57bb7240) at ./auth/sudo_auth.c:319
+#7  0x00007fa5eebca605 in check_user_interactive (closure=0x7ffd57bb7220, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007fa5eebe1edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd57bb7668, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd57bb7370) at ./sudoers.c:418
+#10 0x00007fa5eebdb12a in sudoers_policy_check (argc=0x2, argv=0x7ffd57bb7668, env_add=0x0, command_infop=0x7ffd57bb73e8, argv_out=0x7ffd57bb73f0, user_env_out=0x7ffd57bb73f8) at ./policy.c:872
+#11 0x00005611a6bff151 in policy_check (plugin=0x5611a6c1f7a0 <policy_plugin>, user_env_out=0x7ffd57bb73f8, argv_out=0x7ffd57bb73f0, command_info=0x7ffd57bb73e8, env_add=0x0, argv=0x7ffd57bb7668, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd57bb7680) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007ff99ec52a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7ff99ed6b880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007ff99ed5f6e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7ff99ed6b880 <term>) at ./term.c:136
+#2  0x00007ff99ed5f895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000056207e534552 in tgetpass (prompt=0x56207ef2eab0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7fff22db2a20) at ./tgetpass.c:187
+#4  0x000056207e5217a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff22db25d8, callback=0x7fff22db2a20) at ./conversation.c:81
+#5  0x00007ff99ea8f29d in auth_getpass (prompt=0x56207ef2eab0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff22db2a20) at ./auth/sudo_auth.c:464
+#6  0x00007ff99ea8f702 in verify_user (pw=0x56207ef2c5c8, prompt=<optimized out>, prompt@entry=0x56207ef2eab0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff22db2a20) at ./auth/sudo_auth.c:319
+#7  0x00007ff99ea90605 in check_user_interactive (closure=0x7fff22db2a00, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007ff99eaa7edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff22db2e40, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff22db2b50) at ./sudoers.c:418
+#10 0x00007ff99eaa112a in sudoers_policy_check (argc=0x2, argv=0x7fff22db2e40, env_add=0x0, command_infop=0x7fff22db2bc8, argv_out=0x7fff22db2bd0, user_env_out=0x7fff22db2bd8) at ./policy.c:872
+#11 0x000056207e520151 in policy_check (plugin=0x56207e5407a0 <policy_plugin>, user_env_out=0x7fff22db2bd8, argv_out=0x7fff22db2bd0, command_info=0x7fff22db2bc8, env_add=0x0, argv=0x7fff22db2e40, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff22db2e58) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fab86e05a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7fab86f1e880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007fab86f126e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7fab86f1e880 <term>) at ./term.c:136
+#2  0x00007fab86f12895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000563f7e071552 in tgetpass (prompt=0x563f7f66b9c0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffe4a1d8d80) at ./tgetpass.c:187
+#4  0x0000563f7e05e7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffe4a1d8938, callback=0x7ffe4a1d8d80) at ./conversation.c:81
+#5  0x00007fab86c4229d in auth_getpass (prompt=0x563f7f66b9c0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffe4a1d8d80) at ./auth/sudo_auth.c:464
+#6  0x00007fab86c42702 in verify_user (pw=0x563f7f6694d8, prompt=<optimized out>, prompt@entry=0x563f7f66b9c0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffe4a1d8d80) at ./auth/sudo_auth.c:319
+#7  0x00007fab86c43605 in check_user_interactive (closure=0x7ffe4a1d8d60, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007fab86c5aedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe4a1d91a0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe4a1d8eb0) at ./sudoers.c:418
+#10 0x00007fab86c5412a in sudoers_policy_check (argc=0x2, argv=0x7ffe4a1d91a0, env_add=0x0, command_infop=0x7ffe4a1d8f28, argv_out=0x7ffe4a1d8f30, user_env_out=0x7ffe4a1d8f38) at ./policy.c:872
+#11 0x0000563f7e05d151 in policy_check (plugin=0x563f7e07d7a0 <policy_plugin>, user_env_out=0x7ffe4a1d8f38, argv_out=0x7ffe4a1d8f30, command_info=0x7ffe4a1d8f28, env_add=0x0, argv=0x7ffe4a1d91a0, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe4a1d91b8) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f1e9e1c3a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f1e9e2dc880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f1e9e2d06e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f1e9e2dc880 <term>) at ./term.c:136
+#2  0x00007f1e9e2d0895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000055a7ea0f1552 in tgetpass (prompt=0x55a7eb2c36c0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7fff52628dd0) at ./tgetpass.c:187
+#4  0x000055a7ea0de7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff52628988, callback=0x7fff52628dd0) at ./conversation.c:81
+#5  0x00007f1e9e00029d in auth_getpass (prompt=0x55a7eb2c36c0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff52628dd0) at ./auth/sudo_auth.c:464
+#6  0x00007f1e9e000702 in verify_user (pw=0x55a7eb2c1088, prompt=<optimized out>, prompt@entry=0x55a7eb2c36c0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff52628dd0) at ./auth/sudo_auth.c:319
+#7  0x00007f1e9e001605 in check_user_interactive (closure=0x7fff52628db0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f1e9e018edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff526291f0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff52628f00) at ./sudoers.c:418
+#10 0x00007f1e9e01212a in sudoers_policy_check (argc=0x2, argv=0x7fff526291f0, env_add=0x0, command_infop=0x7fff52628f78, argv_out=0x7fff52628f80, user_env_out=0x7fff52628f88) at ./policy.c:872
+#11 0x000055a7ea0dd151 in policy_check (plugin=0x55a7ea0fd7a0 <policy_plugin>, user_env_out=0x7fff52628f88, argv_out=0x7fff52628f80, command_info=0x7fff52628f78, env_add=0x0, argv=0x7fff526291f0, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff52629208) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f6b8600fa14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f6b86128880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f6b8611c6e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f6b86128880 <term>) at ./term.c:136
+#2  0x00007f6b8611c895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000055f14b1bd552 in tgetpass (prompt=0x55f14b9c6930 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffced632180) at ./tgetpass.c:187
+#4  0x000055f14b1aa7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffced631d38, callback=0x7ffced632180) at ./conversation.c:81
+#5  0x00007f6b85e4c29d in auth_getpass (prompt=0x55f14b9c6930 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffced632180) at ./auth/sudo_auth.c:464
+#6  0x00007f6b85e4c702 in verify_user (pw=0x55f14b9c4308, prompt=<optimized out>, prompt@entry=0x55f14b9c6930 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffced632180) at ./auth/sudo_auth.c:319
+#7  0x00007f6b85e4d605 in check_user_interactive (closure=0x7ffced632160, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f6b85e64edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffced6325a0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffced6322b0) at ./sudoers.c:418
+#10 0x00007f6b85e5e12a in sudoers_policy_check (argc=0x2, argv=0x7ffced6325a0, env_add=0x0, command_infop=0x7ffced632328, argv_out=0x7ffced632330, user_env_out=0x7ffced632338) at ./policy.c:872
+#11 0x000055f14b1a9151 in policy_check (plugin=0x55f14b1c97a0 <policy_plugin>, user_env_out=0x7ffced632338, argv_out=0x7ffced632330, command_info=0x7ffced632328, env_add=0x0, argv=0x7ffced6325a0, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffced6325b8) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f57db57ba14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f57db694880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f57db6886e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f57db694880 <term>) at ./term.c:136
+#2  0x00007f57db688895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000563a6a945552 in tgetpass (prompt=0x563a6b023a70 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffca68a44b0) at ./tgetpass.c:187
+#4  0x0000563a6a9327a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffca68a4068, callback=0x7ffca68a44b0) at ./conversation.c:81
+#5  0x00007f57db3b829d in auth_getpass (prompt=0x563a6b023a70 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffca68a44b0) at ./auth/sudo_auth.c:464
+#6  0x00007f57db3b8702 in verify_user (pw=0x563a6b0214b8, prompt=<optimized out>, prompt@entry=0x563a6b023a70 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffca68a44b0) at ./auth/sudo_auth.c:319
+#7  0x00007f57db3b9605 in check_user_interactive (closure=0x7ffca68a4490, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f57db3d0edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffca68a48d8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffca68a45e0) at ./sudoers.c:418
+#10 0x00007f57db3ca12a in sudoers_policy_check (argc=0x2, argv=0x7ffca68a48d8, env_add=0x0, command_infop=0x7ffca68a4658, argv_out=0x7ffca68a4660, user_env_out=0x7ffca68a4668) at ./policy.c:872
+#11 0x0000563a6a931151 in policy_check (plugin=0x563a6a9517a0 <policy_plugin>, user_env_out=0x7ffca68a4668, argv_out=0x7ffca68a4660, command_info=0x7ffca68a4658, env_add=0x0, argv=0x7ffca68a48d8, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffca68a48f0) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f747734aa14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f7477463880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f74774576e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f7477463880 <term>) at ./term.c:136
+#2  0x00007f7477457895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000563bbe3f8552 in tgetpass (prompt=0x563bbe4dca80 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffca7e860e0) at ./tgetpass.c:187
+#4  0x0000563bbe3e57a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffca7e85c98, callback=0x7ffca7e860e0) at ./conversation.c:81
+#5  0x00007f747718729d in auth_getpass (prompt=0x563bbe4dca80 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffca7e860e0) at ./auth/sudo_auth.c:464
+#6  0x00007f7477187702 in verify_user (pw=0x563bbe4da458, prompt=<optimized out>, prompt@entry=0x563bbe4dca80 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffca7e860e0) at ./auth/sudo_auth.c:319
+#7  0x00007f7477188605 in check_user_interactive (closure=0x7ffca7e860c0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f747719fedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffca7e86500, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffca7e86210) at ./sudoers.c:418
+#10 0x00007f747719912a in sudoers_policy_check (argc=0x2, argv=0x7ffca7e86500, env_add=0x0, command_infop=0x7ffca7e86288, argv_out=0x7ffca7e86290, user_env_out=0x7ffca7e86298) at ./policy.c:872
+#11 0x0000563bbe3e4151 in policy_check (plugin=0x563bbe4047a0 <policy_plugin>, user_env_out=0x7ffca7e86298, argv_out=0x7ffca7e86290, command_info=0x7ffca7e86288, env_add=0x0, argv=0x7ffca7e86500, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffca7e86518) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f6245996a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f6245aaf880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f6245aa36e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f6245aaf880 <term>) at ./term.c:136
+#2  0x00007f6245aa3895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000558b507ab552 in tgetpass (prompt=0x558b51af3490 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffc02f3f2e0) at ./tgetpass.c:187
+#4  0x0000558b507987a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffc02f3ee98, callback=0x7ffc02f3f2e0) at ./conversation.c:81
+#5  0x00007f62457d329d in auth_getpass (prompt=0x558b51af3490 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffc02f3f2e0) at ./auth/sudo_auth.c:464
+#6  0x00007f62457d3702 in verify_user (pw=0x558b51af0ee8, prompt=<optimized out>, prompt@entry=0x558b51af3490 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffc02f3f2e0) at ./auth/sudo_auth.c:319
+#7  0x00007f62457d4605 in check_user_interactive (closure=0x7ffc02f3f2c0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f62457ebedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc02f3f708, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc02f3f410) at ./sudoers.c:418
+#10 0x00007f62457e512a in sudoers_policy_check (argc=0x2, argv=0x7ffc02f3f708, env_add=0x0, command_infop=0x7ffc02f3f488, argv_out=0x7ffc02f3f490, user_env_out=0x7ffc02f3f498) at ./policy.c:872
+#11 0x0000558b50797151 in policy_check (plugin=0x558b507b77a0 <policy_plugin>, user_env_out=0x7ffc02f3f498, argv_out=0x7ffc02f3f490, command_info=0x7ffc02f3f488, env_add=0x0, argv=0x7ffc02f3f708, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc02f3f720) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f6b2747fa14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f6b27598880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f6b2758c6e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f6b27598880 <term>) at ./term.c:136
+#2  0x00007f6b2758c895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000055d36a8d3552 in tgetpass (prompt=0x55d36ac025e0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffcadaa3050) at ./tgetpass.c:187
+#4  0x000055d36a8c07a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffcadaa2c08, callback=0x7ffcadaa3050) at ./conversation.c:81
+#5  0x00007f6b272bc29d in auth_getpass (prompt=0x55d36ac025e0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffcadaa3050) at ./auth/sudo_auth.c:464
+#6  0x00007f6b272bc702 in verify_user (pw=0x55d36abfffb8, prompt=<optimized out>, prompt@entry=0x55d36ac025e0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffcadaa3050) at ./auth/sudo_auth.c:319
+#7  0x00007f6b272bd605 in check_user_interactive (closure=0x7ffcadaa3030, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f6b272d4edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffcadaa3470, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcadaa3180) at ./sudoers.c:418
+#10 0x00007f6b272ce12a in sudoers_policy_check (argc=0x2, argv=0x7ffcadaa3470, env_add=0x0, command_infop=0x7ffcadaa31f8, argv_out=0x7ffcadaa3200, user_env_out=0x7ffcadaa3208) at ./policy.c:872
+#11 0x000055d36a8bf151 in policy_check (plugin=0x55d36a8df7a0 <policy_plugin>, user_env_out=0x7ffcadaa3208, argv_out=0x7ffcadaa3200, command_info=0x7ffcadaa31f8, env_add=0x0, argv=0x7ffcadaa3470, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcadaa3488) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f1d3f7c8a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f1d3f8e1880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f1d3f8d56e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f1d3f8e1880 <term>) at ./term.c:136
+#2  0x00007f1d3f8d5895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000564ed8f71552 in tgetpass (prompt=0x564ed92488d0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffcd9785050) at ./tgetpass.c:187
+#4  0x0000564ed8f5e7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffcd9784c08, callback=0x7ffcd9785050) at ./conversation.c:81
+#5  0x00007f1d3f60529d in auth_getpass (prompt=0x564ed92488d0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffcd9785050) at ./auth/sudo_auth.c:464
+#6  0x00007f1d3f605702 in verify_user (pw=0x564ed92462a8, prompt=<optimized out>, prompt@entry=0x564ed92488d0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffcd9785050) at ./auth/sudo_auth.c:319
+#7  0x00007f1d3f606605 in check_user_interactive (closure=0x7ffcd9785030, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f1d3f61dedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffcd9785470, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcd9785180) at ./sudoers.c:418
+#10 0x00007f1d3f61712a in sudoers_policy_check (argc=0x2, argv=0x7ffcd9785470, env_add=0x0, command_infop=0x7ffcd97851f8, argv_out=0x7ffcd9785200, user_env_out=0x7ffcd9785208) at ./policy.c:872
+#11 0x0000564ed8f5d151 in policy_check (plugin=0x564ed8f7d7a0 <policy_plugin>, user_env_out=0x7ffcd9785208, argv_out=0x7ffcd9785200, command_info=0x7ffcd97851f8, env_add=0x0, argv=0x7ffcd9785470, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcd9785488) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fa9ef78ca14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7fa9ef8a5880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007fa9ef8996e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7fa9ef8a5880 <term>) at ./term.c:136
+#2  0x00007fa9ef899895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000557b94ea5552 in tgetpass (prompt=0x557b95f0f9b0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffc0a765730) at ./tgetpass.c:187
+#4  0x0000557b94e927a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffc0a7652e8, callback=0x7ffc0a765730) at ./conversation.c:81
+#5  0x00007fa9ef5c929d in auth_getpass (prompt=0x557b95f0f9b0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffc0a765730) at ./auth/sudo_auth.c:464
+#6  0x00007fa9ef5c9702 in verify_user (pw=0x557b95f0d3f8, prompt=<optimized out>, prompt@entry=0x557b95f0f9b0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffc0a765730) at ./auth/sudo_auth.c:319
+#7  0x00007fa9ef5ca605 in check_user_interactive (closure=0x7ffc0a765710, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007fa9ef5e1edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc0a765b50, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc0a765860) at ./sudoers.c:418
+#10 0x00007fa9ef5db12a in sudoers_policy_check (argc=0x2, argv=0x7ffc0a765b50, env_add=0x0, command_infop=0x7ffc0a7658d8, argv_out=0x7ffc0a7658e0, user_env_out=0x7ffc0a7658e8) at ./policy.c:872
+#11 0x0000557b94e91151 in policy_check (plugin=0x557b94eb17a0 <policy_plugin>, user_env_out=0x7ffc0a7658e8, argv_out=0x7ffc0a7658e0, command_info=0x7ffc0a7658d8, env_add=0x0, argv=0x7ffc0a765b50, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc0a765b68) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fa5d3637a14 in __tcsetattr (fd=fd@entry=0x4, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7fa5d3750880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007fa5d37446e9 in tcsetattr_nobg (fd=fd@entry=0x4, flags=flags@entry=0x1, tp=tp@entry=0x7fa5d3750880 <term>) at ./term.c:136
+#2  0x00007fa5d3744895 in sudo_term_noecho_v1 (fd=fd@entry=0x4) at ./term.c:177
+#3  0x000056005047b552 in tgetpass (prompt=0x560051eec4d0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x0) at ./tgetpass.c:187
+#4  0x00005600504687a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff9bc01218, callback=0x0) at ./conversation.c:81
+#5  0x00007fa5d347429d in auth_getpass (prompt=0x560051eec4d0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x0) at ./auth/sudo_auth.c:464
+#6  0x00007fa5d3474702 in verify_user (pw=0x560051ee9f28, prompt=<optimized out>, prompt@entry=0x560051eec4d0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x0) at ./auth/sudo_auth.c:319
+#7  0x00007fa5d3475605 in check_user_interactive (closure=0x7fff9bc01640, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007fa5d348cedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff9bc01a88, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff9bc01790) at ./sudoers.c:418
+#10 0x00007fa5d348612a in sudoers_policy_check (argc=0x2, argv=0x7fff9bc01a88, env_add=0x0, command_infop=0x7fff9bc01808, argv_out=0x7fff9bc01810, user_env_out=0x7fff9bc01818) at ./policy.c:872
+#11 0x0000560050467151 in policy_check (plugin=0x5600504877a0 <policy_plugin>, user_env_out=0x7fff9bc01818, argv_out=0x7fff9bc01810, command_info=0x7fff9bc01808, env_add=0x0, argv=0x7fff9bc01a88, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff9bc01aa0) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f03faea5a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f03fafbe880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f03fafb26e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f03fafbe880 <term>) at ./term.c:136
+#2  0x00007f03fafb2895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000055f0ceb00552 in tgetpass (prompt=0x55f0d02cf9e0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffd8e38d930) at ./tgetpass.c:187
+#4  0x000055f0ceaed7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd8e38d4e8, callback=0x7ffd8e38d930) at ./conversation.c:81
+#5  0x00007f03face229d in auth_getpass (prompt=0x55f0d02cf9e0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd8e38d930) at ./auth/sudo_auth.c:464
+#6  0x00007f03face2702 in verify_user (pw=0x55f0d02cd3a8, prompt=<optimized out>, prompt@entry=0x55f0d02cf9e0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd8e38d930) at ./auth/sudo_auth.c:319
+#7  0x00007f03face3605 in check_user_interactive (closure=0x7ffd8e38d910, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f03facfaedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd8e38dd58, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd8e38da60) at ./sudoers.c:418
+#10 0x00007f03facf412a in sudoers_policy_check (argc=0x2, argv=0x7ffd8e38dd58, env_add=0x0, command_infop=0x7ffd8e38dad8, argv_out=0x7ffd8e38dae0, user_env_out=0x7ffd8e38dae8) at ./policy.c:872
+#11 0x000055f0ceaec151 in policy_check (plugin=0x55f0ceb0c7a0 <policy_plugin>, user_env_out=0x7ffd8e38dae8, argv_out=0x7ffd8e38dae0, command_info=0x7ffd8e38dad8, env_add=0x0, argv=0x7ffd8e38dd58, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd8e38dd70) at ./sudo.c:254
+
+----------------------------
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI__dl_catch_exception do_dlopen __GI__dl_catch_exception __GI__dl_catch_error dlerror_run "libnss_files.so.2", nss_load_library __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f888eb42a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f888ec5b880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f888ec4f6e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f888ec5b880 <term>) at ./term.c:136
+#2  0x00007f888ec4f895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000055728ab4c552 in tgetpass (prompt=0x55728bd246c0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffd45d98200) at ./tgetpass.c:187
+#4  0x000055728ab397a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd45d97db8, callback=0x7ffd45d98200) at ./conversation.c:81
+#5  0x00007f888e97f29d in auth_getpass (prompt=0x55728bd246c0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd45d98200) at ./auth/sudo_auth.c:464
+#6  0x00007f888e97f702 in verify_user (pw=0x55728bd22098, prompt=<optimized out>, prompt@entry=0x55728bd246c0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd45d98200) at ./auth/sudo_auth.c:319
+#7  0x00007f888e980605 in check_user_interactive (closure=0x7ffd45d981e0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f888e997edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd45d98628, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd45d98330) at ./sudoers.c:418
+#10 0x00007f888e99112a in sudoers_policy_check (argc=0x2, argv=0x7ffd45d98628, env_add=0x0, command_infop=0x7ffd45d983a8, argv_out=0x7ffd45d983b0, user_env_out=0x7ffd45d983b8) at ./policy.c:872
+#11 0x000055728ab38151 in policy_check (plugin=0x55728ab587a0 <policy_plugin>, user_env_out=0x7ffd45d983b8, argv_out=0x7ffd45d983b0, command_info=0x7ffd45d983a8, env_add=0x0, argv=0x7ffd45d98628, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd45d98640) at ./sudo.c:254
+

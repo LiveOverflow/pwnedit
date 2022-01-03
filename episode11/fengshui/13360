@@ -1,0 +1,4047 @@
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000560fbdba7a90 < 0x0000560fbdbaaec0
+args: sudoedit -s LLLLLLLLLLLLLLLL\ 5555555555555555555555555555
+
+
+user_details=0x560fbc2de720
+rbtree1=0x560fbdbaa950
+rbtree2=0x560fbdbaa950
+rbtree1=0x560fbdbaaec0
+rbtree2=0x560fbdbaaec0
+rbtree1=0x560fbdbaa950
+rbtree2=0x560fbdbaa950
+user_args=0x560fbdba7a90
+rbtree1=0x560fbdbaaec0
+rbtree2=0x560fbdbaaec0
+
+{"arg": ["-s", "LLLLLLLLLLLLLLLL\\", "5555555555555555555555555555"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000560f29a0ea90 < 0x0000560f29a11ec0
+args: sudoedit -B -s TTTTTTTTTTTTTTT\ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+
+user_details=0x560f284c3720
+rbtree1=0x560f29a11950
+rbtree2=0x560f29a11950
+rbtree1=0x560f29a11ec0
+rbtree2=0x560f29a11ec0
+rbtree1=0x560f29a11950
+rbtree2=0x560f29a11950
+user_args=0x560f29a0ea90
+rbtree1=0x560f29a11ec0
+rbtree2=0x560f29a11ec0
+
+{"arg": ["-B", "-s", "TTTTTTTTTTTTTTT\\", "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055f07becca90 < 0x000055f07becfec0
+args: sudoedit -s \ 55555555555555555555555555555555555555555
+
+
+user_details=0x55f079eee720
+rbtree1=0x55f07becf950
+rbtree2=0x55f07becf950
+rbtree1=0x55f07becfec0
+rbtree2=0x55f07becfec0
+rbtree1=0x55f07becf950
+rbtree2=0x55f07becf950
+user_args=0x55f07becca90
+rbtree1=0x55f07becfec0
+rbtree2=0x55f07becfec0
+
+{"arg": ["-s", "\\", "55555555555555555555555555555555555555555"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000056006276ba90 < 0x000056006276eec0
+args: sudoedit -s 00000000\ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+
+user_details=0x56006104b720
+rbtree1=0x56006276e950
+rbtree2=0x56006276e950
+rbtree1=0x56006276eec0
+rbtree2=0x56006276eec0
+rbtree1=0x56006276e950
+rbtree2=0x56006276e950
+user_args=0x56006276ba90
+rbtree1=0x56006276eec0
+rbtree2=0x56006276eec0
+
+{"arg": ["-s", "00000000\\", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000556558d3ba90 < 0x0000556558d3eec0
+args: sudoedit -s VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\ TTTTTTTTTTTTTTTTT
+
+
+user_details=0x5565587c9720
+rbtree1=0x556558d3e950
+rbtree2=0x556558d3e950
+rbtree1=0x556558d3eec0
+rbtree2=0x556558d3eec0
+rbtree1=0x556558d3e950
+rbtree2=0x556558d3e950
+user_args=0x556558d3ba90
+rbtree1=0x556558d3eec0
+rbtree2=0x556558d3eec0
+
+{"arg": ["-s", "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\\", "TTTTTTTTTTTTTTTTT"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x000056168662ba90 < 0x000056168662eec0
+args: sudoedit -S -s EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\ QQQQQQQQ
+
+
+user_details=0x561685b82720
+rbtree1=0x56168662e950
+rbtree2=0x56168662e950
+rbtree1=0x56168662eec0
+rbtree2=0x56168662eec0
+rbtree1=0x56168662e950
+rbtree2=0x56168662e950
+user_args=0x56168662ba90
+rbtree1=0x56168662eec0
+rbtree2=0x56168662eec0
+
+{"arg": ["-S", "-s", "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\\", "QQQQQQQQ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055e25545aa90 < 0x000055e25545dec0
+args: sudoedit -s IIII\ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
+user_details=0x55e253ed9720
+rbtree1=0x55e25545d950
+rbtree2=0x55e25545d950
+rbtree1=0x55e25545dec0
+rbtree2=0x55e25545dec0
+rbtree1=0x55e25545d950
+rbtree2=0x55e25545d950
+user_args=0x55e25545aa90
+rbtree1=0x55e25545dec0
+rbtree2=0x55e25545dec0
+
+{"arg": ["-s", "IIII\\", "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055858bc3ea90 < 0x000055858bc41ec0
+args: sudoedit -s KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK\ 111
+
+
+user_details=0x55858a7f3720
+rbtree1=0x55858bc41950
+rbtree2=0x55858bc41950
+rbtree1=0x55858bc41ec0
+rbtree2=0x55858bc41ec0
+rbtree1=0x55858bc41950
+rbtree2=0x55858bc41950
+user_args=0x55858bc3ea90
+rbtree1=0x55858bc41ec0
+rbtree2=0x55858bc41ec0
+
+{"arg": ["-s", "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK\\", "111"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x000055e11bb75a90 < 0x000055e11bb78ec0
+args: sudoedit -S -s 77\ 33333333333333333333333333333333333333333
+
+
+user_details=0x55e11afa7720
+rbtree1=0x55e11bb78950
+rbtree2=0x55e11bb78950
+rbtree1=0x55e11bb78ec0
+rbtree2=0x55e11bb78ec0
+rbtree1=0x55e11bb78950
+rbtree2=0x55e11bb78950
+user_args=0x55e11bb75a90
+rbtree1=0x55e11bb78ec0
+rbtree2=0x55e11bb78ec0
+
+{"arg": ["-S", "-s", "77\\", "33333333333333333333333333333333333333333"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x0000560ce04dda90 < 0x0000560ce04e0ec0
+args: sudoedit -S -s MMMMMMMM\ 88888888888888888888888888888888888888
+
+
+user_details=0x560cdfd4b720
+rbtree1=0x560ce04e0950
+rbtree2=0x560ce04e0950
+rbtree1=0x560ce04e0ec0
+rbtree2=0x560ce04e0ec0
+rbtree1=0x560ce04e0950
+rbtree2=0x560ce04e0950
+user_args=0x560ce04dda90
+rbtree1=0x560ce04e0ec0
+rbtree2=0x560ce04e0ec0
+
+{"arg": ["-S", "-s", "MMMMMMMM\\", "88888888888888888888888888888888888888"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x000055885979aa90 < 0x000055885979dec0
+args: sudoedit -S -s AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\
+
+
+user_details=0x558859751720
+rbtree1=0x55885979d950
+rbtree2=0x55885979d950
+rbtree1=0x55885979dec0
+rbtree2=0x55885979dec0
+rbtree1=0x55885979d950
+rbtree2=0x55885979d950
+user_args=0x55885979aa90
+rbtree1=0x55885979dec0
+rbtree2=0x55885979dec0
+
+{"arg": ["-S", "-s", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\\"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x000055c4a8111a90 < 0x000055c4a8114ec0
+args: sudoedit -S -s 55555555555555555555555555555555555555555555\
+
+
+user_details=0x55c4a71de720
+rbtree1=0x55c4a8114950
+rbtree2=0x55c4a8114950
+rbtree1=0x55c4a8114ec0
+rbtree2=0x55c4a8114ec0
+rbtree1=0x55c4a8114950
+rbtree2=0x55c4a8114950
+user_args=0x55c4a8111a90
+rbtree1=0x55c4a8114ec0
+rbtree2=0x55c4a8114ec0
+
+{"arg": ["-S", "-s", "55555555555555555555555555555555555555555555\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055ac4f7daa90 < 0x000055ac4f7ddec0
+args: sudoedit -s 111111111111\ LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+
+
+user_details=0x55ac4dc3a720
+rbtree1=0x55ac4f7dd950
+rbtree2=0x55ac4f7dd950
+rbtree1=0x55ac4f7ddec0
+rbtree2=0x55ac4f7ddec0
+rbtree1=0x55ac4f7dd950
+rbtree2=0x55ac4f7dd950
+user_args=0x55ac4f7daa90
+rbtree1=0x55ac4f7ddec0
+rbtree2=0x55ac4f7ddec0
+
+{"arg": ["-s", "111111111111\\", "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000556bc755da90 < 0x0000556bc7560ec0
+args: sudoedit -s IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII\
+
+
+user_details=0x556bc6395720
+rbtree1=0x556bc7560950
+rbtree2=0x556bc7560950
+rbtree1=0x556bc7560ec0
+rbtree2=0x556bc7560ec0
+rbtree1=0x556bc7560950
+rbtree2=0x556bc7560950
+user_args=0x556bc755da90
+rbtree1=0x556bc7560ec0
+rbtree2=0x556bc7560ec0
+
+{"arg": ["-s", "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005652cd1e8a90 < 0x00005652cd1ebec0
+args: sudoedit -B -s \ DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+
+
+user_details=0x5652ccb53720
+rbtree1=0x5652cd1eb950
+rbtree2=0x5652cd1eb950
+rbtree1=0x5652cd1ebec0
+rbtree2=0x5652cd1ebec0
+rbtree1=0x5652cd1eb950
+rbtree2=0x5652cd1eb950
+user_args=0x5652cd1e8a90
+rbtree1=0x5652cd1ebec0
+rbtree2=0x5652cd1ebec0
+
+{"arg": ["-B", "-s", "\\", "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000555de5b1ca90 < 0x0000555de5b1fec0
+args: sudoedit -s UUUUUUU\ 0000000000000000000000000000000000000000000
+
+
+user_details=0x555de5a54720
+rbtree1=0x555de5b1f950
+rbtree2=0x555de5b1f950
+rbtree1=0x555de5b1fec0
+rbtree2=0x555de5b1fec0
+rbtree1=0x555de5b1f950
+rbtree2=0x555de5b1f950
+user_args=0x555de5b1ca90
+rbtree1=0x555de5b1fec0
+rbtree2=0x555de5b1fec0
+
+{"arg": ["-s", "UUUUUUU\\", "0000000000000000000000000000000000000000000"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055abb8103a90 < 0x000055abb8106ec0
+args: sudoedit -s EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\
+
+
+user_details=0x55abb6770720
+rbtree1=0x55abb8106950
+rbtree2=0x55abb8106950
+rbtree1=0x55abb8106ec0
+rbtree2=0x55abb8106ec0
+rbtree1=0x55abb8106950
+rbtree2=0x55abb8106950
+user_args=0x55abb8103a90
+rbtree1=0x55abb8106ec0
+rbtree2=0x55abb8106ec0
+
+{"arg": ["-s", "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000558033b5da90 < 0x0000558033b60ec0
+args: sudoedit -s \ 333333333333333333333333333333333333333333
+
+
+user_details=0x558032efd720
+rbtree1=0x558033b60950
+rbtree2=0x558033b60950
+rbtree1=0x558033b60ec0
+rbtree2=0x558033b60ec0
+rbtree1=0x558033b60950
+rbtree2=0x558033b60950
+user_args=0x558033b5da90
+rbtree1=0x558033b60ec0
+rbtree2=0x558033b60ec0
+
+{"arg": ["-s", "\\", "333333333333333333333333333333333333333333"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055e03d1c0a90 < 0x000055e03d1c3ec0
+args: sudoedit -s -s LLLLLLLLLLLLLLLLLLLLLLLL\ 88888888888888888888888
+
+
+user_details=0x55e03c0fc720
+rbtree1=0x55e03d1c3950
+rbtree2=0x55e03d1c3950
+rbtree1=0x55e03d1c3ec0
+rbtree2=0x55e03d1c3ec0
+rbtree1=0x55e03d1c3950
+rbtree2=0x55e03d1c3950
+user_args=0x55e03d1c0a90
+rbtree1=0x55e03d1c3ec0
+rbtree2=0x55e03d1c3ec0
+
+{"arg": ["-s", "-s", "LLLLLLLLLLLLLLLLLLLLLLLL\\", "88888888888888888888888"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000563798b16a90 < 0x0000563798b19ec0
+args: sudoedit -s AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\
+
+
+user_details=0x563797171720
+rbtree1=0x563798b19950
+rbtree2=0x563798b19950
+rbtree1=0x563798b19ec0
+rbtree2=0x563798b19ec0
+rbtree1=0x563798b19950
+rbtree2=0x563798b19950
+user_args=0x563798b16a90
+rbtree1=0x563798b19ec0
+rbtree2=0x563798b19ec0
+
+{"arg": ["-s", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005616ac1baa90 < 0x00005616ac1bdec0
+args: sudoedit -s VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\ NNNN
+
+
+user_details=0x5616ab696720
+rbtree1=0x5616ac1bd950
+rbtree2=0x5616ac1bd950
+rbtree1=0x5616ac1bdec0
+rbtree2=0x5616ac1bdec0
+rbtree1=0x5616ac1bd950
+rbtree2=0x5616ac1bd950
+user_args=0x5616ac1baa90
+rbtree1=0x5616ac1bdec0
+rbtree2=0x5616ac1bdec0
+
+{"arg": ["-s", "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\\", "NNNN"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055bf5307ba90 < 0x000055bf5307eec0
+args: sudoedit -s 2222222222222222222222222222222222222222222222\
+
+
+user_details=0x55bf5306a720
+rbtree1=0x55bf5307e950
+rbtree2=0x55bf5307e950
+rbtree1=0x55bf5307eec0
+rbtree2=0x55bf5307eec0
+rbtree1=0x55bf5307e950
+rbtree2=0x55bf5307e950
+user_args=0x55bf5307ba90
+rbtree1=0x55bf5307eec0
+rbtree2=0x55bf5307eec0
+
+{"arg": ["-s", "2222222222222222222222222222222222222222222222\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055a8bb0cfa90 < 0x000055a8bb0d2ec0
+args: sudoedit -s -s \ KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+
+
+user_details=0x55a8b9d54720
+rbtree1=0x55a8bb0d2950
+rbtree2=0x55a8bb0d2950
+rbtree1=0x55a8bb0d2ec0
+rbtree2=0x55a8bb0d2ec0
+rbtree1=0x55a8bb0d2950
+rbtree2=0x55a8bb0d2950
+user_args=0x55a8bb0cfa90
+rbtree1=0x55a8bb0d2ec0
+rbtree2=0x55a8bb0d2ec0
+
+{"arg": ["-s", "-s", "\\", "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055f22de8ca90 < 0x000055f22de8fec0
+args: sudoedit -s 00000000000000000000000000000000000000000000000\
+
+
+user_details=0x55f22bfdf720
+rbtree1=0x55f22de8f950
+rbtree2=0x55f22de8f950
+rbtree1=0x55f22de8fec0
+rbtree2=0x55f22de8fec0
+rbtree1=0x55f22de8f950
+rbtree2=0x55f22de8f950
+user_args=0x55f22de8ca90
+rbtree1=0x55f22de8fec0
+rbtree2=0x55f22de8fec0
+
+{"arg": ["-s", "00000000000000000000000000000000000000000000000\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d0e6e3da90 < 0x000055d0e6e40ec0
+args: sudoedit -s \ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+
+user_details=0x55d0e575f720
+rbtree1=0x55d0e6e40950
+rbtree2=0x55d0e6e40950
+rbtree1=0x55d0e6e40ec0
+rbtree2=0x55d0e6e40ec0
+rbtree1=0x55d0e6e40950
+rbtree2=0x55d0e6e40950
+user_args=0x55d0e6e3da90
+rbtree1=0x55d0e6e40ec0
+rbtree2=0x55d0e6e40ec0
+
+{"arg": ["-s", "\\", "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x000055af94783a90 < 0x000055af94786ec0
+args: sudoedit -S -s 7777777777777777777777777777777777777777\
+
+
+user_details=0x55af94496720
+rbtree1=0x55af94786950
+rbtree2=0x55af94786950
+rbtree1=0x55af94786ec0
+rbtree2=0x55af94786ec0
+rbtree1=0x55af94786950
+rbtree2=0x55af94786950
+user_args=0x55af94783a90
+rbtree1=0x55af94786ec0
+rbtree2=0x55af94786ec0
+
+{"arg": ["-S", "-s", "7777777777777777777777777777777777777777\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d5e3213a90 < 0x000055d5e3216ec0
+args: sudoedit -s \ 3333333333333333333333333333333333333333333333
+
+
+user_details=0x55d5e265f720
+rbtree1=0x55d5e3216950
+rbtree2=0x55d5e3216950
+rbtree1=0x55d5e3216ec0
+rbtree2=0x55d5e3216ec0
+rbtree1=0x55d5e3216950
+rbtree2=0x55d5e3216950
+user_args=0x55d5e3213a90
+rbtree1=0x55d5e3216ec0
+rbtree2=0x55d5e3216ec0
+
+{"arg": ["-s", "\\", "3333333333333333333333333333333333333333333333"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055eb6fcf1a90 < 0x000055eb6fcf4ec0
+args: sudoedit -s AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\
+
+
+user_details=0x55eb6e8a3720
+rbtree1=0x55eb6fcf4950
+rbtree2=0x55eb6fcf4950
+rbtree1=0x55eb6fcf4ec0
+rbtree2=0x55eb6fcf4ec0
+rbtree1=0x55eb6fcf4950
+rbtree2=0x55eb6fcf4950
+user_args=0x55eb6fcf1a90
+rbtree1=0x55eb6fcf4ec0
+rbtree2=0x55eb6fcf4ec0
+
+{"arg": ["-s", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000555a8d755a90 < 0x0000555a8d758ec0
+args: sudoedit -B -s \ 0000000000000000000000000000000000000000000000000000
+
+
+user_details=0x555a8b8b7720
+rbtree1=0x555a8d758950
+rbtree2=0x555a8d758950
+rbtree1=0x555a8d758ec0
+rbtree2=0x555a8d758ec0
+rbtree1=0x555a8d758950
+rbtree2=0x555a8d758950
+user_args=0x555a8d755a90
+rbtree1=0x555a8d758ec0
+rbtree2=0x555a8d758ec0
+
+{"arg": ["-B", "-s", "\\", "0000000000000000000000000000000000000000000000000000"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000562b8de83a90 < 0x0000562b8de86ec0
+args: sudoedit -s \ PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+
+
+user_details=0x562b8d250720
+rbtree1=0x562b8de86950
+rbtree2=0x562b8de86950
+rbtree1=0x562b8de86ec0
+rbtree2=0x562b8de86ec0
+rbtree1=0x562b8de86950
+rbtree2=0x562b8de86950
+user_args=0x562b8de83a90
+rbtree1=0x562b8de86ec0
+rbtree2=0x562b8de86ec0
+
+{"arg": ["-s", "\\", "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005624d6375a90 < 0x00005624d6378ec0
+args: sudoedit -s 3333333333333333333333333333333333333333333333333\
+
+
+user_details=0x5624d55ab720
+rbtree1=0x5624d6378950
+rbtree2=0x5624d6378950
+rbtree1=0x5624d6378ec0
+rbtree2=0x5624d6378ec0
+rbtree1=0x5624d6378950
+rbtree2=0x5624d6378950
+user_args=0x5624d6375a90
+rbtree1=0x5624d6378ec0
+rbtree2=0x5624d6378ec0
+
+{"arg": ["-s", "3333333333333333333333333333333333333333333333333\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055e9c40c9a90 < 0x000055e9c40ccec0
+args: sudoedit -s VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\
+
+
+user_details=0x55e9c2d0f720
+rbtree1=0x55e9c40cc950
+rbtree2=0x55e9c40cc950
+rbtree1=0x55e9c40ccec0
+rbtree2=0x55e9c40ccec0
+rbtree1=0x55e9c40cc950
+rbtree2=0x55e9c40cc950
+user_args=0x55e9c40c9a90
+rbtree1=0x55e9c40ccec0
+rbtree2=0x55e9c40ccec0
+
+{"arg": ["-s", "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000557dcfb5ea90 < 0x0000557dcfb61ec0
+args: sudoedit -s 7777777777777777777777777777777777777777777777777\
+
+
+user_details=0x557dcefdc720
+rbtree1=0x557dcfb61950
+rbtree2=0x557dcfb61950
+rbtree1=0x557dcfb61ec0
+rbtree2=0x557dcfb61ec0
+rbtree1=0x557dcfb61950
+rbtree2=0x557dcfb61950
+user_args=0x557dcfb5ea90
+rbtree1=0x557dcfb61ec0
+rbtree2=0x557dcfb61ec0
+
+{"arg": ["-s", "7777777777777777777777777777777777777777777777777\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055cb16beea90 < 0x000055cb16bf1ec0
+args: sudoedit -s 4444444444444444444444444444444444444444444\
+
+
+user_details=0x55cb16a1e720
+rbtree1=0x55cb16bf1950
+rbtree2=0x55cb16bf1950
+rbtree1=0x55cb16bf1ec0
+rbtree2=0x55cb16bf1ec0
+rbtree1=0x55cb16bf1950
+rbtree2=0x55cb16bf1950
+user_args=0x55cb16beea90
+rbtree1=0x55cb16bf1ec0
+rbtree2=0x55cb16bf1ec0
+
+{"arg": ["-s", "4444444444444444444444444444444444444444444\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055647f155a90 < 0x000055647f158ec0
+args: sudoedit -s BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\
+
+
+user_details=0x55647d93d720
+rbtree1=0x55647f158950
+rbtree2=0x55647f158950
+rbtree1=0x55647f158ec0
+rbtree2=0x55647f158ec0
+rbtree1=0x55647f158950
+rbtree2=0x55647f158950
+user_args=0x55647f155a90
+rbtree1=0x55647f158ec0
+rbtree2=0x55647f158ec0
+
+{"arg": ["-s", "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000561342a7ca90 < 0x0000561342a7fec0
+args: sudoedit -B -s FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\ 9999999999
+
+
+user_details=0x561340bf4720
+rbtree1=0x561342a7f950
+rbtree2=0x561342a7f950
+rbtree1=0x561342a7fec0
+rbtree2=0x561342a7fec0
+rbtree1=0x561342a7f950
+rbtree2=0x561342a7f950
+user_args=0x561342a7ca90
+rbtree1=0x561342a7fec0
+rbtree2=0x561342a7fec0
+
+{"arg": ["-B", "-s", "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\\", "9999999999"], "env": {}}
+
+----------------------------
+sudoedit: no askpass program specified, try setting SUDO_ASKPASS
+user_args < rbtree1
+distance: 0x3430
+0x000055cf43c13a90 < 0x000055cf43c16ec0
+args: sudoedit -A -s IIIIIIIIII\ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+user_details=0x55cf42c78720
+rbtree1=0x55cf43c16950
+rbtree2=0x55cf43c16950
+rbtree1=0x55cf43c16ec0
+rbtree2=0x55cf43c16ec0
+rbtree1=0x55cf43c16950
+rbtree2=0x55cf43c16950
+user_args=0x55cf43c13a90
+rbtree1=0x55cf43c16ec0
+rbtree2=0x55cf43c16ec0
+
+{"arg": ["-A", "-s", "IIIIIIIIII\\", "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055fb3b622a90 < 0x000055fb3b625ec0
+args: sudoedit -B -s BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\ AAAAAAAAAAAAAAA
+
+
+user_details=0x55fb3a4df720
+rbtree1=0x55fb3b625950
+rbtree2=0x55fb3b625950
+rbtree1=0x55fb3b625ec0
+rbtree2=0x55fb3b625ec0
+rbtree1=0x55fb3b625950
+rbtree2=0x55fb3b625950
+user_args=0x55fb3b622a90
+rbtree1=0x55fb3b625ec0
+rbtree2=0x55fb3b625ec0
+
+{"arg": ["-B", "-s", "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\\", "AAAAAAAAAAAAAAA"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x0000560f64cfda90 < 0x0000560f64d00ec0
+args: sudoedit -S -s 666666666666666666666666666666666666666666666\ II
+
+
+user_details=0x560f63071720
+rbtree1=0x560f64d00950
+rbtree2=0x560f64d00950
+rbtree1=0x560f64d00ec0
+rbtree2=0x560f64d00ec0
+rbtree1=0x560f64d00950
+rbtree2=0x560f64d00950
+user_args=0x560f64cfda90
+rbtree1=0x560f64d00ec0
+rbtree2=0x560f64d00ec0
+
+{"arg": ["-S", "-s", "666666666666666666666666666666666666666666666\\", "II"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x000055921c201a90 < 0x000055921c204ec0
+args: sudoedit -S -s MMMMM\ 3333333333333333333333333333333333
+
+
+user_details=0x55921bef6720
+rbtree1=0x55921c204950
+rbtree2=0x55921c204950
+rbtree1=0x55921c204ec0
+rbtree2=0x55921c204ec0
+rbtree1=0x55921c204950
+rbtree2=0x55921c204950
+user_args=0x55921c201a90
+rbtree1=0x55921c204ec0
+rbtree2=0x55921c204ec0
+
+{"arg": ["-S", "-s", "MMMMM\\", "3333333333333333333333333333333333"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000560862729a90 < 0x000056086272cec0
+args: sudoedit -s RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR\ II
+
+
+user_details=0x5608618cd720
+rbtree1=0x56086272c950
+rbtree2=0x56086272c950
+rbtree1=0x56086272cec0
+rbtree2=0x56086272cec0
+rbtree1=0x56086272c950
+rbtree2=0x56086272c950
+user_args=0x560862729a90
+rbtree1=0x56086272cec0
+rbtree2=0x56086272cec0
+
+{"arg": ["-s", "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR\\", "II"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005634620f4a90 < 0x00005634620f7ec0
+args: sudoedit -s -s NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\ YYYYYYYYYYYYYYYYYY
+
+
+user_details=0x5634611fa720
+rbtree1=0x5634620f7950
+rbtree2=0x5634620f7950
+rbtree1=0x5634620f7ec0
+rbtree2=0x5634620f7ec0
+rbtree1=0x5634620f7950
+rbtree2=0x5634620f7950
+user_args=0x5634620f4a90
+rbtree1=0x5634620f7ec0
+rbtree2=0x5634620f7ec0
+
+{"arg": ["-s", "-s", "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\\", "YYYYYYYYYYYYYYYYYY"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000562c80867a90 < 0x0000562c8086aec0
+args: sudoedit -s \ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+
+
+user_details=0x562c7f07b720
+rbtree1=0x562c8086a950
+rbtree2=0x562c8086a950
+rbtree1=0x562c8086aec0
+rbtree2=0x562c8086aec0
+rbtree1=0x562c8086a950
+rbtree2=0x562c8086a950
+user_args=0x562c80867a90
+rbtree1=0x562c8086aec0
+rbtree2=0x562c8086aec0
+
+{"arg": ["-s", "\\", "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000560542e1aa90 < 0x0000560542e1dec0
+args: sudoedit -s \ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+
+
+user_details=0x560541448720
+rbtree1=0x560542e1d950
+rbtree2=0x560542e1d950
+rbtree1=0x560542e1dec0
+rbtree2=0x560542e1dec0
+rbtree1=0x560542e1d950
+rbtree2=0x560542e1d950
+user_args=0x560542e1aa90
+rbtree1=0x560542e1dec0
+rbtree2=0x560542e1dec0
+
+{"arg": ["-s", "\\", "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005586f0eeaa90 < 0x00005586f0eedec0
+args: sudoedit -s AAAAAAAA\ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+
+user_details=0x5586f05f9720
+rbtree1=0x5586f0eed950
+rbtree2=0x5586f0eed950
+rbtree1=0x5586f0eedec0
+rbtree2=0x5586f0eedec0
+rbtree1=0x5586f0eed950
+rbtree2=0x5586f0eed950
+user_args=0x5586f0eeaa90
+rbtree1=0x5586f0eedec0
+rbtree2=0x5586f0eedec0
+
+{"arg": ["-s", "AAAAAAAA\\", "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x00005653db767a90 < 0x00005653db76aec0
+args: sudoedit -S -s VVVV\ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+
+user_details=0x5653dae98720
+rbtree1=0x5653db76a950
+rbtree2=0x5653db76a950
+rbtree1=0x5653db76aec0
+rbtree2=0x5653db76aec0
+rbtree1=0x5653db76a950
+rbtree2=0x5653db76a950
+user_args=0x5653db767a90
+rbtree1=0x5653db76aec0
+rbtree2=0x5653db76aec0
+
+{"arg": ["-S", "-s", "VVVV\\", "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000558de2e15a90 < 0x0000558de2e18ec0
+args: sudoedit -s \ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+
+
+user_details=0x558de1a89720
+rbtree1=0x558de2e18950
+rbtree2=0x558de2e18950
+rbtree1=0x558de2e18ec0
+rbtree2=0x558de2e18ec0
+rbtree1=0x558de2e18950
+rbtree2=0x558de2e18950
+user_args=0x558de2e15a90
+rbtree1=0x558de2e18ec0
+rbtree2=0x558de2e18ec0
+
+{"arg": ["-s", "\\", "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000558a8a3cba90 < 0x0000558a8a3ceec0
+args: sudoedit -s -s YYYYYYYYYYYYYYYYYYYYYY\ IIIIIIIIIIIIIIIIIIIIIIII
+
+
+user_details=0x558a89698720
+rbtree1=0x558a8a3ce950
+rbtree2=0x558a8a3ce950
+rbtree1=0x558a8a3ceec0
+rbtree2=0x558a8a3ceec0
+rbtree1=0x558a8a3ce950
+rbtree2=0x558a8a3ce950
+user_args=0x558a8a3cba90
+rbtree1=0x558a8a3ceec0
+rbtree2=0x558a8a3ceec0
+
+{"arg": ["-s", "-s", "YYYYYYYYYYYYYYYYYYYYYY\\", "IIIIIIIIIIIIIIIIIIIIIIII"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055b210d0ea90 < 0x000055b210d11ec0
+args: sudoedit -B -s \ 1111111111111111111111111111111111111111111111
+
+
+user_details=0x55b210910720
+rbtree1=0x55b210d11950
+rbtree2=0x55b210d11950
+rbtree1=0x55b210d11ec0
+rbtree2=0x55b210d11ec0
+rbtree1=0x55b210d11950
+rbtree2=0x55b210d11950
+user_args=0x55b210d0ea90
+rbtree1=0x55b210d11ec0
+rbtree2=0x55b210d11ec0
+
+{"arg": ["-B", "-s", "\\", "1111111111111111111111111111111111111111111111"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005583b09f6a90 < 0x00005583b09f9ec0
+args: sudoedit -s GGGGGGGG\ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
+user_details=0x5583b07b5720
+rbtree1=0x5583b09f9950
+rbtree2=0x5583b09f9950
+rbtree1=0x5583b09f9ec0
+rbtree2=0x5583b09f9ec0
+rbtree1=0x5583b09f9950
+rbtree2=0x5583b09f9950
+user_args=0x5583b09f6a90
+rbtree1=0x5583b09f9ec0
+rbtree2=0x5583b09f9ec0
+
+{"arg": ["-s", "GGGGGGGG\\", "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000056445d45da90 < 0x000056445d460ec0
+args: sudoedit -s -s 11111111111111111111111111111111111111111\
+
+
+user_details=0x56445be7f720
+rbtree1=0x56445d460950
+rbtree2=0x56445d460950
+rbtree1=0x56445d460ec0
+rbtree2=0x56445d460ec0
+rbtree1=0x56445d460950
+rbtree2=0x56445d460950
+user_args=0x56445d45da90
+rbtree1=0x56445d460ec0
+rbtree2=0x56445d460ec0
+
+{"arg": ["-s", "-s", "11111111111111111111111111111111111111111\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055b0a0105a90 < 0x000055b0a0108ec0
+args: sudoedit -s NNNNNNNNNNNNNNN\ UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+
+
+user_details=0x55b09e54d720
+rbtree1=0x55b0a0108950
+rbtree2=0x55b0a0108950
+rbtree1=0x55b0a0108ec0
+rbtree2=0x55b0a0108ec0
+rbtree1=0x55b0a0108950
+rbtree2=0x55b0a0108950
+user_args=0x55b0a0105a90
+rbtree1=0x55b0a0108ec0
+rbtree2=0x55b0a0108ec0
+
+{"arg": ["-s", "NNNNNNNNNNNNNNN\\", "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055c4fa10ca90 < 0x000055c4fa10fec0
+args: sudoedit -s \ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+
+user_details=0x55c4f95df720
+rbtree1=0x55c4fa10f950
+rbtree2=0x55c4fa10f950
+rbtree1=0x55c4fa10fec0
+rbtree2=0x55c4fa10fec0
+rbtree1=0x55c4fa10f950
+rbtree2=0x55c4fa10f950
+user_args=0x55c4fa10ca90
+rbtree1=0x55c4fa10fec0
+rbtree2=0x55c4fa10fec0
+
+{"arg": ["-s", "\\", "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000559646195a90 < 0x0000559646198ec0
+args: sudoedit -s -s \ KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+
+
+user_details=0x559644457720
+rbtree1=0x559646198950
+rbtree2=0x559646198950
+rbtree1=0x559646198ec0
+rbtree2=0x559646198ec0
+rbtree1=0x559646198950
+rbtree2=0x559646198950
+user_args=0x559646195a90
+rbtree1=0x559646198ec0
+rbtree2=0x559646198ec0
+
+{"arg": ["-s", "-s", "\\", "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055fab3460a90 < 0x000055fab3463ec0
+args: sudoedit -s HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH\
+
+
+user_details=0x55fab2843720
+rbtree1=0x55fab3463950
+rbtree2=0x55fab3463950
+rbtree1=0x55fab3463ec0
+rbtree2=0x55fab3463ec0
+rbtree1=0x55fab3463950
+rbtree2=0x55fab3463950
+user_args=0x55fab3460a90
+rbtree1=0x55fab3463ec0
+rbtree2=0x55fab3463ec0
+
+{"arg": ["-s", "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005556c21aaa90 < 0x00005556c21adec0
+args: sudoedit -s LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\ 8
+
+
+user_details=0x5556c1694720
+rbtree1=0x5556c21ad950
+rbtree2=0x5556c21ad950
+rbtree1=0x5556c21adec0
+rbtree2=0x5556c21adec0
+rbtree1=0x5556c21ad950
+rbtree2=0x5556c21ad950
+user_args=0x5556c21aaa90
+rbtree1=0x5556c21adec0
+rbtree2=0x5556c21adec0
+
+{"arg": ["-s", "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\\", "8"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x00005587185a1a90 < 0x00005587185a4ec0
+args: sudoedit -S -s 7\ 33333333333333333333333333333333333333333
+
+
+user_details=0x558716830720
+rbtree1=0x5587185a4950
+rbtree2=0x5587185a4950
+rbtree1=0x5587185a4ec0
+rbtree2=0x5587185a4ec0
+rbtree1=0x5587185a4950
+rbtree2=0x5587185a4950
+user_args=0x5587185a1a90
+rbtree1=0x5587185a4ec0
+rbtree2=0x5587185a4ec0
+
+{"arg": ["-S", "-s", "7\\", "33333333333333333333333333333333333333333"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d8e8c61a90 < 0x000055d8e8c64ec0
+args: sudoedit -s TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT\ SSSSSSSSSSSSSSSSSS
+
+
+user_details=0x55d8e6d03720
+rbtree1=0x55d8e8c64950
+rbtree2=0x55d8e8c64950
+rbtree1=0x55d8e8c64ec0
+rbtree2=0x55d8e8c64ec0
+rbtree1=0x55d8e8c64950
+rbtree2=0x55d8e8c64950
+user_args=0x55d8e8c61a90
+rbtree1=0x55d8e8c64ec0
+rbtree2=0x55d8e8c64ec0
+
+{"arg": ["-s", "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT\\", "SSSSSSSSSSSSSSSSSS"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000562a4ffe5a90 < 0x0000562a4ffe8ec0
+args: sudoedit -s NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\
+
+
+user_details=0x562a4f0aa720
+rbtree1=0x562a4ffe8950
+rbtree2=0x562a4ffe8950
+rbtree1=0x562a4ffe8ec0
+rbtree2=0x562a4ffe8ec0
+rbtree1=0x562a4ffe8950
+rbtree2=0x562a4ffe8950
+user_args=0x562a4ffe5a90
+rbtree1=0x562a4ffe8ec0
+rbtree2=0x562a4ffe8ec0
+
+{"arg": ["-s", "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055de4fc61a90 < 0x000055de4fc64ec0
+args: sudoedit -s LLLLLLL\ YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+
+
+user_details=0x55de4e890720
+rbtree1=0x55de4fc64950
+rbtree2=0x55de4fc64950
+rbtree1=0x55de4fc64ec0
+rbtree2=0x55de4fc64ec0
+rbtree1=0x55de4fc64950
+rbtree2=0x55de4fc64950
+user_args=0x55de4fc61a90
+rbtree1=0x55de4fc64ec0
+rbtree2=0x55de4fc64ec0
+
+{"arg": ["-s", "LLLLLLL\\", "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005602b9f4ba90 < 0x00005602b9f4eec0
+args: sudoedit -s \ 222222222222222222222222222222222222222222
+
+
+user_details=0x5602b96cb720
+rbtree1=0x5602b9f4e950
+rbtree2=0x5602b9f4e950
+rbtree1=0x5602b9f4eec0
+rbtree2=0x5602b9f4eec0
+rbtree1=0x5602b9f4e950
+rbtree2=0x5602b9f4e950
+user_args=0x5602b9f4ba90
+rbtree1=0x5602b9f4eec0
+rbtree2=0x5602b9f4eec0
+
+{"arg": ["-s", "\\", "222222222222222222222222222222222222222222"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000056141d1f9a90 < 0x000056141d1fcec0
+args: sudoedit -s OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\
+
+
+user_details=0x56141bba5720
+rbtree1=0x56141d1fc950
+rbtree2=0x56141d1fc950
+rbtree1=0x56141d1fcec0
+rbtree2=0x56141d1fcec0
+rbtree1=0x56141d1fc950
+rbtree2=0x56141d1fc950
+user_args=0x56141d1f9a90
+rbtree1=0x56141d1fcec0
+rbtree2=0x56141d1fcec0
+
+{"arg": ["-s", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055f843c99a90 < 0x000055f843c9cec0
+args: sudoedit -s \ 5555555555555555555555555555555555555555555555
+
+
+user_details=0x55f842795720
+rbtree1=0x55f843c9c950
+rbtree2=0x55f843c9c950
+rbtree1=0x55f843c9cec0
+rbtree2=0x55f843c9cec0
+rbtree1=0x55f843c9c950
+rbtree2=0x55f843c9c950
+user_args=0x55f843c99a90
+rbtree1=0x55f843c9cec0
+rbtree2=0x55f843c9cec0
+
+{"arg": ["-s", "\\", "5555555555555555555555555555555555555555555555"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055839e38da90 < 0x000055839e390ec0
+args: sudoedit -s 888888888888888888888888888888888888888888\
+
+
+user_details=0x55839d7a0720
+rbtree1=0x55839e390950
+rbtree2=0x55839e390950
+rbtree1=0x55839e390ec0
+rbtree2=0x55839e390ec0
+rbtree1=0x55839e390950
+rbtree2=0x55839e390950
+user_args=0x55839e38da90
+rbtree1=0x55839e390ec0
+rbtree2=0x55839e390ec0
+
+{"arg": ["-s", "888888888888888888888888888888888888888888\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005597e66dca90 < 0x00005597e66dfec0
+args: sudoedit -s SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\ UUUUUUUUUUUUUUUUUUUU
+
+
+user_details=0x5597e5869720
+rbtree1=0x5597e66df950
+rbtree2=0x5597e66df950
+rbtree1=0x5597e66dfec0
+rbtree2=0x5597e66dfec0
+rbtree1=0x5597e66df950
+rbtree2=0x5597e66df950
+user_args=0x5597e66dca90
+rbtree1=0x5597e66dfec0
+rbtree2=0x5597e66dfec0
+
+{"arg": ["-s", "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\\", "UUUUUUUUUUUUUUUUUUUU"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055b1b78e3a90 < 0x000055b1b78e6ec0
+args: sudoedit -s \ QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
+
+
+user_details=0x55b1b723d720
+rbtree1=0x55b1b78e6950
+rbtree2=0x55b1b78e6950
+rbtree1=0x55b1b78e6ec0
+rbtree2=0x55b1b78e6ec0
+rbtree1=0x55b1b78e6950
+rbtree2=0x55b1b78e6950
+user_args=0x55b1b78e3a90
+rbtree1=0x55b1b78e6ec0
+rbtree2=0x55b1b78e6ec0
+
+{"arg": ["-s", "\\", "QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d7e81faa90 < 0x000055d7e81fdec0
+args: sudoedit -s OOOOOOO\ NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+
+user_details=0x55d7e7f18720
+rbtree1=0x55d7e81fd950
+rbtree2=0x55d7e81fd950
+rbtree1=0x55d7e81fdec0
+rbtree2=0x55d7e81fdec0
+rbtree1=0x55d7e81fd950
+rbtree2=0x55d7e81fd950
+user_args=0x55d7e81faa90
+rbtree1=0x55d7e81fdec0
+rbtree2=0x55d7e81fdec0
+
+{"arg": ["-s", "OOOOOOO\\", "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055b7f3503a90 < 0x000055b7f3506ec0
+args: sudoedit -s YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\
+
+
+user_details=0x55b7f2074720
+rbtree1=0x55b7f3506950
+rbtree2=0x55b7f3506950
+rbtree1=0x55b7f3506ec0
+rbtree2=0x55b7f3506ec0
+rbtree1=0x55b7f3506950
+rbtree2=0x55b7f3506950
+user_args=0x55b7f3503a90
+rbtree1=0x55b7f3506ec0
+rbtree2=0x55b7f3506ec0
+
+{"arg": ["-s", "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055c41ae25a90 < 0x000055c41ae28ec0
+args: sudoedit -B -s 66666666666666666666666666666666666666666666666666666\
+
+
+user_details=0x55c41abe3720
+rbtree1=0x55c41ae28950
+rbtree2=0x55c41ae28950
+rbtree1=0x55c41ae28ec0
+rbtree2=0x55c41ae28ec0
+rbtree1=0x55c41ae28950
+rbtree2=0x55c41ae28950
+user_args=0x55c41ae25a90
+rbtree1=0x55c41ae28ec0
+rbtree2=0x55c41ae28ec0
+
+{"arg": ["-B", "-s", "66666666666666666666666666666666666666666666666666666\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005599d7c9aa90 < 0x00005599d7c9dec0
+args: sudoedit -s FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\
+
+
+user_details=0x5599d67b1720
+rbtree1=0x5599d7c9d950
+rbtree2=0x5599d7c9d950
+rbtree1=0x5599d7c9dec0
+rbtree2=0x5599d7c9dec0
+rbtree1=0x5599d7c9d950
+rbtree2=0x5599d7c9d950
+user_args=0x5599d7c9aa90
+rbtree1=0x5599d7c9dec0
+rbtree2=0x5599d7c9dec0
+
+{"arg": ["-s", "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\\"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x0000563d04045a90 < 0x0000563d04048ec0
+args: sudoedit -S -s RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR\ FFFFFFFFF
+
+
+user_details=0x563d03374720
+rbtree1=0x563d04048950
+rbtree2=0x563d04048950
+rbtree1=0x563d04048ec0
+rbtree2=0x563d04048ec0
+rbtree1=0x563d04048950
+rbtree2=0x563d04048950
+user_args=0x563d04045a90
+rbtree1=0x563d04048ec0
+rbtree2=0x563d04048ec0
+
+{"arg": ["-S", "-s", "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR\\", "FFFFFFFFF"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055ba1712ca90 < 0x000055ba1712fec0
+args: sudoedit -s KKKKKKKKKKKKKKKKKKKKKKKKKK\ FFFFFFFFFFFFFFFF
+
+
+user_details=0x55ba1612f720
+rbtree1=0x55ba1712f950
+rbtree2=0x55ba1712f950
+rbtree1=0x55ba1712fec0
+rbtree2=0x55ba1712fec0
+rbtree1=0x55ba1712f950
+rbtree2=0x55ba1712f950
+user_args=0x55ba1712ca90
+rbtree1=0x55ba1712fec0
+rbtree2=0x55ba1712fec0
+
+{"arg": ["-s", "KKKKKKKKKKKKKKKKKKKKKKKKKK\\", "FFFFFFFFFFFFFFFF"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055f1fa61ea90 < 0x000055f1fa621ec0
+args: sudoedit -B -s 7777777777777777777777777777777777777777777\
+
+
+user_details=0x55f1f92e8720
+rbtree1=0x55f1fa621950
+rbtree2=0x55f1fa621950
+rbtree1=0x55f1fa621ec0
+rbtree2=0x55f1fa621ec0
+rbtree1=0x55f1fa621950
+rbtree2=0x55f1fa621950
+user_args=0x55f1fa61ea90
+rbtree1=0x55f1fa621ec0
+rbtree2=0x55f1fa621ec0
+
+{"arg": ["-B", "-s", "7777777777777777777777777777777777777777777\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055da5375aa90 < 0x000055da5375dec0
+args: sudoedit -s -s LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\
+
+
+user_details=0x55da5259e720
+rbtree1=0x55da5375d950
+rbtree2=0x55da5375d950
+rbtree1=0x55da5375dec0
+rbtree2=0x55da5375dec0
+rbtree1=0x55da5375d950
+rbtree2=0x55da5375d950
+user_args=0x55da5375aa90
+rbtree1=0x55da5375dec0
+rbtree2=0x55da5375dec0
+
+{"arg": ["-s", "-s", "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000559ee40d2a90 < 0x0000559ee40d5ec0
+args: sudoedit -s FFFFFFFFFFFF\ YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+
+
+user_details=0x559ee27da720
+rbtree1=0x559ee40d5950
+rbtree2=0x559ee40d5950
+rbtree1=0x559ee40d5ec0
+rbtree2=0x559ee40d5ec0
+rbtree1=0x559ee40d5950
+rbtree2=0x559ee40d5950
+user_args=0x559ee40d2a90
+rbtree1=0x559ee40d5ec0
+rbtree2=0x559ee40d5ec0
+
+{"arg": ["-s", "FFFFFFFFFFFF\\", "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"], "env": {}}
+
+----------------------------
+sudoedit: no askpass program specified, try setting SUDO_ASKPASS
+user_args < rbtree1
+distance: 0x3430
+0x000055e31c3eaa90 < 0x000055e31c3edec0
+args: sudoedit -A -s LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\
+
+
+user_details=0x55e31aadf720
+rbtree1=0x55e31c3ed950
+rbtree2=0x55e31c3ed950
+rbtree1=0x55e31c3edec0
+rbtree2=0x55e31c3edec0
+rbtree1=0x55e31c3ed950
+rbtree2=0x55e31c3ed950
+user_args=0x55e31c3eaa90
+rbtree1=0x55e31c3edec0
+rbtree2=0x55e31c3edec0
+
+{"arg": ["-A", "-s", "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000559ef75d3a90 < 0x0000559ef75d6ec0
+args: sudoedit -s \ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+
+user_details=0x559ef756e720
+rbtree1=0x559ef75d6950
+rbtree2=0x559ef75d6950
+rbtree1=0x559ef75d6ec0
+rbtree2=0x559ef75d6ec0
+rbtree1=0x559ef75d6950
+rbtree2=0x559ef75d6950
+user_args=0x559ef75d3a90
+rbtree1=0x559ef75d6ec0
+rbtree2=0x559ef75d6ec0
+
+{"arg": ["-s", "\\", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055ca278e5a90 < 0x000055ca278e8ec0
+args: sudoedit -s -s NNNNNNNNNNNNNNNNNNNNNNNNNNN\ 22222222222222222
+
+
+user_details=0x55ca275c9720
+rbtree1=0x55ca278e8950
+rbtree2=0x55ca278e8950
+rbtree1=0x55ca278e8ec0
+rbtree2=0x55ca278e8ec0
+rbtree1=0x55ca278e8950
+rbtree2=0x55ca278e8950
+user_args=0x55ca278e5a90
+rbtree1=0x55ca278e8ec0
+rbtree2=0x55ca278e8ec0
+
+{"arg": ["-s", "-s", "NNNNNNNNNNNNNNNNNNNNNNNNNNN\\", "22222222222222222"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d780efca90 < 0x000055d780effec0
+args: sudoedit -s 222\ IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+
+user_details=0x55d77f061720
+rbtree1=0x55d780eff950
+rbtree2=0x55d780eff950
+rbtree1=0x55d780effec0
+rbtree2=0x55d780effec0
+rbtree1=0x55d780eff950
+rbtree2=0x55d780eff950
+user_args=0x55d780efca90
+rbtree1=0x55d780effec0
+rbtree2=0x55d780effec0
+
+{"arg": ["-s", "222\\", "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005651e1c70a90 < 0x00005651e1c73ec0
+args: sudoedit -s \ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+
+user_details=0x5651e027e720
+rbtree1=0x5651e1c73950
+rbtree2=0x5651e1c73950
+rbtree1=0x5651e1c73ec0
+rbtree2=0x5651e1c73ec0
+rbtree1=0x5651e1c73950
+rbtree2=0x5651e1c73950
+user_args=0x5651e1c70a90
+rbtree1=0x5651e1c73ec0
+rbtree2=0x5651e1c73ec0
+
+{"arg": ["-s", "\\", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055c6519b7a90 < 0x000055c6519baec0
+args: sudoedit -s XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\
+
+
+user_details=0x55c650556720
+rbtree1=0x55c6519ba950
+rbtree2=0x55c6519ba950
+rbtree1=0x55c6519baec0
+rbtree2=0x55c6519baec0
+rbtree1=0x55c6519ba950
+rbtree2=0x55c6519ba950
+user_args=0x55c6519b7a90
+rbtree1=0x55c6519baec0
+rbtree2=0x55c6519baec0
+
+{"arg": ["-s", "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000562d3621fa90 < 0x0000562d36222ec0
+args: sudoedit -s VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\ 4444444
+
+
+user_details=0x562d34ca8720
+rbtree1=0x562d36222950
+rbtree2=0x562d36222950
+rbtree1=0x562d36222ec0
+rbtree2=0x562d36222ec0
+rbtree1=0x562d36222950
+rbtree2=0x562d36222950
+user_args=0x562d3621fa90
+rbtree1=0x562d36222ec0
+rbtree2=0x562d36222ec0
+
+{"arg": ["-s", "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\\", "4444444"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000560e38e55a90 < 0x0000560e38e58ec0
+args: sudoedit -s 000000000000000000000000000000000000000000000000000000\
+
+
+user_details=0x560e38338720
+rbtree1=0x560e38e58950
+rbtree2=0x560e38e58950
+rbtree1=0x560e38e58ec0
+rbtree2=0x560e38e58ec0
+rbtree1=0x560e38e58950
+rbtree2=0x560e38e58950
+user_args=0x560e38e55a90
+rbtree1=0x560e38e58ec0
+rbtree2=0x560e38e58ec0
+
+{"arg": ["-s", "000000000000000000000000000000000000000000000000000000\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d544a39a90 < 0x000055d544a3cec0
+args: sudoedit -s NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\
+
+
+user_details=0x55d5447d6720
+rbtree1=0x55d544a3c950
+rbtree2=0x55d544a3c950
+rbtree1=0x55d544a3cec0
+rbtree2=0x55d544a3cec0
+rbtree1=0x55d544a3c950
+rbtree2=0x55d544a3c950
+user_args=0x55d544a39a90
+rbtree1=0x55d544a3cec0
+rbtree2=0x55d544a3cec0
+
+{"arg": ["-s", "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d055b6aa90 < 0x000055d055b6dec0
+args: sudoedit -s TTTTTTTTTTTTTT\ 999999999999999999999999999999999
+
+
+user_details=0x55d0550c9720
+rbtree1=0x55d055b6d950
+rbtree2=0x55d055b6d950
+rbtree1=0x55d055b6dec0
+rbtree2=0x55d055b6dec0
+rbtree1=0x55d055b6d950
+rbtree2=0x55d055b6d950
+user_args=0x55d055b6aa90
+rbtree1=0x55d055b6dec0
+rbtree2=0x55d055b6dec0
+
+{"arg": ["-s", "TTTTTTTTTTTTTT\\", "999999999999999999999999999999999"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000558440503a90 < 0x0000558440506ec0
+args: sudoedit -s LLLLLLLLLLLLLLLLLLLLLLLLLLL\ 999999999999999999
+
+
+user_details=0x558440106720
+rbtree1=0x558440506950
+rbtree2=0x558440506950
+rbtree1=0x558440506ec0
+rbtree2=0x558440506ec0
+rbtree1=0x558440506950
+rbtree2=0x558440506950
+user_args=0x558440503a90
+rbtree1=0x558440506ec0
+rbtree2=0x558440506ec0
+
+{"arg": ["-s", "LLLLLLLLLLLLLLLLLLLLLLLLLLL\\", "999999999999999999"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000558ff7482a90 < 0x0000558ff7485ec0
+args: sudoedit -B -s \ UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+
+
+user_details=0x558ff5734720
+rbtree1=0x558ff7485950
+rbtree2=0x558ff7485950
+rbtree1=0x558ff7485ec0
+rbtree2=0x558ff7485ec0
+rbtree1=0x558ff7485950
+rbtree2=0x558ff7485950
+user_args=0x558ff7482a90
+rbtree1=0x558ff7485ec0
+rbtree2=0x558ff7485ec0
+
+{"arg": ["-B", "-s", "\\", "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d6831d3a90 < 0x000055d6831d6ec0
+args: sudoedit -s TTTTTTTTTTTTTTTTTT\ 6666666666666666666666
+
+
+user_details=0x55d682969720
+rbtree1=0x55d6831d6950
+rbtree2=0x55d6831d6950
+rbtree1=0x55d6831d6ec0
+rbtree2=0x55d6831d6ec0
+rbtree1=0x55d6831d6950
+rbtree2=0x55d6831d6950
+user_args=0x55d6831d3a90
+rbtree1=0x55d6831d6ec0
+rbtree2=0x55d6831d6ec0
+
+{"arg": ["-s", "TTTTTTTTTTTTTTTTTT\\", "6666666666666666666666"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055dd51d88a90 < 0x000055dd51d8bec0
+args: sudoedit -s -s \ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+user_details=0x55dd50839720
+rbtree1=0x55dd51d8b950
+rbtree2=0x55dd51d8b950
+rbtree1=0x55dd51d8bec0
+rbtree2=0x55dd51d8bec0
+rbtree1=0x55dd51d8b950
+rbtree2=0x55dd51d8b950
+user_args=0x55dd51d88a90
+rbtree1=0x55dd51d8bec0
+rbtree2=0x55dd51d8bec0
+
+{"arg": ["-s", "-s", "\\", "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x00005642e0d7ca90 < 0x00005642e0d7fec0
+args: sudoedit -S -s PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP\ MM
+
+
+user_details=0x5642dfb6a720
+rbtree1=0x5642e0d7f950
+rbtree2=0x5642e0d7f950
+rbtree1=0x5642e0d7fec0
+rbtree2=0x5642e0d7fec0
+rbtree1=0x5642e0d7f950
+rbtree2=0x5642e0d7f950
+user_args=0x5642e0d7ca90
+rbtree1=0x5642e0d7fec0
+rbtree2=0x5642e0d7fec0
+
+{"arg": ["-S", "-s", "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP\\", "MM"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005599c6d1ca90 < 0x00005599c6d1fec0
+args: sudoedit -s UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\
+
+
+user_details=0x5599c5b67720
+rbtree1=0x5599c6d1f950
+rbtree2=0x5599c6d1f950
+rbtree1=0x5599c6d1fec0
+rbtree2=0x5599c6d1fec0
+rbtree1=0x5599c6d1f950
+rbtree2=0x5599c6d1f950
+user_args=0x5599c6d1ca90
+rbtree1=0x5599c6d1fec0
+rbtree2=0x5599c6d1fec0
+
+{"arg": ["-s", "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000558a3e89da90 < 0x0000558a3e8a0ec0
+args: sudoedit -s YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\ 444444
+
+
+user_details=0x558a3e2f8720
+rbtree1=0x558a3e8a0950
+rbtree2=0x558a3e8a0950
+rbtree1=0x558a3e8a0ec0
+rbtree2=0x558a3e8a0ec0
+rbtree1=0x558a3e8a0950
+rbtree2=0x558a3e8a0950
+user_args=0x558a3e89da90
+rbtree1=0x558a3e8a0ec0
+rbtree2=0x558a3e8a0ec0
+
+{"arg": ["-s", "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\\", "444444"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055c83fdaba90 < 0x000055c83fdaeec0
+args: sudoedit -s \ UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+
+
+user_details=0x55c83faca720
+rbtree1=0x55c83fdae950
+rbtree2=0x55c83fdae950
+rbtree1=0x55c83fdaeec0
+rbtree2=0x55c83fdaeec0
+rbtree1=0x55c83fdae950
+rbtree2=0x55c83fdae950
+user_args=0x55c83fdaba90
+rbtree1=0x55c83fdaeec0
+rbtree2=0x55c83fdaeec0
+
+{"arg": ["-s", "\\", "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005569048aaa90 < 0x00005569048adec0
+args: sudoedit -s 888888888888888888888888888888888888888888888888\ 666
+
+
+user_details=0x55690315f720
+rbtree1=0x5569048ad950
+rbtree2=0x5569048ad950
+rbtree1=0x5569048adec0
+rbtree2=0x5569048adec0
+rbtree1=0x5569048ad950
+rbtree2=0x5569048ad950
+user_args=0x5569048aaa90
+rbtree1=0x5569048adec0
+rbtree2=0x5569048adec0
+
+{"arg": ["-s", "888888888888888888888888888888888888888888888888\\", "666"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055c43af35a90 < 0x000055c43af38ec0
+args: sudoedit -s NNNN\ LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+
+
+user_details=0x55c43a4ef720
+rbtree1=0x55c43af38950
+rbtree2=0x55c43af38950
+rbtree1=0x55c43af38ec0
+rbtree2=0x55c43af38ec0
+rbtree1=0x55c43af38950
+rbtree2=0x55c43af38950
+user_args=0x55c43af35a90
+rbtree1=0x55c43af38ec0
+rbtree2=0x55c43af38ec0
+
+{"arg": ["-s", "NNNN\\", "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000559ea3dcba90 < 0x0000559ea3dceec0
+args: sudoedit -s XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\ FFFFF
+
+
+user_details=0x559ea2ee9720
+rbtree1=0x559ea3dce950
+rbtree2=0x559ea3dce950
+rbtree1=0x559ea3dceec0
+rbtree2=0x559ea3dceec0
+rbtree1=0x559ea3dce950
+rbtree2=0x559ea3dce950
+user_args=0x559ea3dcba90
+rbtree1=0x559ea3dceec0
+rbtree2=0x559ea3dceec0
+
+{"arg": ["-s", "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\\", "FFFFF"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055e1d9be8a90 < 0x000055e1d9bebec0
+args: sudoedit -s QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ\
+
+
+user_details=0x55e1d7d9b720
+rbtree1=0x55e1d9beb950
+rbtree2=0x55e1d9beb950
+rbtree1=0x55e1d9bebec0
+rbtree2=0x55e1d9bebec0
+rbtree1=0x55e1d9beb950
+rbtree2=0x55e1d9beb950
+user_args=0x55e1d9be8a90
+rbtree1=0x55e1d9bebec0
+rbtree2=0x55e1d9bebec0
+
+{"arg": ["-s", "QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000056360653aa90 < 0x000056360653dec0
+args: sudoedit -s ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\
+
+
+user_details=0x56360562a720
+rbtree1=0x56360653d950
+rbtree2=0x56360653d950
+rbtree1=0x56360653dec0
+rbtree2=0x56360653dec0
+rbtree1=0x56360653d950
+rbtree2=0x56360653d950
+user_args=0x56360653aa90
+rbtree1=0x56360653dec0
+rbtree2=0x56360653dec0
+
+{"arg": ["-s", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000561dba3cca90 < 0x0000561dba3cfec0
+args: sudoedit -s TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT\ RRRRRRRR
+
+
+user_details=0x561db9c11720
+rbtree1=0x561dba3cf950
+rbtree2=0x561dba3cf950
+rbtree1=0x561dba3cfec0
+rbtree2=0x561dba3cfec0
+rbtree1=0x561dba3cf950
+rbtree2=0x561dba3cf950
+user_args=0x561dba3cca90
+rbtree1=0x561dba3cfec0
+rbtree2=0x561dba3cfec0
+
+{"arg": ["-s", "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT\\", "RRRRRRRR"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x00005647a57cca90 < 0x00005647a57cfec0
+args: sudoedit -S -s ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\
+
+
+user_details=0x5647a54de720
+rbtree1=0x5647a57cf950
+rbtree2=0x5647a57cf950
+rbtree1=0x5647a57cfec0
+rbtree2=0x5647a57cfec0
+rbtree1=0x5647a57cf950
+rbtree2=0x5647a57cf950
+user_args=0x5647a57cca90
+rbtree1=0x5647a57cfec0
+rbtree2=0x5647a57cfec0
+
+{"arg": ["-S", "-s", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000560dbb94ba90 < 0x0000560dbb94eec0
+args: sudoedit -s 888888888888888888888888888888888\ PPPPPPPPPPPPPPPPPP
+
+
+user_details=0x560dbb74b720
+rbtree1=0x560dbb94e950
+rbtree2=0x560dbb94e950
+rbtree1=0x560dbb94eec0
+rbtree2=0x560dbb94eec0
+rbtree1=0x560dbb94e950
+rbtree2=0x560dbb94e950
+user_args=0x560dbb94ba90
+rbtree1=0x560dbb94eec0
+rbtree2=0x560dbb94eec0
+
+{"arg": ["-s", "888888888888888888888888888888888\\", "PPPPPPPPPPPPPPPPPP"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000560fe656aa90 < 0x0000560fe656dec0
+args: sudoedit -s RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR\ DDDDDDD
+
+
+user_details=0x560fe4c93720
+rbtree1=0x560fe656d950
+rbtree2=0x560fe656d950
+rbtree1=0x560fe656dec0
+rbtree2=0x560fe656dec0
+rbtree1=0x560fe656d950
+rbtree2=0x560fe656d950
+user_args=0x560fe656aa90
+rbtree1=0x560fe656dec0
+rbtree2=0x560fe656dec0
+
+{"arg": ["-s", "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR\\", "DDDDDDD"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005586f3f8aa90 < 0x00005586f3f8dec0
+args: sudoedit -s \ IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+
+user_details=0x5586f2316720
+rbtree1=0x5586f3f8d950
+rbtree2=0x5586f3f8d950
+rbtree1=0x5586f3f8dec0
+rbtree2=0x5586f3f8dec0
+rbtree1=0x5586f3f8d950
+rbtree2=0x5586f3f8d950
+user_args=0x5586f3f8aa90
+rbtree1=0x5586f3f8dec0
+rbtree2=0x5586f3f8dec0
+
+{"arg": ["-s", "\\", "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000563de1b23a90 < 0x0000563de1b26ec0
+args: sudoedit -B -s 44444444444444444\ WWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+
+
+user_details=0x563de0292720
+rbtree1=0x563de1b26950
+rbtree2=0x563de1b26950
+rbtree1=0x563de1b26ec0
+rbtree2=0x563de1b26ec0
+rbtree1=0x563de1b26950
+rbtree2=0x563de1b26950
+user_args=0x563de1b23a90
+rbtree1=0x563de1b26ec0
+rbtree2=0x563de1b26ec0
+
+{"arg": ["-B", "-s", "44444444444444444\\", "WWWWWWWWWWWWWWWWWWWWWWWWWWWWW"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000559018da0a90 < 0x0000559018da3ec0
+args: sudoedit -s 22222222222222222222222222\ BBBBBBBBBBBBBBBBBBBBBBBBBB
+
+
+user_details=0x5590170a1720
+rbtree1=0x559018da3950
+rbtree2=0x559018da3950
+rbtree1=0x559018da3ec0
+rbtree2=0x559018da3ec0
+rbtree1=0x559018da3950
+rbtree2=0x559018da3950
+user_args=0x559018da0a90
+rbtree1=0x559018da3ec0
+rbtree2=0x559018da3ec0
+
+{"arg": ["-s", "22222222222222222222222222\\", "BBBBBBBBBBBBBBBBBBBBBBBBBB"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000560fe4908a90 < 0x0000560fe490bec0
+args: sudoedit -s -s 22222222222222222222222\ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+
+user_details=0x560fe3732720
+rbtree1=0x560fe490b950
+rbtree2=0x560fe490b950
+rbtree1=0x560fe490bec0
+rbtree2=0x560fe490bec0
+rbtree1=0x560fe490b950
+rbtree2=0x560fe490b950
+user_args=0x560fe4908a90
+rbtree1=0x560fe490bec0
+rbtree2=0x560fe490bec0
+
+{"arg": ["-s", "-s", "22222222222222222222222\\", "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x00005635acfb7a90 < 0x00005635acfbaec0
+args: sudoedit -S -s \ NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+
+user_details=0x5635aca9b720
+rbtree1=0x5635acfba950
+rbtree2=0x5635acfba950
+rbtree1=0x5635acfbaec0
+rbtree2=0x5635acfbaec0
+rbtree1=0x5635acfba950
+rbtree2=0x5635acfba950
+user_args=0x5635acfb7a90
+rbtree1=0x5635acfbaec0
+rbtree2=0x5635acfbaec0
+
+{"arg": ["-S", "-s", "\\", "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055625da78a90 < 0x000055625da7bec0
+args: sudoedit -s \ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+
+user_details=0x55625ba7a720
+rbtree1=0x55625da7b950
+rbtree2=0x55625da7b950
+rbtree1=0x55625da7bec0
+rbtree2=0x55625da7bec0
+rbtree1=0x55625da7b950
+rbtree2=0x55625da7b950
+user_args=0x55625da78a90
+rbtree1=0x55625da7bec0
+rbtree2=0x55625da7bec0
+
+{"arg": ["-s", "\\", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000564ee73b4a90 < 0x0000564ee73b7ec0
+args: sudoedit -s MMMMMMMMMMMMMMMMMMMMMMM\ NNNNNNNNNNNNNNN
+
+
+user_details=0x564ee5430720
+rbtree1=0x564ee73b7950
+rbtree2=0x564ee73b7950
+rbtree1=0x564ee73b7ec0
+rbtree2=0x564ee73b7ec0
+rbtree1=0x564ee73b7950
+rbtree2=0x564ee73b7950
+user_args=0x564ee73b4a90
+rbtree1=0x564ee73b7ec0
+rbtree2=0x564ee73b7ec0
+
+{"arg": ["-s", "MMMMMMMMMMMMMMMMMMMMMMM\\", "NNNNNNNNNNNNNNN"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x000055da9cf2ea90 < 0x000055da9cf31ec0
+args: sudoedit -S -s GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\ 7
+
+
+user_details=0x55da9c490720
+rbtree1=0x55da9cf31950
+rbtree2=0x55da9cf31950
+rbtree1=0x55da9cf31ec0
+rbtree2=0x55da9cf31ec0
+rbtree1=0x55da9cf31950
+rbtree2=0x55da9cf31950
+user_args=0x55da9cf2ea90
+rbtree1=0x55da9cf31ec0
+rbtree2=0x55da9cf31ec0
+
+{"arg": ["-S", "-s", "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\\", "7"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005566b89cea90 < 0x00005566b89d1ec0
+args: sudoedit -s LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\
+
+
+user_details=0x5566b6bb8720
+rbtree1=0x5566b89d1950
+rbtree2=0x5566b89d1950
+rbtree1=0x5566b89d1ec0
+rbtree2=0x5566b89d1ec0
+rbtree1=0x5566b89d1950
+rbtree2=0x5566b89d1950
+user_args=0x5566b89cea90
+rbtree1=0x5566b89d1ec0
+rbtree2=0x5566b89d1ec0
+
+{"arg": ["-s", "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055e68717ba90 < 0x000055e68717eec0
+args: sudoedit -s \ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+
+user_details=0x55e686426720
+rbtree1=0x55e68717e950
+rbtree2=0x55e68717e950
+rbtree1=0x55e68717eec0
+rbtree2=0x55e68717eec0
+rbtree1=0x55e68717e950
+rbtree2=0x55e68717e950
+user_args=0x55e68717ba90
+rbtree1=0x55e68717eec0
+rbtree2=0x55e68717eec0
+
+{"arg": ["-s", "\\", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055ebb2ec1a90 < 0x000055ebb2ec4ec0
+args: sudoedit -s \ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
+user_details=0x55ebb161e720
+rbtree1=0x55ebb2ec4950
+rbtree2=0x55ebb2ec4950
+rbtree1=0x55ebb2ec4ec0
+rbtree2=0x55ebb2ec4ec0
+rbtree1=0x55ebb2ec4950
+rbtree2=0x55ebb2ec4950
+user_args=0x55ebb2ec1a90
+rbtree1=0x55ebb2ec4ec0
+rbtree2=0x55ebb2ec4ec0
+
+{"arg": ["-s", "\\", "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000558539b11a90 < 0x0000558539b14ec0
+args: sudoedit -s LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\
+
+
+user_details=0x558537ed2720
+rbtree1=0x558539b14950
+rbtree2=0x558539b14950
+rbtree1=0x558539b14ec0
+rbtree2=0x558539b14ec0
+rbtree1=0x558539b14950
+rbtree2=0x558539b14950
+user_args=0x558539b11a90
+rbtree1=0x558539b14ec0
+rbtree2=0x558539b14ec0
+
+{"arg": ["-s", "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000564136d75a90 < 0x0000564136d78ec0
+args: sudoedit -s 66666666666\ RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+
+
+user_details=0x564135608720
+rbtree1=0x564136d78950
+rbtree2=0x564136d78950
+rbtree1=0x564136d78ec0
+rbtree2=0x564136d78ec0
+rbtree1=0x564136d78950
+rbtree2=0x564136d78950
+user_args=0x564136d75a90
+rbtree1=0x564136d78ec0
+rbtree2=0x564136d78ec0
+
+{"arg": ["-s", "66666666666\\", "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055663061da90 < 0x0000556630620ec0
+args: sudoedit -s \ 111111111111111111111111111111111111111111111111111
+
+
+user_details=0x55662f3e0720
+rbtree1=0x556630620950
+rbtree2=0x556630620950
+rbtree1=0x556630620ec0
+rbtree2=0x556630620ec0
+rbtree1=0x556630620950
+rbtree2=0x556630620950
+user_args=0x55663061da90
+rbtree1=0x556630620ec0
+rbtree2=0x556630620ec0
+
+{"arg": ["-s", "\\", "111111111111111111111111111111111111111111111111111"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d010c72a90 < 0x000055d010c75ec0
+args: sudoedit -s -s \ SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+
+user_details=0x55d00f400720
+rbtree1=0x55d010c75950
+rbtree2=0x55d010c75950
+rbtree1=0x55d010c75ec0
+rbtree2=0x55d010c75ec0
+rbtree1=0x55d010c75950
+rbtree2=0x55d010c75950
+user_args=0x55d010c72a90
+rbtree1=0x55d010c75ec0
+rbtree2=0x55d010c75ec0
+
+{"arg": ["-s", "-s", "\\", "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005600950faa90 < 0x00005600950fdec0
+args: sudoedit -s HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH\
+
+
+user_details=0x560093e44720
+rbtree1=0x5600950fd950
+rbtree2=0x5600950fd950
+rbtree1=0x5600950fdec0
+rbtree2=0x5600950fdec0
+rbtree1=0x5600950fd950
+rbtree2=0x5600950fd950
+user_args=0x5600950faa90
+rbtree1=0x5600950fdec0
+rbtree2=0x5600950fdec0
+
+{"arg": ["-s", "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055eb0c1efa90 < 0x000055eb0c1f2ec0
+args: sudoedit -s -s 333333333333333333333333333333333333\ 333333333333
+
+
+user_details=0x55eb0ae8e720
+rbtree1=0x55eb0c1f2950
+rbtree2=0x55eb0c1f2950
+rbtree1=0x55eb0c1f2ec0
+rbtree2=0x55eb0c1f2ec0
+rbtree1=0x55eb0c1f2950
+rbtree2=0x55eb0c1f2950
+user_args=0x55eb0c1efa90
+rbtree1=0x55eb0c1f2ec0
+rbtree2=0x55eb0c1f2ec0
+
+{"arg": ["-s", "-s", "333333333333333333333333333333333333\\", "333333333333"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005579b15b6a90 < 0x00005579b15b9ec0
+args: sudoedit -s \ 7777777777777777777777777777777777777777777777777
+
+
+user_details=0x5579b0a6b720
+rbtree1=0x5579b15b9950
+rbtree2=0x5579b15b9950
+rbtree1=0x5579b15b9ec0
+rbtree2=0x5579b15b9ec0
+rbtree1=0x5579b15b9950
+rbtree2=0x5579b15b9950
+user_args=0x5579b15b6a90
+rbtree1=0x5579b15b9ec0
+rbtree2=0x5579b15b9ec0
+
+{"arg": ["-s", "\\", "7777777777777777777777777777777777777777777777777"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005611a147ba90 < 0x00005611a147eec0
+args: sudoedit -s 88\ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+user_details=0x5611a1006720
+rbtree1=0x5611a147e950
+rbtree2=0x5611a147e950
+rbtree1=0x5611a147eec0
+rbtree2=0x5611a147eec0
+rbtree1=0x5611a147e950
+rbtree2=0x5611a147e950
+user_args=0x5611a147ba90
+rbtree1=0x5611a147eec0
+rbtree2=0x5611a147eec0
+
+{"arg": ["-s", "88\\", "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055fc75bd4a90 < 0x000055fc75bd7ec0
+args: sudoedit -s LLLLLLLLLLLLLLLLLL\ OOOOOOOOOOOOOOOOOOOOOOOO
+
+
+user_details=0x55fc749b4720
+rbtree1=0x55fc75bd7950
+rbtree2=0x55fc75bd7950
+rbtree1=0x55fc75bd7ec0
+rbtree2=0x55fc75bd7ec0
+rbtree1=0x55fc75bd7950
+rbtree2=0x55fc75bd7950
+user_args=0x55fc75bd4a90
+rbtree1=0x55fc75bd7ec0
+rbtree2=0x55fc75bd7ec0
+
+{"arg": ["-s", "LLLLLLLLLLLLLLLLLL\\", "OOOOOOOOOOOOOOOOOOOOOOOO"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000555a50b05a90 < 0x0000555a50b08ec0
+args: sudoedit -s UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\ CCCCCCC
+
+
+user_details=0x555a4f912720
+rbtree1=0x555a50b08950
+rbtree2=0x555a50b08950
+rbtree1=0x555a50b08ec0
+rbtree2=0x555a50b08ec0
+rbtree1=0x555a50b08950
+rbtree2=0x555a50b08950
+user_args=0x555a50b05a90
+rbtree1=0x555a50b08ec0
+rbtree2=0x555a50b08ec0
+
+{"arg": ["-s", "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\\", "CCCCCCC"], "env": {}}
+
+----------------------------
+sudoedit: no askpass program specified, try setting SUDO_ASKPASS
+user_args < rbtree1
+distance: 0x3430
+0x000055d03a11ea90 < 0x000055d03a121ec0
+args: sudoedit -A -s \ QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
+
+
+user_details=0x55d03831b720
+rbtree1=0x55d03a121950
+rbtree2=0x55d03a121950
+rbtree1=0x55d03a121ec0
+rbtree2=0x55d03a121ec0
+rbtree1=0x55d03a121950
+rbtree2=0x55d03a121950
+user_args=0x55d03a11ea90
+rbtree1=0x55d03a121ec0
+rbtree2=0x55d03a121ec0
+
+{"arg": ["-A", "-s", "\\", "QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055c418f17a90 < 0x000055c418f1aec0
+args: sudoedit -s \ 000000000000000000000000000000000000000000000000000
+
+
+user_details=0x55c417bc4720
+rbtree1=0x55c418f1a950
+rbtree2=0x55c418f1a950
+rbtree1=0x55c418f1aec0
+rbtree2=0x55c418f1aec0
+rbtree1=0x55c418f1a950
+rbtree2=0x55c418f1a950
+user_args=0x55c418f17a90
+rbtree1=0x55c418f1aec0
+rbtree2=0x55c418f1aec0
+
+{"arg": ["-s", "\\", "000000000000000000000000000000000000000000000000000"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005620f7666a90 < 0x00005620f7669ec0
+args: sudoedit -s GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\ 1111111
+
+
+user_details=0x5620f6765720
+rbtree1=0x5620f7669950
+rbtree2=0x5620f7669950
+rbtree1=0x5620f7669ec0
+rbtree2=0x5620f7669ec0
+rbtree1=0x5620f7669950
+rbtree2=0x5620f7669950
+user_args=0x5620f7666a90
+rbtree1=0x5620f7669ec0
+rbtree2=0x5620f7669ec0
+
+{"arg": ["-s", "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\\", "1111111"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000558175634a90 < 0x0000558175637ec0
+args: sudoedit -B -s \ 555555555555555555555555555555555555555555
+
+
+user_details=0x5581744e7720
+rbtree1=0x558175637950
+rbtree2=0x558175637950
+rbtree1=0x558175637ec0
+rbtree2=0x558175637ec0
+rbtree1=0x558175637950
+rbtree2=0x558175637950
+user_args=0x558175634a90
+rbtree1=0x558175637ec0
+rbtree2=0x558175637ec0
+
+{"arg": ["-B", "-s", "\\", "555555555555555555555555555555555555555555"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055e305198a90 < 0x000055e30519bec0
+args: sudoedit -s GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\
+
+
+user_details=0x55e3049ef720
+rbtree1=0x55e30519b950
+rbtree2=0x55e30519b950
+rbtree1=0x55e30519bec0
+rbtree2=0x55e30519bec0
+rbtree1=0x55e30519b950
+rbtree2=0x55e30519b950
+user_args=0x55e305198a90
+rbtree1=0x55e30519bec0
+rbtree2=0x55e30519bec0
+
+{"arg": ["-s", "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005571e979ea90 < 0x00005571e97a1ec0
+args: sudoedit -s PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP\
+
+
+user_details=0x5571e9690720
+rbtree1=0x5571e97a1950
+rbtree2=0x5571e97a1950
+rbtree1=0x5571e97a1ec0
+rbtree2=0x5571e97a1ec0
+rbtree1=0x5571e97a1950
+rbtree2=0x5571e97a1950
+user_args=0x5571e979ea90
+rbtree1=0x5571e97a1ec0
+rbtree2=0x5571e97a1ec0
+
+{"arg": ["-s", "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055bcf0cdda90 < 0x000055bcf0ce0ec0
+args: sudoedit -s 777777777777777777777777777777777777777777\
+
+
+user_details=0x55bcf04ea720
+rbtree1=0x55bcf0ce0950
+rbtree2=0x55bcf0ce0950
+rbtree1=0x55bcf0ce0ec0
+rbtree2=0x55bcf0ce0ec0
+rbtree1=0x55bcf0ce0950
+rbtree2=0x55bcf0ce0950
+user_args=0x55bcf0cdda90
+rbtree1=0x55bcf0ce0ec0
+rbtree2=0x55bcf0ce0ec0
+
+{"arg": ["-s", "777777777777777777777777777777777777777777\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000563d81809a90 < 0x0000563d8180cec0
+args: sudoedit -s \ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+
+
+user_details=0x563d80496720
+rbtree1=0x563d8180c950
+rbtree2=0x563d8180c950
+rbtree1=0x563d8180cec0
+rbtree2=0x563d8180cec0
+rbtree1=0x563d8180c950
+rbtree2=0x563d8180c950
+user_args=0x563d81809a90
+rbtree1=0x563d8180cec0
+rbtree2=0x563d8180cec0
+
+{"arg": ["-s", "\\", "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055704d3bfa90 < 0x000055704d3c2ec0
+args: sudoedit -s \ QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
+
+
+user_details=0x55704b6f4720
+rbtree1=0x55704d3c2950
+rbtree2=0x55704d3c2950
+rbtree1=0x55704d3c2ec0
+rbtree2=0x55704d3c2ec0
+rbtree1=0x55704d3c2950
+rbtree2=0x55704d3c2950
+user_args=0x55704d3bfa90
+rbtree1=0x55704d3c2ec0
+rbtree2=0x55704d3c2ec0
+
+{"arg": ["-s", "\\", "QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000562b6c87ea90 < 0x0000562b6c881ec0
+args: sudoedit -s 9999999999999999999999999\ GGGGGGGGGGGGGGGGGGG
+
+
+user_details=0x562b6c109720
+rbtree1=0x562b6c881950
+rbtree2=0x562b6c881950
+rbtree1=0x562b6c881ec0
+rbtree2=0x562b6c881ec0
+rbtree1=0x562b6c881950
+rbtree2=0x562b6c881950
+user_args=0x562b6c87ea90
+rbtree1=0x562b6c881ec0
+rbtree2=0x562b6c881ec0
+
+{"arg": ["-s", "9999999999999999999999999\\", "GGGGGGGGGGGGGGGGGGG"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000056411565da90 < 0x0000564115660ec0
+args: sudoedit -s \ 44444444444444444444444444444444444444
+
+
+user_details=0x56411544b720
+rbtree1=0x564115660950
+rbtree2=0x564115660950
+rbtree1=0x564115660ec0
+rbtree2=0x564115660ec0
+rbtree1=0x564115660950
+rbtree2=0x564115660950
+user_args=0x56411565da90
+rbtree1=0x564115660ec0
+rbtree2=0x564115660ec0
+
+{"arg": ["-s", "\\", "44444444444444444444444444444444444444"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055ef13062a90 < 0x000055ef13065ec0
+args: sudoedit -s CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\ Q
+
+
+user_details=0x55ef1131f720
+rbtree1=0x55ef13065950
+rbtree2=0x55ef13065950
+rbtree1=0x55ef13065ec0
+rbtree2=0x55ef13065ec0
+rbtree1=0x55ef13065950
+rbtree2=0x55ef13065950
+user_args=0x55ef13062a90
+rbtree1=0x55ef13065ec0
+rbtree2=0x55ef13065ec0
+
+{"arg": ["-s", "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\\", "Q"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005622f4aa9a90 < 0x00005622f4aacec0
+args: sudoedit -s SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\
+
+
+user_details=0x5622f4312720
+rbtree1=0x5622f4aac950
+rbtree2=0x5622f4aac950
+rbtree1=0x5622f4aacec0
+rbtree2=0x5622f4aacec0
+rbtree1=0x5622f4aac950
+rbtree2=0x5622f4aac950
+user_args=0x5622f4aa9a90
+rbtree1=0x5622f4aacec0
+rbtree2=0x5622f4aacec0
+
+{"arg": ["-s", "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055c11dad9a90 < 0x000055c11dadcec0
+args: sudoedit -s 6666666666666666666\ OOOOOOOOOOOOOOOOOOOOOOO
+
+
+user_details=0x55c11c879720
+rbtree1=0x55c11dadc950
+rbtree2=0x55c11dadc950
+rbtree1=0x55c11dadcec0
+rbtree2=0x55c11dadcec0
+rbtree1=0x55c11dadc950
+rbtree2=0x55c11dadc950
+user_args=0x55c11dad9a90
+rbtree1=0x55c11dadcec0
+rbtree2=0x55c11dadcec0
+
+{"arg": ["-s", "6666666666666666666\\", "OOOOOOOOOOOOOOOOOOOOOOO"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000555968d58a90 < 0x0000555968d5bec0
+args: sudoedit -s LLLLLLLLLL\ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+user_details=0x555968628720
+rbtree1=0x555968d5b950
+rbtree2=0x555968d5b950
+rbtree1=0x555968d5bec0
+rbtree2=0x555968d5bec0
+rbtree1=0x555968d5b950
+rbtree2=0x555968d5b950
+user_args=0x555968d58a90
+rbtree1=0x555968d5bec0
+rbtree2=0x555968d5bec0
+
+{"arg": ["-s", "LLLLLLLLLL\\", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000555c8d55da90 < 0x0000555c8d560ec0
+args: sudoedit -s IIIIIIIIIII\ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+
+user_details=0x555c8bcb3720
+rbtree1=0x555c8d560950
+rbtree2=0x555c8d560950
+rbtree1=0x555c8d560ec0
+rbtree2=0x555c8d560ec0
+rbtree1=0x555c8d560950
+rbtree2=0x555c8d560950
+user_args=0x555c8d55da90
+rbtree1=0x555c8d560ec0
+rbtree2=0x555c8d560ec0
+
+{"arg": ["-s", "IIIIIIIIIII\\", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005573d82aca90 < 0x00005573d82afec0
+args: sudoedit -s \ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
+user_details=0x5573d64cb720
+rbtree1=0x5573d82af950
+rbtree2=0x5573d82af950
+rbtree1=0x5573d82afec0
+rbtree2=0x5573d82afec0
+rbtree1=0x5573d82af950
+rbtree2=0x5573d82af950
+user_args=0x5573d82aca90
+rbtree1=0x5573d82afec0
+rbtree2=0x5573d82afec0
+
+{"arg": ["-s", "\\", "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055728e137a90 < 0x000055728e13aec0
+args: sudoedit -s RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR\ IIIIIIIIIIIIIIIIIIII
+
+
+user_details=0x55728c503720
+rbtree1=0x55728e13a950
+rbtree2=0x55728e13a950
+rbtree1=0x55728e13aec0
+rbtree2=0x55728e13aec0
+rbtree1=0x55728e13a950
+rbtree2=0x55728e13a950
+user_args=0x55728e137a90
+rbtree1=0x55728e13aec0
+rbtree2=0x55728e13aec0
+
+{"arg": ["-s", "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR\\", "IIIIIIIIIIIIIIIIIIII"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055993eb93a90 < 0x000055993eb96ec0
+args: sudoedit -s II\ 333333333333333333333333333333333333333333333333333
+
+
+user_details=0x55993e3a2720
+rbtree1=0x55993eb96950
+rbtree2=0x55993eb96950
+rbtree1=0x55993eb96ec0
+rbtree2=0x55993eb96ec0
+rbtree1=0x55993eb96950
+rbtree2=0x55993eb96950
+user_args=0x55993eb93a90
+rbtree1=0x55993eb96ec0
+rbtree2=0x55993eb96ec0
+
+{"arg": ["-s", "II\\", "333333333333333333333333333333333333333333333333333"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055a365526a90 < 0x000055a365529ec0
+args: sudoedit -B -s \ 5555555555555555555555555555555555555555555555555
+
+
+user_details=0x55a36395f720
+rbtree1=0x55a365529950
+rbtree2=0x55a365529950
+rbtree1=0x55a365529ec0
+rbtree2=0x55a365529ec0
+rbtree1=0x55a365529950
+rbtree2=0x55a365529950
+user_args=0x55a365526a90
+rbtree1=0x55a365529ec0
+rbtree2=0x55a365529ec0
+
+{"arg": ["-B", "-s", "\\", "5555555555555555555555555555555555555555555555555"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055a9f3790a90 < 0x000055a9f3793ec0
+args: sudoedit -s \ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+
+user_details=0x55a9f1eb2720
+rbtree1=0x55a9f3793950
+rbtree2=0x55a9f3793950
+rbtree1=0x55a9f3793ec0
+rbtree2=0x55a9f3793ec0
+rbtree1=0x55a9f3793950
+rbtree2=0x55a9f3793950
+user_args=0x55a9f3790a90
+rbtree1=0x55a9f3793ec0
+rbtree2=0x55a9f3793ec0
+
+{"arg": ["-s", "\\", "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005630c1331a90 < 0x00005630c1334ec0
+args: sudoedit -s 888888888888888888888888888888888888888888\
+
+
+user_details=0x5630c0a50720
+rbtree1=0x5630c1334950
+rbtree2=0x5630c1334950
+rbtree1=0x5630c1334ec0
+rbtree2=0x5630c1334ec0
+rbtree1=0x5630c1334950
+rbtree2=0x5630c1334950
+user_args=0x5630c1331a90
+rbtree1=0x5630c1334ec0
+rbtree2=0x5630c1334ec0
+
+{"arg": ["-s", "888888888888888888888888888888888888888888\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055dde0004a90 < 0x000055dde0007ec0
+args: sudoedit -s -s AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\
+
+
+user_details=0x55ddde03c720
+rbtree1=0x55dde0007950
+rbtree2=0x55dde0007950
+rbtree1=0x55dde0007ec0
+rbtree2=0x55dde0007ec0
+rbtree1=0x55dde0007950
+rbtree2=0x55dde0007950
+user_args=0x55dde0004a90
+rbtree1=0x55dde0007ec0
+rbtree2=0x55dde0007ec0
+
+{"arg": ["-s", "-s", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005629ac242a90 < 0x00005629ac245ec0
+args: sudoedit -s \ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+
+user_details=0x5629abc22720
+rbtree1=0x5629ac245950
+rbtree2=0x5629ac245950
+rbtree1=0x5629ac245ec0
+rbtree2=0x5629ac245ec0
+rbtree1=0x5629ac245950
+rbtree2=0x5629ac245950
+user_args=0x5629ac242a90
+rbtree1=0x5629ac245ec0
+rbtree2=0x5629ac245ec0
+
+{"arg": ["-s", "\\", "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055a943e31a90 < 0x000055a943e34ec0
+args: sudoedit -s -s \ 33333333333333333333333333333333333333333333333333
+
+
+user_details=0x55a9437d0720
+rbtree1=0x55a943e34950
+rbtree2=0x55a943e34950
+rbtree1=0x55a943e34ec0
+rbtree2=0x55a943e34ec0
+rbtree1=0x55a943e34950
+rbtree2=0x55a943e34950
+user_args=0x55a943e31a90
+rbtree1=0x55a943e34ec0
+rbtree2=0x55a943e34ec0
+
+{"arg": ["-s", "-s", "\\", "33333333333333333333333333333333333333333333333333"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x000055a3096f1a90 < 0x000055a3096f4ec0
+args: sudoedit -S -s SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\
+
+
+user_details=0x55a3093ad720
+rbtree1=0x55a3096f4950
+rbtree2=0x55a3096f4950
+rbtree1=0x55a3096f4ec0
+rbtree2=0x55a3096f4ec0
+rbtree1=0x55a3096f4950
+rbtree2=0x55a3096f4950
+user_args=0x55a3096f1a90
+rbtree1=0x55a3096f4ec0
+rbtree2=0x55a3096f4ec0
+
+{"arg": ["-S", "-s", "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005610130a0a90 < 0x00005610130a3ec0
+args: sudoedit -s -s \ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+
+user_details=0x5610123ab720
+rbtree1=0x5610130a3950
+rbtree2=0x5610130a3950
+rbtree1=0x5610130a3ec0
+rbtree2=0x5610130a3ec0
+rbtree1=0x5610130a3950
+rbtree2=0x5610130a3950
+user_args=0x5610130a0a90
+rbtree1=0x5610130a3ec0
+rbtree2=0x5610130a3ec0
+
+{"arg": ["-s", "-s", "\\", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000560fb9f0da90 < 0x0000560fb9f10ec0
+args: sudoedit -s \ IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+
+user_details=0x560fb9a87720
+rbtree1=0x560fb9f10950
+rbtree2=0x560fb9f10950
+rbtree1=0x560fb9f10ec0
+rbtree2=0x560fb9f10ec0
+rbtree1=0x560fb9f10950
+rbtree2=0x560fb9f10950
+user_args=0x560fb9f0da90
+rbtree1=0x560fb9f10ec0
+rbtree2=0x560fb9f10ec0
+
+{"arg": ["-s", "\\", "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000056173ab1ca90 < 0x000056173ab1fec0
+args: sudoedit -s RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR\
+
+
+user_details=0x561739680720
+rbtree1=0x56173ab1f950
+rbtree2=0x56173ab1f950
+rbtree1=0x56173ab1fec0
+rbtree2=0x56173ab1fec0
+rbtree1=0x56173ab1f950
+rbtree2=0x56173ab1f950
+user_args=0x56173ab1ca90
+rbtree1=0x56173ab1fec0
+rbtree2=0x56173ab1fec0
+
+{"arg": ["-s", "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055ff415b0a90 < 0x000055ff415b3ec0
+args: sudoedit -s \ PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+
+
+user_details=0x55ff407e5720
+rbtree1=0x55ff415b3950
+rbtree2=0x55ff415b3950
+rbtree1=0x55ff415b3ec0
+rbtree2=0x55ff415b3ec0
+rbtree1=0x55ff415b3950
+rbtree2=0x55ff415b3950
+user_args=0x55ff415b0a90
+rbtree1=0x55ff415b3ec0
+rbtree2=0x55ff415b3ec0
+
+{"arg": ["-s", "\\", "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005585371aea90 < 0x00005585371b1ec0
+args: sudoedit -s GGGGGGGGGGGGGGGGG\ 77777777777777777777777777777777
+
+
+user_details=0x5585370ed720
+rbtree1=0x5585371b1950
+rbtree2=0x5585371b1950
+rbtree1=0x5585371b1ec0
+rbtree2=0x5585371b1ec0
+rbtree1=0x5585371b1950
+rbtree2=0x5585371b1950
+user_args=0x5585371aea90
+rbtree1=0x5585371b1ec0
+rbtree2=0x5585371b1ec0
+
+{"arg": ["-s", "GGGGGGGGGGGGGGGGG\\", "77777777777777777777777777777777"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000056100b068a90 < 0x000056100b06bec0
+args: sudoedit -s EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\
+
+
+user_details=0x56100a4dd720
+rbtree1=0x56100b06b950
+rbtree2=0x56100b06b950
+rbtree1=0x56100b06bec0
+rbtree2=0x56100b06bec0
+rbtree1=0x56100b06b950
+rbtree2=0x56100b06b950
+user_args=0x56100b068a90
+rbtree1=0x56100b06bec0
+rbtree2=0x56100b06bec0
+
+{"arg": ["-s", "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055ebef3bea90 < 0x000055ebef3c1ec0
+args: sudoedit -s LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\
+
+
+user_details=0x55ebee89b720
+rbtree1=0x55ebef3c1950
+rbtree2=0x55ebef3c1950
+rbtree1=0x55ebef3c1ec0
+rbtree2=0x55ebef3c1ec0
+rbtree1=0x55ebef3c1950
+rbtree2=0x55ebef3c1950
+user_args=0x55ebef3bea90
+rbtree1=0x55ebef3c1ec0
+rbtree2=0x55ebef3c1ec0
+
+{"arg": ["-s", "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\\"], "env": {}}
+
+----------------------------
+sudoedit: no askpass program specified, try setting SUDO_ASKPASS
+user_args < rbtree1
+distance: 0x3430
+0x000055dba19f0a90 < 0x000055dba19f3ec0
+args: sudoedit -A -s 99999999999999999999999999999999999999999\
+
+
+user_details=0x55dba007f720
+rbtree1=0x55dba19f3950
+rbtree2=0x55dba19f3950
+rbtree1=0x55dba19f3ec0
+rbtree2=0x55dba19f3ec0
+rbtree1=0x55dba19f3950
+rbtree2=0x55dba19f3950
+user_args=0x55dba19f0a90
+rbtree1=0x55dba19f3ec0
+rbtree2=0x55dba19f3ec0
+
+{"arg": ["-A", "-s", "99999999999999999999999999999999999999999\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005643034b0a90 < 0x00005643034b3ec0
+args: sudoedit -s 999999999999999999999999999999999999999999999\
+
+
+user_details=0x564301574720
+rbtree1=0x5643034b3950
+rbtree2=0x5643034b3950
+rbtree1=0x5643034b3ec0
+rbtree2=0x5643034b3ec0
+rbtree1=0x5643034b3950
+rbtree2=0x5643034b3950
+user_args=0x5643034b0a90
+rbtree1=0x5643034b3ec0
+rbtree2=0x5643034b3ec0
+
+{"arg": ["-s", "999999999999999999999999999999999999999999999\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055fceef97a90 < 0x000055fceef9aec0
+args: sudoedit -s -s \ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+
+user_details=0x55fced0cf720
+rbtree1=0x55fceef9a950
+rbtree2=0x55fceef9a950
+rbtree1=0x55fceef9aec0
+rbtree2=0x55fceef9aec0
+rbtree1=0x55fceef9a950
+rbtree2=0x55fceef9a950
+user_args=0x55fceef97a90
+rbtree1=0x55fceef9aec0
+rbtree2=0x55fceef9aec0
+
+{"arg": ["-s", "-s", "\\", "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000565093c8aa90 < 0x0000565093c8dec0
+args: sudoedit -s \ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+
+user_details=0x565092040720
+rbtree1=0x565093c8d950
+rbtree2=0x565093c8d950
+rbtree1=0x565093c8dec0
+rbtree2=0x565093c8dec0
+rbtree1=0x565093c8d950
+rbtree2=0x565093c8d950
+user_args=0x565093c8aa90
+rbtree1=0x565093c8dec0
+rbtree2=0x565093c8dec0
+
+{"arg": ["-s", "\\", "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d9c1a64a90 < 0x000055d9c1a67ec0
+args: sudoedit -s LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\ RR
+
+
+user_details=0x55d9c00e7720
+rbtree1=0x55d9c1a67950
+rbtree2=0x55d9c1a67950
+rbtree1=0x55d9c1a67ec0
+rbtree2=0x55d9c1a67ec0
+rbtree1=0x55d9c1a67950
+rbtree2=0x55d9c1a67950
+user_args=0x55d9c1a64a90
+rbtree1=0x55d9c1a67ec0
+rbtree2=0x55d9c1a67ec0
+
+{"arg": ["-s", "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\\", "RR"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055ed6df61a90 < 0x000055ed6df64ec0
+args: sudoedit -s AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\
+
+
+user_details=0x55ed6d5b0720
+rbtree1=0x55ed6df64950
+rbtree2=0x55ed6df64950
+rbtree1=0x55ed6df64ec0
+rbtree2=0x55ed6df64ec0
+rbtree1=0x55ed6df64950
+rbtree2=0x55ed6df64950
+user_args=0x55ed6df61a90
+rbtree1=0x55ed6df64ec0
+rbtree2=0x55ed6df64ec0
+
+{"arg": ["-s", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\\"], "env": {}}
+
+----------------------------
+sudoedit: no askpass program specified, try setting SUDO_ASKPASS
+user_args < rbtree1
+distance: 0x3430
+0x0000559a6a3f2a90 < 0x0000559a6a3f5ec0
+args: sudoedit -A -s 5555\ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+
+user_details=0x559a6948e720
+rbtree1=0x559a6a3f5950
+rbtree2=0x559a6a3f5950
+rbtree1=0x559a6a3f5ec0
+rbtree2=0x559a6a3f5ec0
+rbtree1=0x559a6a3f5950
+rbtree2=0x559a6a3f5950
+user_args=0x559a6a3f2a90
+rbtree1=0x559a6a3f5ec0
+rbtree2=0x559a6a3f5ec0
+
+{"arg": ["-A", "-s", "5555\\", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000556df9492a90 < 0x0000556df9495ec0
+args: sudoedit -s 555555555555555555555555555555555\ FFFFF
+
+
+user_details=0x556df8d0d720
+rbtree1=0x556df9495950
+rbtree2=0x556df9495950
+rbtree1=0x556df9495ec0
+rbtree2=0x556df9495ec0
+rbtree1=0x556df9495950
+rbtree2=0x556df9495950
+user_args=0x556df9492a90
+rbtree1=0x556df9495ec0
+rbtree2=0x556df9495ec0
+
+{"arg": ["-s", "555555555555555555555555555555555\\", "FFFFF"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055ac9fdb8a90 < 0x000055ac9fdbbec0
+args: sudoedit -s 222222222222222\ PPPPPPPPPPPPPPPPPPPPPPPPPPP
+
+
+user_details=0x55ac9e0fa720
+rbtree1=0x55ac9fdbb950
+rbtree2=0x55ac9fdbb950
+rbtree1=0x55ac9fdbbec0
+rbtree2=0x55ac9fdbbec0
+rbtree1=0x55ac9fdbb950
+rbtree2=0x55ac9fdbb950
+user_args=0x55ac9fdb8a90
+rbtree1=0x55ac9fdbbec0
+rbtree2=0x55ac9fdbbec0
+
+{"arg": ["-s", "222222222222222\\", "PPPPPPPPPPPPPPPPPPPPPPPPPPP"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000559d3c735a90 < 0x0000559d3c738ec0
+args: sudoedit -s 888888888888888888888888888888888888888888888\
+
+
+user_details=0x559d3c5de720
+rbtree1=0x559d3c738950
+rbtree2=0x559d3c738950
+rbtree1=0x559d3c738ec0
+rbtree2=0x559d3c738ec0
+rbtree1=0x559d3c738950
+rbtree2=0x559d3c738950
+user_args=0x559d3c735a90
+rbtree1=0x559d3c738ec0
+rbtree2=0x559d3c738ec0
+
+{"arg": ["-s", "888888888888888888888888888888888888888888888\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055f980fd8a90 < 0x000055f980fdbec0
+args: sudoedit -s \ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+
+
+user_details=0x55f97f706720
+rbtree1=0x55f980fdb950
+rbtree2=0x55f980fdb950
+rbtree1=0x55f980fdbec0
+rbtree2=0x55f980fdbec0
+rbtree1=0x55f980fdb950
+rbtree2=0x55f980fdb950
+user_args=0x55f980fd8a90
+rbtree1=0x55f980fdbec0
+rbtree2=0x55f980fdbec0
+
+{"arg": ["-s", "\\", "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055b40fb23a90 < 0x000055b40fb26ec0
+args: sudoedit -s -s NNNNNNNNNNNNNNNNNNNNNN\ ZZZZZZZZZZZZZZZZZZZZ
+
+
+user_details=0x55b40dcff720
+rbtree1=0x55b40fb26950
+rbtree2=0x55b40fb26950
+rbtree1=0x55b40fb26ec0
+rbtree2=0x55b40fb26ec0
+rbtree1=0x55b40fb26950
+rbtree2=0x55b40fb26950
+user_args=0x55b40fb23a90
+rbtree1=0x55b40fb26ec0
+rbtree2=0x55b40fb26ec0
+
+{"arg": ["-s", "-s", "NNNNNNNNNNNNNNNNNNNNNN\\", "ZZZZZZZZZZZZZZZZZZZZ"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005617483f9a90 < 0x00005617483fcec0
+args: sudoedit -s 111111111111111111111111111111\ 88888888888888888888888
+
+
+user_details=0x56174644e720
+rbtree1=0x5617483fc950
+rbtree2=0x5617483fc950
+rbtree1=0x5617483fcec0
+rbtree2=0x5617483fcec0
+rbtree1=0x5617483fc950
+rbtree2=0x5617483fc950
+user_args=0x5617483f9a90
+rbtree1=0x5617483fcec0
+rbtree2=0x5617483fcec0
+
+{"arg": ["-s", "111111111111111111111111111111\\", "88888888888888888888888"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055ccc404ca90 < 0x000055ccc404fec0
+args: sudoedit -s 11111111111111111111111111111111111\ VVVVVVV
+
+
+user_details=0x55ccc3bef720
+rbtree1=0x55ccc404f950
+rbtree2=0x55ccc404f950
+rbtree1=0x55ccc404fec0
+rbtree2=0x55ccc404fec0
+rbtree1=0x55ccc404f950
+rbtree2=0x55ccc404f950
+user_args=0x55ccc404ca90
+rbtree1=0x55ccc404fec0
+rbtree2=0x55ccc404fec0
+
+{"arg": ["-s", "11111111111111111111111111111111111\\", "VVVVVVV"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055a172361a90 < 0x000055a172364ec0
+args: sudoedit -B -s ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\
+
+
+user_details=0x55a170c2e720
+rbtree1=0x55a172364950
+rbtree2=0x55a172364950
+rbtree1=0x55a172364ec0
+rbtree2=0x55a172364ec0
+rbtree1=0x55a172364950
+rbtree2=0x55a172364950
+user_args=0x55a172361a90
+rbtree1=0x55a172364ec0
+rbtree2=0x55a172364ec0
+
+{"arg": ["-B", "-s", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\\"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x0000557b15d36a90 < 0x0000557b15d39ec0
+args: sudoedit -S -s EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\
+
+
+user_details=0x557b151d1720
+rbtree1=0x557b15d39950
+rbtree2=0x557b15d39950
+rbtree1=0x557b15d39ec0
+rbtree2=0x557b15d39ec0
+rbtree1=0x557b15d39950
+rbtree2=0x557b15d39950
+user_args=0x557b15d36a90
+rbtree1=0x557b15d39ec0
+rbtree2=0x557b15d39ec0
+
+{"arg": ["-S", "-s", "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000561aec9cfa90 < 0x0000561aec9d2ec0
+args: sudoedit -s MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\ Y
+
+
+user_details=0x561aeb573720
+rbtree1=0x561aec9d2950
+rbtree2=0x561aec9d2950
+rbtree1=0x561aec9d2ec0
+rbtree2=0x561aec9d2ec0
+rbtree1=0x561aec9d2950
+rbtree2=0x561aec9d2950
+user_args=0x561aec9cfa90
+rbtree1=0x561aec9d2ec0
+rbtree2=0x561aec9d2ec0
+
+{"arg": ["-s", "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\\", "Y"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x0000561f05273a90 < 0x0000561f05276ec0
+args: sudoedit -S -s \ RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+
+
+user_details=0x561f04745720
+rbtree1=0x561f05276950
+rbtree2=0x561f05276950
+rbtree1=0x561f05276ec0
+rbtree2=0x561f05276ec0
+rbtree1=0x561f05276950
+rbtree2=0x561f05276950
+user_args=0x561f05273a90
+rbtree1=0x561f05276ec0
+rbtree2=0x561f05276ec0
+
+{"arg": ["-S", "-s", "\\", "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x000055a44cdc9a90 < 0x000055a44cdccec0
+args: sudoedit -S -s \ 66666666666666666666666666666666666666
+
+
+user_details=0x55a44c769720
+rbtree1=0x55a44cdcc950
+rbtree2=0x55a44cdcc950
+rbtree1=0x55a44cdccec0
+rbtree2=0x55a44cdccec0
+rbtree1=0x55a44cdcc950
+rbtree2=0x55a44cdcc950
+user_args=0x55a44cdc9a90
+rbtree1=0x55a44cdccec0
+rbtree2=0x55a44cdccec0
+
+{"arg": ["-S", "-s", "\\", "66666666666666666666666666666666666666"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055a4d2a28a90 < 0x000055a4d2a2bec0
+args: sudoedit -B -s GGGGGGGGGGGGGGGGGGGGGG\ PPPPPPPPPPPPPPPPPP
+
+
+user_details=0x55a4d194d720
+rbtree1=0x55a4d2a2b950
+rbtree2=0x55a4d2a2b950
+rbtree1=0x55a4d2a2bec0
+rbtree2=0x55a4d2a2bec0
+rbtree1=0x55a4d2a2b950
+rbtree2=0x55a4d2a2b950
+user_args=0x55a4d2a28a90
+rbtree1=0x55a4d2a2bec0
+rbtree2=0x55a4d2a2bec0
+
+{"arg": ["-B", "-s", "GGGGGGGGGGGGGGGGGGGGGG\\", "PPPPPPPPPPPPPPPPPP"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000056208cf6da90 < 0x000056208cf70ec0
+args: sudoedit -s -s 888888888888888888888888888888\ CCCCCCCCCCCCCCCCC
+
+
+user_details=0x56208ca3b720
+rbtree1=0x56208cf70950
+rbtree2=0x56208cf70950
+rbtree1=0x56208cf70ec0
+rbtree2=0x56208cf70ec0
+rbtree1=0x56208cf70950
+rbtree2=0x56208cf70950
+user_args=0x56208cf6da90
+rbtree1=0x56208cf70ec0
+rbtree2=0x56208cf70ec0
+
+{"arg": ["-s", "-s", "888888888888888888888888888888\\", "CCCCCCCCCCCCCCCCC"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055f9bd817a90 < 0x000055f9bd81aec0
+args: sudoedit -s SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\
+
+
+user_details=0x55f9bbd14720
+rbtree1=0x55f9bd81a950
+rbtree2=0x55f9bd81a950
+rbtree1=0x55f9bd81aec0
+rbtree2=0x55f9bd81aec0
+rbtree1=0x55f9bd81a950
+rbtree2=0x55f9bd81a950
+user_args=0x55f9bd817a90
+rbtree1=0x55f9bd81aec0
+rbtree2=0x55f9bd81aec0
+
+{"arg": ["-s", "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000555a0b850a90 < 0x0000555a0b853ec0
+args: sudoedit -s LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\
+
+
+user_details=0x555a0a144720
+rbtree1=0x555a0b853950
+rbtree2=0x555a0b853950
+rbtree1=0x555a0b853ec0
+rbtree2=0x555a0b853ec0
+rbtree1=0x555a0b853950
+rbtree2=0x555a0b853950
+user_args=0x555a0b850a90
+rbtree1=0x555a0b853ec0
+rbtree2=0x555a0b853ec0
+
+{"arg": ["-s", "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000561c0ae1aa90 < 0x0000561c0ae1dec0
+args: sudoedit -s -s IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII\
+
+
+user_details=0x561c093bd720
+rbtree1=0x561c0ae1d950
+rbtree2=0x561c0ae1d950
+rbtree1=0x561c0ae1dec0
+rbtree2=0x561c0ae1dec0
+rbtree1=0x561c0ae1d950
+rbtree2=0x561c0ae1d950
+user_args=0x561c0ae1aa90
+rbtree1=0x561c0ae1dec0
+rbtree2=0x561c0ae1dec0
+
+{"arg": ["-s", "-s", "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055f9cbbaea90 < 0x000055f9cbbb1ec0
+args: sudoedit -s ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\ 66
+
+
+user_details=0x55f9c9d84720
+rbtree1=0x55f9cbbb1950
+rbtree2=0x55f9cbbb1950
+rbtree1=0x55f9cbbb1ec0
+rbtree2=0x55f9cbbb1ec0
+rbtree1=0x55f9cbbb1950
+rbtree2=0x55f9cbbb1950
+user_args=0x55f9cbbaea90
+rbtree1=0x55f9cbbb1ec0
+rbtree2=0x55f9cbbb1ec0
+
+{"arg": ["-s", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\\", "66"], "env": {}}
+
+----------------------------
+sudoedit: no askpass program specified, try setting SUDO_ASKPASS
+user_args < rbtree1
+distance: 0x3430
+0x0000563b9b583a90 < 0x0000563b9b586ec0
+args: sudoedit -A -s TTTTTTTTTTTTTTTTTTTTTTTTTTT\ AAAAAAAAAAAAAAAAAAA
+
+
+user_details=0x563b9acbf720
+rbtree1=0x563b9b586950
+rbtree2=0x563b9b586950
+rbtree1=0x563b9b586ec0
+rbtree2=0x563b9b586ec0
+rbtree1=0x563b9b586950
+rbtree2=0x563b9b586950
+user_args=0x563b9b583a90
+rbtree1=0x563b9b586ec0
+rbtree2=0x563b9b586ec0
+
+{"arg": ["-A", "-s", "TTTTTTTTTTTTTTTTTTTTTTTTTTT\\", "AAAAAAAAAAAAAAAAAAA"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055a6eb4d8a90 < 0x000055a6eb4dbec0
+args: sudoedit -s EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\
+
+
+user_details=0x55a6eaf4f720
+rbtree1=0x55a6eb4db950
+rbtree2=0x55a6eb4db950
+rbtree1=0x55a6eb4dbec0
+rbtree2=0x55a6eb4dbec0
+rbtree1=0x55a6eb4db950
+rbtree2=0x55a6eb4db950
+user_args=0x55a6eb4d8a90
+rbtree1=0x55a6eb4dbec0
+rbtree2=0x55a6eb4dbec0
+
+{"arg": ["-s", "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\\"], "env": {}}
+
+----------------------------
+Password: Password: Password: sudoedit: 3 incorrect password attempts
+user_args < rbtree1
+distance: 0x3430
+0x000055b402554a90 < 0x000055b402557ec0
+args: sudoedit -S -s CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\
+
+
+user_details=0x55b40193a720
+rbtree1=0x55b402557950
+rbtree2=0x55b402557950
+rbtree1=0x55b402557ec0
+rbtree2=0x55b402557ec0
+rbtree1=0x55b402557950
+rbtree2=0x55b402557950
+user_args=0x55b402554a90
+rbtree1=0x55b402557ec0
+rbtree2=0x55b402557ec0
+
+{"arg": ["-S", "-s", "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005586405cea90 < 0x00005586405d1ec0
+args: sudoedit -s \ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+
+
+user_details=0x558640131720
+rbtree1=0x5586405d1950
+rbtree2=0x5586405d1950
+rbtree1=0x5586405d1ec0
+rbtree2=0x5586405d1ec0
+rbtree1=0x5586405d1950
+rbtree2=0x5586405d1950
+user_args=0x5586405cea90
+rbtree1=0x5586405d1ec0
+rbtree2=0x5586405d1ec0
+
+{"arg": ["-s", "\\", "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000555f3b407a90 < 0x0000555f3b40aec0
+args: sudoedit -s 99999999999999999999999999999999999999999999\
+
+
+user_details=0x555f3ae6e720
+rbtree1=0x555f3b40a950
+rbtree2=0x555f3b40a950
+rbtree1=0x555f3b40aec0
+rbtree2=0x555f3b40aec0
+rbtree1=0x555f3b40a950
+rbtree2=0x555f3b40a950
+user_args=0x555f3b407a90
+rbtree1=0x555f3b40aec0
+rbtree2=0x555f3b40aec0
+
+{"arg": ["-s", "99999999999999999999999999999999999999999999\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055e13e5b5a90 < 0x000055e13e5b8ec0
+args: sudoedit -s UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\
+
+
+user_details=0x55e13c811720
+rbtree1=0x55e13e5b8950
+rbtree2=0x55e13e5b8950
+rbtree1=0x55e13e5b8ec0
+rbtree2=0x55e13e5b8ec0
+rbtree1=0x55e13e5b8950
+rbtree2=0x55e13e5b8950
+user_args=0x55e13e5b5a90
+rbtree1=0x55e13e5b8ec0
+rbtree2=0x55e13e5b8ec0
+
+{"arg": ["-s", "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005570914caa90 < 0x00005570914cdec0
+args: sudoedit -B -s DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\ IIIIIIIIIIIIIIIIIIII
+
+
+user_details=0x557090cec720
+rbtree1=0x5570914cd950
+rbtree2=0x5570914cd950
+rbtree1=0x5570914cdec0
+rbtree2=0x5570914cdec0
+rbtree1=0x5570914cd950
+rbtree2=0x5570914cd950
+user_args=0x5570914caa90
+rbtree1=0x5570914cdec0
+rbtree2=0x5570914cdec0
+
+{"arg": ["-B", "-s", "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\\", "IIIIIIIIIIIIIIIIIIII"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005600f0ad4a90 < 0x00005600f0ad7ec0
+args: sudoedit -s IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII\
+
+
+user_details=0x5600ef22e720
+rbtree1=0x5600f0ad7950
+rbtree2=0x5600f0ad7950
+rbtree1=0x5600f0ad7ec0
+rbtree2=0x5600f0ad7ec0
+rbtree1=0x5600f0ad7950
+rbtree2=0x5600f0ad7950
+user_args=0x5600f0ad4a90
+rbtree1=0x5600f0ad7ec0
+rbtree2=0x5600f0ad7ec0
+
+{"arg": ["-s", "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000565043f87a90 < 0x0000565043f8aec0
+args: sudoedit -s 4444444444444444\ SSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+
+user_details=0x565043982720
+rbtree1=0x565043f8a950
+rbtree2=0x565043f8a950
+rbtree1=0x565043f8aec0
+rbtree2=0x565043f8aec0
+rbtree1=0x565043f8a950
+rbtree2=0x565043f8a950
+user_args=0x565043f87a90
+rbtree1=0x565043f8aec0
+rbtree2=0x565043f8aec0
+
+{"arg": ["-s", "4444444444444444\\", "SSSSSSSSSSSSSSSSSSSSSSSSSSSSS"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x00005586e89d9a90 < 0x00005586e89dcec0
+args: sudoedit -s \ 999999999999999999999999999999999999999999
+
+
+user_details=0x5586e8303720
+rbtree1=0x5586e89dc950
+rbtree2=0x5586e89dc950
+rbtree1=0x5586e89dcec0
+rbtree2=0x5586e89dcec0
+rbtree1=0x5586e89dc950
+rbtree2=0x5586e89dc950
+user_args=0x5586e89d9a90
+rbtree1=0x5586e89dcec0
+rbtree2=0x5586e89dcec0
+
+{"arg": ["-s", "\\", "999999999999999999999999999999999999999999"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000560253f96a90 < 0x0000560253f99ec0
+args: sudoedit -s LLLLLLLLLLLLLLL\ PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+
+
+user_details=0x560253a5d720
+rbtree1=0x560253f99950
+rbtree2=0x560253f99950
+rbtree1=0x560253f99ec0
+rbtree2=0x560253f99ec0
+rbtree1=0x560253f99950
+rbtree2=0x560253f99950
+user_args=0x560253f96a90
+rbtree1=0x560253f99ec0
+rbtree2=0x560253f99ec0
+
+{"arg": ["-s", "LLLLLLLLLLLLLLL\\", "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000563bf22f0a90 < 0x0000563bf22f3ec0
+args: sudoedit -s \ 666666666666666666666666666666666666666666666666
+
+
+user_details=0x563bf13a7720
+rbtree1=0x563bf22f3950
+rbtree2=0x563bf22f3950
+rbtree1=0x563bf22f3ec0
+rbtree2=0x563bf22f3ec0
+rbtree1=0x563bf22f3950
+rbtree2=0x563bf22f3950
+user_args=0x563bf22f0a90
+rbtree1=0x563bf22f3ec0
+rbtree2=0x563bf22f3ec0
+
+{"arg": ["-s", "\\", "666666666666666666666666666666666666666666666666"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000564c5d259a90 < 0x0000564c5d25cec0
+args: sudoedit -s -s WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW\
+
+
+user_details=0x564c5d0c6720
+rbtree1=0x564c5d25c950
+rbtree2=0x564c5d25c950
+rbtree1=0x564c5d25cec0
+rbtree2=0x564c5d25cec0
+rbtree1=0x564c5d25c950
+rbtree2=0x564c5d25c950
+user_args=0x564c5d259a90
+rbtree1=0x564c5d25cec0
+rbtree2=0x564c5d25cec0
+
+{"arg": ["-s", "-s", "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d088d2da90 < 0x000055d088d30ec0
+args: sudoedit -s YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\
+
+
+user_details=0x55d088401720
+rbtree1=0x55d088d30950
+rbtree2=0x55d088d30950
+rbtree1=0x55d088d30ec0
+rbtree2=0x55d088d30ec0
+rbtree1=0x55d088d30950
+rbtree2=0x55d088d30950
+user_args=0x55d088d2da90
+rbtree1=0x55d088d30ec0
+rbtree2=0x55d088d30ec0
+
+{"arg": ["-s", "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055a95d07ca90 < 0x000055a95d07fec0
+args: sudoedit -s GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\
+
+
+user_details=0x55a95c3bd720
+rbtree1=0x55a95d07f950
+rbtree2=0x55a95d07f950
+rbtree1=0x55a95d07fec0
+rbtree2=0x55a95d07fec0
+rbtree1=0x55a95d07f950
+rbtree2=0x55a95d07f950
+user_args=0x55a95d07ca90
+rbtree1=0x55a95d07fec0
+rbtree2=0x55a95d07fec0
+
+{"arg": ["-s", "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000056008c8f4a90 < 0x000056008c8f7ec0
+args: sudoedit -s \ DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+
+
+user_details=0x56008b342720
+rbtree1=0x56008c8f7950
+rbtree2=0x56008c8f7950
+rbtree1=0x56008c8f7ec0
+rbtree2=0x56008c8f7ec0
+rbtree1=0x56008c8f7950
+rbtree2=0x56008c8f7950
+user_args=0x56008c8f4a90
+rbtree1=0x56008c8f7ec0
+rbtree2=0x56008c8f7ec0
+
+{"arg": ["-s", "\\", "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x0000560f0470aa90 < 0x0000560f0470dec0
+args: sudoedit -s \ UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+
+
+user_details=0x560f02d34720
+rbtree1=0x560f0470d950
+rbtree2=0x560f0470d950
+rbtree1=0x560f0470dec0
+rbtree2=0x560f0470dec0
+rbtree1=0x560f0470d950
+rbtree2=0x560f0470d950
+user_args=0x560f0470aa90
+rbtree1=0x560f0470dec0
+rbtree2=0x560f0470dec0
+
+{"arg": ["-s", "\\", "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"], "env": {}}
+
+----------------------------
+sudoedit: no askpass program specified, try setting SUDO_ASKPASS
+user_args < rbtree1
+distance: 0x3430
+0x00005564459a2a90 < 0x00005564459a5ec0
+args: sudoedit -A -s KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK\
+
+
+user_details=0x556443f1b720
+rbtree1=0x5564459a5950
+rbtree2=0x5564459a5950
+rbtree1=0x5564459a5ec0
+rbtree2=0x5564459a5ec0
+rbtree1=0x5564459a5950
+rbtree2=0x5564459a5950
+user_args=0x5564459a2a90
+rbtree1=0x5564459a5ec0
+rbtree2=0x5564459a5ec0
+
+{"arg": ["-A", "-s", "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055fe64c9ca90 < 0x000055fe64c9fec0
+args: sudoedit -s 55555555555555555555555555555555555555555\
+
+
+user_details=0x55fe63455720
+rbtree1=0x55fe64c9f950
+rbtree2=0x55fe64c9f950
+rbtree1=0x55fe64c9fec0
+rbtree2=0x55fe64c9fec0
+rbtree1=0x55fe64c9f950
+rbtree2=0x55fe64c9f950
+user_args=0x55fe64c9ca90
+rbtree1=0x55fe64c9fec0
+rbtree2=0x55fe64c9fec0
+
+{"arg": ["-s", "55555555555555555555555555555555555555555\\"], "env": {}}
+
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055b9a97efa90 < 0x000055b9a97f2ec0
+args: sudoedit -s WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW\ FFF
+
+
+user_details=0x55b9a8e83720
+rbtree1=0x55b9a97f2950
+rbtree2=0x55b9a97f2950
+rbtree1=0x55b9a97f2ec0
+rbtree2=0x55b9a97f2ec0
+rbtree1=0x55b9a97f2950
+rbtree2=0x55b9a97f2950
+user_args=0x55b9a97efa90
+rbtree1=0x55b9a97f2ec0
+rbtree2=0x55b9a97f2ec0
+
+{"arg": ["-s", "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW\\", "FFF"], "env": {}}
+

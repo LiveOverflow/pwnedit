@@ -1,0 +1,608 @@
+GNU gdb (Ubuntu 9.2-0ubuntu1~20.04) 9.2
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+GEF for linux ready, type `gef to start, `gef config to configure
+87commands loaded for GDB 9.2 using Python engine 3.8
+[*] 5 commands could not be loaded, run `gef missing to know why.
+[+] Configuration from '/root/.gef.rc restored
+[+] 2extra commands added from '/pwd/gef
+Reading symbols from /usr/local/bin/sudoedit...
+Breakpoint 1 (__libc_malloc) pending.
+Breakpoint 2 (__libc_free) pending.
+Starting program: /usr/local/bin/sudoedit -s xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+Temporary breakpoint 3 at 0x7f8c6dd23da0: file ../intl/l10nflist.c, line 334.
+Temporary breakpoint 4 at 0x7f8c6dd6daae: file iofopen.c, line 67.
+Temporary breakpoint 5 at 0x7f8c6dd23da0: file ../intl/l10nflist.c, line 334.
+Temporary breakpoint 6 at 0x7f8c6dd23862: file ../intl/l10nflist.c, line 166.
+Temporary breakpoint 7 at 0x7f8c6dd23862: file ../intl/l10nflist.c, line 166.
+Temporary breakpoint 8 at 0x7f8c6dd239f4: file ../intl/l10nflist.c, line 145.
+Temporary breakpoint 9 at 0x7f8c6dd23862: file ../intl/l10nflist.c, line 166.
+Temporary breakpoint 10 at 0x7f8c6dd239f4: file ../intl/l10nflist.c, line 145.
+Temporary breakpoint 11 at 0x7f8c6dd23862: file ../intl/l10nflist.c, line 166.
+Temporary breakpoint 12 at 0x7f8c6dd239f4: file ../intl/l10nflist.c, line 145.
+Temporary breakpoint 13 at 0x7f8c6dd23862: file ../intl/l10nflist.c, line 166.
+Temporary breakpoint 14 at 0x7f8c6dd239f4: file ../intl/l10nflist.c, line 145.
+Temporary breakpoint 15 at 0x7f8c6dd23862: file ../intl/l10nflist.c, line 166.
+Temporary breakpoint 16 at 0x7f8c6dd23862: file ../intl/l10nflist.c, line 166.
+Temporary breakpoint 17 at 0x7f8c6dd1c9af: file loadlocale.c, line 100.
+Temporary breakpoint 18 at 0x7f8c6dd8a54f: file strndup.c, line 45.
+Temporary breakpoint 19 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 20 at 0x7f8c6dd1b5c8: file setlocale.c, line 170.
+Temporary breakpoint 21 at 0x7f8c6dd1f69f: file bindtextdom.c, line 202.
+Temporary breakpoint 22 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 23 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 24 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 25 at 0x7f8c6dd6daae: file iofopen.c, line 67.
+Temporary breakpoint 26 at 0x7f8c6dd6ce84: file filedoalloc.c, line 101.
+Temporary breakpoint 27 at 0x7f8c6ddbe13b: file tzfile.c, line 275.
+Temporary breakpoint 28 at 0x7f8c6ddbce69: file tzset.c, line 98.
+Temporary breakpoint 29 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 30 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 31 at 0x7f8c6dd23da0: file ../intl/l10nflist.c, line 334.
+Temporary breakpoint 32 at 0x7f8c6dd23da0: file ../intl/l10nflist.c, line 334.
+Temporary breakpoint 33 at 0x7f8c6dd23862: file ../intl/l10nflist.c, line 166.
+Temporary breakpoint 34 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 35 at 0x7f8c6dd1b5c8: file setlocale.c, line 170.
+Temporary breakpoint 36 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 37 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 38 at 0x7f8c6dd23da0: file ../intl/l10nflist.c, line 334.
+Temporary breakpoint 39 at 0x7f8c6dd23da0: file ../intl/l10nflist.c, line 334.
+Temporary breakpoint 40 at 0x7f8c6dd23862: file ../intl/l10nflist.c, line 166.
+Temporary breakpoint 41 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 42 at 0x7f8c6dd1b5c8: file setlocale.c, line 170.
+Temporary breakpoint 43 at 0x55b4392b36af: file ./sudo.c, line 511.
+Temporary breakpoint 44 at 0x7f8c6dd6ce84: file filedoalloc.c, line 101.
+Temporary breakpoint 45 at 0x7f8c6ddccbe3: file ../nss/getXXbyYY.c, line 121.
+Temporary breakpoint 46 at 0x7f8c6dd6daae: file iofopen.c, line 67.
+Temporary breakpoint 47 at 0x7f8c6de2ea7f: file nsswitch.c, line 559.
+Temporary breakpoint 48 at 0x7f8c6dd6e6c4: file iogetdelim.c, line 62.
+Temporary breakpoint 49 at 0x7f8c6dd6ce84: file filedoalloc.c, line 101.
+Temporary breakpoint 50 at 0x7f8c6de2eba5: file nsswitch.c, line 791.
+Temporary breakpoint 51 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 52 at 0x7f8c6de2eba5: file nsswitch.c, line 791.
+Temporary breakpoint 53 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 54 at 0x7f8c6de2eba5: file nsswitch.c, line 791.
+Temporary breakpoint 55 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 56 at 0x7f8c6de2eba5: file nsswitch.c, line 791.
+Temporary breakpoint 57 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 58 at 0x7f8c6de2eba5: file nsswitch.c, line 791.
+Temporary breakpoint 59 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 60 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 61 at 0x7f8c6de2eba5: file nsswitch.c, line 791.
+Temporary breakpoint 62 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 63 at 0x7f8c6de2eba5: file nsswitch.c, line 791.
+Temporary breakpoint 64 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 65 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 66 at 0x7f8c6de2eba5: file nsswitch.c, line 791.
+Temporary breakpoint 67 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 68 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 69 at 0x7f8c6de2eba5: file nsswitch.c, line 791.
+Temporary breakpoint 70 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 71 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 72 at 0x7f8c6de2eba5: file nsswitch.c, line 791.
+Temporary breakpoint 73 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 74 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 75 at 0x7f8c6de2eba5: file nsswitch.c, line 791.
+Temporary breakpoint 76 at 0x7f8c6de2e157: file nsswitch.c, line 641.
+Temporary breakpoint 77 at 0x7f8c6de04ed4: file tsearch.c, line 338.
+Temporary breakpoint 78 at 0x7f8c6de2eeba: file nsswitch.c, line 447.
+Temporary breakpoint 79 at 0x7f8c6de2e66e: file nsswitch.c, line 819.
+Temporary breakpoint 80 at 0x7f8c6df445cf
+Temporary breakpoint 81 at 0x7f8c6df325a8
+Temporary breakpoint 82 at 0x7f8c6df34c3a
+Temporary breakpoint 83 at 0x7f8c6dd6daae: file iofopen.c, line 67.
+Temporary breakpoint 84 at 0x7f8c6dd6ce84: file filedoalloc.c, line 101.
+Temporary breakpoint 85 at 0x7f8c6df05ddc: file ./key_val.c, line 53.
+Temporary breakpoint 86 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 87 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 88 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 89 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 90 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 91 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 92 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 93 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 94 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 95 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 96 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 97 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 98 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 99 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 100 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 101 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 102 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 103 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 104 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 105 at 0x7f8c6df06319: file ./getgrouplist.c, line 101.
+Temporary breakpoint 106 at 0x7f8c6ddca3c7: file initgroups.c, line 160.
+Temporary breakpoint 107 at 0x7f8c6de04ed4: file tsearch.c, line 338.
+Temporary breakpoint 108 at 0x7f8c6de2eeba: file nsswitch.c, line 447.
+Temporary breakpoint 109 at 0x7f8c6dd6daae: file iofopen.c, line 67.
+Temporary breakpoint 110 at 0x7f8c6dd6e6c4: file iogetdelim.c, line 62.
+Temporary breakpoint 111 at 0x7f8c6dd6ce84: file filedoalloc.c, line 101.
+Temporary breakpoint 112 at 0x55b4392b39e5: file ./sudo.c, line 466.
+Temporary breakpoint 113 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 114 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 115 at 0x7f8c6df05ddc: file ./key_val.c, line 53.
+Temporary breakpoint 116 at 0x7f8c6df05ddc: file ./key_val.c, line 53.
+Temporary breakpoint 117 at 0x7f8c6df05e67: file ./gethostname.c, line 50.
+Temporary breakpoint 118 at 0x7f8c6df05ddc: file ./key_val.c, line 53.
+Temporary breakpoint 119 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 120 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 121 at 0x7f8c6dd76cbe: file vasprintf.c, line 46.
+Temporary breakpoint 122 at 0x7f8c6dd76dc8: file vasprintf.c, line 71.
+Temporary breakpoint 123 at 0x7f8c6de25519: file ../sysdeps/unix/sysv/linux/ifaddrs.c, line 219.
+Temporary breakpoint 124 at 0x7f8c6de25519: file ../sysdeps/unix/sysv/linux/ifaddrs.c, line 219.
+Temporary breakpoint 125 at 0x7f8c6de25519: file ../sysdeps/unix/sysv/linux/ifaddrs.c, line 219.
+Temporary breakpoint 126 at 0x7f8c6de25519: file ../sysdeps/unix/sysv/linux/ifaddrs.c, line 219.
+Temporary breakpoint 127 at 0x55b4392b05a1: file ./net_ifs.c, line 156.
+Temporary breakpoint 128 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 129 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 130 at 0x7f8c6df445cf
+Temporary breakpoint 131 at 0x7f8c6df325a8
+Temporary breakpoint 132 at 0x7f8c6df445cf
+Temporary breakpoint 133 at 0x7f8c6df2ef1b
+Temporary breakpoint 134 at 0x7f8c6df445cf
+Temporary breakpoint 135 at 0x7f8c6df445cf
+Temporary breakpoint 136 at 0x7f8c6df325a8
+Temporary breakpoint 137 at 0x7f8c6df445cf
+Temporary breakpoint 138 at 0x7f8c6df325a8
+Temporary breakpoint 139 at 0x7f8c6df3471f
+Temporary breakpoint 140 at 0x7f8c6df3471f
+Temporary breakpoint 141 at 0x7f8c6df34c3a
+Temporary breakpoint 142 at 0x7f8c6df3a40b
+Temporary breakpoint 143 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 144 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 145 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 146 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 147 at 0x55b4392b3268: file ./sudo.c, line 1021.
+Temporary breakpoint 148 at 0x7f8c6df05ddc: file ./key_val.c, line 53.
+Temporary breakpoint 149 at 0x7f8c6df05ddc: file ./key_val.c, line 53.
+Temporary breakpoint 150 at 0x7f8c6df05ddc: file ./key_val.c, line 53.
+Temporary breakpoint 151 at 0x7f8c6df05ddc: file ./key_val.c, line 53.
+Temporary breakpoint 152 at 0x7f8c6df05ddc: file ./key_val.c, line 53.
+Temporary breakpoint 153 at 0x7f8c6df05ddc: file ./key_val.c, line 53.
+Temporary breakpoint 154 at 0x7f8c6dd1f69f: file bindtextdom.c, line 202.
+Temporary breakpoint 155 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 156 at 0x7f8c6df05c3a: file ./fatal.c, line 269.
+Temporary breakpoint 157 at 0x7f8c6dc05473: file ./env.c, line 264.
+Temporary breakpoint 158 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 159 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 160 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 161 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 162 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 163 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 164 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 165 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 166 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 167 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 168 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 169 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 170 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 171 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 172 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 173 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 174 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 175 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 176 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 177 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 178 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 179 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 180 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 181 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 182 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 183 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 184 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 185 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 186 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 187 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 188 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 189 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 190 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 191 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 192 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 193 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 194 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 195 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 196 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 197 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 198 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 199 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 200 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 201 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 202 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 203 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 204 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 205 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 206 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 207 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 208 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 209 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 210 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 211 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 212 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 213 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 214 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 215 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 216 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 217 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 218 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 219 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 220 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 221 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 222 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 223 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 224 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 225 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 226 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 227 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 228 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 229 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 230 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 231 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 232 at 0x7f8c6df06420: file ./gidlist.c, line 69.
+Temporary breakpoint 233 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 234 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 235 at 0x7f8c6dc2df7c: file ./redblack.c, line 94.
+Temporary breakpoint 236 at 0x7f8c6ddcca13: file ../nss/getXXbyYY.c, line 121.
+Temporary breakpoint 237 at 0x7f8c6de04ed4: file tsearch.c, line 338.
+Temporary breakpoint 238 at 0x7f8c6de2eeba: file nsswitch.c, line 447.
+Temporary breakpoint 239 at 0x7f8c6dd6daae: file iofopen.c, line 67.
+Temporary breakpoint 240 at 0x7f8c6dd6ce84: file filedoalloc.c, line 101.
+Temporary breakpoint 241 at 0x7f8c6dc2e25e: file ./redblack.c, line 197.
+Temporary breakpoint 242 at 0x7f8c6dc2df7c: file ./redblack.c, line 94.
+Temporary breakpoint 243 at 0x7f8c6dc2e25e: file ./redblack.c, line 197.
+Temporary breakpoint 244 at 0x7f8c6dd6daae: file iofopen.c, line 67.
+Temporary breakpoint 245 at 0x7f8c6dd6ce84: file filedoalloc.c, line 101.
+Temporary breakpoint 246 at 0x7f8c6dc2e11a: file ./redblack.c, line 197.
+Temporary breakpoint 247 at 0x7f8c6dc2db9f: file ./rcstr.c, line 75.
+Temporary breakpoint 248 at 0x7f8c6dc071ea: file ./file.c, line 84.
+Temporary breakpoint 249 at 0x7f8c6dd6daae: file iofopen.c, line 67.
+Temporary breakpoint 250 at 0x7f8c6dd6ce84: file filedoalloc.c, line 101.
+Temporary breakpoint 251 at 0x7f8c6dc23e18: file gram.c, line 1097.
+Temporary breakpoint 252 at 0x7f8c6dc23e78: file gram.c, line 1091.
+Temporary breakpoint 253 at 0x7f8c6dc2f9c7: file toke.c, line 3899.
+Temporary breakpoint 254 at 0x7f8c6dc2f9df: file toke.c, line 4359.
+Temporary breakpoint 255 at 0x7f8c6df06702: file ./lbuf.c, line 83.
+Temporary breakpoint 256 at 0x7f8c6dc33765: file ./toke_util.c, line 76.
+Temporary breakpoint 257 at 0x7f8c6dc2594b: file gram.y, line 409.
+Temporary breakpoint 258 at 0x7f8c6dc2db9f: file ./rcstr.c, line 75.
+Temporary breakpoint 259 at 0x7f8c6dc2fab9: file toke.l, line 946.
+Temporary breakpoint 260 at 0x7f8c6ddc9099: file ../sysdeps/posix/opendir.c, line 118.
+Temporary breakpoint 261 at 0x7f8c6dc2fd67: file toke.l, line 796.
+Temporary breakpoint 262 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 263 at 0x7f8c6dd23da0: file ../intl/l10nflist.c, line 334.
+Temporary breakpoint 264 at 0x7f8c6dd23da0: file ../intl/l10nflist.c, line 334.
+Temporary breakpoint 265 at 0x7f8c6dd23862: file ../intl/l10nflist.c, line 166.
+Temporary breakpoint 266 at 0x7f8c6dd8a50f: file strdup.c, line 44.
+Temporary breakpoint 267 at 0x7f8c6dd1b5c8: file setlocale.c, line 170.
+Temporary breakpoint 268 at 0x7f8c6dc1a938: file ./sudoers.c, line 284.
+Temporary breakpoint 269 at 0x7f8c6dc1a858: file ./sudoers.c, line 855.
+YYYYYYYYYYY WE ARE IN!!!
+['#1', '0x00007f8c6dd8a50f', 'in', '__GI___strdup', '(s=s@entry=0x55b4392ba6b9', '"sudoers_policy")', 'at', 'strdup.c:42']
+['#2', '0x000055b4392b0160', 'in', 'sudo_load_plugins', '(policy_plugin=0x55b4392c37a0', '<policy_plugin>,', 'io_plugins=0x55b4392c2010', '<io_plugins>)', 'at', './load_plugins.c:318']
+['#3', '0x000055b4392a2a92', 'in', 'main', '(argc=0x3,', 'argv=<optimized', 'out>,', 'envp=0x7ffc22562be8)', 'at', './sudo.c:214']
+['#1', '0x00007f8c6dd8a50f', 'in', '__GI___strdup', '(s=s@entry=0x55b4392ba6d3', '"sudoers_io")', 'at', 'strdup.c:42']
+['#2', '0x000055b4392b01e4', 'in', 'sudo_load_plugins', '(policy_plugin=0x55b4392c37a0', '<policy_plugin>,', 'io_plugins=0x55b4392c2010', '<io_plugins>)', 'at', './load_plugins.c:338']
+['#3', '0x000055b4392a2a92', 'in', 'main', '(argc=0x3,', 'argv=<optimized', 'out>,', 'envp=0x7ffc22562be8)', 'at', './sudo.c:214']
+['#1', '0x00007f8c6df445cf', 'in', '??', '()', 'from', '/lib64/ld-linux-x86-64.so.2']
+['#2', '0x00007f8c6df2f5aa', 'in', '??', '()', 'from', '/lib64/ld-linux-x86-64.so.2']
+['#3', '0x00007f8c6df3ad37', 'in', '??', '()', 'from', '/lib64/ld-linux-x86-64.so.2']
+['#4', '0x00007f8c6de4b8b8', 'in', '__GI__dl_catch_exception', '(exception=<optimized', 'out>,', 'operate=<optimized', 'out>,', 'args=<optimized', 'out>)', 'at', 'dl-error-skeleton.c:208']
+['#5', '0x00007f8c6df3a5fa', 'in', '??', '()', 'from', '/lib64/ld-linux-x86-64.so.2']
+['#6', '0x00007f8c6dce334c', 'in', 'dlopen_doit', '(a=a@entry=0x7ffc225617b0)', 'at', 'dlopen.c:66']
+['#7', '0x00007f8c6de4b8b8', 'in', '__GI__dl_catch_exception', '(exception=exception@entry=0x7ffc22561750,', 'operate=<optimized', 'out>,', 'args=<optimized', 'out>)', 'at', 'dl-error-skeleton.c:208']
+['#8', '0x00007f8c6de4b983', 'in', '__GI__dl_catch_error', '(objname=0x55b43aa422a0,', 'errstring=0x55b43aa422a8,', 'mallocedp=0x55b43aa42298,', 'operate=<optimized', 'out>,', 'args=<optimized', 'out>)', 'at', 'dl-error-skeleton.c:227']
+['#9', '0x00007f8c6dce3b59', 'in', '_dlerror_run', '(operate=operate@entry=0x7f8c6dce32f0', '<dlopen_doit>,', 'args=args@entry=0x7ffc225617b0)', 'at', 'dlerror.c:170']
+['#10', '0x00007f8c6dce33da', 'in', '__dlopen', '(file=file@entry=0x7ffc225618a0', '"/usr/local/libexec/sudo/sudoers.so",', 'mode=<optimized', 'out>)', 'at', 'dlopen.c:87']
+['#11', '0x00007f8c6df0b51d', 'in', 'sudo_dso_load_v1', '(path=path@entry=0x7ffc225618a0', '"/usr/local/libexec/sudo/sudoers.so",', 'mode=mode@entry=0x5)', 'at', './sudo_dso.c:195']
+['#12', '0x000055b4392aef73', 'in', 'sudo_load_plugin', '(policy_plugin=policy_plugin@entry=0x55b4392c37a0', '<policy_plugin>,', 'info=info@entry=0x55b43aa42210,', 'io_plugins=<optimized', 'out>,', 'io_plugins=<optimized', 'out>)', 'at', './load_plugins.c:178']
+['#13', '0x000055b4392b019e', 'in', 'sudo_load_plugins', '(policy_plugin=0x55b4392c37a0', '<policy_plugin>,', 'io_plugins=0x55b4392c2010', '<io_plugins>)', 'at', './load_plugins.c:326']
+['#14', '0x000055b4392a2a92', 'in', 'main', '(argc=0x3,', 'argv=<optimized', 'out>,', 'envp=0x7ffc22562be8)', 'at', './sudo.c:214']
+['#1', '0x00007f8c6df325a8', 'in', '??', '()', 'from', '/lib64/ld-linux-x86-64.so.2']
+['#2', '0x00007f8c6df2be97', 'in', '??', '()', 'from', '/lib64/ld-linux-x86-64.so.2']
+['#3', '0x00007f8c6df2f61b', 'in', '??', '()', 'from', '/lib64/ld-linux-x86-64.so.2']
+['#4', '0x00007f8c6df3ad37', 'in', '??', '()', 'from', '/lib64/ld-linux-x86-64.so.2']
+['#5', '0x00007f8c6de4b8b8', 'in', '__GI__dl_catch_exception', '(exception=<optimized', 'out>,', 'operate=<optimized', 'out>,', 'args=<optimized', 'out>)', 'at', 'dl-error-skeleton.c:208']
+['#6', '0x00007f8c6df3a5fa', 'in', '??', '()', 'from', '/lib64/ld-linux-x86-64.so.2']
+['#7', '0x00007f8c6dce334c', 'in', 'dlopen_doit', '(a=a@entry=0x7ffc225617b0)', 'at', 'dlopen.c:66']
+['#8', '0x00007f8c6de4b8b8', 'in', '__GI__dl_catch_exception', '(exception=exception@entry=0x7ffc22561750,', 'operate=<optimized', 'out>,', 'args=<optimized', 'out>)', 'at', 'dl-error-skeleton.c:208']
+['#9', '0x00007f8c6de4b983', 'in', '__GI__dl_catch_error', '(objname=0x55b43aa422a0,', 'errstring=0x55b43aa422a8,', 'mallocedp=0x55b43aa42298,', 'operate=<optimized', 'out>,', 'args=<optimized', 'out>)', 'at', 'dl-error-skeleton.c:227']
+['#10', '0x00007f8c6dce3b59', 'in', '_dlerror_run', '(operate=operate@entry=0x7f8c6dce32f0', '<dlopen_doit>,', 'args=args@entry=0x7ffc225617b0)', 'at', 'dlerror.c:170']
+['#11', '0x00007f8c6dce33da', 'in', '__dlopen', '(file=file@entry=0x7ffc225618a0', '"/usr/local/libexec/sudo/sudoers.so",', 'mode=<optimized', 'out>)', 'at', 'dlopen.c:87']
+['#12', '0x00007f8c6df0b51d', 'in', 'sudo_dso_load_v1', '(path=path@entry=0x7ffc225618a0', '"/usr/local/libexec/sudo/sudoers.so",', 'mode=mode@entry=0x5)', 'at', './sudo_dso.c:195']
+['#13', '0x000055b4392aef73', 'in', 'sudo_load_plugin', '(policy_plugin=policy_plugin@entry=0x55b4392c37a0', '<policy_plugin>,', 'info=info@entry=0x55b43aa42210,', 'io_plugins=<optimized', 'out>,', 'io_plugins=<optimized', 'out>)', 'at', './load_plugins.c:178']
+['#14', '0x000055b4392b019e', 'in', 'sudo_load_plugins', '(policy_plugin=0x55b4392c37a0', '<policy_plugin>,', 'io_plugins=0x55b4392c2010', '<io_plugins>)', 'at', './load_plugins.c:326']
+['#15', '0x000055b4392a2a92', 'in', 'main', '(argc=0x3,', 'argv=<optimized', 'out>,', 'envp=0x7ffc22562be8)', 'at', './sudo.c:214']
+['#1', '0x00007f8c6df05ddc', 'in', 'sudo_new_key_val_v1', '(key=0x55b4392bab67', '"run_shell",', 'val=0x55b4392ba9c3', '"true")', 'at', './key_val.c:53']
+['#2', '0x000055b4392b32f6', 'in', 'format_plugin_settings', '(sudo_settings=<optimized', 'out>,', 'plugin=<optimized', 'out>,', 'plugin=<optimized', 'out>)', 'at', './sudo.c:1031']
+['#3', '0x000055b4392a2ad1', 'in', 'policy_open', '(plugin=0x55b4392c37a0', '<policy_plugin>,', 'user_env=0x7ffc22562be8,', 'user_info=0x55b43aa3fcd0,', 'settings=0x55b4392c15c0', '<sudo_settings>)', 'at', './sudo.c:1068']
+['#4', 'main', '(argc=<optimized', 'out>,', 'argv=<optimized', 'out>,', 'envp=0x7ffc22562be8)', 'at', './sudo.c:218']
+__GI___strdup sudo_load_plugins main 
+__GI___strdup sudo_load_plugins main 
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+
+
+Thread-specific breakpoint 3 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 4 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 5 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 6 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 7 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 8 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 9 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 10 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 11 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 12 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 13 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 14 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 15 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 16 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 17 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 18 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 19 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 20 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 21 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 22 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 23 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 24 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 25 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 26 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 27 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 28 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 29 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 30 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 31 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 32 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 33 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 34 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 35 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 36 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 37 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 38 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 39 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 40 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 41 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 42 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 43 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 44 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 45 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 46 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 47 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 48 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 49 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 50 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 51 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 52 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 53 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 54 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 55 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 56 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 57 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 58 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 59 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 60 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 61 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 62 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 63 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 64 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 65 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 66 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 67 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 68 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 69 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 70 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 71 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 72 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 73 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 74 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 75 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 76 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 77 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 78 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 79 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 80 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 81 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 82 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 83 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 84 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 85 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 86 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 87 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 88 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 89 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 90 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 91 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 92 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 93 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 94 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 95 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 96 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 97 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 98 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 99 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 100 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 101 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 102 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 103 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 104 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 105 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 106 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 107 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 108 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 109 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 110 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 111 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 112 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 113 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 114 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 115 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 116 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 117 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 118 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 119 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 120 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 121 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 122 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 123 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 124 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 125 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 126 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 127 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 128 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 129 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 130 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 131 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 132 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 133 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 134 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 135 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 136 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 137 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 138 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 139 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 140 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 141 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 142 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 143 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 144 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 145 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 146 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 147 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 148 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 149 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 150 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 151 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 152 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 153 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 154 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 155 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 156 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 157 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 158 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 159 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 160 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 161 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 162 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 163 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 164 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 165 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 166 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 167 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 168 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 169 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 170 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 171 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 172 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 173 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 174 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 175 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 176 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 177 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 178 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 179 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 180 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 181 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 182 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 183 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 184 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 185 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 186 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 187 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 188 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 189 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 190 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 191 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 192 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 193 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 194 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 195 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 196 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 197 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 198 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 199 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 200 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 201 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 202 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 203 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 204 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 205 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 206 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 207 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 208 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 209 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 210 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 211 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 212 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 213 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 214 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 215 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 216 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 217 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 218 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 219 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 220 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 221 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 222 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 223 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 224 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 225 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 226 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 227 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 228 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 229 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 230 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 231 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 232 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 233 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 234 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 235 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 236 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 237 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 238 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 239 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 240 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 241 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 242 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 243 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 244 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 245 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 246 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 247 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 248 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 249 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 250 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 251 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 252 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 253 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 254 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 255 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 256 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 257 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 258 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 259 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 260 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 261 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 262 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 263 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 264 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 265 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 266 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 267 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 268 deleted - thread 1 no longer in the thread list.
+Thread-specific breakpoint 269 deleted - thread 1 no longer in the thread list.
+CLEANUP!!!

@@ -1,0 +1,64 @@
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  __GI_raise (sig=sig@entry=0x6) at ../sysdeps/unix/sysv/linux/raise.c:50
+#1  0x00007fa5f1b62859 in __GI_abort () at abort.c:79
+#2  0x00007fa5f1bcd3ee in __libc_message (action=action@entry=do_abort, fmt=fmt@entry=0x7fa5f1cf7285 "%s\n") at ../sysdeps/posix/libc_fatal.c:155
+#3  0x00007fa5f1bd547c in malloc_printerr (str=str@entry=0x7fa5f1cf91e0 "munmap_chunk(): invalid pointer") at malloc.c:5347
+#4  0x00007fa5f1bd56cc in munmap_chunk (p=<optimized out>) at malloc.c:2830
+#5  0x00007fa5f1ab21aa in free_member (m=0x56172f6caa60) at gram.y:1092
+#6  0x00007fa5f1ab24f6 in free_privilege (priv=0x56172f6cab00) at gram.y:1201
+#7  0x00007fa5f1ab2610 in free_userspec (us=0x56172f6cab50) at gram.y:1237
+#8  0x00007fa5f1ab2730 in free_userspecs (usl=usl@entry=0x56172f6c0758) at gram.y:1221
+#9  0x00007fa5f1ab283d in free_parse_tree (parse_tree=parse_tree@entry=0x56172f6c0758) at gram.y:1282
+#10 0x00007fa5f1a950da in sudo_file_close (nss=0x7fa5f1adc980 <sudo_nss_file>) at ./file.c:61
+#11 0x00007fa5f1aa744e in sudoers_cleanup () at ./sudoers.c:1302
+#12 0x00007fa5f1d5a2de in do_cleanup () at ./fatal.c:74
+#13 0x00007fa5f1d5a75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#14 0x000056172e20faa7 in tgetpass (prompt=0x56172f6c6560 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffcfcfa1400) at ./tgetpass.c:158
+#15 0x000056172e1fc7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffcfcfa0fb8, callback=0x7ffcfcfa1400) at ./conversation.c:81
+#16 0x00007fa5f1a9029d in auth_getpass (prompt=0x56172f6c6560 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffcfcfa1400) at ./auth/sudo_auth.c:464
+#17 0x00007fa5f1a90702 in verify_user (pw=0x56172f6c4148, prompt=<optimized out>, prompt@entry=0x56172f6c6560 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffcfcfa1400) at ./auth/sudo_auth.c:319
+#18 0x00007fa5f1a91605 in check_user_interactive (closure=0x7ffcfcfa13e0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#19 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#20 0x00007fa5f1aa8edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffcfcfa1828, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcfcfa1530) at ./sudoers.c:418
+#21 0x00007fa5f1aa212a in sudoers_policy_check (argc=0x2, argv=0x7ffcfcfa1828, env_add=0x0, command_infop=0x7ffcfcfa15a8, argv_out=0x7ffcfcfa15b0, user_env_out=0x7ffcfcfa15b8) at ./policy.c:872
+#22 0x000056172e1fb151 in policy_check (plugin=0x56172e21b7a0 <policy_plugin>, user_env_out=0x7ffcfcfa15b8, argv_out=0x7ffcfcfa15b0, command_info=0x7ffcfcfa15a8, env_add=0x0, argv=0x7ffcfcfa1828, argc=0x2) at ./sudo.c:1140
+#23 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcfcfa1840) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  __GI_raise (sig=sig@entry=0x6) at ../sysdeps/unix/sysv/linux/raise.c:50
+#1  0x00007f0bbe8bc859 in __GI_abort () at abort.c:79
+#2  0x00007f0bbe9273ee in __libc_message (action=action@entry=do_abort, fmt=fmt@entry=0x7f0bbea51285 "%s\n") at ../sysdeps/posix/libc_fatal.c:155
+#3  0x00007f0bbe92f47c in malloc_printerr (str=str@entry=0x7f0bbea531e0 "munmap_chunk(): invalid pointer") at malloc.c:5347
+#4  0x00007f0bbe92f6cc in munmap_chunk (p=<optimized out>) at malloc.c:2830
+#5  0x00007f0bbe80c1aa in free_member (m=0x55d5c3da9bc0) at gram.y:1092
+#6  0x00007f0bbe80c4f6 in free_privilege (priv=0x55d5c3da9c60) at gram.y:1201
+#7  0x00007f0bbe80c610 in free_userspec (us=0x55d5c3da9cb0) at gram.y:1237
+#8  0x00007f0bbe80c730 in free_userspecs (usl=usl@entry=0x55d5c3d9f8a8) at gram.y:1221
+#9  0x00007f0bbe80c83d in free_parse_tree (parse_tree=parse_tree@entry=0x55d5c3d9f8a8) at gram.y:1282
+#10 0x00007f0bbe7ef0da in sudo_file_close (nss=0x7f0bbe836980 <sudo_nss_file>) at ./file.c:61
+#11 0x00007f0bbe80144e in sudoers_cleanup () at ./sudoers.c:1302
+#12 0x00007f0bbeab42de in do_cleanup () at ./fatal.c:74
+#13 0x00007f0bbeab475c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#14 0x000055d5c1e2faa7 in tgetpass (prompt=0x55d5c3da56c0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffcd86585f0) at ./tgetpass.c:158
+#15 0x000055d5c1e1c7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffcd86581a8, callback=0x7ffcd86585f0) at ./conversation.c:81
+#16 0x00007f0bbe7ea29d in auth_getpass (prompt=0x55d5c3da56c0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffcd86585f0) at ./auth/sudo_auth.c:464
+#17 0x00007f0bbe7ea702 in verify_user (pw=0x55d5c3da32a8, prompt=<optimized out>, prompt@entry=0x55d5c3da56c0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffcd86585f0) at ./auth/sudo_auth.c:319
+#18 0x00007f0bbe7eb605 in check_user_interactive (closure=0x7ffcd86585d0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#19 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#20 0x00007f0bbe802edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffcd8658a18, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcd8658720) at ./sudoers.c:418
+#21 0x00007f0bbe7fc12a in sudoers_policy_check (argc=0x2, argv=0x7ffcd8658a18, env_add=0x0, command_infop=0x7ffcd8658798, argv_out=0x7ffcd86587a0, user_env_out=0x7ffcd86587a8) at ./policy.c:872
+#22 0x000055d5c1e1b151 in policy_check (plugin=0x55d5c1e3b7a0 <policy_plugin>, user_env_out=0x7ffcd86587a8, argv_out=0x7ffcd86587a0, command_info=0x7ffcd8658798, env_add=0x0, argv=0x7ffcd8658a18, argc=0x2) at ./sudo.c:1140
+#23 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcd8658a30) at ./sudo.c:254
+

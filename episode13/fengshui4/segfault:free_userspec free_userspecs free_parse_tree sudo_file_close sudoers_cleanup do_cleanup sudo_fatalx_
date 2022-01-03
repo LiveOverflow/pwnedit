@@ -1,0 +1,1069 @@
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55cd7233dd60) at gram.y:1167
+#1  0x00007fb6315b4610 in free_userspec (us=0x55cd7233ddb0) at gram.y:1237
+#2  0x00007fb6315b4730 in free_userspecs (usl=usl@entry=0x55cd723339a8) at gram.y:1221
+#3  0x00007fb6315b483d in free_parse_tree (parse_tree=parse_tree@entry=0x55cd723339a8) at gram.y:1282
+#4  0x00007fb6315970da in sudo_file_close (nss=0x7fb6315de980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007fb6315a944e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007fb63185c2de in do_cleanup () at ./fatal.c:74
+#7  0x00007fb63185c75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055cd7211aaa7 in tgetpass (prompt=0x55cd723397d0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fff0b9cf540) at ./tgetpass.c:158
+#9  0x000055cd721077a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff0b9cf0f8, callback=0x7fff0b9cf540) at ./conversation.c:81
+#10 0x00007fb63159229d in auth_getpass (prompt=0x55cd723397d0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff0b9cf540) at ./auth/sudo_auth.c:464
+#11 0x00007fb631592702 in verify_user (pw=0x55cd723373a8, prompt=<optimized out>, prompt@entry=0x55cd723397d0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff0b9cf540) at ./auth/sudo_auth.c:319
+#12 0x00007fb631593605 in check_user_interactive (closure=0x7fff0b9cf520, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007fb6315aaedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff0b9cf968, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff0b9cf670) at ./sudoers.c:418
+#15 0x00007fb6315a412a in sudoers_policy_check (argc=0x2, argv=0x7fff0b9cf968, env_add=0x0, command_infop=0x7fff0b9cf6e8, argv_out=0x7fff0b9cf6f0, user_env_out=0x7fff0b9cf6f8) at ./policy.c:872
+#16 0x000055cd72106151 in policy_check (plugin=0x55cd721267a0 <policy_plugin>, user_env_out=0x7fff0b9cf6f8, argv_out=0x7fff0b9cf6f0, command_info=0x7fff0b9cf6e8, env_add=0x0, argv=0x7fff0b9cf968, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff0b9cf980) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x560000c28800) at gram.y:1167
+#1  0x00007f0f4de53610 in free_userspec (us=0x560000c28850) at gram.y:1237
+#2  0x00007f0f4de53730 in free_userspecs (usl=usl@entry=0x560000c1eae8) at gram.y:1221
+#3  0x00007f0f4de5383d in free_parse_tree (parse_tree=parse_tree@entry=0x560000c1eae8) at gram.y:1282
+#4  0x00007f0f4de360da in sudo_file_close (nss=0x7f0f4de7d980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f0f4de4844e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f0f4e0fb2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f0f4e0fb75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055ffff8b7aa7 in tgetpass (prompt=0x560000c24270 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fff4c718280) at ./tgetpass.c:158
+#9  0x000055ffff8a47a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff4c717e38, callback=0x7fff4c718280) at ./conversation.c:81
+#10 0x00007f0f4de3129d in auth_getpass (prompt=0x560000c24270 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff4c718280) at ./auth/sudo_auth.c:464
+#11 0x00007f0f4de31702 in verify_user (pw=0x560000c21e48, prompt=<optimized out>, prompt@entry=0x560000c24270 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff4c718280) at ./auth/sudo_auth.c:319
+#12 0x00007f0f4de32605 in check_user_interactive (closure=0x7fff4c718260, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f0f4de49edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff4c7186a8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff4c7183b0) at ./sudoers.c:418
+#15 0x00007f0f4de4312a in sudoers_policy_check (argc=0x2, argv=0x7fff4c7186a8, env_add=0x0, command_infop=0x7fff4c718428, argv_out=0x7fff4c718430, user_env_out=0x7fff4c718438) at ./policy.c:872
+#16 0x000055ffff8a3151 in policy_check (plugin=0x55ffff8c37a0 <policy_plugin>, user_env_out=0x7fff4c718438, argv_out=0x7fff4c718430, command_info=0x7fff4c718428, env_add=0x0, argv=0x7fff4c7186a8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff4c7186c0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55fd71d6dd10) at gram.y:1167
+#1  0x00007fb805eeb610 in free_userspec (us=0x55fd71d6dd60) at gram.y:1237
+#2  0x00007fb805eeb730 in free_userspecs (usl=usl@entry=0x55fd71d63a08) at gram.y:1221
+#3  0x00007fb805eeb83d in free_parse_tree (parse_tree=parse_tree@entry=0x55fd71d63a08) at gram.y:1282
+#4  0x00007fb805ece0da in sudo_file_close (nss=0x7fb805f15980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007fb805ee044e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007fb8061932de in do_cleanup () at ./fatal.c:74
+#7  0x00007fb80619375c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055fd7115faa7 in tgetpass (prompt=0x55fd71d69780 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffd0eabed80) at ./tgetpass.c:158
+#9  0x000055fd7114c7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd0eabe938, callback=0x7ffd0eabed80) at ./conversation.c:81
+#10 0x00007fb805ec929d in auth_getpass (prompt=0x55fd71d69780 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd0eabed80) at ./auth/sudo_auth.c:464
+#11 0x00007fb805ec9702 in verify_user (pw=0x55fd71d67358, prompt=<optimized out>, prompt@entry=0x55fd71d69780 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd0eabed80) at ./auth/sudo_auth.c:319
+#12 0x00007fb805eca605 in check_user_interactive (closure=0x7ffd0eabed60, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007fb805ee1edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd0eabf1a8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd0eabeeb0) at ./sudoers.c:418
+#15 0x00007fb805edb12a in sudoers_policy_check (argc=0x2, argv=0x7ffd0eabf1a8, env_add=0x0, command_infop=0x7ffd0eabef28, argv_out=0x7ffd0eabef30, user_env_out=0x7ffd0eabef38) at ./policy.c:872
+#16 0x000055fd7114b151 in policy_check (plugin=0x55fd7116b7a0 <policy_plugin>, user_env_out=0x7ffd0eabef38, argv_out=0x7ffd0eabef30, command_info=0x7ffd0eabef28, env_add=0x0, argv=0x7ffd0eabf1a8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd0eabf1c0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x560f1cb98b70) at gram.y:1167
+#1  0x00007f654d15f610 in free_userspec (us=0x560f1cb98bc0) at gram.y:1237
+#2  0x00007f654d15f730 in free_userspecs (usl=usl@entry=0x560f1cb8ee58) at gram.y:1221
+#3  0x00007f654d15f83d in free_parse_tree (parse_tree=parse_tree@entry=0x560f1cb8ee58) at gram.y:1282
+#4  0x00007f654d1420da in sudo_file_close (nss=0x7f654d189980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f654d15444e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f654d4072de in do_cleanup () at ./fatal.c:74
+#7  0x00007f654d40775c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x0000560f1bffcaa7 in tgetpass (prompt=0x560f1cb945d0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffe97d8f5d0) at ./tgetpass.c:158
+#9  0x0000560f1bfe97a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffe97d8f188, callback=0x7ffe97d8f5d0) at ./conversation.c:81
+#10 0x00007f654d13d29d in auth_getpass (prompt=0x560f1cb945d0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffe97d8f5d0) at ./auth/sudo_auth.c:464
+#11 0x00007f654d13d702 in verify_user (pw=0x560f1cb921b8, prompt=<optimized out>, prompt@entry=0x560f1cb945d0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffe97d8f5d0) at ./auth/sudo_auth.c:319
+#12 0x00007f654d13e605 in check_user_interactive (closure=0x7ffe97d8f5b0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f654d155edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe97d8f9f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe97d8f700) at ./sudoers.c:418
+#15 0x00007f654d14f12a in sudoers_policy_check (argc=0x2, argv=0x7ffe97d8f9f8, env_add=0x0, command_infop=0x7ffe97d8f778, argv_out=0x7ffe97d8f780, user_env_out=0x7ffe97d8f788) at ./policy.c:872
+#16 0x0000560f1bfe8151 in policy_check (plugin=0x560f1c0087a0 <policy_plugin>, user_env_out=0x7ffe97d8f788, argv_out=0x7ffe97d8f780, command_info=0x7ffe97d8f778, env_add=0x0, argv=0x7ffe97d8f9f8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe97d8fa10) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x56320a4c0a80) at gram.y:1167
+#1  0x00007fefa3287610 in free_userspec (us=0x56320a4c0ad0) at gram.y:1237
+#2  0x00007fefa3287730 in free_userspecs (usl=usl@entry=0x56320a4b66d8) at gram.y:1221
+#3  0x00007fefa328783d in free_parse_tree (parse_tree=parse_tree@entry=0x56320a4b66d8) at gram.y:1282
+#4  0x00007fefa326a0da in sudo_file_close (nss=0x7fefa32b1980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007fefa327c44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007fefa352f2de in do_cleanup () at ./fatal.c:74
+#7  0x00007fefa352f75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000056320a0ffaa7 in tgetpass (prompt=0x56320a4c11b0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffce63f0d80) at ./tgetpass.c:158
+#9  0x000056320a0ec7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffce63f0938, callback=0x7ffce63f0d80) at ./conversation.c:81
+#10 0x00007fefa326529d in auth_getpass (prompt=0x56320a4c11b0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffce63f0d80) at ./auth/sudo_auth.c:464
+#11 0x00007fefa3265702 in verify_user (pw=0x56320a4ba0c8, prompt=<optimized out>, prompt@entry=0x56320a4c11b0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffce63f0d80) at ./auth/sudo_auth.c:319
+#12 0x00007fefa3266605 in check_user_interactive (closure=0x7ffce63f0d60, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007fefa327dedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffce63f11a8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffce63f0eb0) at ./sudoers.c:418
+#15 0x00007fefa327712a in sudoers_policy_check (argc=0x2, argv=0x7ffce63f11a8, env_add=0x0, command_infop=0x7ffce63f0f28, argv_out=0x7ffce63f0f30, user_env_out=0x7ffce63f0f38) at ./policy.c:872
+#16 0x000056320a0eb151 in policy_check (plugin=0x56320a10b7a0 <policy_plugin>, user_env_out=0x7ffce63f0f38, argv_out=0x7ffce63f0f30, command_info=0x7ffce63f0f28, env_add=0x0, argv=0x7ffce63f11a8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffce63f11c0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x557027cfa8d0) at gram.y:1167
+#1  0x00007f8df3f49610 in free_userspec (us=0x557027cfa920) at gram.y:1237
+#2  0x00007f8df3f49730 in free_userspecs (usl=usl@entry=0x557027cf05c8) at gram.y:1221
+#3  0x00007f8df3f4983d in free_parse_tree (parse_tree=parse_tree@entry=0x557027cf05c8) at gram.y:1282
+#4  0x00007f8df3f2c0da in sudo_file_close (nss=0x7f8df3f73980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f8df3f3e44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f8df41f12de in do_cleanup () at ./fatal.c:74
+#7  0x00007f8df41f175c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x0000557026c68aa7 in tgetpass (prompt=0x557027cf6330 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fff27093750) at ./tgetpass.c:158
+#9  0x0000557026c557a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff27093308, callback=0x7fff27093750) at ./conversation.c:81
+#10 0x00007f8df3f2729d in auth_getpass (prompt=0x557027cf6330 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff27093750) at ./auth/sudo_auth.c:464
+#11 0x00007f8df3f27702 in verify_user (pw=0x557027cf3f18, prompt=<optimized out>, prompt@entry=0x557027cf6330 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff27093750) at ./auth/sudo_auth.c:319
+#12 0x00007f8df3f28605 in check_user_interactive (closure=0x7fff27093730, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f8df3f3fedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff27093b78, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff27093880) at ./sudoers.c:418
+#15 0x00007f8df3f3912a in sudoers_policy_check (argc=0x2, argv=0x7fff27093b78, env_add=0x0, command_infop=0x7fff270938f8, argv_out=0x7fff27093900, user_env_out=0x7fff27093908) at ./policy.c:872
+#16 0x0000557026c54151 in policy_check (plugin=0x557026c747a0 <policy_plugin>, user_env_out=0x7fff27093908, argv_out=0x7fff27093900, command_info=0x7fff270938f8, env_add=0x0, argv=0x7fff27093b78, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff27093b90) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55b7167b59e0) at gram.y:1167
+#1  0x00007fe9c51ea610 in free_userspec (us=0x55b7167b5a30) at gram.y:1237
+#2  0x00007fe9c51ea730 in free_userspecs (usl=usl@entry=0x55b7167ab6d8) at gram.y:1221
+#3  0x00007fe9c51ea83d in free_parse_tree (parse_tree=parse_tree@entry=0x55b7167ab6d8) at gram.y:1282
+#4  0x00007fe9c51cd0da in sudo_file_close (nss=0x7fe9c5214980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007fe9c51df44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007fe9c54922de in do_cleanup () at ./fatal.c:74
+#7  0x00007fe9c549275c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055b7149b3aa7 in tgetpass (prompt=0x55b7167b1440 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffd28fc00d0) at ./tgetpass.c:158
+#9  0x000055b7149a07a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd28fbfc88, callback=0x7ffd28fc00d0) at ./conversation.c:81
+#10 0x00007fe9c51c829d in auth_getpass (prompt=0x55b7167b1440 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd28fc00d0) at ./auth/sudo_auth.c:464
+#11 0x00007fe9c51c8702 in verify_user (pw=0x55b7167af028, prompt=<optimized out>, prompt@entry=0x55b7167b1440 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd28fc00d0) at ./auth/sudo_auth.c:319
+#12 0x00007fe9c51c9605 in check_user_interactive (closure=0x7ffd28fc00b0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007fe9c51e0edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd28fc04f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd28fc0200) at ./sudoers.c:418
+#15 0x00007fe9c51da12a in sudoers_policy_check (argc=0x2, argv=0x7ffd28fc04f8, env_add=0x0, command_infop=0x7ffd28fc0278, argv_out=0x7ffd28fc0280, user_env_out=0x7ffd28fc0288) at ./policy.c:872
+#16 0x000055b71499f151 in policy_check (plugin=0x55b7149bf7a0 <policy_plugin>, user_env_out=0x7ffd28fc0288, argv_out=0x7ffd28fc0280, command_info=0x7ffd28fc0278, env_add=0x0, argv=0x7ffd28fc04f8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd28fc0510) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x561c368dad80) at gram.y:1167
+#1  0x00007fd90350c610 in free_userspec (us=0x561c368dadd0) at gram.y:1237
+#2  0x00007fd90350c730 in free_userspecs (usl=usl@entry=0x561c368d0a08) at gram.y:1221
+#3  0x00007fd90350c83d in free_parse_tree (parse_tree=parse_tree@entry=0x561c368d0a08) at gram.y:1282
+#4  0x00007fd9034ef0da in sudo_file_close (nss=0x7fd903536980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007fd90350144e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007fd9037b42de in do_cleanup () at ./fatal.c:74
+#7  0x00007fd9037b475c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x0000561c35345aa7 in tgetpass (prompt=0x561c368d67e0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffd75551590) at ./tgetpass.c:158
+#9  0x0000561c353327a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd75551148, callback=0x7ffd75551590) at ./conversation.c:81
+#10 0x00007fd9034ea29d in auth_getpass (prompt=0x561c368d67e0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd75551590) at ./auth/sudo_auth.c:464
+#11 0x00007fd9034ea702 in verify_user (pw=0x561c368d43c8, prompt=<optimized out>, prompt@entry=0x561c368d67e0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd75551590) at ./auth/sudo_auth.c:319
+#12 0x00007fd9034eb605 in check_user_interactive (closure=0x7ffd75551570, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007fd903502edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd755519b8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd755516c0) at ./sudoers.c:418
+#15 0x00007fd9034fc12a in sudoers_policy_check (argc=0x2, argv=0x7ffd755519b8, env_add=0x0, command_infop=0x7ffd75551738, argv_out=0x7ffd75551740, user_env_out=0x7ffd75551748) at ./policy.c:872
+#16 0x0000561c35331151 in policy_check (plugin=0x561c353517a0 <policy_plugin>, user_env_out=0x7ffd75551748, argv_out=0x7ffd75551740, command_info=0x7ffd75551738, env_add=0x0, argv=0x7ffd755519b8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd755519d0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x560097377cc0) at gram.y:1167
+#1  0x00007fb9b3622610 in free_userspec (us=0x560097377d10) at gram.y:1237
+#2  0x00007fb9b3622730 in free_userspecs (usl=usl@entry=0x56009736d908) at gram.y:1221
+#3  0x00007fb9b362283d in free_parse_tree (parse_tree=parse_tree@entry=0x56009736d908) at gram.y:1282
+#4  0x00007fb9b36050da in sudo_file_close (nss=0x7fb9b364c980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007fb9b361744e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007fb9b38ca2de in do_cleanup () at ./fatal.c:74
+#7  0x00007fb9b38ca75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x0000560095590aa7 in tgetpass (prompt=0x560097373700 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fff88696140) at ./tgetpass.c:158
+#9  0x000056009557d7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff88695cf8, callback=0x7fff88696140) at ./conversation.c:81
+#10 0x00007fb9b360029d in auth_getpass (prompt=0x560097373700 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff88696140) at ./auth/sudo_auth.c:464
+#11 0x00007fb9b3600702 in verify_user (pw=0x560097371308, prompt=<optimized out>, prompt@entry=0x560097373700 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff88696140) at ./auth/sudo_auth.c:319
+#12 0x00007fb9b3601605 in check_user_interactive (closure=0x7fff88696120, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007fb9b3618edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff88696568, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff88696270) at ./sudoers.c:418
+#15 0x00007fb9b361212a in sudoers_policy_check (argc=0x2, argv=0x7fff88696568, env_add=0x0, command_infop=0x7fff886962e8, argv_out=0x7fff886962f0, user_env_out=0x7fff886962f8) at ./policy.c:872
+#16 0x000056009557c151 in policy_check (plugin=0x56009559c7a0 <policy_plugin>, user_env_out=0x7fff886962f8, argv_out=0x7fff886962f0, command_info=0x7fff886962e8, env_add=0x0, argv=0x7fff88696568, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff88696580) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55a27455aa40) at gram.y:1167
+#1  0x00007f8e8c805610 in free_userspec (us=0x55a27455aa90) at gram.y:1237
+#2  0x00007f8e8c805730 in free_userspecs (usl=usl@entry=0x55a274550698) at gram.y:1221
+#3  0x00007f8e8c80583d in free_parse_tree (parse_tree=parse_tree@entry=0x55a274550698) at gram.y:1282
+#4  0x00007f8e8c7e80da in sudo_file_close (nss=0x7f8e8c82f980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f8e8c7fa44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f8e8caad2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f8e8caad75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055a272748aa7 in tgetpass (prompt=0x55a27455b170 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffd11848970) at ./tgetpass.c:158
+#9  0x000055a2727357a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd11848528, callback=0x7ffd11848970) at ./conversation.c:81
+#10 0x00007f8e8c7e329d in auth_getpass (prompt=0x55a27455b170 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd11848970) at ./auth/sudo_auth.c:464
+#11 0x00007f8e8c7e3702 in verify_user (pw=0x55a274554088, prompt=<optimized out>, prompt@entry=0x55a27455b170 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd11848970) at ./auth/sudo_auth.c:319
+#12 0x00007f8e8c7e4605 in check_user_interactive (closure=0x7ffd11848950, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f8e8c7fbedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd11848d98, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd11848aa0) at ./sudoers.c:418
+#15 0x00007f8e8c7f512a in sudoers_policy_check (argc=0x2, argv=0x7ffd11848d98, env_add=0x0, command_infop=0x7ffd11848b18, argv_out=0x7ffd11848b20, user_env_out=0x7ffd11848b28) at ./policy.c:872
+#16 0x000055a272734151 in policy_check (plugin=0x55a2727547a0 <policy_plugin>, user_env_out=0x7ffd11848b28, argv_out=0x7ffd11848b20, command_info=0x7ffd11848b18, env_add=0x0, argv=0x7ffd11848d98, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd11848db0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55d7eff89d20) at gram.y:1167
+#1  0x00007f7fa43ed610 in free_userspec (us=0x55d7eff89d70) at gram.y:1237
+#2  0x00007f7fa43ed730 in free_userspecs (usl=usl@entry=0x55d7eff7f978) at gram.y:1221
+#3  0x00007f7fa43ed83d in free_parse_tree (parse_tree=parse_tree@entry=0x55d7eff7f978) at gram.y:1282
+#4  0x00007f7fa43d00da in sudo_file_close (nss=0x7f7fa4417980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f7fa43e244e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f7fa46952de in do_cleanup () at ./fatal.c:74
+#7  0x00007f7fa469575c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055d7ef2beaa7 in tgetpass (prompt=0x55d7eff8a450 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffd89344fd0) at ./tgetpass.c:158
+#9  0x000055d7ef2ab7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd89344b88, callback=0x7ffd89344fd0) at ./conversation.c:81
+#10 0x00007f7fa43cb29d in auth_getpass (prompt=0x55d7eff8a450 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd89344fd0) at ./auth/sudo_auth.c:464
+#11 0x00007f7fa43cb702 in verify_user (pw=0x55d7eff83368, prompt=<optimized out>, prompt@entry=0x55d7eff8a450 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd89344fd0) at ./auth/sudo_auth.c:319
+#12 0x00007f7fa43cc605 in check_user_interactive (closure=0x7ffd89344fb0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f7fa43e3edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd893453f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd89345100) at ./sudoers.c:418
+#15 0x00007f7fa43dd12a in sudoers_policy_check (argc=0x2, argv=0x7ffd893453f8, env_add=0x0, command_infop=0x7ffd89345178, argv_out=0x7ffd89345180, user_env_out=0x7ffd89345188) at ./policy.c:872
+#16 0x000055d7ef2aa151 in policy_check (plugin=0x55d7ef2ca7a0 <policy_plugin>, user_env_out=0x7ffd89345188, argv_out=0x7ffd89345180, command_info=0x7ffd89345178, env_add=0x0, argv=0x7ffd893453f8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd89345410) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x563523787d80) at gram.y:1167
+#1  0x00007f0708a87610 in free_userspec (us=0x563523787dd0) at gram.y:1237
+#2  0x00007f0708a87730 in free_userspecs (usl=usl@entry=0x56352377da78) at gram.y:1221
+#3  0x00007f0708a8783d in free_parse_tree (parse_tree=parse_tree@entry=0x56352377da78) at gram.y:1282
+#4  0x00007f0708a6a0da in sudo_file_close (nss=0x7f0708ab1980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f0708a7c44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f0708d2f2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f0708d2f75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x0000563521ba5aa7 in tgetpass (prompt=0x5635237837e0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fff88abcd40) at ./tgetpass.c:158
+#9  0x0000563521b927a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff88abc8f8, callback=0x7fff88abcd40) at ./conversation.c:81
+#10 0x00007f0708a6529d in auth_getpass (prompt=0x5635237837e0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff88abcd40) at ./auth/sudo_auth.c:464
+#11 0x00007f0708a65702 in verify_user (pw=0x5635237813c8, prompt=<optimized out>, prompt@entry=0x5635237837e0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff88abcd40) at ./auth/sudo_auth.c:319
+#12 0x00007f0708a66605 in check_user_interactive (closure=0x7fff88abcd20, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f0708a7dedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff88abd168, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff88abce70) at ./sudoers.c:418
+#15 0x00007f0708a7712a in sudoers_policy_check (argc=0x2, argv=0x7fff88abd168, env_add=0x0, command_infop=0x7fff88abcee8, argv_out=0x7fff88abcef0, user_env_out=0x7fff88abcef8) at ./policy.c:872
+#16 0x0000563521b91151 in policy_check (plugin=0x563521bb17a0 <policy_plugin>, user_env_out=0x7fff88abcef8, argv_out=0x7fff88abcef0, command_info=0x7fff88abcee8, env_add=0x0, argv=0x7fff88abd168, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff88abd180) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x563c0f207980) at gram.y:1167
+#1  0x00007f26735a9610 in free_userspec (us=0x563c0f2079d0) at gram.y:1237
+#2  0x00007f26735a9730 in free_userspecs (usl=usl@entry=0x563c0f1fd698) at gram.y:1221
+#3  0x00007f26735a983d in free_parse_tree (parse_tree=parse_tree@entry=0x563c0f1fd698) at gram.y:1282
+#4  0x00007f267358c0da in sudo_file_close (nss=0x7f26735d3980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f267359e44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f26738512de in do_cleanup () at ./fatal.c:74
+#7  0x00007f267385175c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x0000563c0ed88aa7 in tgetpass (prompt=0x563c0f2080b0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffeab93a940) at ./tgetpass.c:158
+#9  0x0000563c0ed757a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffeab93a4f8, callback=0x7ffeab93a940) at ./conversation.c:81
+#10 0x00007f267358729d in auth_getpass (prompt=0x563c0f2080b0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffeab93a940) at ./auth/sudo_auth.c:464
+#11 0x00007f2673587702 in verify_user (pw=0x563c0f200fc8, prompt=<optimized out>, prompt@entry=0x563c0f2080b0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffeab93a940) at ./auth/sudo_auth.c:319
+#12 0x00007f2673588605 in check_user_interactive (closure=0x7ffeab93a920, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f267359fedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffeab93ad68, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffeab93aa70) at ./sudoers.c:418
+#15 0x00007f267359912a in sudoers_policy_check (argc=0x2, argv=0x7ffeab93ad68, env_add=0x0, command_infop=0x7ffeab93aae8, argv_out=0x7ffeab93aaf0, user_env_out=0x7ffeab93aaf8) at ./policy.c:872
+#16 0x0000563c0ed74151 in policy_check (plugin=0x563c0ed947a0 <policy_plugin>, user_env_out=0x7ffeab93aaf8, argv_out=0x7ffeab93aaf0, command_info=0x7ffeab93aae8, env_add=0x0, argv=0x7ffeab93ad68, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffeab93ad80) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55d1fad09ab0) at gram.y:1167
+#1  0x00007fbece21d610 in free_userspec (us=0x55d1fad09b00) at gram.y:1237
+#2  0x00007fbece21d730 in free_userspecs (usl=usl@entry=0x55d1facfe7a8) at gram.y:1221
+#3  0x00007fbece21d83d in free_parse_tree (parse_tree=parse_tree@entry=0x55d1facfe7a8) at gram.y:1282
+#4  0x00007fbece2000da in sudo_file_close (nss=0x7fbece247980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007fbece21244e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007fbece4c52de in do_cleanup () at ./fatal.c:74
+#7  0x00007fbece4c575c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055d1fa284aa7 in tgetpass (prompt=0x55d1fad05510 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffea515e220) at ./tgetpass.c:158
+#9  0x000055d1fa2717a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffea515ddd8, callback=0x7ffea515e220) at ./conversation.c:81
+#10 0x00007fbece1fb29d in auth_getpass (prompt=0x55d1fad05510 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffea515e220) at ./auth/sudo_auth.c:464
+#11 0x00007fbece1fb702 in verify_user (pw=0x55d1fad030f8, prompt=<optimized out>, prompt@entry=0x55d1fad05510 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffea515e220) at ./auth/sudo_auth.c:319
+#12 0x00007fbece1fc605 in check_user_interactive (closure=0x7ffea515e200, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007fbece213edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffea515e648, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffea515e350) at ./sudoers.c:418
+#15 0x00007fbece20d12a in sudoers_policy_check (argc=0x2, argv=0x7ffea515e648, env_add=0x0, command_infop=0x7ffea515e3c8, argv_out=0x7ffea515e3d0, user_env_out=0x7ffea515e3d8) at ./policy.c:872
+#16 0x000055d1fa270151 in policy_check (plugin=0x55d1fa2907a0 <policy_plugin>, user_env_out=0x7ffea515e3d8, argv_out=0x7ffea515e3d0, command_info=0x7ffea515e3c8, env_add=0x0, argv=0x7ffea515e648, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffea515e660) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55988f00bbc0) at gram.y:1167
+#1  0x00007f7e813d5610 in free_userspec (us=0x55988f00bc10) at gram.y:1237
+#2  0x00007f7e813d5730 in free_userspecs (usl=usl@entry=0x55988f001dd8) at gram.y:1221
+#3  0x00007f7e813d583d in free_parse_tree (parse_tree=parse_tree@entry=0x55988f001dd8) at gram.y:1282
+#4  0x00007f7e813b80da in sudo_file_close (nss=0x7f7e813ff980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f7e813ca44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f7e8167d2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f7e8167d75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055988eab6aa7 in tgetpass (prompt=0x55988f007620 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffe2ef31710) at ./tgetpass.c:158
+#9  0x000055988eaa37a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffe2ef312c8, callback=0x7ffe2ef31710) at ./conversation.c:81
+#10 0x00007f7e813b329d in auth_getpass (prompt=0x55988f007620 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffe2ef31710) at ./auth/sudo_auth.c:464
+#11 0x00007f7e813b3702 in verify_user (pw=0x55988f005208, prompt=<optimized out>, prompt@entry=0x55988f007620 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffe2ef31710) at ./auth/sudo_auth.c:319
+#12 0x00007f7e813b4605 in check_user_interactive (closure=0x7ffe2ef316f0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f7e813cbedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe2ef31b38, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe2ef31840) at ./sudoers.c:418
+#15 0x00007f7e813c512a in sudoers_policy_check (argc=0x2, argv=0x7ffe2ef31b38, env_add=0x0, command_infop=0x7ffe2ef318b8, argv_out=0x7ffe2ef318c0, user_env_out=0x7ffe2ef318c8) at ./policy.c:872
+#16 0x000055988eaa2151 in policy_check (plugin=0x55988eac27a0 <policy_plugin>, user_env_out=0x7ffe2ef318c8, argv_out=0x7ffe2ef318c0, command_info=0x7ffe2ef318b8, env_add=0x0, argv=0x7ffe2ef31b38, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe2ef31b50) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55ff35873a30) at gram.y:1167
+#1  0x00007f8e04d0c610 in free_userspec (us=0x55ff35873a80) at gram.y:1237
+#2  0x00007f8e04d0c730 in free_userspecs (usl=usl@entry=0x55ff358696a8) at gram.y:1221
+#3  0x00007f8e04d0c83d in free_parse_tree (parse_tree=parse_tree@entry=0x55ff358696a8) at gram.y:1282
+#4  0x00007f8e04cef0da in sudo_file_close (nss=0x7f8e04d36980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f8e04d0144e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f8e04fb42de in do_cleanup () at ./fatal.c:74
+#7  0x00007f8e04fb475c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055ff352a9aa7 in tgetpass (prompt=0x55ff3586f4a0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffc3fdd5750) at ./tgetpass.c:158
+#9  0x000055ff352967a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffc3fdd5308, callback=0x7ffc3fdd5750) at ./conversation.c:81
+#10 0x00007f8e04cea29d in auth_getpass (prompt=0x55ff3586f4a0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffc3fdd5750) at ./auth/sudo_auth.c:464
+#11 0x00007f8e04cea702 in verify_user (pw=0x55ff3586d078, prompt=<optimized out>, prompt@entry=0x55ff3586f4a0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffc3fdd5750) at ./auth/sudo_auth.c:319
+#12 0x00007f8e04ceb605 in check_user_interactive (closure=0x7ffc3fdd5730, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f8e04d02edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc3fdd5b78, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc3fdd5880) at ./sudoers.c:418
+#15 0x00007f8e04cfc12a in sudoers_policy_check (argc=0x2, argv=0x7ffc3fdd5b78, env_add=0x0, command_infop=0x7ffc3fdd58f8, argv_out=0x7ffc3fdd5900, user_env_out=0x7ffc3fdd5908) at ./policy.c:872
+#16 0x000055ff35295151 in policy_check (plugin=0x55ff352b57a0 <policy_plugin>, user_env_out=0x7ffc3fdd5908, argv_out=0x7ffc3fdd5900, command_info=0x7ffc3fdd58f8, env_add=0x0, argv=0x7ffc3fdd5b78, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc3fdd5b90) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x5603d366ae10) at gram.y:1167
+#1  0x00007f962b9e0610 in free_userspec (us=0x5603d366ae60) at gram.y:1237
+#2  0x00007f962b9e0730 in free_userspecs (usl=usl@entry=0x5603d3660aa8) at gram.y:1221
+#3  0x00007f962b9e083d in free_parse_tree (parse_tree=parse_tree@entry=0x5603d3660aa8) at gram.y:1282
+#4  0x00007f962b9c30da in sudo_file_close (nss=0x7f962ba0a980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f962b9d544e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f962bc882de in do_cleanup () at ./fatal.c:74
+#7  0x00007f962bc8875c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x00005603d289faa7 in tgetpass (prompt=0x5603d3666880 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fffb75e8dd0) at ./tgetpass.c:158
+#9  0x00005603d288c7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fffb75e8988, callback=0x7fffb75e8dd0) at ./conversation.c:81
+#10 0x00007f962b9be29d in auth_getpass (prompt=0x5603d3666880 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fffb75e8dd0) at ./auth/sudo_auth.c:464
+#11 0x00007f962b9be702 in verify_user (pw=0x5603d3664458, prompt=<optimized out>, prompt@entry=0x5603d3666880 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fffb75e8dd0) at ./auth/sudo_auth.c:319
+#12 0x00007f962b9bf605 in check_user_interactive (closure=0x7fffb75e8db0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f962b9d6edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffb75e91f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffb75e8f00) at ./sudoers.c:418
+#15 0x00007f962b9d012a in sudoers_policy_check (argc=0x2, argv=0x7fffb75e91f8, env_add=0x0, command_infop=0x7fffb75e8f78, argv_out=0x7fffb75e8f80, user_env_out=0x7fffb75e8f88) at ./policy.c:872
+#16 0x00005603d288b151 in policy_check (plugin=0x5603d28ab7a0 <policy_plugin>, user_env_out=0x7fffb75e8f88, argv_out=0x7fffb75e8f80, command_info=0x7fffb75e8f78, env_add=0x0, argv=0x7fffb75e91f8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffb75e9210) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55827c808c80) at gram.y:1167
+#1  0x00007f0aebd56610 in free_userspec (us=0x55827c808cd0) at gram.y:1237
+#2  0x00007f0aebd56730 in free_userspecs (usl=usl@entry=0x55827c7fc9b8) at gram.y:1221
+#3  0x00007f0aebd5683d in free_parse_tree (parse_tree=parse_tree@entry=0x55827c7fc9b8) at gram.y:1282
+#4  0x00007f0aebd390da in sudo_file_close (nss=0x7f0aebd80980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f0aebd4b44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f0aebffe2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f0aebffe75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055827ab4eaa7 in tgetpass (prompt=0x55827c8046e0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fff85fd8d90) at ./tgetpass.c:158
+#9  0x000055827ab3b7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff85fd8948, callback=0x7fff85fd8d90) at ./conversation.c:81
+#10 0x00007f0aebd3429d in auth_getpass (prompt=0x55827c8046e0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff85fd8d90) at ./auth/sudo_auth.c:464
+#11 0x00007f0aebd34702 in verify_user (pw=0x55827c8022c8, prompt=<optimized out>, prompt@entry=0x55827c8046e0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff85fd8d90) at ./auth/sudo_auth.c:319
+#12 0x00007f0aebd35605 in check_user_interactive (closure=0x7fff85fd8d70, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f0aebd4cedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff85fd91b8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff85fd8ec0) at ./sudoers.c:418
+#15 0x00007f0aebd4612a in sudoers_policy_check (argc=0x2, argv=0x7fff85fd91b8, env_add=0x0, command_infop=0x7fff85fd8f38, argv_out=0x7fff85fd8f40, user_env_out=0x7fff85fd8f48) at ./policy.c:872
+#16 0x000055827ab3a151 in policy_check (plugin=0x55827ab5a7a0 <policy_plugin>, user_env_out=0x7fff85fd8f48, argv_out=0x7fff85fd8f40, command_info=0x7fff85fd8f38, env_add=0x0, argv=0x7fff85fd91b8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff85fd91d0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x56200bd89a40) at gram.y:1167
+#1  0x00007fadfcd90610 in free_userspec (us=0x56200bd89a90) at gram.y:1237
+#2  0x00007fadfcd90730 in free_userspecs (usl=usl@entry=0x56200bd7f6d8) at gram.y:1221
+#3  0x00007fadfcd9083d in free_parse_tree (parse_tree=parse_tree@entry=0x56200bd7f6d8) at gram.y:1282
+#4  0x00007fadfcd730da in sudo_file_close (nss=0x7fadfcdba980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007fadfcd8544e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007fadfd0382de in do_cleanup () at ./fatal.c:74
+#7  0x00007fadfd03875c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000056200a31caa7 in tgetpass (prompt=0x56200bd854a0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffce3966f10) at ./tgetpass.c:158
+#9  0x000056200a3097a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffce3966ac8, callback=0x7ffce3966f10) at ./conversation.c:81
+#10 0x00007fadfcd6e29d in auth_getpass (prompt=0x56200bd854a0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffce3966f10) at ./auth/sudo_auth.c:464
+#11 0x00007fadfcd6e702 in verify_user (pw=0x56200bd83088, prompt=<optimized out>, prompt@entry=0x56200bd854a0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffce3966f10) at ./auth/sudo_auth.c:319
+#12 0x00007fadfcd6f605 in check_user_interactive (closure=0x7ffce3966ef0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007fadfcd86edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffce3967338, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffce3967040) at ./sudoers.c:418
+#15 0x00007fadfcd8012a in sudoers_policy_check (argc=0x2, argv=0x7ffce3967338, env_add=0x0, command_infop=0x7ffce39670b8, argv_out=0x7ffce39670c0, user_env_out=0x7ffce39670c8) at ./policy.c:872
+#16 0x000056200a308151 in policy_check (plugin=0x56200a3287a0 <policy_plugin>, user_env_out=0x7ffce39670c8, argv_out=0x7ffce39670c0, command_info=0x7ffce39670b8, env_add=0x0, argv=0x7ffce3967338, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffce3967350) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55981be43b90) at gram.y:1167
+#1  0x00007f5040bfa610 in free_userspec (us=0x55981be43be0) at gram.y:1237
+#2  0x00007f5040bfa730 in free_userspecs (usl=usl@entry=0x55981be398e8) at gram.y:1221
+#3  0x00007f5040bfa83d in free_parse_tree (parse_tree=parse_tree@entry=0x55981be398e8) at gram.y:1282
+#4  0x00007f5040bdd0da in sudo_file_close (nss=0x7f5040c24980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f5040bef44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f5040ea22de in do_cleanup () at ./fatal.c:74
+#7  0x00007f5040ea275c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055981a9e2aa7 in tgetpass (prompt=0x55981be3f5f0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffce1673cb0) at ./tgetpass.c:158
+#9  0x000055981a9cf7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffce1673868, callback=0x7ffce1673cb0) at ./conversation.c:81
+#10 0x00007f5040bd829d in auth_getpass (prompt=0x55981be3f5f0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffce1673cb0) at ./auth/sudo_auth.c:464
+#11 0x00007f5040bd8702 in verify_user (pw=0x55981be3d1d8, prompt=<optimized out>, prompt@entry=0x55981be3f5f0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffce1673cb0) at ./auth/sudo_auth.c:319
+#12 0x00007f5040bd9605 in check_user_interactive (closure=0x7ffce1673c90, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f5040bf0edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffce16740d8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffce1673de0) at ./sudoers.c:418
+#15 0x00007f5040bea12a in sudoers_policy_check (argc=0x2, argv=0x7ffce16740d8, env_add=0x0, command_infop=0x7ffce1673e58, argv_out=0x7ffce1673e60, user_env_out=0x7ffce1673e68) at ./policy.c:872
+#16 0x000055981a9ce151 in policy_check (plugin=0x55981a9ee7a0 <policy_plugin>, user_env_out=0x7ffce1673e68, argv_out=0x7ffce1673e60, command_info=0x7ffce1673e58, env_add=0x0, argv=0x7ffce16740d8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffce16740f0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55958fe86a40) at gram.y:1167
+#1  0x00007f3675ddf610 in free_userspec (us=0x55958fe86a90) at gram.y:1237
+#2  0x00007f3675ddf730 in free_userspecs (usl=usl@entry=0x55958fe7c698) at gram.y:1221
+#3  0x00007f3675ddf83d in free_parse_tree (parse_tree=parse_tree@entry=0x55958fe7c698) at gram.y:1282
+#4  0x00007f3675dc20da in sudo_file_close (nss=0x7f3675e09980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f3675dd444e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f36760872de in do_cleanup () at ./fatal.c:74
+#7  0x00007f367608775c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055958edfaaa7 in tgetpass (prompt=0x55958fe87170 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffeeba33240) at ./tgetpass.c:158
+#9  0x000055958ede77a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffeeba32df8, callback=0x7ffeeba33240) at ./conversation.c:81
+#10 0x00007f3675dbd29d in auth_getpass (prompt=0x55958fe87170 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffeeba33240) at ./auth/sudo_auth.c:464
+#11 0x00007f3675dbd702 in verify_user (pw=0x55958fe80088, prompt=<optimized out>, prompt@entry=0x55958fe87170 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffeeba33240) at ./auth/sudo_auth.c:319
+#12 0x00007f3675dbe605 in check_user_interactive (closure=0x7ffeeba33220, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f3675dd5edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffeeba33668, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffeeba33370) at ./sudoers.c:418
+#15 0x00007f3675dcf12a in sudoers_policy_check (argc=0x2, argv=0x7ffeeba33668, env_add=0x0, command_infop=0x7ffeeba333e8, argv_out=0x7ffeeba333f0, user_env_out=0x7ffeeba333f8) at ./policy.c:872
+#16 0x000055958ede6151 in policy_check (plugin=0x55958ee067a0 <policy_plugin>, user_env_out=0x7ffeeba333f8, argv_out=0x7ffeeba333f0, command_info=0x7ffeeba333e8, env_add=0x0, argv=0x7ffeeba33668, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffeeba33680) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55b5b3bb1dd0) at gram.y:1167
+#1  0x00007f2726a82610 in free_userspec (us=0x55b5b3bb1e20) at gram.y:1237
+#2  0x00007f2726a82730 in free_userspecs (usl=usl@entry=0x55b5b3ba7ab8) at gram.y:1221
+#3  0x00007f2726a8283d in free_parse_tree (parse_tree=parse_tree@entry=0x55b5b3ba7ab8) at gram.y:1282
+#4  0x00007f2726a650da in sudo_file_close (nss=0x7f2726aac980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f2726a7744e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f2726d2a2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f2726d2a75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055b5b399faa7 in tgetpass (prompt=0x55b5b3bad830 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffd99e896a0) at ./tgetpass.c:158
+#9  0x000055b5b398c7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd99e89258, callback=0x7ffd99e896a0) at ./conversation.c:81
+#10 0x00007f2726a6029d in auth_getpass (prompt=0x55b5b3bad830 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd99e896a0) at ./auth/sudo_auth.c:464
+#11 0x00007f2726a60702 in verify_user (pw=0x55b5b3bab418, prompt=<optimized out>, prompt@entry=0x55b5b3bad830 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd99e896a0) at ./auth/sudo_auth.c:319
+#12 0x00007f2726a61605 in check_user_interactive (closure=0x7ffd99e89680, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f2726a78edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd99e89ac8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd99e897d0) at ./sudoers.c:418
+#15 0x00007f2726a7212a in sudoers_policy_check (argc=0x2, argv=0x7ffd99e89ac8, env_add=0x0, command_infop=0x7ffd99e89848, argv_out=0x7ffd99e89850, user_env_out=0x7ffd99e89858) at ./policy.c:872
+#16 0x000055b5b398b151 in policy_check (plugin=0x55b5b39ab7a0 <policy_plugin>, user_env_out=0x7ffd99e89858, argv_out=0x7ffd99e89850, command_info=0x7ffd99e89848, env_add=0x0, argv=0x7ffd99e89ac8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd99e89ae0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x563545b6d9d0) at gram.y:1167
+#1  0x00007f6dfbb9b610 in free_userspec (us=0x563545b6da20) at gram.y:1237
+#2  0x00007f6dfbb9b730 in free_userspecs (usl=usl@entry=0x563545b63618) at gram.y:1221
+#3  0x00007f6dfbb9b83d in free_parse_tree (parse_tree=parse_tree@entry=0x563545b63618) at gram.y:1282
+#4  0x00007f6dfbb7e0da in sudo_file_close (nss=0x7f6dfbbc5980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f6dfbb9044e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f6dfbe432de in do_cleanup () at ./fatal.c:74
+#7  0x00007f6dfbe4375c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x00005635444ecaa7 in tgetpass (prompt=0x563545b69440 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fff77edea70) at ./tgetpass.c:158
+#9  0x00005635444d97a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff77ede628, callback=0x7fff77edea70) at ./conversation.c:81
+#10 0x00007f6dfbb7929d in auth_getpass (prompt=0x563545b69440 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff77edea70) at ./auth/sudo_auth.c:464
+#11 0x00007f6dfbb79702 in verify_user (pw=0x563545b67018, prompt=<optimized out>, prompt@entry=0x563545b69440 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff77edea70) at ./auth/sudo_auth.c:319
+#12 0x00007f6dfbb7a605 in check_user_interactive (closure=0x7fff77edea50, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f6dfbb91edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff77edee98, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff77edeba0) at ./sudoers.c:418
+#15 0x00007f6dfbb8b12a in sudoers_policy_check (argc=0x2, argv=0x7fff77edee98, env_add=0x0, command_infop=0x7fff77edec18, argv_out=0x7fff77edec20, user_env_out=0x7fff77edec28) at ./policy.c:872
+#16 0x00005635444d8151 in policy_check (plugin=0x5635444f87a0 <policy_plugin>, user_env_out=0x7fff77edec28, argv_out=0x7fff77edec20, command_info=0x7fff77edec18, env_add=0x0, argv=0x7fff77edee98, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff77edeeb0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+getgrouplist sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x5593c08fed10) at gram.y:1167
+#1  0x00007fce0e037610 in free_userspec (us=0x5593c08fed60) at gram.y:1237
+#2  0x00007fce0e037730 in free_userspecs (usl=usl@entry=0x5593c08f4f28) at gram.y:1221
+#3  0x00007fce0e03783d in free_parse_tree (parse_tree=parse_tree@entry=0x5593c08f4f28) at gram.y:1282
+#4  0x00007fce0e01a0da in sudo_file_close (nss=0x7fce0e061980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007fce0e02c44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007fce0e2df2de in do_cleanup () at ./fatal.c:74
+#7  0x00007fce0e2df75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x00005593bf9d3aa7 in tgetpass (prompt=0x5593c08fa770 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffd2832eb90) at ./tgetpass.c:158
+#9  0x00005593bf9c07a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd2832e748, callback=0x7ffd2832eb90) at ./conversation.c:81
+#10 0x00007fce0e01529d in auth_getpass (prompt=0x5593c08fa770 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd2832eb90) at ./auth/sudo_auth.c:464
+#11 0x00007fce0e015702 in verify_user (pw=0x5593c08f8358, prompt=<optimized out>, prompt@entry=0x5593c08fa770 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd2832eb90) at ./auth/sudo_auth.c:319
+#12 0x00007fce0e016605 in check_user_interactive (closure=0x7ffd2832eb70, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007fce0e02dedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd2832efb8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd2832ecc0) at ./sudoers.c:418
+#15 0x00007fce0e02712a in sudoers_policy_check (argc=0x2, argv=0x7ffd2832efb8, env_add=0x0, command_infop=0x7ffd2832ed38, argv_out=0x7ffd2832ed40, user_env_out=0x7ffd2832ed48) at ./policy.c:872
+#16 0x00005593bf9bf151 in policy_check (plugin=0x5593bf9df7a0 <policy_plugin>, user_env_out=0x7ffd2832ed48, argv_out=0x7ffd2832ed40, command_info=0x7ffd2832ed38, env_add=0x0, argv=0x7ffd2832efb8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd2832efd0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55c468705c60) at gram.y:1167
+#1  0x00007fe85f4f4610 in free_userspec (us=0x55c468705cb0) at gram.y:1237
+#2  0x00007fe85f4f4730 in free_userspecs (usl=usl@entry=0x55c4686fbf18) at gram.y:1221
+#3  0x00007fe85f4f483d in free_parse_tree (parse_tree=parse_tree@entry=0x55c4686fbf18) at gram.y:1282
+#4  0x00007fe85f4d70da in sudo_file_close (nss=0x7fe85f51e980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007fe85f4e944e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007fe85f79c2de in do_cleanup () at ./fatal.c:74
+#7  0x00007fe85f79c75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055c466f13aa7 in tgetpass (prompt=0x55c4687016d0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffe5a3295e0) at ./tgetpass.c:158
+#9  0x000055c466f007a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffe5a329198, callback=0x7ffe5a3295e0) at ./conversation.c:81
+#10 0x00007fe85f4d229d in auth_getpass (prompt=0x55c4687016d0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffe5a3295e0) at ./auth/sudo_auth.c:464
+#11 0x00007fe85f4d2702 in verify_user (pw=0x55c4686ff2a8, prompt=<optimized out>, prompt@entry=0x55c4687016d0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffe5a3295e0) at ./auth/sudo_auth.c:319
+#12 0x00007fe85f4d3605 in check_user_interactive (closure=0x7ffe5a3295c0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007fe85f4eaedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe5a329a08, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe5a329710) at ./sudoers.c:418
+#15 0x00007fe85f4e412a in sudoers_policy_check (argc=0x2, argv=0x7ffe5a329a08, env_add=0x0, command_infop=0x7ffe5a329788, argv_out=0x7ffe5a329790, user_env_out=0x7ffe5a329798) at ./policy.c:872
+#16 0x000055c466eff151 in policy_check (plugin=0x55c466f1f7a0 <policy_plugin>, user_env_out=0x7ffe5a329798, argv_out=0x7ffe5a329790, command_info=0x7ffe5a329788, env_add=0x0, argv=0x7ffe5a329a08, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe5a329a20) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x5570d24f2df0) at gram.y:1167
+#1  0x00007f7df4dc3610 in free_userspec (us=0x5570d24f2e40) at gram.y:1237
+#2  0x00007f7df4dc3730 in free_userspecs (usl=usl@entry=0x5570d24e8ba8) at gram.y:1221
+#3  0x00007f7df4dc383d in free_parse_tree (parse_tree=parse_tree@entry=0x5570d24e8ba8) at gram.y:1282
+#4  0x00007f7df4da60da in sudo_file_close (nss=0x7f7df4ded980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f7df4db844e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f7df506b2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f7df506b75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x00005570d053aaa7 in tgetpass (prompt=0x5570d24ee850 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffef1b32c20) at ./tgetpass.c:158
+#9  0x00005570d05277a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffef1b327d8, callback=0x7ffef1b32c20) at ./conversation.c:81
+#10 0x00007f7df4da129d in auth_getpass (prompt=0x5570d24ee850 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffef1b32c20) at ./auth/sudo_auth.c:464
+#11 0x00007f7df4da1702 in verify_user (pw=0x5570d24ec438, prompt=<optimized out>, prompt@entry=0x5570d24ee850 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffef1b32c20) at ./auth/sudo_auth.c:319
+#12 0x00007f7df4da2605 in check_user_interactive (closure=0x7ffef1b32c00, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f7df4db9edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffef1b33048, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffef1b32d50) at ./sudoers.c:418
+#15 0x00007f7df4db312a in sudoers_policy_check (argc=0x2, argv=0x7ffef1b33048, env_add=0x0, command_infop=0x7ffef1b32dc8, argv_out=0x7ffef1b32dd0, user_env_out=0x7ffef1b32dd8) at ./policy.c:872
+#16 0x00005570d0526151 in policy_check (plugin=0x5570d05467a0 <policy_plugin>, user_env_out=0x7ffef1b32dd8, argv_out=0x7ffef1b32dd0, command_info=0x7ffef1b32dc8, env_add=0x0, argv=0x7ffef1b33048, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffef1b33060) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x562588e3cca0) at gram.y:1167
+#1  0x00007f9de65a6610 in free_userspec (us=0x562588e3ccf0) at gram.y:1237
+#2  0x00007f9de65a6730 in free_userspecs (usl=usl@entry=0x562588e32eb8) at gram.y:1221
+#3  0x00007f9de65a683d in free_parse_tree (parse_tree=parse_tree@entry=0x562588e32eb8) at gram.y:1282
+#4  0x00007f9de65890da in sudo_file_close (nss=0x7f9de65d0980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f9de659b44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f9de684e2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f9de684e75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x0000562587656aa7 in tgetpass (prompt=0x562588e38700 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fff5590c6f0) at ./tgetpass.c:158
+#9  0x00005625876437a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff5590c2a8, callback=0x7fff5590c6f0) at ./conversation.c:81
+#10 0x00007f9de658429d in auth_getpass (prompt=0x562588e38700 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff5590c6f0) at ./auth/sudo_auth.c:464
+#11 0x00007f9de6584702 in verify_user (pw=0x562588e362e8, prompt=<optimized out>, prompt@entry=0x562588e38700 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff5590c6f0) at ./auth/sudo_auth.c:319
+#12 0x00007f9de6585605 in check_user_interactive (closure=0x7fff5590c6d0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f9de659cedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff5590cb18, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff5590c820) at ./sudoers.c:418
+#15 0x00007f9de659612a in sudoers_policy_check (argc=0x2, argv=0x7fff5590cb18, env_add=0x0, command_infop=0x7fff5590c898, argv_out=0x7fff5590c8a0, user_env_out=0x7fff5590c8a8) at ./policy.c:872
+#16 0x0000562587642151 in policy_check (plugin=0x5625876627a0 <policy_plugin>, user_env_out=0x7fff5590c8a8, argv_out=0x7fff5590c8a0, command_info=0x7fff5590c898, env_add=0x0, argv=0x7fff5590cb18, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff5590cb30) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+getgrouplist sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55bb96ce3a10) at gram.y:1167
+#1  0x00007f3cfdb4c610 in free_userspec (us=0x55bb96ce3a60) at gram.y:1237
+#2  0x00007f3cfdb4c730 in free_userspecs (usl=usl@entry=0x55bb96cd96f8) at gram.y:1221
+#3  0x00007f3cfdb4c83d in free_parse_tree (parse_tree=parse_tree@entry=0x55bb96cd96f8) at gram.y:1282
+#4  0x00007f3cfdb2f0da in sudo_file_close (nss=0x7f3cfdb76980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f3cfdb4144e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f3cfddf42de in do_cleanup () at ./fatal.c:74
+#7  0x00007f3cfddf475c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055bb96074aa7 in tgetpass (prompt=0x55bb96cdf450 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffc8381a810) at ./tgetpass.c:158
+#9  0x000055bb960617a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffc8381a3c8, callback=0x7ffc8381a810) at ./conversation.c:81
+#10 0x00007f3cfdb2a29d in auth_getpass (prompt=0x55bb96cdf450 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffc8381a810) at ./auth/sudo_auth.c:464
+#11 0x00007f3cfdb2a702 in verify_user (pw=0x55bb96cdd058, prompt=<optimized out>, prompt@entry=0x55bb96cdf450 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffc8381a810) at ./auth/sudo_auth.c:319
+#12 0x00007f3cfdb2b605 in check_user_interactive (closure=0x7ffc8381a7f0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f3cfdb42edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc8381ac38, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc8381a940) at ./sudoers.c:418
+#15 0x00007f3cfdb3c12a in sudoers_policy_check (argc=0x2, argv=0x7ffc8381ac38, env_add=0x0, command_infop=0x7ffc8381a9b8, argv_out=0x7ffc8381a9c0, user_env_out=0x7ffc8381a9c8) at ./policy.c:872
+#16 0x000055bb96060151 in policy_check (plugin=0x55bb960807a0 <policy_plugin>, user_env_out=0x7ffc8381a9c8, argv_out=0x7ffc8381a9c0, command_info=0x7ffc8381a9b8, env_add=0x0, argv=0x7ffc8381ac38, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc8381ac50) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55afcef2ad60) at gram.y:1167
+#1  0x00007eff2b3ad610 in free_userspec (us=0x55afcef2adb0) at gram.y:1237
+#2  0x00007eff2b3ad730 in free_userspecs (usl=usl@entry=0x55afcef209d8) at gram.y:1221
+#3  0x00007eff2b3ad83d in free_parse_tree (parse_tree=parse_tree@entry=0x55afcef209d8) at gram.y:1282
+#4  0x00007eff2b3900da in sudo_file_close (nss=0x7eff2b3d7980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007eff2b3a244e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007eff2b6552de in do_cleanup () at ./fatal.c:74
+#7  0x00007eff2b65575c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055afcdacaaa7 in tgetpass (prompt=0x55afcef267d0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffc8cabd4b0) at ./tgetpass.c:158
+#9  0x000055afcdab77a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffc8cabd068, callback=0x7ffc8cabd4b0) at ./conversation.c:81
+#10 0x00007eff2b38b29d in auth_getpass (prompt=0x55afcef267d0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffc8cabd4b0) at ./auth/sudo_auth.c:464
+#11 0x00007eff2b38b702 in verify_user (pw=0x55afcef243a8, prompt=<optimized out>, prompt@entry=0x55afcef267d0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffc8cabd4b0) at ./auth/sudo_auth.c:319
+#12 0x00007eff2b38c605 in check_user_interactive (closure=0x7ffc8cabd490, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007eff2b3a3edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc8cabd8d8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc8cabd5e0) at ./sudoers.c:418
+#15 0x00007eff2b39d12a in sudoers_policy_check (argc=0x2, argv=0x7ffc8cabd8d8, env_add=0x0, command_infop=0x7ffc8cabd658, argv_out=0x7ffc8cabd660, user_env_out=0x7ffc8cabd668) at ./policy.c:872
+#16 0x000055afcdab6151 in policy_check (plugin=0x55afcdad67a0 <policy_plugin>, user_env_out=0x7ffc8cabd668, argv_out=0x7ffc8cabd660, command_info=0x7ffc8cabd658, env_add=0x0, argv=0x7ffc8cabd8d8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc8cabd8f0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55d2bb539b80) at gram.y:1167
+#1  0x00007f2267d34610 in free_userspec (us=0x55d2bb539bd0) at gram.y:1237
+#2  0x00007f2267d34730 in free_userspecs (usl=usl@entry=0x55d2bb52e888) at gram.y:1221
+#3  0x00007f2267d3483d in free_parse_tree (parse_tree=parse_tree@entry=0x55d2bb52e888) at gram.y:1282
+#4  0x00007f2267d170da in sudo_file_close (nss=0x7f2267d5e980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f2267d2944e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f2267fdc2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f2267fdc75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055d2b9e70aa7 in tgetpass (prompt=0x55d2bb5355f0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffc0ea8baf0) at ./tgetpass.c:158
+#9  0x000055d2b9e5d7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffc0ea8b6a8, callback=0x7ffc0ea8baf0) at ./conversation.c:81
+#10 0x00007f2267d1229d in auth_getpass (prompt=0x55d2bb5355f0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffc0ea8baf0) at ./auth/sudo_auth.c:464
+#11 0x00007f2267d12702 in verify_user (pw=0x55d2bb5331c8, prompt=<optimized out>, prompt@entry=0x55d2bb5355f0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffc0ea8baf0) at ./auth/sudo_auth.c:319
+#12 0x00007f2267d13605 in check_user_interactive (closure=0x7ffc0ea8bad0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f2267d2aedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc0ea8bf18, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc0ea8bc20) at ./sudoers.c:418
+#15 0x00007f2267d2412a in sudoers_policy_check (argc=0x2, argv=0x7ffc0ea8bf18, env_add=0x0, command_infop=0x7ffc0ea8bc98, argv_out=0x7ffc0ea8bca0, user_env_out=0x7ffc0ea8bca8) at ./policy.c:872
+#16 0x000055d2b9e5c151 in policy_check (plugin=0x55d2b9e7c7a0 <policy_plugin>, user_env_out=0x7ffc0ea8bca8, argv_out=0x7ffc0ea8bca0, command_info=0x7ffc0ea8bc98, env_add=0x0, argv=0x7ffc0ea8bf18, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc0ea8bf30) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x5599369d1cc0) at gram.y:1167
+#1  0x00007efd92f08610 in free_userspec (us=0x5599369d1d10) at gram.y:1237
+#2  0x00007efd92f08730 in free_userspecs (usl=usl@entry=0x5599369c79e8) at gram.y:1221
+#3  0x00007efd92f0883d in free_parse_tree (parse_tree=parse_tree@entry=0x5599369c79e8) at gram.y:1282
+#4  0x00007efd92eeb0da in sudo_file_close (nss=0x7efd92f32980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007efd92efd44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007efd931b02de in do_cleanup () at ./fatal.c:74
+#7  0x00007efd931b075c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x0000559936168aa7 in tgetpass (prompt=0x5599369cd720 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffe1609e3d0) at ./tgetpass.c:158
+#9  0x00005599361557a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffe1609df88, callback=0x7ffe1609e3d0) at ./conversation.c:81
+#10 0x00007efd92ee629d in auth_getpass (prompt=0x5599369cd720 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffe1609e3d0) at ./auth/sudo_auth.c:464
+#11 0x00007efd92ee6702 in verify_user (pw=0x5599369cb308, prompt=<optimized out>, prompt@entry=0x5599369cd720 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffe1609e3d0) at ./auth/sudo_auth.c:319
+#12 0x00007efd92ee7605 in check_user_interactive (closure=0x7ffe1609e3b0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007efd92efeedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe1609e7f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe1609e500) at ./sudoers.c:418
+#15 0x00007efd92ef812a in sudoers_policy_check (argc=0x2, argv=0x7ffe1609e7f8, env_add=0x0, command_infop=0x7ffe1609e578, argv_out=0x7ffe1609e580, user_env_out=0x7ffe1609e588) at ./policy.c:872
+#16 0x0000559936154151 in policy_check (plugin=0x5599361747a0 <policy_plugin>, user_env_out=0x7ffe1609e588, argv_out=0x7ffe1609e580, command_info=0x7ffe1609e578, env_add=0x0, argv=0x7ffe1609e7f8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe1609e810) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55b4763d37d0) at gram.y:1167
+#1  0x00007f8057889610 in free_userspec (us=0x55b4763d3820) at gram.y:1237
+#2  0x00007f8057889730 in free_userspecs (usl=usl@entry=0x55b4763c94c8) at gram.y:1221
+#3  0x00007f805788983d in free_parse_tree (parse_tree=parse_tree@entry=0x55b4763c94c8) at gram.y:1282
+#4  0x00007f805786c0da in sudo_file_close (nss=0x7f80578b3980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f805787e44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f8057b312de in do_cleanup () at ./fatal.c:74
+#7  0x00007f8057b3175c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055b475b8baa7 in tgetpass (prompt=0x55b4763cf230 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffdb111b410) at ./tgetpass.c:158
+#9  0x000055b475b787a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffdb111afc8, callback=0x7ffdb111b410) at ./conversation.c:81
+#10 0x00007f805786729d in auth_getpass (prompt=0x55b4763cf230 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffdb111b410) at ./auth/sudo_auth.c:464
+#11 0x00007f8057867702 in verify_user (pw=0x55b4763cce18, prompt=<optimized out>, prompt@entry=0x55b4763cf230 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffdb111b410) at ./auth/sudo_auth.c:319
+#12 0x00007f8057868605 in check_user_interactive (closure=0x7ffdb111b3f0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f805787fedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffdb111b838, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdb111b540) at ./sudoers.c:418
+#15 0x00007f805787912a in sudoers_policy_check (argc=0x2, argv=0x7ffdb111b838, env_add=0x0, command_infop=0x7ffdb111b5b8, argv_out=0x7ffdb111b5c0, user_env_out=0x7ffdb111b5c8) at ./policy.c:872
+#16 0x000055b475b77151 in policy_check (plugin=0x55b475b977a0 <policy_plugin>, user_env_out=0x7ffdb111b5c8, argv_out=0x7ffdb111b5c0, command_info=0x7ffdb111b5b8, env_add=0x0, argv=0x7ffdb111b838, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdb111b850) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55eb92b11d40) at gram.y:1167
+#1  0x00007ffb58917610 in free_userspec (us=0x55eb92b11d90) at gram.y:1237
+#2  0x00007ffb58917730 in free_userspecs (usl=usl@entry=0x55eb92b079c8) at gram.y:1221
+#3  0x00007ffb5891783d in free_parse_tree (parse_tree=parse_tree@entry=0x55eb92b079c8) at gram.y:1282
+#4  0x00007ffb588fa0da in sudo_file_close (nss=0x7ffb58941980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007ffb5890c44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007ffb58bbf2de in do_cleanup () at ./fatal.c:74
+#7  0x00007ffb58bbf75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055eb91a89aa7 in tgetpass (prompt=0x55eb92b0d7a0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffe85605ba0) at ./tgetpass.c:158
+#9  0x000055eb91a767a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffe85605758, callback=0x7ffe85605ba0) at ./conversation.c:81
+#10 0x00007ffb588f529d in auth_getpass (prompt=0x55eb92b0d7a0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffe85605ba0) at ./auth/sudo_auth.c:464
+#11 0x00007ffb588f5702 in verify_user (pw=0x55eb92b0b388, prompt=<optimized out>, prompt@entry=0x55eb92b0d7a0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffe85605ba0) at ./auth/sudo_auth.c:319
+#12 0x00007ffb588f6605 in check_user_interactive (closure=0x7ffe85605b80, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007ffb5890dedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe85605fc8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe85605cd0) at ./sudoers.c:418
+#15 0x00007ffb5890712a in sudoers_policy_check (argc=0x2, argv=0x7ffe85605fc8, env_add=0x0, command_infop=0x7ffe85605d48, argv_out=0x7ffe85605d50, user_env_out=0x7ffe85605d58) at ./policy.c:872
+#16 0x000055eb91a75151 in policy_check (plugin=0x55eb91a957a0 <policy_plugin>, user_env_out=0x7ffe85605d58, argv_out=0x7ffe85605d50, command_info=0x7ffe85605d48, env_add=0x0, argv=0x7ffe85605fc8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe85605fe0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+getgrouplist sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x559b26960d30) at gram.y:1167
+#1  0x00007f7ffb0f6610 in free_userspec (us=0x559b26960d80) at gram.y:1237
+#2  0x00007f7ffb0f6730 in free_userspecs (usl=usl@entry=0x559b26954b18) at gram.y:1221
+#3  0x00007f7ffb0f683d in free_parse_tree (parse_tree=parse_tree@entry=0x559b26954b18) at gram.y:1282
+#4  0x00007f7ffb0d90da in sudo_file_close (nss=0x7f7ffb120980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f7ffb0eb44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f7ffb39e2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f7ffb39e75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x0000559b26776aa7 in tgetpass (prompt=0x559b2695c790 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffd0dd82c90) at ./tgetpass.c:158
+#9  0x0000559b267637a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd0dd82848, callback=0x7ffd0dd82c90) at ./conversation.c:81
+#10 0x00007f7ffb0d429d in auth_getpass (prompt=0x559b2695c790 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd0dd82c90) at ./auth/sudo_auth.c:464
+#11 0x00007f7ffb0d4702 in verify_user (pw=0x559b2695a378, prompt=<optimized out>, prompt@entry=0x559b2695c790 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd0dd82c90) at ./auth/sudo_auth.c:319
+#12 0x00007f7ffb0d5605 in check_user_interactive (closure=0x7ffd0dd82c70, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f7ffb0ecedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd0dd830b8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd0dd82dc0) at ./sudoers.c:418
+#15 0x00007f7ffb0e612a in sudoers_policy_check (argc=0x2, argv=0x7ffd0dd830b8, env_add=0x0, command_infop=0x7ffd0dd82e38, argv_out=0x7ffd0dd82e40, user_env_out=0x7ffd0dd82e48) at ./policy.c:872
+#16 0x0000559b26762151 in policy_check (plugin=0x559b267827a0 <policy_plugin>, user_env_out=0x7ffd0dd82e48, argv_out=0x7ffd0dd82e40, command_info=0x7ffd0dd82e38, env_add=0x0, argv=0x7ffd0dd830b8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd0dd830d0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55ab35e7fbb0) at gram.y:1167
+#1  0x00007f1d0a593610 in free_userspec (us=0x55ab35e7fc00) at gram.y:1237
+#2  0x00007f1d0a593730 in free_userspecs (usl=usl@entry=0x55ab35e748b8) at gram.y:1221
+#3  0x00007f1d0a59383d in free_parse_tree (parse_tree=parse_tree@entry=0x55ab35e748b8) at gram.y:1282
+#4  0x00007f1d0a5760da in sudo_file_close (nss=0x7f1d0a5bd980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f1d0a58844e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f1d0a83b2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f1d0a83b75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055ab3445daa7 in tgetpass (prompt=0x55ab35e7b610 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffc1fa122e0) at ./tgetpass.c:158
+#9  0x000055ab3444a7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffc1fa11e98, callback=0x7ffc1fa122e0) at ./conversation.c:81
+#10 0x00007f1d0a57129d in auth_getpass (prompt=0x55ab35e7b610 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffc1fa122e0) at ./auth/sudo_auth.c:464
+#11 0x00007f1d0a571702 in verify_user (pw=0x55ab35e791f8, prompt=<optimized out>, prompt@entry=0x55ab35e7b610 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffc1fa122e0) at ./auth/sudo_auth.c:319
+#12 0x00007f1d0a572605 in check_user_interactive (closure=0x7ffc1fa122c0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f1d0a589edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc1fa12708, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc1fa12410) at ./sudoers.c:418
+#15 0x00007f1d0a58312a in sudoers_policy_check (argc=0x2, argv=0x7ffc1fa12708, env_add=0x0, command_infop=0x7ffc1fa12488, argv_out=0x7ffc1fa12490, user_env_out=0x7ffc1fa12498) at ./policy.c:872
+#16 0x000055ab34449151 in policy_check (plugin=0x55ab344697a0 <policy_plugin>, user_env_out=0x7ffc1fa12498, argv_out=0x7ffc1fa12490, command_info=0x7ffc1fa12488, env_add=0x0, argv=0x7ffc1fa12708, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc1fa12720) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x5565c56e0da0) at gram.y:1167
+#1  0x00007ff74648b610 in free_userspec (us=0x5565c56e0df0) at gram.y:1237
+#2  0x00007ff74648b730 in free_userspecs (usl=usl@entry=0x5565c56d6ab8) at gram.y:1221
+#3  0x00007ff74648b83d in free_parse_tree (parse_tree=parse_tree@entry=0x5565c56d6ab8) at gram.y:1282
+#4  0x00007ff74646e0da in sudo_file_close (nss=0x7ff7464b5980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007ff74648044e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007ff7467332de in do_cleanup () at ./fatal.c:74
+#7  0x00007ff74673375c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x00005565c5683aa7 in tgetpass (prompt=0x5565c56dc810 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffc5ea6a490) at ./tgetpass.c:158
+#9  0x00005565c56707a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffc5ea6a048, callback=0x7ffc5ea6a490) at ./conversation.c:81
+#10 0x00007ff74646929d in auth_getpass (prompt=0x5565c56dc810 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffc5ea6a490) at ./auth/sudo_auth.c:464
+#11 0x00007ff746469702 in verify_user (pw=0x5565c56da3e8, prompt=<optimized out>, prompt@entry=0x5565c56dc810 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffc5ea6a490) at ./auth/sudo_auth.c:319
+#12 0x00007ff74646a605 in check_user_interactive (closure=0x7ffc5ea6a470, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007ff746481edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc5ea6a8b8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc5ea6a5c0) at ./sudoers.c:418
+#15 0x00007ff74647b12a in sudoers_policy_check (argc=0x2, argv=0x7ffc5ea6a8b8, env_add=0x0, command_infop=0x7ffc5ea6a638, argv_out=0x7ffc5ea6a640, user_env_out=0x7ffc5ea6a648) at ./policy.c:872
+#16 0x00005565c566f151 in policy_check (plugin=0x5565c568f7a0 <policy_plugin>, user_env_out=0x7ffc5ea6a648, argv_out=0x7ffc5ea6a640, command_info=0x7ffc5ea6a638, env_add=0x0, argv=0x7ffc5ea6a8b8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc5ea6a8d0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x55d1b5e528b0) at gram.y:1167
+#1  0x00007f11c33b1610 in free_userspec (us=0x55d1b5e52900) at gram.y:1237
+#2  0x00007f11c33b1730 in free_userspecs (usl=usl@entry=0x55d1b5e48ac8) at gram.y:1221
+#3  0x00007f11c33b183d in free_parse_tree (parse_tree=parse_tree@entry=0x55d1b5e48ac8) at gram.y:1282
+#4  0x00007f11c33940da in sudo_file_close (nss=0x7f11c33db980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f11c33a644e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f11c36592de in do_cleanup () at ./fatal.c:74
+#7  0x00007f11c365975c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055d1b434eaa7 in tgetpass (prompt=0x55d1b5e4e320 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fff4c8be420) at ./tgetpass.c:158
+#9  0x000055d1b433b7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff4c8bdfd8, callback=0x7fff4c8be420) at ./conversation.c:81
+#10 0x00007f11c338f29d in auth_getpass (prompt=0x55d1b5e4e320 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff4c8be420) at ./auth/sudo_auth.c:464
+#11 0x00007f11c338f702 in verify_user (pw=0x55d1b5e4bef8, prompt=<optimized out>, prompt@entry=0x55d1b5e4e320 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff4c8be420) at ./auth/sudo_auth.c:319
+#12 0x00007f11c3390605 in check_user_interactive (closure=0x7fff4c8be400, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f11c33a7edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff4c8be848, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff4c8be550) at ./sudoers.c:418
+#15 0x00007f11c33a112a in sudoers_policy_check (argc=0x2, argv=0x7fff4c8be848, env_add=0x0, command_infop=0x7fff4c8be5c8, argv_out=0x7fff4c8be5d0, user_env_out=0x7fff4c8be5d8) at ./policy.c:872
+#16 0x000055d1b433a151 in policy_check (plugin=0x55d1b435a7a0 <policy_plugin>, user_env_out=0x7fff4c8be5d8, argv_out=0x7fff4c8be5d0, command_info=0x7fff4c8be5c8, env_add=0x0, argv=0x7fff4c8be848, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff4c8be860) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x56536862dbb0) at gram.y:1167
+#1  0x00007fab58ede610 in free_userspec (us=0x56536862dc00) at gram.y:1237
+#2  0x00007fab58ede730 in free_userspecs (usl=usl@entry=0x565368623808) at gram.y:1221
+#3  0x00007fab58ede83d in free_parse_tree (parse_tree=parse_tree@entry=0x565368623808) at gram.y:1282
+#4  0x00007fab58ec10da in sudo_file_close (nss=0x7fab58f08980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007fab58ed344e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007fab591862de in do_cleanup () at ./fatal.c:74
+#7  0x00007fab5918675c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x0000565367c47aa7 in tgetpass (prompt=0x565368629610 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffdd47feda0) at ./tgetpass.c:158
+#9  0x0000565367c347a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffdd47fe958, callback=0x7ffdd47feda0) at ./conversation.c:81
+#10 0x00007fab58ebc29d in auth_getpass (prompt=0x565368629610 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffdd47feda0) at ./auth/sudo_auth.c:464
+#11 0x00007fab58ebc702 in verify_user (pw=0x5653686271f8, prompt=<optimized out>, prompt@entry=0x565368629610 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffdd47feda0) at ./auth/sudo_auth.c:319
+#12 0x00007fab58ebd605 in check_user_interactive (closure=0x7ffdd47fed80, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007fab58ed4edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffdd47ff1c8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdd47feed0) at ./sudoers.c:418
+#15 0x00007fab58ece12a in sudoers_policy_check (argc=0x2, argv=0x7ffdd47ff1c8, env_add=0x0, command_infop=0x7ffdd47fef48, argv_out=0x7ffdd47fef50, user_env_out=0x7ffdd47fef58) at ./policy.c:872
+#16 0x0000565367c33151 in policy_check (plugin=0x565367c537a0 <policy_plugin>, user_env_out=0x7ffdd47fef58, argv_out=0x7ffdd47fef50, command_info=0x7ffdd47fef48, env_add=0x0, argv=0x7ffdd47ff1c8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdd47ff1e0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x557405fb6d30) at gram.y:1167
+#1  0x00007f62f5195610 in free_userspec (us=0x557405fb6d80) at gram.y:1237
+#2  0x00007f62f5195730 in free_userspecs (usl=usl@entry=0x557405faca28) at gram.y:1221
+#3  0x00007f62f519583d in free_parse_tree (parse_tree=parse_tree@entry=0x557405faca28) at gram.y:1282
+#4  0x00007f62f51780da in sudo_file_close (nss=0x7f62f51bf980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f62f518a44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f62f543d2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f62f543d75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055740503eaa7 in tgetpass (prompt=0x557405fb27a0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffdf775f6a0) at ./tgetpass.c:158
+#9  0x000055740502b7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffdf775f258, callback=0x7ffdf775f6a0) at ./conversation.c:81
+#10 0x00007f62f517329d in auth_getpass (prompt=0x557405fb27a0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffdf775f6a0) at ./auth/sudo_auth.c:464
+#11 0x00007f62f5173702 in verify_user (pw=0x557405fb0378, prompt=<optimized out>, prompt@entry=0x557405fb27a0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffdf775f6a0) at ./auth/sudo_auth.c:319
+#12 0x00007f62f5174605 in check_user_interactive (closure=0x7ffdf775f680, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f62f518bedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffdf775fac8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdf775f7d0) at ./sudoers.c:418
+#15 0x00007f62f518512a in sudoers_policy_check (argc=0x2, argv=0x7ffdf775fac8, env_add=0x0, command_infop=0x7ffdf775f848, argv_out=0x7ffdf775f850, user_env_out=0x7ffdf775f858) at ./policy.c:872
+#16 0x000055740502a151 in policy_check (plugin=0x55740504a7a0 <policy_plugin>, user_env_out=0x7ffdf775f858, argv_out=0x7ffdf775f850, command_info=0x7ffdf775f848, env_add=0x0, argv=0x7ffdf775fac8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdf775fae0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x558080af6bf0) at gram.y:1167
+#1  0x00007f66ea1c6610 in free_userspec (us=0x558080af6c40) at gram.y:1237
+#2  0x00007f66ea1c6730 in free_userspecs (usl=usl@entry=0x558080aec868) at gram.y:1221
+#3  0x00007f66ea1c683d in free_parse_tree (parse_tree=parse_tree@entry=0x558080aec868) at gram.y:1282
+#4  0x00007f66ea1a90da in sudo_file_close (nss=0x7f66ea1f0980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f66ea1bb44e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f66ea46e2de in do_cleanup () at ./fatal.c:74
+#7  0x00007f66ea46e75c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x000055807eaf6aa7 in tgetpass (prompt=0x558080af7320 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7fffd60b8db0) at ./tgetpass.c:158
+#9  0x000055807eae37a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fffd60b8968, callback=0x7fffd60b8db0) at ./conversation.c:81
+#10 0x00007f66ea1a429d in auth_getpass (prompt=0x558080af7320 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fffd60b8db0) at ./auth/sudo_auth.c:464
+#11 0x00007f66ea1a4702 in verify_user (pw=0x558080af0238, prompt=<optimized out>, prompt@entry=0x558080af7320 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fffd60b8db0) at ./auth/sudo_auth.c:319
+#12 0x00007f66ea1a5605 in check_user_interactive (closure=0x7fffd60b8d90, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f66ea1bcedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffd60b91d8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffd60b8ee0) at ./sudoers.c:418
+#15 0x00007f66ea1b612a in sudoers_policy_check (argc=0x2, argv=0x7fffd60b91d8, env_add=0x0, command_infop=0x7fffd60b8f58, argv_out=0x7fffd60b8f60, user_env_out=0x7fffd60b8f68) at ./policy.c:872
+#16 0x000055807eae2151 in policy_check (plugin=0x55807eb027a0 <policy_plugin>, user_env_out=0x7fffd60b8f68, argv_out=0x7fffd60b8f60, command_info=0x7fffd60b8f58, env_add=0x0, argv=0x7fffd60b91d8, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffd60b91f0) at ./sudo.c:254
+
+----------------------------
+sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+push_include_int sudoerslex sudoersparse sudo_file_parse sudoers_policy_init sudoers_policy_open policy_open out>, 
+sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  free_privilege (priv=0x558163c66a80) at gram.y:1167
+#1  0x00007f6c8d57c610 in free_userspec (us=0x558163c66ad0) at gram.y:1237
+#2  0x00007f6c8d57c730 in free_userspecs (usl=usl@entry=0x558163c5c7d8) at gram.y:1221
+#3  0x00007f6c8d57c83d in free_parse_tree (parse_tree=parse_tree@entry=0x558163c5c7d8) at gram.y:1282
+#4  0x00007f6c8d55f0da in sudo_file_close (nss=0x7f6c8d5a6980 <sudo_nss_file>) at ./file.c:61
+#5  0x00007f6c8d57144e in sudoers_cleanup () at ./sudoers.c:1302
+#6  0x00007f6c8d8242de in do_cleanup () at ./fatal.c:74
+#7  0x00007f6c8d82475c in sudo_fatalx_nodebug_v1 (fmt=<optimized out>) at ./fatal.c:99
+#8  0x0000558161d87aa7 in tgetpass (prompt=0x558163c624f0 "Password: ", timeout=0x12c, flags=<optimized out>, callback=callback@entry=0x7ffeb901f240) at ./tgetpass.c:158
+#9  0x0000558161d747a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffeb901edf8, callback=0x7ffeb901f240) at ./conversation.c:81
+#10 0x00007f6c8d55a29d in auth_getpass (prompt=0x558163c624f0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffeb901f240) at ./auth/sudo_auth.c:464
+#11 0x00007f6c8d55a702 in verify_user (pw=0x558163c600c8, prompt=<optimized out>, prompt@entry=0x558163c624f0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffeb901f240) at ./auth/sudo_auth.c:319
+#12 0x00007f6c8d55b605 in check_user_interactive (closure=0x7ffeb901f220, mode=<optimized out>, validated=0x60) at ./check.c:149
+#13 check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#14 0x00007f6c8d572edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffeb901f668, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffeb901f370) at ./sudoers.c:418
+#15 0x00007f6c8d56c12a in sudoers_policy_check (argc=0x2, argv=0x7ffeb901f668, env_add=0x0, command_infop=0x7ffeb901f3e8, argv_out=0x7ffeb901f3f0, user_env_out=0x7ffeb901f3f8) at ./policy.c:872
+#16 0x0000558161d73151 in policy_check (plugin=0x558161d937a0 <policy_plugin>, user_env_out=0x7ffeb901f3f8, argv_out=0x7ffeb901f3f0, command_info=0x7ffeb901f3e8, env_add=0x0, argv=0x7ffeb901f668, argc=0x2) at ./sudo.c:1140
+#17 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffeb901f680) at ./sudo.c:254
+

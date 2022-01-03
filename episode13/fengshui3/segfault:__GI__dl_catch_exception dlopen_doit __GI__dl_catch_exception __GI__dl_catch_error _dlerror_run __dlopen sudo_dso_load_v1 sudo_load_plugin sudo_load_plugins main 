@@ -1,0 +1,1195 @@
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fc8d54168ec in __GI___nss_database_lookup2 (database=database@entry=0x7fc8d548a784 "shadow", alternate_name=alternate_name@entry=0x7fc8d548a727 "passwd", defconfig=defconfig@entry=0x7fc8d548d690 "compat [NOTFOUND=return] files", ni=0x7fc8d54c0710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007fc8d5418da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7fc8d54bf9d0 <nip>, fct_name=fct_name@entry=0x7fc8d5489da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffc1029f5b0) at XXX-lookup.c:66
+#3  0x00007fc8d5417c69 in setup (all=0x1, startp=0x7fc8d54bf9c0 <startp>, nip=0x7fc8d54bf9d0 <nip>, fctp=0x7ffc1029f5b0, lookup_fct=0x7fc8d5418d30 <__GI___nss_shadow_lookup2>, func_name=0x7fc8d5489da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7fc8d54bf9c0 <startp>, nip=0x7fc8d54bf9d0 <nip>, fctp=0x7ffc1029f5b0, lookup_fct=0x7fc8d5418d30 <__GI___nss_shadow_lookup2>, func_name=0x7fc8d5489da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7fc8d5489da0 "setspent", lookup_fct=0x7fc8d5418d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7fc8d54bf9d0 <nip>, startp=startp@entry=0x7fc8d54bf9c0 <startp>, last_nip=last_nip@entry=0x7fc8d54bf9c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007fc8d53f790f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007fc8d52239a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007fc8d5223a4a in sudo_passwd_init (pw=0x5557a26ef098, auth=0x7fc8d526f6c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007fc8d5222be6 in sudo_auth_init (pw=pw@entry=0x5557a26ef098) at ./auth/sudo_auth.c:119
+#10 0x00007fc8d52242b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007fc8d523bedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc1029fad0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc1029f7e0) at ./sudoers.c:418
+#12 0x00007fc8d523512a in sudoers_policy_check (argc=0x2, argv=0x7ffc1029fad0, env_add=0x0, command_infop=0x7ffc1029f858, argv_out=0x7ffc1029f860, user_env_out=0x7ffc1029f868) at ./policy.c:872
+#13 0x00005557a171b151 in policy_check (plugin=0x5557a173b7a0 <policy_plugin>, user_env_out=0x7ffc1029f868, argv_out=0x7ffc1029f860, command_info=0x7ffc1029f858, env_add=0x0, argv=0x7ffc1029fad0, argc=0x2) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc1029fae8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007faa9af3f8ec in __GI___nss_database_lookup2 (database=database@entry=0x7faa9afb3784 "shadow", alternate_name=alternate_name@entry=0x7faa9afb3727 "passwd", defconfig=defconfig@entry=0x7faa9afb6690 "compat [NOTFOUND=return] files", ni=0x7faa9afe9710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007faa9af41da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7faa9afe89d0 <nip>, fct_name=fct_name@entry=0x7faa9afb2da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffcdccadde0) at XXX-lookup.c:66
+#3  0x00007faa9af40c69 in setup (all=0x1, startp=0x7faa9afe89c0 <startp>, nip=0x7faa9afe89d0 <nip>, fctp=0x7ffcdccadde0, lookup_fct=0x7faa9af41d30 <__GI___nss_shadow_lookup2>, func_name=0x7faa9afb2da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7faa9afe89c0 <startp>, nip=0x7faa9afe89d0 <nip>, fctp=0x7ffcdccadde0, lookup_fct=0x7faa9af41d30 <__GI___nss_shadow_lookup2>, func_name=0x7faa9afb2da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7faa9afb2da0 "setspent", lookup_fct=0x7faa9af41d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7faa9afe89d0 <nip>, startp=startp@entry=0x7faa9afe89c0 <startp>, last_nip=last_nip@entry=0x7faa9afe89c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007faa9af2090f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007faa9ad4c9a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007faa9ad4ca4a in sudo_passwd_init (pw=0x560684dbd2c8, auth=0x7faa9ad986c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007faa9ad4bbe6 in sudo_auth_init (pw=pw@entry=0x560684dbd2c8) at ./auth/sudo_auth.c:119
+#10 0x00007faa9ad4d2b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007faa9ad64edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffcdccae300, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcdccae010) at ./sudoers.c:418
+#12 0x00007faa9ad5e12a in sudoers_policy_check (argc=0x3, argv=0x7ffcdccae300, env_add=0x0, command_infop=0x7ffcdccae088, argv_out=0x7ffcdccae090, user_env_out=0x7ffcdccae098) at ./policy.c:872
+#13 0x000056068330d151 in policy_check (plugin=0x56068332d7a0 <policy_plugin>, user_env_out=0x7ffcdccae098, argv_out=0x7ffcdccae090, command_info=0x7ffcdccae088, env_add=0x0, argv=0x7ffcdccae300, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcdccae320) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f6c63dca5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f6c63dcb1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f6c63dd0187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f6c63dd7b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f6c63aeda0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe724c5750, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe724c5460) at ./sudoers.c:307
+#6  0x00007f6c63ae712a in sudoers_policy_check (argc=0x3, argv=0x7ffe724c5750, env_add=0x0, command_infop=0x7ffe724c54d8, argv_out=0x7ffe724c54e0, user_env_out=0x7ffe724c54e8) at ./policy.c:872
+#7  0x000055c209a3b151 in policy_check (plugin=0x55c209a5b7a0 <policy_plugin>, user_env_out=0x7ffe724c54e8, argv_out=0x7ffe724c54e0, command_info=0x7ffe724c54d8, env_add=0x0, argv=0x7ffe724c5750, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe724c5770) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f8102aa25c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f8102aa31e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f8102aa8187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f8102aafb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f81027c5a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffff921a818, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffff921a520) at ./sudoers.c:307
+#6  0x00007f81027bf12a in sudoers_policy_check (argc=0x3, argv=0x7ffff921a818, env_add=0x0, command_infop=0x7ffff921a598, argv_out=0x7ffff921a5a0, user_env_out=0x7ffff921a5a8) at ./policy.c:872
+#7  0x000055fca1c2a151 in policy_check (plugin=0x55fca1c4a7a0 <policy_plugin>, user_env_out=0x7ffff921a5a8, argv_out=0x7ffff921a5a0, command_info=0x7ffff921a598, env_add=0x0, argv=0x7ffff921a818, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffff921a838) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fea3278d5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fea3278e1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fea32793187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fea3279ab6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fea324b0a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff10bdac08, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff10bda910) at ./sudoers.c:307
+#6  0x00007fea324aa12a in sudoers_policy_check (argc=0x3, argv=0x7fff10bdac08, env_add=0x0, command_infop=0x7fff10bda988, argv_out=0x7fff10bda990, user_env_out=0x7fff10bda998) at ./policy.c:872
+#7  0x0000558117918151 in policy_check (plugin=0x5581179387a0 <policy_plugin>, user_env_out=0x7fff10bda998, argv_out=0x7fff10bda990, command_info=0x7fff10bda988, env_add=0x0, argv=0x7fff10bdac08, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff10bdac28) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f73cb9f88ec in __GI___nss_database_lookup2 (database=database@entry=0x7f73cba6c784 "shadow", alternate_name=alternate_name@entry=0x7f73cba6c727 "passwd", defconfig=defconfig@entry=0x7f73cba6f690 "compat [NOTFOUND=return] files", ni=0x7f73cbaa2710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f73cb9fada1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f73cbaa19d0 <nip>, fct_name=fct_name@entry=0x7f73cba6bda0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffd2676d3c0) at XXX-lookup.c:66
+#3  0x00007f73cb9f9c69 in setup (all=0x1, startp=0x7f73cbaa19c0 <startp>, nip=0x7f73cbaa19d0 <nip>, fctp=0x7ffd2676d3c0, lookup_fct=0x7f73cb9fad30 <__GI___nss_shadow_lookup2>, func_name=0x7f73cba6bda0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f73cbaa19c0 <startp>, nip=0x7f73cbaa19d0 <nip>, fctp=0x7ffd2676d3c0, lookup_fct=0x7f73cb9fad30 <__GI___nss_shadow_lookup2>, func_name=0x7f73cba6bda0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f73cba6bda0 "setspent", lookup_fct=0x7f73cb9fad30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f73cbaa19d0 <nip>, startp=startp@entry=0x7f73cbaa19c0 <startp>, last_nip=last_nip@entry=0x7f73cbaa19c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f73cb9d990f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f73cb8059a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f73cb805a4a in sudo_passwd_init (pw=0x5648d627f4d8, auth=0x7f73cb8516c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f73cb804be6 in sudo_auth_init (pw=pw@entry=0x5648d627f4d8) at ./auth/sudo_auth.c:119
+#10 0x00007f73cb8062b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007f73cb81dedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd2676d8e0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd2676d5f0) at ./sudoers.c:418
+#12 0x00007f73cb81712a in sudoers_policy_check (argc=0x3, argv=0x7ffd2676d8e0, env_add=0x0, command_infop=0x7ffd2676d668, argv_out=0x7ffd2676d670, user_env_out=0x7ffd2676d678) at ./policy.c:872
+#13 0x00005648d4c45151 in policy_check (plugin=0x5648d4c657a0 <policy_plugin>, user_env_out=0x7ffd2676d678, argv_out=0x7ffd2676d670, command_info=0x7ffd2676d668, env_add=0x0, argv=0x7ffd2676d8e0, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd2676d900) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f7e797e65c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f7e797e71e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f7e797ec187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f7e797f3b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f7e79509a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe03fbb250, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe03fbaf60) at ./sudoers.c:307
+#6  0x00007f7e7950312a in sudoers_policy_check (argc=0x3, argv=0x7ffe03fbb250, env_add=0x0, command_infop=0x7ffe03fbafd8, argv_out=0x7ffe03fbafe0, user_env_out=0x7ffe03fbafe8) at ./policy.c:872
+#7  0x0000555d6f8d9151 in policy_check (plugin=0x555d6f8f97a0 <policy_plugin>, user_env_out=0x7ffe03fbafe8, argv_out=0x7ffe03fbafe0, command_info=0x7ffe03fbafd8, env_add=0x0, argv=0x7ffe03fbb250, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe03fbb270) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f81603868ec in __GI___nss_database_lookup2 (database=database@entry=0x7f81603fa784 "shadow", alternate_name=alternate_name@entry=0x7f81603fa727 "passwd", defconfig=defconfig@entry=0x7f81603fd690 "compat [NOTFOUND=return] files", ni=0x7f8160430710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f8160388da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f816042f9d0 <nip>, fct_name=fct_name@entry=0x7f81603f9da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7fffa6b11f80) at XXX-lookup.c:66
+#3  0x00007f8160387c69 in setup (all=0x1, startp=0x7f816042f9c0 <startp>, nip=0x7f816042f9d0 <nip>, fctp=0x7fffa6b11f80, lookup_fct=0x7f8160388d30 <__GI___nss_shadow_lookup2>, func_name=0x7f81603f9da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f816042f9c0 <startp>, nip=0x7f816042f9d0 <nip>, fctp=0x7fffa6b11f80, lookup_fct=0x7f8160388d30 <__GI___nss_shadow_lookup2>, func_name=0x7f81603f9da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f81603f9da0 "setspent", lookup_fct=0x7f8160388d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f816042f9d0 <nip>, startp=startp@entry=0x7f816042f9c0 <startp>, last_nip=last_nip@entry=0x7f816042f9c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f816036790f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f81601939a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f8160193a4a in sudo_passwd_init (pw=0x562dcba271d8, auth=0x7f81601df6c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f8160192be6 in sudo_auth_init (pw=pw@entry=0x562dcba271d8) at ./auth/sudo_auth.c:119
+#10 0x00007f81601942b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007f81601abedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffa6b124a0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffa6b121b0) at ./sudoers.c:418
+#12 0x00007f81601a512a in sudoers_policy_check (argc=0x2, argv=0x7fffa6b124a0, env_add=0x0, command_infop=0x7fffa6b12228, argv_out=0x7fffa6b12230, user_env_out=0x7fffa6b12238) at ./policy.c:872
+#13 0x0000562dcb48c151 in policy_check (plugin=0x562dcb4ac7a0 <policy_plugin>, user_env_out=0x7fffa6b12238, argv_out=0x7fffa6b12230, command_info=0x7fffa6b12228, env_add=0x0, argv=0x7fffa6b124a0, argc=0x2) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffa6b124b8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fa063bea5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fa063beb1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fa063bf0187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fa063bf7b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fa06390da0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffa090cb58, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffa090c860) at ./sudoers.c:307
+#6  0x00007fa06390712a in sudoers_policy_check (argc=0x3, argv=0x7fffa090cb58, env_add=0x0, command_infop=0x7fffa090c8d8, argv_out=0x7fffa090c8e0, user_env_out=0x7fffa090c8e8) at ./policy.c:872
+#7  0x0000556d1ae2d151 in policy_check (plugin=0x556d1ae4d7a0 <policy_plugin>, user_env_out=0x7fffa090c8e8, argv_out=0x7fffa090c8e0, command_info=0x7fffa090c8d8, env_add=0x0, argv=0x7fffa090cb58, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffa090cb78) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:737
+#1  0x00007f4a8f1478ec in __GI___nss_database_lookup2 (database=database@entry=0x7f4a8f1bb784 "shadow", alternate_name=alternate_name@entry=0x7f4a8f1bb727 "passwd", defconfig=defconfig@entry=0x7f4a8f1be690 "compat [NOTFOUND=return] files", ni=0x7f4a8f1f1710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f4a8f149da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f4a8f1f09d0 <nip>, fct_name=fct_name@entry=0x7f4a8f1bada0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffe842862f0) at XXX-lookup.c:66
+#3  0x00007f4a8f148c69 in setup (all=0x1, startp=0x7f4a8f1f09c0 <startp>, nip=0x7f4a8f1f09d0 <nip>, fctp=0x7ffe842862f0, lookup_fct=0x7f4a8f149d30 <__GI___nss_shadow_lookup2>, func_name=0x7f4a8f1bada0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f4a8f1f09c0 <startp>, nip=0x7f4a8f1f09d0 <nip>, fctp=0x7ffe842862f0, lookup_fct=0x7f4a8f149d30 <__GI___nss_shadow_lookup2>, func_name=0x7f4a8f1bada0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f4a8f1bada0 "setspent", lookup_fct=0x7f4a8f149d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f4a8f1f09d0 <nip>, startp=startp@entry=0x7f4a8f1f09c0 <startp>, last_nip=last_nip@entry=0x7f4a8f1f09c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f4a8f12890f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f4a8ef549a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f4a8ef54a4a in sudo_passwd_init (pw=0x555af7316ed8, auth=0x7f4a8efa06c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f4a8ef53be6 in sudo_auth_init (pw=pw@entry=0x555af7316ed8) at ./auth/sudo_auth.c:119
+#10 0x00007f4a8ef552b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007f4a8ef6cedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe84286810, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe84286520) at ./sudoers.c:418
+#12 0x00007f4a8ef6612a in sudoers_policy_check (argc=0x3, argv=0x7ffe84286810, env_add=0x0, command_infop=0x7ffe84286598, argv_out=0x7ffe842865a0, user_env_out=0x7ffe842865a8) at ./policy.c:872
+#13 0x0000555af5750151 in policy_check (plugin=0x555af57707a0 <policy_plugin>, user_env_out=0x7ffe842865a8, argv_out=0x7ffe842865a0, command_info=0x7ffe84286598, env_add=0x0, argv=0x7ffe84286810, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe84286830) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f1ee2fec5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f1ee2fed1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f1ee2ff2187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f1ee2ff9b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f1ee2d0fa0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe634e5a78, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe634e5780) at ./sudoers.c:307
+#6  0x00007f1ee2d0912a in sudoers_policy_check (argc=0x3, argv=0x7ffe634e5a78, env_add=0x0, command_infop=0x7ffe634e57f8, argv_out=0x7ffe634e5800, user_env_out=0x7ffe634e5808) at ./policy.c:872
+#7  0x0000555bfbddd151 in policy_check (plugin=0x555bfbdfd7a0 <policy_plugin>, user_env_out=0x7ffe634e5808, argv_out=0x7ffe634e5800, command_info=0x7ffe634e57f8, env_add=0x0, argv=0x7ffe634e5a78, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe634e5a98) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fb270e9a5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fb270e9b1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fb270ea0187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fb270ea7b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fb270bbda0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc80e1f098, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc80e1eda0) at ./sudoers.c:307
+#6  0x00007fb270bb712a in sudoers_policy_check (argc=0x3, argv=0x7ffc80e1f098, env_add=0x0, command_infop=0x7ffc80e1ee18, argv_out=0x7ffc80e1ee20, user_env_out=0x7ffc80e1ee28) at ./policy.c:872
+#7  0x000055c0e37b7151 in policy_check (plugin=0x55c0e37d77a0 <policy_plugin>, user_env_out=0x7ffc80e1ee28, argv_out=0x7ffc80e1ee20, command_info=0x7ffc80e1ee18, env_add=0x0, argv=0x7ffc80e1f098, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc80e1f0b8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f01c3f315c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f01c3f321e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f01c3f37187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f01c3f3eb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f01c3c54a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffcec19328, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffcec19030) at ./sudoers.c:307
+#6  0x00007f01c3c4e12a in sudoers_policy_check (argc=0x3, argv=0x7fffcec19328, env_add=0x0, command_infop=0x7fffcec190a8, argv_out=0x7fffcec190b0, user_env_out=0x7fffcec190b8) at ./policy.c:872
+#7  0x000055bd02b8f151 in policy_check (plugin=0x55bd02baf7a0 <policy_plugin>, user_env_out=0x7fffcec190b8, argv_out=0x7fffcec190b0, command_info=0x7fffcec190a8, env_add=0x0, argv=0x7fffcec19328, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffcec19348) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007ff9511d35c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007ff9511d41e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007ff9511d9187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007ff9511e0b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007ff950ef6a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff24c5dd78, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff24c5da80) at ./sudoers.c:307
+#6  0x00007ff950ef012a in sudoers_policy_check (argc=0x3, argv=0x7fff24c5dd78, env_add=0x0, command_infop=0x7fff24c5daf8, argv_out=0x7fff24c5db00, user_env_out=0x7fff24c5db08) at ./policy.c:872
+#7  0x0000563024eb6151 in policy_check (plugin=0x563024ed67a0 <policy_plugin>, user_env_out=0x7fff24c5db08, argv_out=0x7fff24c5db00, command_info=0x7fff24c5daf8, env_add=0x0, argv=0x7fff24c5dd78, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff24c5dd98) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fa48ea038ec in __GI___nss_database_lookup2 (database=database@entry=0x7fa48ea77784 "shadow", alternate_name=alternate_name@entry=0x7fa48ea77727 "passwd", defconfig=defconfig@entry=0x7fa48ea7a690 "compat [NOTFOUND=return] files", ni=0x7fa48eaad710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007fa48ea05da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7fa48eaac9d0 <nip>, fct_name=fct_name@entry=0x7fa48ea76da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffd0944f7c0) at XXX-lookup.c:66
+#3  0x00007fa48ea04c69 in setup (all=0x1, startp=0x7fa48eaac9c0 <startp>, nip=0x7fa48eaac9d0 <nip>, fctp=0x7ffd0944f7c0, lookup_fct=0x7fa48ea05d30 <__GI___nss_shadow_lookup2>, func_name=0x7fa48ea76da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7fa48eaac9c0 <startp>, nip=0x7fa48eaac9d0 <nip>, fctp=0x7ffd0944f7c0, lookup_fct=0x7fa48ea05d30 <__GI___nss_shadow_lookup2>, func_name=0x7fa48ea76da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7fa48ea76da0 "setspent", lookup_fct=0x7fa48ea05d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7fa48eaac9d0 <nip>, startp=startp@entry=0x7fa48eaac9c0 <startp>, last_nip=last_nip@entry=0x7fa48eaac9c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007fa48e9e490f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007fa48e8109a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007fa48e810a4a in sudo_passwd_init (pw=0x5627154a24b8, auth=0x7fa48e85c6c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007fa48e80fbe6 in sudo_auth_init (pw=pw@entry=0x5627154a24b8) at ./auth/sudo_auth.c:119
+#10 0x00007fa48e8112b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007fa48e828edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd0944fce8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd0944f9f0) at ./sudoers.c:418
+#12 0x00007fa48e82212a in sudoers_policy_check (argc=0x2, argv=0x7ffd0944fce8, env_add=0x0, command_infop=0x7ffd0944fa68, argv_out=0x7ffd0944fa70, user_env_out=0x7ffd0944fa78) at ./policy.c:872
+#13 0x0000562714fcc151 in policy_check (plugin=0x562714fec7a0 <policy_plugin>, user_env_out=0x7ffd0944fa78, argv_out=0x7ffd0944fa70, command_info=0x7ffd0944fa68, env_add=0x0, argv=0x7ffd0944fce8, argc=0x2) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd0944fd00) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fc83d0878ec in __GI___nss_database_lookup2 (database=database@entry=0x7fc83d0fb784 "shadow", alternate_name=alternate_name@entry=0x7fc83d0fb727 "passwd", defconfig=defconfig@entry=0x7fc83d0fe690 "compat [NOTFOUND=return] files", ni=0x7fc83d131710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007fc83d089da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7fc83d1309d0 <nip>, fct_name=fct_name@entry=0x7fc83d0fada0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffc18480120) at XXX-lookup.c:66
+#3  0x00007fc83d088c69 in setup (all=0x1, startp=0x7fc83d1309c0 <startp>, nip=0x7fc83d1309d0 <nip>, fctp=0x7ffc18480120, lookup_fct=0x7fc83d089d30 <__GI___nss_shadow_lookup2>, func_name=0x7fc83d0fada0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7fc83d1309c0 <startp>, nip=0x7fc83d1309d0 <nip>, fctp=0x7ffc18480120, lookup_fct=0x7fc83d089d30 <__GI___nss_shadow_lookup2>, func_name=0x7fc83d0fada0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7fc83d0fada0 "setspent", lookup_fct=0x7fc83d089d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7fc83d1309d0 <nip>, startp=startp@entry=0x7fc83d1309c0 <startp>, last_nip=last_nip@entry=0x7fc83d1309c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007fc83d06890f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007fc83ce949a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007fc83ce94a4a in sudo_passwd_init (pw=0x55e2e1aa33c8, auth=0x7fc83cee06c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007fc83ce93be6 in sudo_auth_init (pw=pw@entry=0x55e2e1aa33c8) at ./auth/sudo_auth.c:119
+#10 0x00007fc83ce952b4 in check_user (validated=validated@entry=0x60, mode=0x220002) at ./check.c:178
+#11 0x00007fc83ceacedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc18480648, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc18480350) at ./sudoers.c:418
+#12 0x00007fc83cea612a in sudoers_policy_check (argc=0x2, argv=0x7ffc18480648, env_add=0x0, command_infop=0x7ffc184803c8, argv_out=0x7ffc184803d0, user_env_out=0x7ffc184803d8) at ./policy.c:872
+#13 0x000055e2e031d151 in policy_check (plugin=0x55e2e033d7a0 <policy_plugin>, user_env_out=0x7ffc184803d8, argv_out=0x7ffc184803d0, command_info=0x7ffc184803c8, env_add=0x0, argv=0x7ffc18480648, argc=0x2) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc18480660) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f0c358bb5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f0c358bc1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f0c358c1187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f0c358c8b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f0c355dea0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff651dfa40, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff651df750) at ./sudoers.c:307
+#6  0x00007f0c355d812a in sudoers_policy_check (argc=0x3, argv=0x7fff651dfa40, env_add=0x0, command_infop=0x7fff651df7c8, argv_out=0x7fff651df7d0, user_env_out=0x7fff651df7d8) at ./policy.c:872
+#7  0x000055e0c960f151 in policy_check (plugin=0x55e0c962f7a0 <policy_plugin>, user_env_out=0x7fff651df7d8, argv_out=0x7fff651df7d0, command_info=0x7fff651df7c8, env_add=0x0, argv=0x7fff651dfa40, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff651dfa60) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f33be9818ec in __GI___nss_database_lookup2 (database=database@entry=0x7f33be9f5784 "shadow", alternate_name=alternate_name@entry=0x7f33be9f5727 "passwd", defconfig=defconfig@entry=0x7f33be9f8690 "compat [NOTFOUND=return] files", ni=0x7f33bea2b710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f33be983da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f33bea2a9d0 <nip>, fct_name=fct_name@entry=0x7f33be9f4da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffd9f9de270) at XXX-lookup.c:66
+#3  0x00007f33be982c69 in setup (all=0x1, startp=0x7f33bea2a9c0 <startp>, nip=0x7f33bea2a9d0 <nip>, fctp=0x7ffd9f9de270, lookup_fct=0x7f33be983d30 <__GI___nss_shadow_lookup2>, func_name=0x7f33be9f4da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f33bea2a9c0 <startp>, nip=0x7f33bea2a9d0 <nip>, fctp=0x7ffd9f9de270, lookup_fct=0x7f33be983d30 <__GI___nss_shadow_lookup2>, func_name=0x7f33be9f4da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f33be9f4da0 "setspent", lookup_fct=0x7f33be983d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f33bea2a9d0 <nip>, startp=startp@entry=0x7f33bea2a9c0 <startp>, last_nip=last_nip@entry=0x7f33bea2a9c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f33be96290f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f33be78e9a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f33be78ea4a in sudo_passwd_init (pw=0x55e0da9f3378, auth=0x7f33be7da6c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f33be78dbe6 in sudo_auth_init (pw=pw@entry=0x55e0da9f3378) at ./auth/sudo_auth.c:119
+#10 0x00007f33be78f2b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007f33be7a6edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd9f9de790, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd9f9de4a0) at ./sudoers.c:418
+#12 0x00007f33be7a012a in sudoers_policy_check (argc=0x3, argv=0x7ffd9f9de790, env_add=0x0, command_infop=0x7ffd9f9de518, argv_out=0x7ffd9f9de520, user_env_out=0x7ffd9f9de528) at ./policy.c:872
+#13 0x000055e0d89ce151 in policy_check (plugin=0x55e0d89ee7a0 <policy_plugin>, user_env_out=0x7ffd9f9de528, argv_out=0x7ffd9f9de520, command_info=0x7ffd9f9de518, env_add=0x0, argv=0x7ffd9f9de790, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd9f9de7b0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f176740e5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f176740f1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f1767414187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f176741bb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f1767131a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe1b08b0d8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe1b08ade0) at ./sudoers.c:307
+#6  0x00007f176712b12a in sudoers_policy_check (argc=0x3, argv=0x7ffe1b08b0d8, env_add=0x0, command_infop=0x7ffe1b08ae58, argv_out=0x7ffe1b08ae60, user_env_out=0x7ffe1b08ae68) at ./policy.c:872
+#7  0x0000562e78d79151 in policy_check (plugin=0x562e78d997a0 <policy_plugin>, user_env_out=0x7ffe1b08ae68, argv_out=0x7ffe1b08ae60, command_info=0x7ffe1b08ae58, env_add=0x0, argv=0x7ffe1b08b0d8, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe1b08b0f8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f3f0fc1a8ec in __GI___nss_database_lookup2 (database=database@entry=0x7f3f0fc8e784 "shadow", alternate_name=alternate_name@entry=0x7f3f0fc8e727 "passwd", defconfig=defconfig@entry=0x7f3f0fc91690 "compat [NOTFOUND=return] files", ni=0x7f3f0fcc4710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f3f0fc1cda1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f3f0fcc39d0 <nip>, fct_name=fct_name@entry=0x7f3f0fc8dda0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7fffd1e239f0) at XXX-lookup.c:66
+#3  0x00007f3f0fc1bc69 in setup (all=0x1, startp=0x7f3f0fcc39c0 <startp>, nip=0x7f3f0fcc39d0 <nip>, fctp=0x7fffd1e239f0, lookup_fct=0x7f3f0fc1cd30 <__GI___nss_shadow_lookup2>, func_name=0x7f3f0fc8dda0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f3f0fcc39c0 <startp>, nip=0x7f3f0fcc39d0 <nip>, fctp=0x7fffd1e239f0, lookup_fct=0x7f3f0fc1cd30 <__GI___nss_shadow_lookup2>, func_name=0x7f3f0fc8dda0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f3f0fc8dda0 "setspent", lookup_fct=0x7f3f0fc1cd30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f3f0fcc39d0 <nip>, startp=startp@entry=0x7f3f0fcc39c0 <startp>, last_nip=last_nip@entry=0x7f3f0fcc39c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f3f0fbfb90f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f3f0fa279a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f3f0fa27a4a in sudo_passwd_init (pw=0x563bdd125008, auth=0x7f3f0fa736c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f3f0fa26be6 in sudo_auth_init (pw=pw@entry=0x563bdd125008) at ./auth/sudo_auth.c:119
+#10 0x00007f3f0fa282b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007f3f0fa3fedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffd1e23f10, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffd1e23c20) at ./sudoers.c:418
+#12 0x00007f3f0fa3912a in sudoers_policy_check (argc=0x3, argv=0x7fffd1e23f10, env_add=0x0, command_infop=0x7fffd1e23c98, argv_out=0x7fffd1e23ca0, user_env_out=0x7fffd1e23ca8) at ./policy.c:872
+#13 0x0000563bdd03c151 in policy_check (plugin=0x563bdd05c7a0 <policy_plugin>, user_env_out=0x7fffd1e23ca8, argv_out=0x7fffd1e23ca0, command_info=0x7fffd1e23c98, env_add=0x0, argv=0x7fffd1e23f10, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffd1e23f30) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fd507cd15c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fd507cd21e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fd507cd7187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fd507cdeb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fd5079f4a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe02b3ce40, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe02b3cb50) at ./sudoers.c:307
+#6  0x00007fd5079ee12a in sudoers_policy_check (argc=0x3, argv=0x7ffe02b3ce40, env_add=0x0, command_infop=0x7ffe02b3cbc8, argv_out=0x7ffe02b3cbd0, user_env_out=0x7ffe02b3cbd8) at ./policy.c:872
+#7  0x000055c7f6c2f151 in policy_check (plugin=0x55c7f6c4f7a0 <policy_plugin>, user_env_out=0x7ffe02b3cbd8, argv_out=0x7ffe02b3cbd0, command_info=0x7ffe02b3cbc8, env_add=0x0, argv=0x7ffe02b3ce40, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe02b3ce60) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fdc85b628ec in __GI___nss_database_lookup2 (database=database@entry=0x7fdc85bd6784 "shadow", alternate_name=alternate_name@entry=0x7fdc85bd6727 "passwd", defconfig=defconfig@entry=0x7fdc85bd9690 "compat [NOTFOUND=return] files", ni=0x7fdc85c0c710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007fdc85b64da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7fdc85c0b9d0 <nip>, fct_name=fct_name@entry=0x7fdc85bd5da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffc71e1c310) at XXX-lookup.c:66
+#3  0x00007fdc85b63c69 in setup (all=0x1, startp=0x7fdc85c0b9c0 <startp>, nip=0x7fdc85c0b9d0 <nip>, fctp=0x7ffc71e1c310, lookup_fct=0x7fdc85b64d30 <__GI___nss_shadow_lookup2>, func_name=0x7fdc85bd5da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7fdc85c0b9c0 <startp>, nip=0x7fdc85c0b9d0 <nip>, fctp=0x7ffc71e1c310, lookup_fct=0x7fdc85b64d30 <__GI___nss_shadow_lookup2>, func_name=0x7fdc85bd5da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7fdc85bd5da0 "setspent", lookup_fct=0x7fdc85b64d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7fdc85c0b9d0 <nip>, startp=startp@entry=0x7fdc85c0b9c0 <startp>, last_nip=last_nip@entry=0x7fdc85c0b9c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007fdc85b4390f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007fdc8596f9a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007fdc8596fa4a in sudo_passwd_init (pw=0x562714ad60b8, auth=0x7fdc859bb6c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007fdc8596ebe6 in sudo_auth_init (pw=pw@entry=0x562714ad60b8) at ./auth/sudo_auth.c:119
+#10 0x00007fdc859702b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007fdc85987edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc71e1c838, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc71e1c540) at ./sudoers.c:418
+#12 0x00007fdc8598112a in sudoers_policy_check (argc=0x3, argv=0x7ffc71e1c838, env_add=0x0, command_infop=0x7ffc71e1c5b8, argv_out=0x7ffc71e1c5c0, user_env_out=0x7ffc71e1c5c8) at ./policy.c:872
+#13 0x0000562713909151 in policy_check (plugin=0x5627139297a0 <policy_plugin>, user_env_out=0x7ffc71e1c5c8, argv_out=0x7ffc71e1c5c0, command_info=0x7ffc71e1c5b8, env_add=0x0, argv=0x7ffc71e1c838, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc71e1c858) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fa199c345c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fa199c351e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fa199c3a187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fa199c41b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fa199957a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffbd1528f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffbd152600) at ./sudoers.c:307
+#6  0x00007fa19995112a in sudoers_policy_check (argc=0x3, argv=0x7fffbd1528f8, env_add=0x0, command_infop=0x7fffbd152678, argv_out=0x7fffbd152680, user_env_out=0x7fffbd152688) at ./policy.c:872
+#7  0x000055f788185151 in policy_check (plugin=0x55f7881a57a0 <policy_plugin>, user_env_out=0x7fffbd152688, argv_out=0x7fffbd152680, command_info=0x7fffbd152678, env_add=0x0, argv=0x7fffbd1528f8, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffbd152918) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:737
+#1  0x00007effb93438ec in __GI___nss_database_lookup2 (database=database@entry=0x7effb93b7784 "shadow", alternate_name=alternate_name@entry=0x7effb93b7727 "passwd", defconfig=defconfig@entry=0x7effb93ba690 "compat [NOTFOUND=return] files", ni=0x7effb93ed710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007effb9345da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7effb93ec9d0 <nip>, fct_name=fct_name@entry=0x7effb93b6da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffff91e99c0) at XXX-lookup.c:66
+#3  0x00007effb9344c69 in setup (all=0x1, startp=0x7effb93ec9c0 <startp>, nip=0x7effb93ec9d0 <nip>, fctp=0x7ffff91e99c0, lookup_fct=0x7effb9345d30 <__GI___nss_shadow_lookup2>, func_name=0x7effb93b6da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7effb93ec9c0 <startp>, nip=0x7effb93ec9d0 <nip>, fctp=0x7ffff91e99c0, lookup_fct=0x7effb9345d30 <__GI___nss_shadow_lookup2>, func_name=0x7effb93b6da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7effb93b6da0 "setspent", lookup_fct=0x7effb9345d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7effb93ec9d0 <nip>, startp=startp@entry=0x7effb93ec9c0 <startp>, last_nip=last_nip@entry=0x7effb93ec9c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007effb932490f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007effb91509a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007effb9150a4a in sudo_passwd_init (pw=0x55fac70ee048, auth=0x7effb919c6c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007effb914fbe6 in sudo_auth_init (pw=pw@entry=0x55fac70ee048) at ./auth/sudo_auth.c:119
+#10 0x00007effb91512b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007effb9168edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffff91e9ee8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffff91e9bf0) at ./sudoers.c:418
+#12 0x00007effb916212a in sudoers_policy_check (argc=0x3, argv=0x7ffff91e9ee8, env_add=0x0, command_infop=0x7ffff91e9c68, argv_out=0x7ffff91e9c70, user_env_out=0x7ffff91e9c78) at ./policy.c:872
+#13 0x000055fac5af9151 in policy_check (plugin=0x55fac5b197a0 <policy_plugin>, user_env_out=0x7ffff91e9c78, argv_out=0x7ffff91e9c70, command_info=0x7ffff91e9c68, env_add=0x0, argv=0x7ffff91e9ee8, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffff91e9f08) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fd6effcf5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fd6effd01e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fd6effd5187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fd6effdcb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fd6efcf2a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc9f8d8eb0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc9f8d8bc0) at ./sudoers.c:307
+#6  0x00007fd6efcec12a in sudoers_policy_check (argc=0x3, argv=0x7ffc9f8d8eb0, env_add=0x0, command_infop=0x7ffc9f8d8c38, argv_out=0x7ffc9f8d8c40, user_env_out=0x7ffc9f8d8c48) at ./policy.c:872
+#7  0x000055ae3ea08151 in policy_check (plugin=0x55ae3ea287a0 <policy_plugin>, user_env_out=0x7ffc9f8d8c48, argv_out=0x7ffc9f8d8c40, command_info=0x7ffc9f8d8c38, env_add=0x0, argv=0x7ffc9f8d8eb0, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc9f8d8ed0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007f4c6171e8ec in __GI___nss_database_lookup2 (database=database@entry=0x7f4c61792784 "shadow", alternate_name=alternate_name@entry=0x7f4c61792727 "passwd", defconfig=defconfig@entry=0x7f4c61795690 "compat [NOTFOUND=return] files", ni=0x7f4c617c8710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f4c61720da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f4c617c79d0 <nip>, fct_name=fct_name@entry=0x7f4c61791da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffc016dc510) at XXX-lookup.c:66
+#3  0x00007f4c6171fc69 in setup (all=0x1, startp=0x7f4c617c79c0 <startp>, nip=0x7f4c617c79d0 <nip>, fctp=0x7ffc016dc510, lookup_fct=0x7f4c61720d30 <__GI___nss_shadow_lookup2>, func_name=0x7f4c61791da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f4c617c79c0 <startp>, nip=0x7f4c617c79d0 <nip>, fctp=0x7ffc016dc510, lookup_fct=0x7f4c61720d30 <__GI___nss_shadow_lookup2>, func_name=0x7f4c61791da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f4c61791da0 "setspent", lookup_fct=0x7f4c61720d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f4c617c79d0 <nip>, startp=startp@entry=0x7f4c617c79c0 <startp>, last_nip=last_nip@entry=0x7f4c617c79c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f4c616ff90f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f4c6152b9a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f4c6152ba4a in sudo_passwd_init (pw=0x559468e9c1e8, auth=0x7f4c615776c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f4c6152abe6 in sudo_auth_init (pw=pw@entry=0x559468e9c1e8) at ./auth/sudo_auth.c:119
+#10 0x00007f4c6152c2b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007f4c61543edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc016dca30, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc016dc740) at ./sudoers.c:418
+#12 0x00007f4c6153d12a in sudoers_policy_check (argc=0x3, argv=0x7ffc016dca30, env_add=0x0, command_infop=0x7ffc016dc7b8, argv_out=0x7ffc016dc7c0, user_env_out=0x7ffc016dc7c8) at ./policy.c:872
+#13 0x0000559467e4c151 in policy_check (plugin=0x559467e6c7a0 <policy_plugin>, user_env_out=0x7ffc016dc7c8, argv_out=0x7ffc016dc7c0, command_info=0x7ffc016dc7b8, env_add=0x0, argv=0x7ffc016dca30, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc016dca50) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f1e645405c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f1e645411e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f1e64546187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f1e6454db6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f1e64263a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffee10bbf10, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffee10bbc20) at ./sudoers.c:307
+#6  0x00007f1e6425d12a in sudoers_policy_check (argc=0x3, argv=0x7ffee10bbf10, env_add=0x0, command_infop=0x7ffee10bbc98, argv_out=0x7ffee10bbca0, user_env_out=0x7ffee10bbca8) at ./policy.c:872
+#7  0x0000556e4030f151 in policy_check (plugin=0x556e4032f7a0 <policy_plugin>, user_env_out=0x7ffee10bbca8, argv_out=0x7ffee10bbca0, command_info=0x7ffee10bbc98, env_add=0x0, argv=0x7ffee10bbf10, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffee10bbf30) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fadc690a8ec in __GI___nss_database_lookup2 (database=database@entry=0x7fadc697e784 "shadow", alternate_name=alternate_name@entry=0x7fadc697e727 "passwd", defconfig=defconfig@entry=0x7fadc6981690 "compat [NOTFOUND=return] files", ni=0x7fadc69b4710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007fadc690cda1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7fadc69b39d0 <nip>, fct_name=fct_name@entry=0x7fadc697dda0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7fffd15e9040) at XXX-lookup.c:66
+#3  0x00007fadc690bc69 in setup (all=0x1, startp=0x7fadc69b39c0 <startp>, nip=0x7fadc69b39d0 <nip>, fctp=0x7fffd15e9040, lookup_fct=0x7fadc690cd30 <__GI___nss_shadow_lookup2>, func_name=0x7fadc697dda0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7fadc69b39c0 <startp>, nip=0x7fadc69b39d0 <nip>, fctp=0x7fffd15e9040, lookup_fct=0x7fadc690cd30 <__GI___nss_shadow_lookup2>, func_name=0x7fadc697dda0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7fadc697dda0 "setspent", lookup_fct=0x7fadc690cd30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7fadc69b39d0 <nip>, startp=startp@entry=0x7fadc69b39c0 <startp>, last_nip=last_nip@entry=0x7fadc69b39c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007fadc68eb90f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007fadc67179a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007fadc6717a4a in sudo_passwd_init (pw=0x55c382bd4348, auth=0x7fadc67636c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007fadc6716be6 in sudo_auth_init (pw=pw@entry=0x55c382bd4348) at ./auth/sudo_auth.c:119
+#10 0x00007fadc67182b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007fadc672fedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffd15e9568, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffd15e9270) at ./sudoers.c:418
+#12 0x00007fadc672912a in sudoers_policy_check (argc=0x3, argv=0x7fffd15e9568, env_add=0x0, command_infop=0x7fffd15e92e8, argv_out=0x7fffd15e92f0, user_env_out=0x7fffd15e92f8) at ./policy.c:872
+#13 0x000055c380e95151 in policy_check (plugin=0x55c380eb57a0 <policy_plugin>, user_env_out=0x7fffd15e92f8, argv_out=0x7fffd15e92f0, command_info=0x7fffd15e92e8, env_add=0x0, argv=0x7fffd15e9568, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffd15e9588) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fa9c79125c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fa9c79131e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fa9c7918187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fa9c791fb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fa9c7635a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe7a14f060, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe7a14ed70) at ./sudoers.c:307
+#6  0x00007fa9c762f12a in sudoers_policy_check (argc=0x3, argv=0x7ffe7a14f060, env_add=0x0, command_infop=0x7ffe7a14ede8, argv_out=0x7ffe7a14edf0, user_env_out=0x7ffe7a14edf8) at ./policy.c:872
+#7  0x0000561049896151 in policy_check (plugin=0x5610498b67a0 <policy_plugin>, user_env_out=0x7ffe7a14edf8, argv_out=0x7ffe7a14edf0, command_info=0x7ffe7a14ede8, env_add=0x0, argv=0x7ffe7a14f060, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe7a14f080) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fbcb73e68ec in __GI___nss_database_lookup2 (database=database@entry=0x7fbcb745a784 "shadow", alternate_name=alternate_name@entry=0x7fbcb745a727 "passwd", defconfig=defconfig@entry=0x7fbcb745d690 "compat [NOTFOUND=return] files", ni=0x7fbcb7490710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007fbcb73e8da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7fbcb748f9d0 <nip>, fct_name=fct_name@entry=0x7fbcb7459da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffe59adeeb0) at XXX-lookup.c:66
+#3  0x00007fbcb73e7c69 in setup (all=0x1, startp=0x7fbcb748f9c0 <startp>, nip=0x7fbcb748f9d0 <nip>, fctp=0x7ffe59adeeb0, lookup_fct=0x7fbcb73e8d30 <__GI___nss_shadow_lookup2>, func_name=0x7fbcb7459da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7fbcb748f9c0 <startp>, nip=0x7fbcb748f9d0 <nip>, fctp=0x7ffe59adeeb0, lookup_fct=0x7fbcb73e8d30 <__GI___nss_shadow_lookup2>, func_name=0x7fbcb7459da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7fbcb7459da0 "setspent", lookup_fct=0x7fbcb73e8d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7fbcb748f9d0 <nip>, startp=startp@entry=0x7fbcb748f9c0 <startp>, last_nip=last_nip@entry=0x7fbcb748f9c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007fbcb73c790f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007fbcb71f39a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007fbcb71f3a4a in sudo_passwd_init (pw=0x55caa1768368, auth=0x7fbcb723f6c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007fbcb71f2be6 in sudo_auth_init (pw=pw@entry=0x55caa1768368) at ./auth/sudo_auth.c:119
+#10 0x00007fbcb71f42b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007fbcb720bedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe59adf3d0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe59adf0e0) at ./sudoers.c:418
+#12 0x00007fbcb720512a in sudoers_policy_check (argc=0x3, argv=0x7ffe59adf3d0, env_add=0x0, command_infop=0x7ffe59adf158, argv_out=0x7ffe59adf160, user_env_out=0x7ffe59adf168) at ./policy.c:872
+#13 0x000055caa0bf7151 in policy_check (plugin=0x55caa0c177a0 <policy_plugin>, user_env_out=0x7ffe59adf168, argv_out=0x7ffe59adf160, command_info=0x7ffe59adf158, env_add=0x0, argv=0x7ffe59adf3d0, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe59adf3f0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fc95dd558ec in __GI___nss_database_lookup2 (database=database@entry=0x7fc95ddc9784 "shadow", alternate_name=alternate_name@entry=0x7fc95ddc9727 "passwd", defconfig=defconfig@entry=0x7fc95ddcc690 "compat [NOTFOUND=return] files", ni=0x7fc95ddff710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007fc95dd57da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7fc95ddfe9d0 <nip>, fct_name=fct_name@entry=0x7fc95ddc8da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7fffafcde9f0) at XXX-lookup.c:66
+#3  0x00007fc95dd56c69 in setup (all=0x1, startp=0x7fc95ddfe9c0 <startp>, nip=0x7fc95ddfe9d0 <nip>, fctp=0x7fffafcde9f0, lookup_fct=0x7fc95dd57d30 <__GI___nss_shadow_lookup2>, func_name=0x7fc95ddc8da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7fc95ddfe9c0 <startp>, nip=0x7fc95ddfe9d0 <nip>, fctp=0x7fffafcde9f0, lookup_fct=0x7fc95dd57d30 <__GI___nss_shadow_lookup2>, func_name=0x7fc95ddc8da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7fc95ddc8da0 "setspent", lookup_fct=0x7fc95dd57d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7fc95ddfe9d0 <nip>, startp=startp@entry=0x7fc95ddfe9c0 <startp>, last_nip=last_nip@entry=0x7fc95ddfe9c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007fc95dd3690f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007fc95db629a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007fc95db62a4a in sudo_passwd_init (pw=0x559f6a822148, auth=0x7fc95dbae6c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007fc95db61be6 in sudo_auth_init (pw=pw@entry=0x559f6a822148) at ./auth/sudo_auth.c:119
+#10 0x00007fc95db632b4 in check_user (validated=validated@entry=0x60, mode=0x220002) at ./check.c:178
+#11 0x00007fc95db7aedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffafcdef18, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffafcdec20) at ./sudoers.c:418
+#12 0x00007fc95db7412a in sudoers_policy_check (argc=0x2, argv=0x7fffafcdef18, env_add=0x0, command_infop=0x7fffafcdec98, argv_out=0x7fffafcdeca0, user_env_out=0x7fffafcdeca8) at ./policy.c:872
+#13 0x0000559f68ae8151 in policy_check (plugin=0x559f68b087a0 <policy_plugin>, user_env_out=0x7fffafcdeca8, argv_out=0x7fffafcdeca0, command_info=0x7fffafcdec98, env_add=0x0, argv=0x7fffafcdef18, argc=0x2) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffafcdef30) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f9f53ea85c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f9f53ea91e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f9f53eae187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f9f53eb5b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f9f53bcba0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe94aead58, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe94aeaa60) at ./sudoers.c:307
+#6  0x00007f9f53bc512a in sudoers_policy_check (argc=0x3, argv=0x7ffe94aead58, env_add=0x0, command_infop=0x7ffe94aeaad8, argv_out=0x7ffe94aeaae0, user_env_out=0x7ffe94aeaae8) at ./policy.c:872
+#7  0x000055a90ff95151 in policy_check (plugin=0x55a90ffb57a0 <policy_plugin>, user_env_out=0x7ffe94aeaae8, argv_out=0x7ffe94aeaae0, command_info=0x7ffe94aeaad8, env_add=0x0, argv=0x7ffe94aead58, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe94aead78) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fe7a7d515c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fe7a7d521e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fe7a7d57187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fe7a7d5eb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fe7a7a74a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe90b65400, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe90b65110) at ./sudoers.c:307
+#6  0x00007fe7a7a6e12a in sudoers_policy_check (argc=0x3, argv=0x7ffe90b65400, env_add=0x0, command_infop=0x7ffe90b65188, argv_out=0x7ffe90b65190, user_env_out=0x7ffe90b65198) at ./policy.c:872
+#7  0x00005587b79ef151 in policy_check (plugin=0x5587b7a0f7a0 <policy_plugin>, user_env_out=0x7ffe90b65198, argv_out=0x7ffe90b65190, command_info=0x7ffe90b65188, env_add=0x0, argv=0x7ffe90b65400, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe90b65420) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:737
+#1  0x00007f739f58b8ec in __GI___nss_database_lookup2 (database=database@entry=0x7f739f5ff784 "shadow", alternate_name=alternate_name@entry=0x7f739f5ff727 "passwd", defconfig=defconfig@entry=0x7f739f602690 "compat [NOTFOUND=return] files", ni=0x7f739f635710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f739f58dda1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f739f6349d0 <nip>, fct_name=fct_name@entry=0x7f739f5feda0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7fffabbbd6b0) at XXX-lookup.c:66
+#3  0x00007f739f58cc69 in setup (all=0x1, startp=0x7f739f6349c0 <startp>, nip=0x7f739f6349d0 <nip>, fctp=0x7fffabbbd6b0, lookup_fct=0x7f739f58dd30 <__GI___nss_shadow_lookup2>, func_name=0x7f739f5feda0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f739f6349c0 <startp>, nip=0x7f739f6349d0 <nip>, fctp=0x7fffabbbd6b0, lookup_fct=0x7f739f58dd30 <__GI___nss_shadow_lookup2>, func_name=0x7f739f5feda0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f739f5feda0 "setspent", lookup_fct=0x7f739f58dd30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f739f6349d0 <nip>, startp=startp@entry=0x7f739f6349c0 <startp>, last_nip=last_nip@entry=0x7f739f6349c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f739f56c90f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f739f3989a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f739f398a4a in sudo_passwd_init (pw=0x55b9658a6228, auth=0x7f739f3e46c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f739f397be6 in sudo_auth_init (pw=pw@entry=0x55b9658a6228) at ./auth/sudo_auth.c:119
+#10 0x00007f739f3992b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007f739f3b0edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffabbbdbd0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffabbbd8e0) at ./sudoers.c:418
+#12 0x00007f739f3aa12a in sudoers_policy_check (argc=0x3, argv=0x7fffabbbdbd0, env_add=0x0, command_infop=0x7fffabbbd958, argv_out=0x7fffabbbd960, user_env_out=0x7fffabbbd968) at ./policy.c:872
+#13 0x000055b964bb1151 in policy_check (plugin=0x55b964bd17a0 <policy_plugin>, user_env_out=0x7fffabbbd968, argv_out=0x7fffabbbd960, command_info=0x7fffabbbd958, env_add=0x0, argv=0x7fffabbbdbd0, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffabbbdbf0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007fd92fb758ec in __GI___nss_database_lookup2 (database=database@entry=0x7fd92fbe9784 "shadow", alternate_name=alternate_name@entry=0x7fd92fbe9727 "passwd", defconfig=defconfig@entry=0x7fd92fbec690 "compat [NOTFOUND=return] files", ni=0x7fd92fc1f710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007fd92fb77da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7fd92fc1e9d0 <nip>, fct_name=fct_name@entry=0x7fd92fbe8da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffef62d6230) at XXX-lookup.c:66
+#3  0x00007fd92fb76c69 in setup (all=0x1, startp=0x7fd92fc1e9c0 <startp>, nip=0x7fd92fc1e9d0 <nip>, fctp=0x7ffef62d6230, lookup_fct=0x7fd92fb77d30 <__GI___nss_shadow_lookup2>, func_name=0x7fd92fbe8da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7fd92fc1e9c0 <startp>, nip=0x7fd92fc1e9d0 <nip>, fctp=0x7ffef62d6230, lookup_fct=0x7fd92fb77d30 <__GI___nss_shadow_lookup2>, func_name=0x7fd92fbe8da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7fd92fbe8da0 "setspent", lookup_fct=0x7fd92fb77d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7fd92fc1e9d0 <nip>, startp=startp@entry=0x7fd92fc1e9c0 <startp>, last_nip=last_nip@entry=0x7fd92fc1e9c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007fd92fb5690f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007fd92f9829a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007fd92f982a4a in sudo_passwd_init (pw=0x563904625e18, auth=0x7fd92f9ce6c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007fd92f981be6 in sudo_auth_init (pw=pw@entry=0x563904625e18) at ./auth/sudo_auth.c:119
+#10 0x00007fd92f9832b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007fd92f99aedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffef62d6758, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffef62d6460) at ./sudoers.c:418
+#12 0x00007fd92f99412a in sudoers_policy_check (argc=0x2, argv=0x7ffef62d6758, env_add=0x0, command_infop=0x7ffef62d64d8, argv_out=0x7ffef62d64e0, user_env_out=0x7ffef62d64e8) at ./policy.c:872
+#13 0x00005639039c7151 in policy_check (plugin=0x5639039e77a0 <policy_plugin>, user_env_out=0x7ffef62d64e8, argv_out=0x7ffef62d64e0, command_info=0x7ffef62d64d8, env_add=0x0, argv=0x7ffef62d6758, argc=0x2) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffef62d6770) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f3c0a2fc5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f3c0a2fd1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f3c0a302187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f3c0a309b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f3c0a01fa0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffce3744238, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffce3743f40) at ./sudoers.c:307
+#6  0x00007f3c0a01912a in sudoers_policy_check (argc=0x3, argv=0x7ffce3744238, env_add=0x0, command_infop=0x7ffce3743fb8, argv_out=0x7ffce3743fc0, user_env_out=0x7ffce3743fc8) at ./policy.c:872
+#7  0x0000556623e19151 in policy_check (plugin=0x556623e397a0 <policy_plugin>, user_env_out=0x7ffce3743fc8, argv_out=0x7ffce3743fc0, command_info=0x7ffce3743fb8, env_add=0x0, argv=0x7ffce3744238, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffce3744258) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:737
+#1  0x00007f5c462d98ec in __GI___nss_database_lookup2 (database=database@entry=0x7f5c4634d784 "shadow", alternate_name=alternate_name@entry=0x7f5c4634d727 "passwd", defconfig=defconfig@entry=0x7f5c46350690 "compat [NOTFOUND=return] files", ni=0x7f5c46383710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f5c462dbda1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f5c463829d0 <nip>, fct_name=fct_name@entry=0x7f5c4634cda0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffdefb69180) at XXX-lookup.c:66
+#3  0x00007f5c462dac69 in setup (all=0x1, startp=0x7f5c463829c0 <startp>, nip=0x7f5c463829d0 <nip>, fctp=0x7ffdefb69180, lookup_fct=0x7f5c462dbd30 <__GI___nss_shadow_lookup2>, func_name=0x7f5c4634cda0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f5c463829c0 <startp>, nip=0x7f5c463829d0 <nip>, fctp=0x7ffdefb69180, lookup_fct=0x7f5c462dbd30 <__GI___nss_shadow_lookup2>, func_name=0x7f5c4634cda0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f5c4634cda0 "setspent", lookup_fct=0x7f5c462dbd30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f5c463829d0 <nip>, startp=startp@entry=0x7f5c463829c0 <startp>, last_nip=last_nip@entry=0x7f5c463829c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f5c462ba90f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f5c460e69a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f5c460e6a4a in sudo_passwd_init (pw=0x5597d5eaa398, auth=0x7f5c461326c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f5c460e5be6 in sudo_auth_init (pw=pw@entry=0x5597d5eaa398) at ./auth/sudo_auth.c:119
+#10 0x00007f5c460e72b4 in check_user (validated=validated@entry=0x60, mode=0x1020002) at ./check.c:178
+#11 0x00007f5c460feedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffdefb696a8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdefb693b0) at ./sudoers.c:418
+#12 0x00007f5c460f812a in sudoers_policy_check (argc=0x3, argv=0x7ffdefb696a8, env_add=0x0, command_infop=0x7ffdefb69428, argv_out=0x7ffdefb69430, user_env_out=0x7ffdefb69438) at ./policy.c:872
+#13 0x00005597d404b151 in policy_check (plugin=0x5597d406b7a0 <policy_plugin>, user_env_out=0x7ffdefb69438, argv_out=0x7ffdefb69430, command_info=0x7ffdefb69428, env_add=0x0, argv=0x7ffdefb696a8, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdefb696c8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f3877f075c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f3877f081e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f3877f0d187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f3877f14b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f3877c2aa0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffcdb6f79a8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcdb6f76b0) at ./sudoers.c:307
+#6  0x00007f3877c2412a in sudoers_policy_check (argc=0x3, argv=0x7ffcdb6f79a8, env_add=0x0, command_infop=0x7ffcdb6f7728, argv_out=0x7ffcdb6f7730, user_env_out=0x7ffcdb6f7738) at ./policy.c:872
+#7  0x000055644f0a0151 in policy_check (plugin=0x55644f0c07a0 <policy_plugin>, user_env_out=0x7ffcdb6f7738, argv_out=0x7ffcdb6f7730, command_info=0x7ffcdb6f7728, env_add=0x0, argv=0x7ffcdb6f79a8, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcdb6f79c8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f6686c648ec in __GI___nss_database_lookup2 (database=database@entry=0x7f6686cd8784 "shadow", alternate_name=alternate_name@entry=0x7f6686cd8727 "passwd", defconfig=defconfig@entry=0x7f6686cdb690 "compat [NOTFOUND=return] files", ni=0x7f6686d0e710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f6686c66da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f6686d0d9d0 <nip>, fct_name=fct_name@entry=0x7f6686cd7da0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7fff0585d880) at XXX-lookup.c:66
+#3  0x00007f6686c65c69 in setup (all=0x1, startp=0x7f6686d0d9c0 <startp>, nip=0x7f6686d0d9d0 <nip>, fctp=0x7fff0585d880, lookup_fct=0x7f6686c66d30 <__GI___nss_shadow_lookup2>, func_name=0x7f6686cd7da0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f6686d0d9c0 <startp>, nip=0x7f6686d0d9d0 <nip>, fctp=0x7fff0585d880, lookup_fct=0x7f6686c66d30 <__GI___nss_shadow_lookup2>, func_name=0x7f6686cd7da0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f6686cd7da0 "setspent", lookup_fct=0x7f6686c66d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f6686d0d9d0 <nip>, startp=startp@entry=0x7f6686d0d9c0 <startp>, last_nip=last_nip@entry=0x7f6686d0d9c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f6686c4590f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f6686a719a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f6686a71a4a in sudo_passwd_init (pw=0x564c4d16a0d8, auth=0x7f6686abd6c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f6686a70be6 in sudo_auth_init (pw=pw@entry=0x564c4d16a0d8) at ./auth/sudo_auth.c:119
+#10 0x00007f6686a722b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007f6686a89edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff0585dda0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff0585dab0) at ./sudoers.c:418
+#12 0x00007f6686a8312a in sudoers_policy_check (argc=0x3, argv=0x7fff0585dda0, env_add=0x0, command_infop=0x7fff0585db28, argv_out=0x7fff0585db30, user_env_out=0x7fff0585db38) at ./policy.c:872
+#13 0x0000564c4cca7151 in policy_check (plugin=0x564c4ccc77a0 <policy_plugin>, user_env_out=0x7fff0585db38, argv_out=0x7fff0585db30, command_info=0x7fff0585db28, env_add=0x0, argv=0x7fff0585dda0, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff0585ddc0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f737d8525c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f737d8531e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f737d858187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f737d85fb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f737d575a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc03cec8c8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc03cec5d0) at ./sudoers.c:307
+#6  0x00007f737d56f12a in sudoers_policy_check (argc=0x3, argv=0x7ffc03cec8c8, env_add=0x0, command_infop=0x7ffc03cec648, argv_out=0x7ffc03cec650, user_env_out=0x7ffc03cec658) at ./policy.c:872
+#7  0x000055ecc52ba151 in policy_check (plugin=0x55ecc52da7a0 <policy_plugin>, user_env_out=0x7ffc03cec658, argv_out=0x7ffc03cec650, command_info=0x7ffc03cec648, env_add=0x0, argv=0x7ffc03cec8c8, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc03cec8e8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fad29dc95c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fad29dca1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fad29dcf187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fad29dd6b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fad29aeca0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffded77fcc8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffded77f9d0) at ./sudoers.c:307
+#6  0x00007fad29ae612a in sudoers_policy_check (argc=0x3, argv=0x7ffded77fcc8, env_add=0x0, command_infop=0x7ffded77fa48, argv_out=0x7ffded77fa50, user_env_out=0x7ffded77fa58) at ./policy.c:872
+#7  0x00005624f5fd5151 in policy_check (plugin=0x5624f5ff57a0 <policy_plugin>, user_env_out=0x7ffded77fa58, argv_out=0x7ffded77fa50, command_info=0x7ffded77fa48, env_add=0x0, argv=0x7ffded77fcc8, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffded77fce8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f30564b25c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f30564b31e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f30564b8187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f30564bfb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f30561d5a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffff3bf9490, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffff3bf91a0) at ./sudoers.c:307
+#6  0x00007f30561cf12a in sudoers_policy_check (argc=0x3, argv=0x7ffff3bf9490, env_add=0x0, command_infop=0x7ffff3bf9218, argv_out=0x7ffff3bf9220, user_env_out=0x7ffff3bf9228) at ./policy.c:872
+#7  0x00005586a1115151 in policy_check (plugin=0x5586a11357a0 <policy_plugin>, user_env_out=0x7ffff3bf9228, argv_out=0x7ffff3bf9220, command_info=0x7ffff3bf9218, env_add=0x0, argv=0x7ffff3bf9490, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffff3bf94b0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f597c37a8ec in __GI___nss_database_lookup2 (database=database@entry=0x7f597c3ee784 "shadow", alternate_name=alternate_name@entry=0x7f597c3ee727 "passwd", defconfig=defconfig@entry=0x7f597c3f1690 "compat [NOTFOUND=return] files", ni=0x7f597c424710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f597c37cda1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f597c4239d0 <nip>, fct_name=fct_name@entry=0x7f597c3edda0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffd142c60a0) at XXX-lookup.c:66
+#3  0x00007f597c37bc69 in setup (all=0x1, startp=0x7f597c4239c0 <startp>, nip=0x7f597c4239d0 <nip>, fctp=0x7ffd142c60a0, lookup_fct=0x7f597c37cd30 <__GI___nss_shadow_lookup2>, func_name=0x7f597c3edda0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f597c4239c0 <startp>, nip=0x7f597c4239d0 <nip>, fctp=0x7ffd142c60a0, lookup_fct=0x7f597c37cd30 <__GI___nss_shadow_lookup2>, func_name=0x7f597c3edda0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f597c3edda0 "setspent", lookup_fct=0x7f597c37cd30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f597c4239d0 <nip>, startp=startp@entry=0x7f597c4239c0 <startp>, last_nip=last_nip@entry=0x7f597c4239c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f597c35b90f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f597c1879a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f597c187a4a in sudo_passwd_init (pw=0x5555e7b32248, auth=0x7f597c1d36c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f597c186be6 in sudo_auth_init (pw=pw@entry=0x5555e7b32248) at ./auth/sudo_auth.c:119
+#10 0x00007f597c1882b4 in check_user (validated=validated@entry=0x60, mode=0x120002) at ./check.c:178
+#11 0x00007f597c19fedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd142c65c8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd142c62d0) at ./sudoers.c:418
+#12 0x00007f597c19912a in sudoers_policy_check (argc=0x2, argv=0x7ffd142c65c8, env_add=0x0, command_infop=0x7ffd142c6348, argv_out=0x7ffd142c6350, user_env_out=0x7ffd142c6358) at ./policy.c:872
+#13 0x00005555e5f42151 in policy_check (plugin=0x5555e5f627a0 <policy_plugin>, user_env_out=0x7ffd142c6358, argv_out=0x7ffd142c6350, command_info=0x7ffd142c6348, env_add=0x0, argv=0x7ffd142c65c8, argc=0x2) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd142c65e0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fe4775575c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007fe4775581e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007fe47755d187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007fe477564b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007fe47727aa0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffbe44ad88, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffbe44aa90) at ./sudoers.c:307
+#6  0x00007fe47727412a in sudoers_policy_check (argc=0x3, argv=0x7fffbe44ad88, env_add=0x0, command_infop=0x7fffbe44ab08, argv_out=0x7fffbe44ab10, user_env_out=0x7fffbe44ab18) at ./policy.c:872
+#7  0x0000561143637151 in policy_check (plugin=0x5611436577a0 <policy_plugin>, user_env_out=0x7fffbe44ab18, argv_out=0x7fffbe44ab10, command_info=0x7fffbe44ab08, env_add=0x0, argv=0x7fffbe44ad88, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffbe44ada8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f68a93535c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f68a93541e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f68a9359187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f68a9360b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f68a9076a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe77571bd0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe775718e0) at ./sudoers.c:307
+#6  0x00007f68a907012a in sudoers_policy_check (argc=0x3, argv=0x7ffe77571bd0, env_add=0x0, command_infop=0x7ffe77571958, argv_out=0x7ffe77571960, user_env_out=0x7ffe77571968) at ./policy.c:872
+#7  0x00005618f687e151 in policy_check (plugin=0x5618f689e7a0 <policy_plugin>, user_env_out=0x7ffe77571968, argv_out=0x7ffe77571960, command_info=0x7ffe77571958, env_add=0x0, argv=0x7ffe77571bd0, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe77571bf0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fe359c188ec in __GI___nss_database_lookup2 (database=database@entry=0x7fe359c8c784 "shadow", alternate_name=alternate_name@entry=0x7fe359c8c727 "passwd", defconfig=defconfig@entry=0x7fe359c8f690 "compat [NOTFOUND=return] files", ni=0x7fe359cc2710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007fe359c1ada1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7fe359cc19d0 <nip>, fct_name=fct_name@entry=0x7fe359c8bda0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffc29b7c760) at XXX-lookup.c:66
+#3  0x00007fe359c19c69 in setup (all=0x1, startp=0x7fe359cc19c0 <startp>, nip=0x7fe359cc19d0 <nip>, fctp=0x7ffc29b7c760, lookup_fct=0x7fe359c1ad30 <__GI___nss_shadow_lookup2>, func_name=0x7fe359c8bda0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7fe359cc19c0 <startp>, nip=0x7fe359cc19d0 <nip>, fctp=0x7ffc29b7c760, lookup_fct=0x7fe359c1ad30 <__GI___nss_shadow_lookup2>, func_name=0x7fe359c8bda0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7fe359c8bda0 "setspent", lookup_fct=0x7fe359c1ad30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7fe359cc19d0 <nip>, startp=startp@entry=0x7fe359cc19c0 <startp>, last_nip=last_nip@entry=0x7fe359cc19c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007fe359bf990f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007fe359a259a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007fe359a25a4a in sudo_passwd_init (pw=0x55e72ba6b4a8, auth=0x7fe359a716c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007fe359a24be6 in sudo_auth_init (pw=pw@entry=0x55e72ba6b4a8) at ./auth/sudo_auth.c:119
+#10 0x00007fe359a262b4 in check_user (validated=validated@entry=0x60, mode=0x120002) at ./check.c:178
+#11 0x00007fe359a3dedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc29b7cc88, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc29b7c990) at ./sudoers.c:418
+#12 0x00007fe359a3712a in sudoers_policy_check (argc=0x2, argv=0x7ffc29b7cc88, env_add=0x0, command_infop=0x7ffc29b7ca08, argv_out=0x7ffc29b7ca10, user_env_out=0x7ffc29b7ca18) at ./policy.c:872
+#13 0x000055e72abc2151 in policy_check (plugin=0x55e72abe27a0 <policy_plugin>, user_env_out=0x7ffc29b7ca18, argv_out=0x7ffc29b7ca10, command_info=0x7ffc29b7ca08, env_add=0x0, argv=0x7ffc29b7cc88, argc=0x2) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc29b7cca0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f25f09078ec in __GI___nss_database_lookup2 (database=database@entry=0x7f25f097b784 "shadow", alternate_name=alternate_name@entry=0x7f25f097b727 "passwd", defconfig=defconfig@entry=0x7f25f097e690 "compat [NOTFOUND=return] files", ni=0x7f25f09b1710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f25f0909da1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f25f09b09d0 <nip>, fct_name=fct_name@entry=0x7f25f097ada0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffdc05bb890) at XXX-lookup.c:66
+#3  0x00007f25f0908c69 in setup (all=0x1, startp=0x7f25f09b09c0 <startp>, nip=0x7f25f09b09d0 <nip>, fctp=0x7ffdc05bb890, lookup_fct=0x7f25f0909d30 <__GI___nss_shadow_lookup2>, func_name=0x7f25f097ada0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f25f09b09c0 <startp>, nip=0x7f25f09b09d0 <nip>, fctp=0x7ffdc05bb890, lookup_fct=0x7f25f0909d30 <__GI___nss_shadow_lookup2>, func_name=0x7f25f097ada0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f25f097ada0 "setspent", lookup_fct=0x7f25f0909d30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f25f09b09d0 <nip>, startp=startp@entry=0x7f25f09b09c0 <startp>, last_nip=last_nip@entry=0x7f25f09b09c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f25f08e890f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f25f07149a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f25f0714a4a in sudo_passwd_init (pw=0x5580887271f8, auth=0x7f25f07606c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f25f0713be6 in sudo_auth_init (pw=pw@entry=0x5580887271f8) at ./auth/sudo_auth.c:119
+#10 0x00007f25f07152b4 in check_user (validated=validated@entry=0x60, mode=0x120002) at ./check.c:178
+#11 0x00007f25f072cedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffdc05bbdb8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdc05bbac0) at ./sudoers.c:418
+#12 0x00007f25f072612a in sudoers_policy_check (argc=0x3, argv=0x7ffdc05bbdb8, env_add=0x0, command_infop=0x7ffdc05bbb38, argv_out=0x7ffdc05bbb40, user_env_out=0x7ffdc05bbb48) at ./policy.c:872
+#13 0x00005580871eb151 in policy_check (plugin=0x55808720b7a0 <policy_plugin>, user_env_out=0x7ffdc05bbb48, argv_out=0x7ffdc05bbb40, command_info=0x7ffdc05bbb38, env_add=0x0, argv=0x7ffdc05bbdb8, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdc05bbdd8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f5a159575c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f5a159581e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f5a1595d187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f5a15964b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f5a1567aa0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe74f89608, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe74f89310) at ./sudoers.c:307
+#6  0x00007f5a1567412a in sudoers_policy_check (argc=0x3, argv=0x7ffe74f89608, env_add=0x0, command_infop=0x7ffe74f89388, argv_out=0x7ffe74f89390, user_env_out=0x7ffe74f89398) at ./policy.c:872
+#7  0x0000564b0322e151 in policy_check (plugin=0x564b0324e7a0 <policy_plugin>, user_env_out=0x7ffe74f89398, argv_out=0x7ffe74f89390, command_info=0x7ffe74f89388, env_add=0x0, argv=0x7ffe74f89608, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe74f89628) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f27f82325c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f27f82331e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f27f8238187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f27f823fb6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f27f7f55a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffd48c1c68, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffd48c1970) at ./sudoers.c:307
+#6  0x00007f27f7f4f12a in sudoers_policy_check (argc=0x3, argv=0x7fffd48c1c68, env_add=0x0, command_infop=0x7fffd48c19e8, argv_out=0x7fffd48c19f0, user_env_out=0x7fffd48c19f8) at ./policy.c:872
+#7  0x000055e81a249151 in policy_check (plugin=0x55e81a2697a0 <policy_plugin>, user_env_out=0x7fffd48c19f8, argv_out=0x7fffd48c19f0, command_info=0x7fffd48c19e8, env_add=0x0, argv=0x7fffd48c1c68, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffd48c1c88) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fdb6a3488ec in __GI___nss_database_lookup2 (database=database@entry=0x7fdb6a3bc784 "shadow", alternate_name=alternate_name@entry=0x7fdb6a3bc727 "passwd", defconfig=defconfig@entry=0x7fdb6a3bf690 "compat [NOTFOUND=return] files", ni=0x7fdb6a3f2710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007fdb6a34ada1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7fdb6a3f19d0 <nip>, fct_name=fct_name@entry=0x7fdb6a3bbda0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7fffc03a96e0) at XXX-lookup.c:66
+#3  0x00007fdb6a349c69 in setup (all=0x1, startp=0x7fdb6a3f19c0 <startp>, nip=0x7fdb6a3f19d0 <nip>, fctp=0x7fffc03a96e0, lookup_fct=0x7fdb6a34ad30 <__GI___nss_shadow_lookup2>, func_name=0x7fdb6a3bbda0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7fdb6a3f19c0 <startp>, nip=0x7fdb6a3f19d0 <nip>, fctp=0x7fffc03a96e0, lookup_fct=0x7fdb6a34ad30 <__GI___nss_shadow_lookup2>, func_name=0x7fdb6a3bbda0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7fdb6a3bbda0 "setspent", lookup_fct=0x7fdb6a34ad30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7fdb6a3f19d0 <nip>, startp=startp@entry=0x7fdb6a3f19c0 <startp>, last_nip=last_nip@entry=0x7fdb6a3f19c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007fdb6a32990f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007fdb6a1559a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007fdb6a155a4a in sudo_passwd_init (pw=0x561bb5238e48, auth=0x7fdb6a1a16c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007fdb6a154be6 in sudo_auth_init (pw=pw@entry=0x561bb5238e48) at ./auth/sudo_auth.c:119
+#10 0x00007fdb6a1562b4 in check_user (validated=validated@entry=0x60, mode=0x120002) at ./check.c:178
+#11 0x00007fdb6a16dedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffc03a9c08, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffc03a9910) at ./sudoers.c:418
+#12 0x00007fdb6a16712a in sudoers_policy_check (argc=0x3, argv=0x7fffc03a9c08, env_add=0x0, command_infop=0x7fffc03a9988, argv_out=0x7fffc03a9990, user_env_out=0x7fffc03a9998) at ./policy.c:872
+#13 0x0000561bb4dfd151 in policy_check (plugin=0x561bb4e1d7a0 <policy_plugin>, user_env_out=0x7fffc03a9998, argv_out=0x7fffc03a9990, command_info=0x7fffc03a9988, env_add=0x0, argv=0x7fffc03a9c08, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffc03a9c28) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fe8be94c8ec in __GI___nss_database_lookup2 (database=database@entry=0x7fe8be9c0784 "shadow", alternate_name=alternate_name@entry=0x7fe8be9c0727 "passwd", defconfig=defconfig@entry=0x7fe8be9c3690 "compat [NOTFOUND=return] files", ni=0x7fe8be9f6710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007fe8be94eda1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7fe8be9f59d0 <nip>, fct_name=fct_name@entry=0x7fe8be9bfda0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7fff79b57d60) at XXX-lookup.c:66
+#3  0x00007fe8be94dc69 in setup (all=0x1, startp=0x7fe8be9f59c0 <startp>, nip=0x7fe8be9f59d0 <nip>, fctp=0x7fff79b57d60, lookup_fct=0x7fe8be94ed30 <__GI___nss_shadow_lookup2>, func_name=0x7fe8be9bfda0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7fe8be9f59c0 <startp>, nip=0x7fe8be9f59d0 <nip>, fctp=0x7fff79b57d60, lookup_fct=0x7fe8be94ed30 <__GI___nss_shadow_lookup2>, func_name=0x7fe8be9bfda0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7fe8be9bfda0 "setspent", lookup_fct=0x7fe8be94ed30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7fe8be9f59d0 <nip>, startp=startp@entry=0x7fe8be9f59c0 <startp>, last_nip=last_nip@entry=0x7fe8be9f59c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007fe8be92d90f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007fe8be7599a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007fe8be759a4a in sudo_passwd_init (pw=0x55935abea268, auth=0x7fe8be7a56c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007fe8be758be6 in sudo_auth_init (pw=pw@entry=0x55935abea268) at ./auth/sudo_auth.c:119
+#10 0x00007fe8be75a2b4 in check_user (validated=validated@entry=0x60, mode=0x20002) at ./check.c:178
+#11 0x00007fe8be771edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff79b58280, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff79b57f90) at ./sudoers.c:418
+#12 0x00007fe8be76b12a in sudoers_policy_check (argc=0x3, argv=0x7fff79b58280, env_add=0x0, command_infop=0x7fff79b58008, argv_out=0x7fff79b58010, user_env_out=0x7fff79b58018) at ./policy.c:872
+#13 0x000055935aa24151 in policy_check (plugin=0x55935aa447a0 <policy_plugin>, user_env_out=0x7fff79b58018, argv_out=0x7fff79b58010, command_info=0x7fff79b58008, env_add=0x0, argv=0x7fff79b58280, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff79b582a0) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f0e7db355c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f0e7db361e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f0e7db3b187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f0e7db42b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f0e7d858a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffea5eee60, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffea5eeb70) at ./sudoers.c:307
+#6  0x00007f0e7d85212a in sudoers_policy_check (argc=0x3, argv=0x7fffea5eee60, env_add=0x0, command_infop=0x7fffea5eebe8, argv_out=0x7fffea5eebf0, user_env_out=0x7fffea5eebf8) at ./policy.c:872
+#7  0x000055e74d05d151 in policy_check (plugin=0x55e74d07d7a0 <policy_plugin>, user_env_out=0x7fffea5eebf8, argv_out=0x7fffea5eebf0, command_info=0x7fffea5eebe8, env_add=0x0, argv=0x7fffea5eee60, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffea5eee80) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+sudo_new_key_val_v1 format_plugin_settings policy_open out>, 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI__dl_catch_exception __GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f11ae7e98ec in __GI___nss_database_lookup2 (database=database@entry=0x7f11ae85d784 "shadow", alternate_name=alternate_name@entry=0x7f11ae85d727 "passwd", defconfig=defconfig@entry=0x7f11ae860690 "compat [NOTFOUND=return] files", ni=0x7f11ae893710 <__nss_shadow_database>) at nsswitch.c:146
+#2  0x00007f11ae7ebda1 in __GI___nss_shadow_lookup2 (ni=ni@entry=0x7f11ae8929d0 <nip>, fct_name=fct_name@entry=0x7f11ae85cda0 "setspent", fct2_name=fct2_name@entry=0x0, fctp=fctp@entry=0x7ffd494afd90) at XXX-lookup.c:66
+#3  0x00007f11ae7eac69 in setup (all=0x1, startp=0x7f11ae8929c0 <startp>, nip=0x7f11ae8929d0 <nip>, fctp=0x7ffd494afd90, lookup_fct=0x7f11ae7ebd30 <__GI___nss_shadow_lookup2>, func_name=0x7f11ae85cda0 "setspent") at getnssent_r.c:33
+#4  setup (all=0x1, startp=0x7f11ae8929c0 <startp>, nip=0x7f11ae8929d0 <nip>, fctp=0x7ffd494afd90, lookup_fct=0x7f11ae7ebd30 <__GI___nss_shadow_lookup2>, func_name=0x7f11ae85cda0 "setspent") at getnssent_r.c:27
+#5  __nss_setent (func_name=func_name@entry=0x7f11ae85cda0 "setspent", lookup_fct=0x7f11ae7ebd30 <__GI___nss_shadow_lookup2>, nip=nip@entry=0x7f11ae8929d0 <nip>, startp=startp@entry=0x7f11ae8929c0 <startp>, last_nip=last_nip@entry=0x7f11ae8929c8 <last_nip>, stayopen=stayopen@entry=0x0, stayopen_tmp=0x0, res=0x0) at getnssent_r.c:76
+#6  0x00007f11ae7ca90f in setspent () at ../nss/getXXent_r.c:125
+#7  0x00007f11ae5f69a1 in sudo_setspent () at ./getspwuid.c:127
+#8  0x00007f11ae5f6a4a in sudo_passwd_init (pw=0x557e092d7138, auth=0x7f11ae6426c0 <auth_switch>) at ./auth/passwd.c:57
+#9  0x00007f11ae5f5be6 in sudo_auth_init (pw=pw@entry=0x557e092d7138) at ./auth/sudo_auth.c:119
+#10 0x00007f11ae5f72b4 in check_user (validated=validated@entry=0x60, mode=0x120002) at ./check.c:178
+#11 0x00007f11ae60eedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd494b02b8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd494affc0) at ./sudoers.c:418
+#12 0x00007f11ae60812a in sudoers_policy_check (argc=0x3, argv=0x7ffd494b02b8, env_add=0x0, command_infop=0x7ffd494b0038, argv_out=0x7ffd494b0040, user_env_out=0x7ffd494b0048) at ./policy.c:872
+#13 0x0000557e0777e151 in policy_check (plugin=0x557e0779e7a0 <policy_plugin>, user_env_out=0x7ffd494b0048, argv_out=0x7ffd494b0040, command_info=0x7ffd494b0038, env_add=0x0, argv=0x7ffd494b02b8, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd494b02d8) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f36661eb5c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f36661ec1e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f36661f1187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f36661f8b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f3665f0ea0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd517b6670, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd517b6380) at ./sudoers.c:307
+#6  0x00007f3665f0812a in sudoers_policy_check (argc=0x3, argv=0x7ffd517b6670, env_add=0x0, command_infop=0x7ffd517b63f8, argv_out=0x7ffd517b6400, user_env_out=0x7ffd517b6408) at ./policy.c:872
+#7  0x00005622b01b4151 in policy_check (plugin=0x5622b01d47a0 <policy_plugin>, user_env_out=0x7ffd517b6408, argv_out=0x7ffd517b6400, command_info=0x7ffd517b63f8, env_add=0x0, argv=0x7ffd517b6670, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd517b6690) at ./sudo.c:254
+
+----------------------------
+__GI__dl_catch_exception dlopen_doit __GI__dl_catch_exception __GI__dl_catch_error _dlerror_run __dlopen sudo_dso_load_v1 sudo_load_plugin sudo_load_plugins main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f4aac6e45c4 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007f4aac6e51e9 in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007f4aac6ea187 in ?? () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007f4aac6f1b6e in ?? () from /lib64/ld-linux-x86-64.so.2
+#4  0x00007f4aac407a0f in set_cmnd () at ./sudoers.c:892
+#5  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd3c2f2e08, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd3c2f2b10) at ./sudoers.c:307
+#6  0x00007f4aac40112a in sudoers_policy_check (argc=0x3, argv=0x7ffd3c2f2e08, env_add=0x0, command_infop=0x7ffd3c2f2b88, argv_out=0x7ffd3c2f2b90, user_env_out=0x7ffd3c2f2b98) at ./policy.c:872
+#7  0x0000556b0ac22151 in policy_check (plugin=0x556b0ac427a0 <policy_plugin>, user_env_out=0x7ffd3c2f2b98, argv_out=0x7ffd3c2f2b90, command_info=0x7ffd3c2f2b88, env_add=0x0, argv=0x7ffd3c2f2e08, argc=0x3) at ./sudo.c:1140
+#8  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd3c2f2e28) at ./sudo.c:254
+

@@ -1,0 +1,138 @@
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f76b328da14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f76b33a6880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f76b339a6e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f76b33a6880 <term>) at ./term.c:136
+#2  0x00007f76b339a895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000559f95c17552 in tgetpass (prompt=0x559f95cc4500 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7fff44239680) at ./tgetpass.c:187
+#4  0x0000559f95c047a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fff44239238, callback=0x7fff44239680) at ./conversation.c:81
+#5  0x00007f76b30ca29d in auth_getpass (prompt=0x559f95cc4500 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fff44239680) at ./auth/sudo_auth.c:464
+#6  0x00007f76b30ca702 in verify_user (pw=0x559f95cc1fe8, prompt=<optimized out>, prompt@entry=0x559f95cc4500 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fff44239680) at ./auth/sudo_auth.c:319
+#7  0x00007f76b30cb605 in check_user_interactive (closure=0x7fff44239660, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f76b30e2edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff44239aa0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff442397b0) at ./sudoers.c:418
+#10 0x00007f76b30dc12a in sudoers_policy_check (argc=0x3, argv=0x7fff44239aa0, env_add=0x0, command_infop=0x7fff44239828, argv_out=0x7fff44239830, user_env_out=0x7fff44239838) at ./policy.c:872
+#11 0x0000559f95c03151 in policy_check (plugin=0x559f95c237a0 <policy_plugin>, user_env_out=0x7fff44239838, argv_out=0x7fff44239830, command_info=0x7fff44239828, env_add=0x0, argv=0x7fff44239aa0, argc=0x3) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff44239ac0) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f24d41e4a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f24d42fd880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f24d42f16e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f24d42fd880 <term>) at ./term.c:136
+#2  0x00007f24d42f1895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x00005598ac4b1552 in tgetpass (prompt=0x5598ad0cfad0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffd8cee0c80) at ./tgetpass.c:187
+#4  0x00005598ac49e7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffd8cee0838, callback=0x7ffd8cee0c80) at ./conversation.c:81
+#5  0x00007f24d402129d in auth_getpass (prompt=0x5598ad0cfad0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffd8cee0c80) at ./auth/sudo_auth.c:464
+#6  0x00007f24d4021702 in verify_user (pw=0x5598ad0cd4a8, prompt=<optimized out>, prompt@entry=0x5598ad0cfad0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffd8cee0c80) at ./auth/sudo_auth.c:319
+#7  0x00007f24d4022605 in check_user_interactive (closure=0x7ffd8cee0c60, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f24d4039edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffd8cee10a8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd8cee0db0) at ./sudoers.c:418
+#10 0x00007f24d403312a in sudoers_policy_check (argc=0x2, argv=0x7ffd8cee10a8, env_add=0x0, command_infop=0x7ffd8cee0e28, argv_out=0x7ffd8cee0e30, user_env_out=0x7ffd8cee0e38) at ./policy.c:872
+#11 0x00005598ac49d151 in policy_check (plugin=0x5598ac4bd7a0 <policy_plugin>, user_env_out=0x7ffd8cee0e38, argv_out=0x7ffd8cee0e30, command_info=0x7ffd8cee0e28, env_add=0x0, argv=0x7ffd8cee10a8, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd8cee10c0) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f9e7ae1aa14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f9e7af33880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f9e7af276e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f9e7af33880 <term>) at ./term.c:136
+#2  0x00007f9e7af27895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000055cbb37e9552 in tgetpass (prompt=0x55cbb558b5c0 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffeb02eb9f0) at ./tgetpass.c:187
+#4  0x000055cbb37d67a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffeb02eb5a8, callback=0x7ffeb02eb9f0) at ./conversation.c:81
+#5  0x00007f9e7ac5729d in auth_getpass (prompt=0x55cbb558b5c0 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffeb02eb9f0) at ./auth/sudo_auth.c:464
+#6  0x00007f9e7ac57702 in verify_user (pw=0x55cbb5589028, prompt=<optimized out>, prompt@entry=0x55cbb558b5c0 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffeb02eb9f0) at ./auth/sudo_auth.c:319
+#7  0x00007f9e7ac58605 in check_user_interactive (closure=0x7ffeb02eb9d0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f9e7ac6fedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffeb02ebe10, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffeb02ebb20) at ./sudoers.c:418
+#10 0x00007f9e7ac6912a in sudoers_policy_check (argc=0x3, argv=0x7ffeb02ebe10, env_add=0x0, command_infop=0x7ffeb02ebb98, argv_out=0x7ffeb02ebba0, user_env_out=0x7ffeb02ebba8) at ./policy.c:872
+#11 0x000055cbb37d5151 in policy_check (plugin=0x55cbb37f57a0 <policy_plugin>, user_env_out=0x7ffeb02ebba8, argv_out=0x7ffeb02ebba0, command_info=0x7ffeb02ebb98, env_add=0x0, argv=0x7ffeb02ebe10, argc=0x3) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffeb02ebe30) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fab99af5a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7fab99c0e880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007fab99c026e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7fab99c0e880 <term>) at ./term.c:136
+#2  0x00007fab99c02895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x0000558127915552 in tgetpass (prompt=0x5581292f4760 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7ffeb91cab30) at ./tgetpass.c:187
+#4  0x00005581279027a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7ffeb91ca6e8, callback=0x7ffeb91cab30) at ./conversation.c:81
+#5  0x00007fab9993229d in auth_getpass (prompt=0x5581292f4760 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7ffeb91cab30) at ./auth/sudo_auth.c:464
+#6  0x00007fab99932702 in verify_user (pw=0x5581292f2138, prompt=<optimized out>, prompt@entry=0x5581292f4760 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7ffeb91cab30) at ./auth/sudo_auth.c:319
+#7  0x00007fab99933605 in check_user_interactive (closure=0x7ffeb91cab10, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007fab9994aedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffeb91caf58, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffeb91cac60) at ./sudoers.c:418
+#10 0x00007fab9994412a in sudoers_policy_check (argc=0x2, argv=0x7ffeb91caf58, env_add=0x0, command_infop=0x7ffeb91cacd8, argv_out=0x7ffeb91cace0, user_env_out=0x7ffeb91cace8) at ./policy.c:872
+#11 0x0000558127901151 in policy_check (plugin=0x5581279217a0 <policy_plugin>, user_env_out=0x7ffeb91cace8, argv_out=0x7ffeb91cace0, command_info=0x7ffeb91cacd8, env_add=0x0, argv=0x7ffeb91caf58, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffeb91caf70) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f480cf7ca14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7f480d095880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007f480d0896e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7f480d095880 <term>) at ./term.c:136
+#2  0x00007f480d089895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x000055ba6fbfd552 in tgetpass (prompt=0x55ba7095d840 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7fffb029fb50) at ./tgetpass.c:187
+#4  0x000055ba6fbea7a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fffb029f708, callback=0x7fffb029fb50) at ./conversation.c:81
+#5  0x00007f480cdb929d in auth_getpass (prompt=0x55ba7095d840 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fffb029fb50) at ./auth/sudo_auth.c:464
+#6  0x00007f480cdb9702 in verify_user (pw=0x55ba7095b3f8, prompt=<optimized out>, prompt@entry=0x55ba7095d840 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fffb029fb50) at ./auth/sudo_auth.c:319
+#7  0x00007f480cdba605 in check_user_interactive (closure=0x7fffb029fb30, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007f480cdd1edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffb029ff78, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffb029fc80) at ./sudoers.c:418
+#10 0x00007f480cdcb12a in sudoers_policy_check (argc=0x3, argv=0x7fffb029ff78, env_add=0x0, command_infop=0x7fffb029fcf8, argv_out=0x7fffb029fd00, user_env_out=0x7fffb029fd08) at ./policy.c:872
+#11 0x000055ba6fbe9151 in policy_check (plugin=0x55ba6fc097a0 <policy_plugin>, user_env_out=0x7fffb029fd08, argv_out=0x7fffb029fd00, command_info=0x7fffb029fcf8, env_add=0x0, argv=0x7fffb029ff78, argc=0x3) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffb029ff98) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007ff2de2c2a14 in __tcsetattr (fd=fd@entry=0x5, optional_actions=optional_actions@entry=0x1, termios_p=termios_p@entry=0x7ff2de3db880 <term>) at ../sysdeps/unix/sysv/linux/tcsetattr.c:83
+#1  0x00007ff2de3cf6e9 in tcsetattr_nobg (fd=fd@entry=0x5, flags=flags@entry=0x1, tp=tp@entry=0x7ff2de3db880 <term>) at ./term.c:136
+#2  0x00007ff2de3cf895 in sudo_term_noecho_v1 (fd=fd@entry=0x5) at ./term.c:177
+#3  0x00005567b0b8c552 in tgetpass (prompt=0x5567b11c3680 "Password: ", timeout=0x12c, flags=0x0, callback=callback@entry=0x7fffd05940d0) at ./tgetpass.c:187
+#4  0x00005567b0b797a5 in sudo_conversation (num_msgs=<optimized out>, msgs=<optimized out>, replies=0x7fffd0593c88, callback=0x7fffd05940d0) at ./conversation.c:81
+#5  0x00007ff2de0ff29d in auth_getpass (prompt=0x5567b11c3680 "Password: ", type=type@entry=0x1, callback=callback@entry=0x7fffd05940d0) at ./auth/sudo_auth.c:464
+#6  0x00007ff2de0ff702 in verify_user (pw=0x5567b11c1058, prompt=<optimized out>, prompt@entry=0x5567b11c3680 "Password: ", validated=validated@entry=0x60, callback=callback@entry=0x7fffd05940d0) at ./auth/sudo_auth.c:319
+#7  0x00007ff2de100605 in check_user_interactive (closure=0x7fffd05940b0, mode=<optimized out>, validated=0x60) at ./check.c:149
+#8  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#9  0x00007ff2de117edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffd05944f8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffd0594200) at ./sudoers.c:418
+#10 0x00007ff2de11112a in sudoers_policy_check (argc=0x2, argv=0x7fffd05944f8, env_add=0x0, command_infop=0x7fffd0594278, argv_out=0x7fffd0594280, user_env_out=0x7fffd0594288) at ./policy.c:872
+#11 0x00005567b0b78151 in policy_check (plugin=0x5567b0b987a0 <policy_plugin>, user_env_out=0x7fffd0594288, argv_out=0x7fffd0594280, command_info=0x7fffd0594278, env_add=0x0, argv=0x7fffd05944f8, argc=0x2) at ./sudo.c:1140
+#12 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffd0594510) at ./sudo.c:254
+

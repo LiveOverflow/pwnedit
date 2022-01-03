@@ -1,0 +1,27 @@
+----------------------------
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+set_binding_values set_binding_values out>, main 
+
+
+backtrace:
+#0  __GI_raise (sig=sig@entry=0x6) at ../sysdeps/unix/sysv/linux/raise.c:50
+#1  0x00007fb9a6d27859 in __GI_abort () at abort.c:79
+#2  0x00007fb9a6d923ee in __libc_message (action=action@entry=do_abort, fmt=fmt@entry=0x7fb9a6ebc285 "%s\n") at ../sysdeps/posix/libc_fatal.c:155
+#3  0x00007fb9a6d9a47c in malloc_printerr (str=str@entry=0x7fb9a6ebe1e0 "munmap_chunk(): invalid pointer") at malloc.c:5347
+#4  0x00007fb9a6d9a6cc in munmap_chunk (p=<optimized out>) at malloc.c:2830
+#5  0x00007fb9a6d98bd4 in __GI__IO_str_overflow (fp=0x7ffddd7dc4a0, c=0x47) at strops.c:115
+#6  0x00007fb9a6d971a4 in __GI__IO_default_xsputn (n=<optimized out>, data=<optimized out>, f=<optimized out>) at libioP.h:948
+#7  __GI__IO_default_xsputn (f=0x7ffddd7dc4a0, data=<optimized out>, n=0xcd) at genops.c:370
+#8  0x00007fb9a6d7c27c in __vfprintf_internal (s=s@entry=0x7ffddd7dc4a0, format=format@entry=0x7fb9a6c877bf "SUDO_COMMAND=%s %s", ap=ap@entry=0x7ffddd7dc5e0, mode_flags=mode_flags@entry=0x2) at ../libio/libioP.h:948
+#9  0x00007fb9a6d90d4a in __vasprintf_internal (result_ptr=0x7ffddd7dc6e0, format=0x7fb9a6c877bf "SUDO_COMMAND=%s %s", args=args@entry=0x7ffddd7dc5e0, mode_flags=mode_flags@entry=0x2) at vasprintf.c:57
+#10 0x00007fb9a6e34743 in __asprintf_chk (result_ptr=result_ptr@entry=0x7ffddd7dc6e0, flag=flag@entry=0x1, format=format@entry=0x7fb9a6c877bf "SUDO_COMMAND=%s %s") at asprintf_chk.c:34
+#11 0x00007fb9a6c59164 in asprintf (__fmt=0x7fb9a6c877bf "SUDO_COMMAND=%s %s", __ptr=0x7ffddd7dc6e0) at /usr/include/x86_64-linux-gnu/bits/stdio2.h:181
+#12 rebuild_env () at ./env.c:1112
+#13 0x00007fb9a6c6deca in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffddd7dcaf8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffddd7dc800) at ./sudoers.c:414
+#14 0x00007fb9a6c6712a in sudoers_policy_check (argc=0x2, argv=0x7ffddd7dcaf8, env_add=0x0, command_infop=0x7ffddd7dc878, argv_out=0x7ffddd7dc880, user_env_out=0x7ffddd7dc888) at ./policy.c:872
+#15 0x000056341837c151 in policy_check (plugin=0x56341839c7a0 <policy_plugin>, user_env_out=0x7ffddd7dc888, argv_out=0x7ffddd7dc880, command_info=0x7ffddd7dc878, env_add=0x0, argv=0x7ffddd7dcaf8, argc=0x2) at ./sudo.c:1140
+#16 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffddd7dcb10) at ./sudo.c:254
+

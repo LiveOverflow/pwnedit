@@ -1,0 +1,576 @@
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55c3d14cd7a8, defs=0x55c3d14cd7b8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f44d25dba7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffeca088148, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffeca087e50) at ./sudoers.c:307
+#3  0x00007f44d25d512a in sudoers_policy_check (argc=0x3, argv=0x7ffeca088148, env_add=0x0, command_infop=0x7ffeca087ec8, argv_out=0x7ffeca087ed0, user_env_out=0x7ffeca087ed8) at ./policy.c:872
+#4  0x000055c3d0ba0151 in policy_check (plugin=0x55c3d0bc07a0 <policy_plugin>, user_env_out=0x7ffeca087ed8, argv_out=0x7ffeca087ed0, command_info=0x7ffeca087ec8, env_add=0x0, argv=0x7ffeca088148, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffeca088168) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55e2480ad7f8, defs=0x55e2480ad808, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f8e808a1a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffeb6fb1238, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffeb6fb0f40) at ./sudoers.c:307
+#3  0x00007f8e8089b12a in sudoers_policy_check (argc=0x3, argv=0x7ffeb6fb1238, env_add=0x0, command_infop=0x7ffeb6fb0fb8, argv_out=0x7ffeb6fb0fc0, user_env_out=0x7ffeb6fb0fc8) at ./policy.c:872
+#4  0x000055e246e5f151 in policy_check (plugin=0x55e246e7f7a0 <policy_plugin>, user_env_out=0x7ffeb6fb0fc8, argv_out=0x7ffeb6fb0fc0, command_info=0x7ffeb6fb0fb8, env_add=0x0, argv=0x7ffeb6fb1238, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffeb6fb1258) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x563645fc7d08, defs=0x563645fc7d18, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007fd20c79da7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff1131fdc8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff1131fad0) at ./sudoers.c:307
+#3  0x00007fd20c79712a in sudoers_policy_check (argc=0x3, argv=0x7fff1131fdc8, env_add=0x0, command_infop=0x7fff1131fb48, argv_out=0x7fff1131fb50, user_env_out=0x7fff1131fb58) at ./policy.c:872
+#4  0x00005636452d9151 in policy_check (plugin=0x5636452f97a0 <policy_plugin>, user_env_out=0x7fff1131fb58, argv_out=0x7fff1131fb50, command_info=0x7fff1131fb48, env_add=0x0, argv=0x7fff1131fdc8, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff1131fde8) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x56236f634838, defs=0x56236f634848, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f71785a1a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffded3b8518, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffded3b8220) at ./sudoers.c:307
+#3  0x00007f717859b12a in sudoers_policy_check (argc=0x3, argv=0x7ffded3b8518, env_add=0x0, command_infop=0x7ffded3b8298, argv_out=0x7ffded3b82a0, user_env_out=0x7ffded3b82a8) at ./policy.c:872
+#4  0x000056236e80b151 in policy_check (plugin=0x56236e82b7a0 <policy_plugin>, user_env_out=0x7ffded3b82a8, argv_out=0x7ffded3b82a0, command_info=0x7ffded3b8298, env_add=0x0, argv=0x7ffded3b8518, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffded3b8538) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x56418601d5b8, defs=0x56418601d5c8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f3dd6a57a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd5b746710, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd5b746420) at ./sudoers.c:307
+#3  0x00007f3dd6a5112a in sudoers_policy_check (argc=0x3, argv=0x7ffd5b746710, env_add=0x0, command_infop=0x7ffd5b746498, argv_out=0x7ffd5b7464a0, user_env_out=0x7ffd5b7464a8) at ./policy.c:872
+#4  0x000056418595c151 in policy_check (plugin=0x56418597c7a0 <policy_plugin>, user_env_out=0x7ffd5b7464a8, argv_out=0x7ffd5b7464a0, command_info=0x7ffd5b746498, env_add=0x0, argv=0x7ffd5b746710, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd5b746730) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55b73722ee08, defs=0x55b73722ee18, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007fa2cb26ea7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd001deed0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd001debe0) at ./sudoers.c:307
+#3  0x00007fa2cb26812a in sudoers_policy_check (argc=0x3, argv=0x7ffd001deed0, env_add=0x0, command_infop=0x7ffd001dec58, argv_out=0x7ffd001dec60, user_env_out=0x7ffd001dec68) at ./policy.c:872
+#4  0x000055b736941151 in policy_check (plugin=0x55b7369617a0 <policy_plugin>, user_env_out=0x7ffd001dec68, argv_out=0x7ffd001dec60, command_info=0x7ffd001dec58, env_add=0x0, argv=0x7ffd001deed0, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd001deef0) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55d3b33c1b38, defs=0x55d3b33c1b48, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f3e1f6e8a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffa87a53c0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffa87a50d0) at ./sudoers.c:307
+#3  0x00007f3e1f6e212a in sudoers_policy_check (argc=0x3, argv=0x7fffa87a53c0, env_add=0x0, command_infop=0x7fffa87a5148, argv_out=0x7fffa87a5150, user_env_out=0x7fffa87a5158) at ./policy.c:872
+#4  0x000055d3b19e2151 in policy_check (plugin=0x55d3b1a027a0 <policy_plugin>, user_env_out=0x7fffa87a5158, argv_out=0x7fffa87a5150, command_info=0x7fffa87a5148, env_add=0x0, argv=0x7fffa87a53c0, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffa87a53e0) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55ca55a51b68, defs=0x55ca55a51b78, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007fde99f90a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe5847be70, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe5847bb80) at ./sudoers.c:307
+#3  0x00007fde99f8a12a in sudoers_policy_check (argc=0x3, argv=0x7ffe5847be70, env_add=0x0, command_infop=0x7ffe5847bbf8, argv_out=0x7ffe5847bc00, user_env_out=0x7ffe5847bc08) at ./policy.c:872
+#4  0x000055ca5573f151 in policy_check (plugin=0x55ca5575f7a0 <policy_plugin>, user_env_out=0x7ffe5847bc08, argv_out=0x7ffe5847bc00, command_info=0x7ffe5847bbf8, env_add=0x0, argv=0x7ffe5847be70, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe5847be90) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55ae497cbd18, defs=0x55ae497cbd28, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f4cf9104a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd24d0e180, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd24d0de90) at ./sudoers.c:307
+#3  0x00007f4cf90fe12a in sudoers_policy_check (argc=0x3, argv=0x7ffd24d0e180, env_add=0x0, command_infop=0x7ffd24d0df08, argv_out=0x7ffd24d0df10, user_env_out=0x7ffd24d0df18) at ./policy.c:872
+#4  0x000055ae49016151 in policy_check (plugin=0x55ae490367a0 <policy_plugin>, user_env_out=0x7ffd24d0df18, argv_out=0x7ffd24d0df10, command_info=0x7ffd24d0df08, env_add=0x0, argv=0x7ffd24d0e180, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd24d0e1a0) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x562a36df1bd8, defs=0x562a36df1be8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f5237e76a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffcc1ae2518, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcc1ae2220) at ./sudoers.c:307
+#3  0x00007f5237e7012a in sudoers_policy_check (argc=0x3, argv=0x7ffcc1ae2518, env_add=0x0, command_infop=0x7ffcc1ae2298, argv_out=0x7ffcc1ae22a0, user_env_out=0x7ffcc1ae22a8) at ./policy.c:872
+#4  0x0000562a357bc151 in policy_check (plugin=0x562a357dc7a0 <policy_plugin>, user_env_out=0x7ffcc1ae22a8, argv_out=0x7ffcc1ae22a0, command_info=0x7ffcc1ae2298, env_add=0x0, argv=0x7ffcc1ae2518, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcc1ae2538) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x560d5ad3f558, defs=0x560d5ad3f568, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007fa732cdba7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffefa23ba68, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffefa23b770) at ./sudoers.c:307
+#3  0x00007fa732cd512a in sudoers_policy_check (argc=0x3, argv=0x7ffefa23ba68, env_add=0x0, command_infop=0x7ffefa23b7e8, argv_out=0x7ffefa23b7f0, user_env_out=0x7ffefa23b7f8) at ./policy.c:872
+#4  0x0000560d5a51e151 in policy_check (plugin=0x560d5a53e7a0 <policy_plugin>, user_env_out=0x7ffefa23b7f8, argv_out=0x7ffefa23b7f0, command_info=0x7ffefa23b7e8, env_add=0x0, argv=0x7ffefa23ba68, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffefa23ba88) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x557308efbab8, defs=0x557308efbac8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f1b4031ea7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe02162a18, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe02162720) at ./sudoers.c:307
+#3  0x00007f1b4031812a in sudoers_policy_check (argc=0x2, argv=0x7ffe02162a18, env_add=0x0, command_infop=0x7ffe02162798, argv_out=0x7ffe021627a0, user_env_out=0x7ffe021627a8) at ./policy.c:872
+#4  0x0000557308b23151 in policy_check (plugin=0x557308b437a0 <policy_plugin>, user_env_out=0x7ffe021627a8, argv_out=0x7ffe021627a0, command_info=0x7ffe02162798, env_add=0x0, argv=0x7ffe02162a18, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe02162a30) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x5599b7ae2848, defs=0x5599b7ae2858, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f4a15921a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc0d823cf8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc0d823a00) at ./sudoers.c:307
+#3  0x00007f4a1591b12a in sudoers_policy_check (argc=0x3, argv=0x7ffc0d823cf8, env_add=0x0, command_infop=0x7ffc0d823a78, argv_out=0x7ffc0d823a80, user_env_out=0x7ffc0d823a88) at ./policy.c:872
+#4  0x00005599b7a24151 in policy_check (plugin=0x5599b7a447a0 <policy_plugin>, user_env_out=0x7ffc0d823a88, argv_out=0x7ffc0d823a80, command_info=0x7ffc0d823a78, env_add=0x0, argv=0x7ffc0d823cf8, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc0d823d18) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55f4c6981bd8, defs=0x55f4c6981be8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007fc358417a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffebfb73200, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffebfb72f10) at ./sudoers.c:307
+#3  0x00007fc35841112a in sudoers_policy_check (argc=0x2, argv=0x7ffebfb73200, env_add=0x0, command_infop=0x7ffebfb72f88, argv_out=0x7ffebfb72f90, user_env_out=0x7ffebfb72f98) at ./policy.c:872
+#4  0x000055f4c4dcb151 in policy_check (plugin=0x55f4c4deb7a0 <policy_plugin>, user_env_out=0x7ffebfb72f98, argv_out=0x7ffebfb72f90, command_info=0x7ffebfb72f88, env_add=0x0, argv=0x7ffebfb73200, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffebfb73218) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x563606745e98, defs=0x563606745ea8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f171f5b0a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff20bb7ed8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff20bb7be0) at ./sudoers.c:307
+#3  0x00007f171f5aa12a in sudoers_policy_check (argc=0x3, argv=0x7fff20bb7ed8, env_add=0x0, command_infop=0x7fff20bb7c58, argv_out=0x7fff20bb7c60, user_env_out=0x7fff20bb7c68) at ./policy.c:872
+#4  0x00005636048ed151 in policy_check (plugin=0x56360490d7a0 <policy_plugin>, user_env_out=0x7fff20bb7c68, argv_out=0x7fff20bb7c60, command_info=0x7fff20bb7c58, env_add=0x0, argv=0x7fff20bb7ed8, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff20bb7ef8) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x557df1111558, defs=0x557df1111568, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f2db6858a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffec1aa6f78, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffec1aa6c80) at ./sudoers.c:307
+#3  0x00007f2db685212a in sudoers_policy_check (argc=0x3, argv=0x7ffec1aa6f78, env_add=0x0, command_infop=0x7ffec1aa6cf8, argv_out=0x7ffec1aa6d00, user_env_out=0x7ffec1aa6d08) at ./policy.c:872
+#4  0x0000557df0a1b151 in policy_check (plugin=0x557df0a3b7a0 <policy_plugin>, user_env_out=0x7ffec1aa6d08, argv_out=0x7ffec1aa6d00, command_info=0x7ffec1aa6cf8, env_add=0x0, argv=0x7ffec1aa6f78, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffec1aa6f98) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x565108a7abe8, defs=0x565108a7abf8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f1a05994a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffa778a738, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffa778a440) at ./sudoers.c:307
+#3  0x00007f1a0598e12a in sudoers_policy_check (argc=0x3, argv=0x7fffa778a738, env_add=0x0, command_infop=0x7fffa778a4b8, argv_out=0x7fffa778a4c0, user_env_out=0x7fffa778a4c8) at ./policy.c:872
+#4  0x00005651079f1151 in policy_check (plugin=0x565107a117a0 <policy_plugin>, user_env_out=0x7fffa778a4c8, argv_out=0x7fffa778a4c0, command_info=0x7fffa778a4b8, env_add=0x0, argv=0x7fffa778a738, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffa778a758) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55bbadf3cbf8, defs=0x55bbadf3cc08, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f309fea2a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff8f8f1648, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff8f8f1350) at ./sudoers.c:307
+#3  0x00007f309fe9c12a in sudoers_policy_check (argc=0x3, argv=0x7fff8f8f1648, env_add=0x0, command_infop=0x7fff8f8f13c8, argv_out=0x7fff8f8f13d0, user_env_out=0x7fff8f8f13d8) at ./policy.c:872
+#4  0x000055bbacfef151 in policy_check (plugin=0x55bbad00f7a0 <policy_plugin>, user_env_out=0x7fff8f8f13d8, argv_out=0x7fff8f8f13d0, command_info=0x7fff8f8f13c8, env_add=0x0, argv=0x7fff8f8f1648, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff8f8f1668) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x559b218faa78, defs=0x559b218faa88, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007ff800c58a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc8b4ec1c0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc8b4ebed0) at ./sudoers.c:307
+#3  0x00007ff800c5212a in sudoers_policy_check (argc=0x3, argv=0x7ffc8b4ec1c0, env_add=0x0, command_infop=0x7ffc8b4ebf48, argv_out=0x7ffc8b4ebf50, user_env_out=0x7ffc8b4ebf58) at ./policy.c:872
+#4  0x0000559b20463151 in policy_check (plugin=0x559b204837a0 <policy_plugin>, user_env_out=0x7ffc8b4ebf58, argv_out=0x7ffc8b4ebf50, command_info=0x7ffc8b4ebf48, env_add=0x0, argv=0x7ffc8b4ec1c0, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc8b4ec1e0) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55c749c00b68, defs=0x55c749c00b78, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f73e2b99a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff4534fb08, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff4534f810) at ./sudoers.c:307
+#3  0x00007f73e2b9312a in sudoers_policy_check (argc=0x3, argv=0x7fff4534fb08, env_add=0x0, command_infop=0x7fff4534f888, argv_out=0x7fff4534f890, user_env_out=0x7fff4534f898) at ./policy.c:872
+#4  0x000055c747c06151 in policy_check (plugin=0x55c747c267a0 <policy_plugin>, user_env_out=0x7fff4534f898, argv_out=0x7fff4534f890, command_info=0x7fff4534f888, env_add=0x0, argv=0x7fff4534fb08, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff4534fb28) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x5570e1b84548, defs=0x5570e1b84558, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f84aa2a3a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe2f015500, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe2f015210) at ./sudoers.c:307
+#3  0x00007f84aa29d12a in sudoers_policy_check (argc=0x3, argv=0x7ffe2f015500, env_add=0x0, command_infop=0x7ffe2f015288, argv_out=0x7ffe2f015290, user_env_out=0x7ffe2f015298) at ./policy.c:872
+#4  0x00005570dfdf6151 in policy_check (plugin=0x5570dfe167a0 <policy_plugin>, user_env_out=0x7ffe2f015298, argv_out=0x7ffe2f015290, command_info=0x7ffe2f015288, env_add=0x0, argv=0x7ffe2f015500, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe2f015520) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55d805766c68, defs=0x55d805766c78, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007ff567203a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd7eb388c8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd7eb385d0) at ./sudoers.c:307
+#3  0x00007ff5671fd12a in sudoers_policy_check (argc=0x3, argv=0x7ffd7eb388c8, env_add=0x0, command_infop=0x7ffd7eb38648, argv_out=0x7ffd7eb38650, user_env_out=0x7ffd7eb38658) at ./policy.c:872
+#4  0x000055d803fbc151 in policy_check (plugin=0x55d803fdc7a0 <policy_plugin>, user_env_out=0x7ffd7eb38658, argv_out=0x7ffd7eb38650, command_info=0x7ffd7eb38648, env_add=0x0, argv=0x7ffd7eb388c8, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd7eb388e8) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x56098980e548, defs=0x56098980e558, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f77ff9a9a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffff76a7298, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffff76a6fa0) at ./sudoers.c:307
+#3  0x00007f77ff9a312a in sudoers_policy_check (argc=0x3, argv=0x7ffff76a7298, env_add=0x0, command_infop=0x7ffff76a7018, argv_out=0x7ffff76a7020, user_env_out=0x7ffff76a7028) at ./policy.c:872
+#4  0x0000560987b29151 in policy_check (plugin=0x560987b497a0 <policy_plugin>, user_env_out=0x7ffff76a7028, argv_out=0x7ffff76a7020, command_info=0x7ffff76a7018, env_add=0x0, argv=0x7ffff76a7298, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffff76a72b8) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x56225e5a5cc8, defs=0x56225e5a5cd8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f67fb140a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffe4662ea8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffe4662bb0) at ./sudoers.c:307
+#3  0x00007f67fb13a12a in sudoers_policy_check (argc=0x3, argv=0x7fffe4662ea8, env_add=0x0, command_infop=0x7fffe4662c28, argv_out=0x7fffe4662c30, user_env_out=0x7fffe4662c38) at ./policy.c:872
+#4  0x000056225cd93151 in policy_check (plugin=0x56225cdb37a0 <policy_plugin>, user_env_out=0x7fffe4662c38, argv_out=0x7fffe4662c30, command_info=0x7fffe4662c28, env_add=0x0, argv=0x7fffe4662ea8, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffe4662ec8) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55b2dbb415c8, defs=0x55b2dbb415d8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f6c9d707a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffdb7a03ec0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdb7a03bd0) at ./sudoers.c:307
+#3  0x00007f6c9d70112a in sudoers_policy_check (argc=0x3, argv=0x7ffdb7a03ec0, env_add=0x0, command_infop=0x7ffdb7a03c48, argv_out=0x7ffdb7a03c50, user_env_out=0x7ffdb7a03c58) at ./policy.c:872
+#4  0x000055b2d9dfd151 in policy_check (plugin=0x55b2d9e1d7a0 <policy_plugin>, user_env_out=0x7ffdb7a03c58, argv_out=0x7ffdb7a03c50, command_info=0x7ffdb7a03c48, env_add=0x0, argv=0x7ffdb7a03ec0, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdb7a03ee0) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x559b30a20868, defs=0x559b30a20878, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007fd54d128a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd53ab3d80, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd53ab3a90) at ./sudoers.c:307
+#3  0x00007fd54d12212a in sudoers_policy_check (argc=0x3, argv=0x7ffd53ab3d80, env_add=0x0, command_infop=0x7ffd53ab3b08, argv_out=0x7ffd53ab3b10, user_env_out=0x7ffd53ab3b18) at ./policy.c:872
+#4  0x0000559b3021b151 in policy_check (plugin=0x559b3023b7a0 <policy_plugin>, user_env_out=0x7ffd53ab3b18, argv_out=0x7ffd53ab3b10, command_info=0x7ffd53ab3b08, env_add=0x0, argv=0x7ffd53ab3d80, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd53ab3da0) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55be59a01e18, defs=0x55be59a01e28, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f20a3950a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd9f60c898, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd9f60c5a0) at ./sudoers.c:307
+#3  0x00007f20a394a12a in sudoers_policy_check (argc=0x3, argv=0x7ffd9f60c898, env_add=0x0, command_infop=0x7ffd9f60c618, argv_out=0x7ffd9f60c620, user_env_out=0x7ffd9f60c628) at ./policy.c:872
+#4  0x000055be57f9b151 in policy_check (plugin=0x55be57fbb7a0 <policy_plugin>, user_env_out=0x7ffd9f60c628, argv_out=0x7ffd9f60c620, command_info=0x7ffd9f60c618, env_add=0x0, argv=0x7ffd9f60c898, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd9f60c8b8) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55a302cfe7d8, defs=0x55a302cfe7e8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f16bec3ea7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff4048d978, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff4048d680) at ./sudoers.c:307
+#3  0x00007f16bec3812a in sudoers_policy_check (argc=0x3, argv=0x7fff4048d978, env_add=0x0, command_infop=0x7fff4048d6f8, argv_out=0x7fff4048d700, user_env_out=0x7fff4048d708) at ./policy.c:872
+#4  0x000055a301238151 in policy_check (plugin=0x55a3012587a0 <policy_plugin>, user_env_out=0x7fff4048d708, argv_out=0x7fff4048d700, command_info=0x7fff4048d6f8, env_add=0x0, argv=0x7fff4048d978, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff4048d998) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55bf268c0818, defs=0x55bf268c0828, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007fd46bfe9a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd6396cb00, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd6396c810) at ./sudoers.c:307
+#3  0x00007fd46bfe312a in sudoers_policy_check (argc=0x3, argv=0x7ffd6396cb00, env_add=0x0, command_infop=0x7ffd6396c888, argv_out=0x7ffd6396c890, user_env_out=0x7ffd6396c898) at ./policy.c:872
+#4  0x000055bf24b32151 in policy_check (plugin=0x55bf24b527a0 <policy_plugin>, user_env_out=0x7ffd6396c898, argv_out=0x7ffd6396c890, command_info=0x7ffd6396c888, env_add=0x0, argv=0x7ffd6396cb00, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd6396cb20) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55e279411d18, defs=0x55e279411d28, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f94a68b3a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff3efacbe0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff3efac8f0) at ./sudoers.c:307
+#3  0x00007f94a68ad12a in sudoers_policy_check (argc=0x3, argv=0x7fff3efacbe0, env_add=0x0, command_infop=0x7fff3efac968, argv_out=0x7fff3efac970, user_env_out=0x7fff3efac978) at ./policy.c:872
+#4  0x000055e277462151 in policy_check (plugin=0x55e2774827a0 <policy_plugin>, user_env_out=0x7fff3efac978, argv_out=0x7fff3efac970, command_info=0x7fff3efac968, env_add=0x0, argv=0x7fff3efacbe0, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff3efacc00) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55d51ea70c98, defs=0x55d51ea70ca8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f4cab135a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe296c9a20, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe296c9730) at ./sudoers.c:307
+#3  0x00007f4cab12f12a in sudoers_policy_check (argc=0x3, argv=0x7ffe296c9a20, env_add=0x0, command_infop=0x7ffe296c97a8, argv_out=0x7ffe296c97b0, user_env_out=0x7ffe296c97b8) at ./policy.c:872
+#4  0x000055d51d1fc151 in policy_check (plugin=0x55d51d21c7a0 <policy_plugin>, user_env_out=0x7ffe296c97b8, argv_out=0x7ffe296c97b0, command_info=0x7ffe296c97a8, env_add=0x0, argv=0x7ffe296c9a20, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe296c9a40) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x560a42b32bc8, defs=0x560a42b32bd8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f7d9fab7a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe1d80ad78, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe1d80aa80) at ./sudoers.c:307
+#3  0x00007f7d9fab112a in sudoers_policy_check (argc=0x2, argv=0x7ffe1d80ad78, env_add=0x0, command_infop=0x7ffe1d80aaf8, argv_out=0x7ffe1d80ab00, user_env_out=0x7ffe1d80ab08) at ./policy.c:872
+#4  0x0000560a428e6151 in policy_check (plugin=0x560a429067a0 <policy_plugin>, user_env_out=0x7ffe1d80ab08, argv_out=0x7ffe1d80ab00, command_info=0x7ffe1d80aaf8, env_add=0x0, argv=0x7ffe1d80ad78, argc=0x2) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe1d80ad90) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55d679d8cc98, defs=0x55d679d8cca8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007fcdc6090a7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffa1c1e898, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffa1c1e5a0) at ./sudoers.c:307
+#3  0x00007fcdc608a12a in sudoers_policy_check (argc=0x3, argv=0x7fffa1c1e898, env_add=0x0, command_infop=0x7fffa1c1e618, argv_out=0x7fffa1c1e620, user_env_out=0x7fffa1c1e628) at ./policy.c:872
+#4  0x000055d679a2c151 in policy_check (plugin=0x55d679a4c7a0 <policy_plugin>, user_env_out=0x7fffa1c1e628, argv_out=0x7fffa1c1e620, command_info=0x7fffa1c1e618, env_add=0x0, argv=0x7fffa1c1e898, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffa1c1e8b8) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x55e40cb47d78, defs=0x55e40cb47d88, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007fc62caada7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe0d97b030, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe0d97ad40) at ./sudoers.c:307
+#3  0x00007fc62caa712a in sudoers_policy_check (argc=0x3, argv=0x7ffe0d97b030, env_add=0x0, command_infop=0x7ffe0d97adb8, argv_out=0x7ffe0d97adc0, user_env_out=0x7ffe0d97adc8) at ./policy.c:872
+#4  0x000055e40abb3151 in policy_check (plugin=0x55e40abd37a0 <policy_plugin>, user_env_out=0x7ffe0d97adc8, argv_out=0x7ffe0d97adc0, command_info=0x7ffe0d97adb8, env_add=0x0, argv=0x7ffe0d97b030, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe0d97b050) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x5634dbefbba8, defs=0x5634dbefbbb8, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f57c8c9da7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd3904fc58, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd3904f960) at ./sudoers.c:307
+#3  0x00007f57c8c9712a in sudoers_policy_check (argc=0x3, argv=0x7ffd3904fc58, env_add=0x0, command_infop=0x7ffd3904f9d8, argv_out=0x7ffd3904f9e0, user_env_out=0x7ffd3904f9e8) at ./policy.c:872
+#4  0x00005634dbd5d151 in policy_check (plugin=0x5634dbd7d7a0 <policy_plugin>, user_env_out=0x7ffd3904f9e8, argv_out=0x7ffd3904f9e0, command_info=0x7ffd3904f9d8, env_add=0x0, argv=0x7ffd3904fc58, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd3904fc78) at ./sudo.c:254
+
+----------------------------
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  update_defaults (parse_tree=0x561614f81b38, defs=0x561614f81b48, defs@entry=0x0, what=what@entry=0x10, quiet=quiet@entry=0x0) at ./defaults.c:762
+#1  0x00007f1db848ba7a in set_cmnd () at ./sudoers.c:906
+#2  sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc4186cb80, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc4186c890) at ./sudoers.c:307
+#3  0x00007f1db848512a in sudoers_policy_check (argc=0x3, argv=0x7ffc4186cb80, env_add=0x0, command_infop=0x7ffc4186c908, argv_out=0x7ffc4186c910, user_env_out=0x7ffc4186c918) at ./policy.c:872
+#4  0x000056161358d151 in policy_check (plugin=0x5616135ad7a0 <policy_plugin>, user_env_out=0x7ffc4186c918, argv_out=0x7ffc4186c910, command_info=0x7ffc4186c908, env_add=0x0, argv=0x7ffc4186cb80, argc=0x3) at ./sudo.c:1140
+#5  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc4186cba0) at ./sudo.c:254
+

@@ -1,0 +1,1540 @@
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007faebf1a8ea0 in __dcigettext (domainname=domainname@entry=0x7faebf0f6ce6 "sudoers", msgid1=msgid1@entry=0x7faebf0f5410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007faebf1a7993 in __GI___dcgettext (domainname=domainname@entry=0x7faebf0f6ce6 "sudoers", msgid=msgid@entry=0x7faebf0f5410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007faebf0c4080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007faebf0c45c8 in check_user_interactive (closure=0x7ffd95f54d50, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007faebf0dbedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd95f55198, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd95f54ea0) at ./sudoers.c:418
+#7  0x00007faebf0d512a in sudoers_policy_check (argc=0x3, argv=0x7ffd95f55198, env_add=0x0, command_infop=0x7ffd95f54f18, argv_out=0x7ffd95f54f20, user_env_out=0x7ffd95f54f28) at ./policy.c:872
+#8  0x000055d538213151 in policy_check (plugin=0x55d5382337a0 <policy_plugin>, user_env_out=0x7ffd95f54f28, argv_out=0x7ffd95f54f20, command_info=0x7ffd95f54f18, env_add=0x0, argv=0x7ffd95f55198, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd95f551b8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f38d932cea0 in __dcigettext (domainname=domainname@entry=0x7f38d927ace6 "sudoers", msgid1=msgid1@entry=0x7f38d9279410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f38d932b993 in __GI___dcgettext (domainname=domainname@entry=0x7f38d927ace6 "sudoers", msgid=msgid@entry=0x7f38d9279410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f38d9248080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f38d92485c8 in check_user_interactive (closure=0x7ffc84458a60, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f38d925fedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc84458ea0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc84458bb0) at ./sudoers.c:418
+#7  0x00007f38d925912a in sudoers_policy_check (argc=0x3, argv=0x7ffc84458ea0, env_add=0x0, command_infop=0x7ffc84458c28, argv_out=0x7ffc84458c30, user_env_out=0x7ffc84458c38) at ./policy.c:872
+#8  0x000055ac78cac151 in policy_check (plugin=0x55ac78ccc7a0 <policy_plugin>, user_env_out=0x7ffc84458c38, argv_out=0x7ffc84458c30, command_info=0x7ffc84458c28, env_add=0x0, argv=0x7ffc84458ea0, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc84458ec0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007efe5b8deea0 in __dcigettext (domainname=domainname@entry=0x7efe5b82cce6 "sudoers", msgid1=msgid1@entry=0x7efe5b82b410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007efe5b8dd993 in __GI___dcgettext (domainname=domainname@entry=0x7efe5b82cce6 "sudoers", msgid=msgid@entry=0x7efe5b82b410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007efe5b7fa080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007efe5b7fa5c8 in check_user_interactive (closure=0x7ffe0e9bbbc0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007efe5b811edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe0e9bc008, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe0e9bbd10) at ./sudoers.c:418
+#7  0x00007efe5b80b12a in sudoers_policy_check (argc=0x3, argv=0x7ffe0e9bc008, env_add=0x0, command_infop=0x7ffe0e9bbd88, argv_out=0x7ffe0e9bbd90, user_env_out=0x7ffe0e9bbd98) at ./policy.c:872
+#8  0x00005572f219c151 in policy_check (plugin=0x5572f21bc7a0 <policy_plugin>, user_env_out=0x7ffe0e9bbd98, argv_out=0x7ffe0e9bbd90, command_info=0x7ffe0e9bbd88, env_add=0x0, argv=0x7ffe0e9bc008, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe0e9bc028) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+sudo_file_open sudoers_policy_init sudoers_policy_open policy_open out>, 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007f3adfa0eea0 in __dcigettext (domainname=domainname@entry=0x7f3adf95cce6 "sudoers", msgid1=msgid1@entry=0x7f3adf95b410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f3adfa0d993 in __GI___dcgettext (domainname=domainname@entry=0x7f3adf95cce6 "sudoers", msgid=msgid@entry=0x7f3adf95b410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f3adf92a080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f3adf92a5c8 in check_user_interactive (closure=0x7ffdf65cd7b0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f3adf941edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffdf65cdbf0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdf65cd900) at ./sudoers.c:418
+#7  0x00007f3adf93b12a in sudoers_policy_check (argc=0x3, argv=0x7ffdf65cdbf0, env_add=0x0, command_infop=0x7ffdf65cd978, argv_out=0x7ffdf65cd980, user_env_out=0x7ffdf65cd988) at ./policy.c:872
+#8  0x0000561415551151 in policy_check (plugin=0x5614155717a0 <policy_plugin>, user_env_out=0x7ffdf65cd988, argv_out=0x7ffdf65cd980, command_info=0x7ffdf65cd978, env_add=0x0, argv=0x7ffdf65cdbf0, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdf65cdc10) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007f603926cea0 in __dcigettext (domainname=domainname@entry=0x7f60391bace6 "sudoers", msgid1=msgid1@entry=0x7f60391b9410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f603926b993 in __GI___dcgettext (domainname=domainname@entry=0x7f60391bace6 "sudoers", msgid=msgid@entry=0x7f60391b9410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f6039188080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f60391885c8 in check_user_interactive (closure=0x7ffff449a750, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f603919fedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffff449ab98, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffff449a8a0) at ./sudoers.c:418
+#7  0x00007f603919912a in sudoers_policy_check (argc=0x3, argv=0x7ffff449ab98, env_add=0x0, command_infop=0x7ffff449a918, argv_out=0x7ffff449a920, user_env_out=0x7ffff449a928) at ./policy.c:872
+#8  0x00005580eb0fb151 in policy_check (plugin=0x5580eb11b7a0 <policy_plugin>, user_env_out=0x7ffff449a928, argv_out=0x7ffff449a920, command_info=0x7ffff449a918, env_add=0x0, argv=0x7ffff449ab98, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffff449abb8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f0a92437ea0 in __dcigettext (domainname=domainname@entry=0x7f0a92385ce6 "sudoers", msgid1=msgid1@entry=0x7f0a92384410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f0a92436993 in __GI___dcgettext (domainname=domainname@entry=0x7f0a92385ce6 "sudoers", msgid=msgid@entry=0x7f0a92384410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f0a92353080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f0a923535c8 in check_user_interactive (closure=0x7ffdb451c0b0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f0a9236aedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffdb451c4f0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdb451c200) at ./sudoers.c:418
+#7  0x00007f0a9236412a in sudoers_policy_check (argc=0x2, argv=0x7ffdb451c4f0, env_add=0x0, command_infop=0x7ffdb451c278, argv_out=0x7ffdb451c280, user_env_out=0x7ffdb451c288) at ./policy.c:872
+#8  0x00005569ddf88151 in policy_check (plugin=0x5569ddfa87a0 <policy_plugin>, user_env_out=0x7ffdb451c288, argv_out=0x7ffdb451c280, command_info=0x7ffdb451c278, env_add=0x0, argv=0x7ffdb451c4f0, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdb451c508) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fb483ea7ea0 in __dcigettext (domainname=domainname@entry=0x7fb483df5ce6 "sudoers", msgid1=msgid1@entry=0x7fb483df4410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fb483ea6993 in __GI___dcgettext (domainname=domainname@entry=0x7fb483df5ce6 "sudoers", msgid=msgid@entry=0x7fb483df4410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fb483dc3080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fb483dc35c8 in check_user_interactive (closure=0x7ffe54446de0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fb483ddaedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe54447228, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe54446f30) at ./sudoers.c:418
+#7  0x00007fb483dd412a in sudoers_policy_check (argc=0x3, argv=0x7ffe54447228, env_add=0x0, command_infop=0x7ffe54446fa8, argv_out=0x7ffe54446fb0, user_env_out=0x7ffe54446fb8) at ./policy.c:872
+#8  0x0000560a51c06151 in policy_check (plugin=0x560a51c267a0 <policy_plugin>, user_env_out=0x7ffe54446fb8, argv_out=0x7ffe54446fb0, command_info=0x7ffe54446fa8, env_add=0x0, argv=0x7ffe54447228, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe54447248) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f50dd784ea0 in __dcigettext (domainname=domainname@entry=0x7f50dd6d2ce6 "sudoers", msgid1=msgid1@entry=0x7f50dd6d1410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f50dd783993 in __GI___dcgettext (domainname=domainname@entry=0x7f50dd6d2ce6 "sudoers", msgid=msgid@entry=0x7f50dd6d1410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f50dd6a0080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f50dd6a05c8 in check_user_interactive (closure=0x7ffc71f11780, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f50dd6b7edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc71f11bc8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc71f118d0) at ./sudoers.c:418
+#7  0x00007f50dd6b112a in sudoers_policy_check (argc=0x3, argv=0x7ffc71f11bc8, env_add=0x0, command_infop=0x7ffc71f11948, argv_out=0x7ffc71f11950, user_env_out=0x7ffc71f11958) at ./policy.c:872
+#8  0x00005604018cb151 in policy_check (plugin=0x5604018eb7a0 <policy_plugin>, user_env_out=0x7ffc71f11958, argv_out=0x7ffc71f11950, command_info=0x7ffc71f11948, env_add=0x0, argv=0x7ffc71f11bc8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc71f11be8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fe2e0dc9ea0 in __dcigettext (domainname=domainname@entry=0x7fe2e0d17ce6 "sudoers", msgid1=msgid1@entry=0x7fe2e0d16410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fe2e0dc8993 in __GI___dcgettext (domainname=domainname@entry=0x7fe2e0d17ce6 "sudoers", msgid=msgid@entry=0x7fe2e0d16410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fe2e0ce5080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fe2e0ce55c8 in check_user_interactive (closure=0x7ffc00aaf110, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fe2e0cfcedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc00aaf558, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc00aaf260) at ./sudoers.c:418
+#7  0x00007fe2e0cf612a in sudoers_policy_check (argc=0x3, argv=0x7ffc00aaf558, env_add=0x0, command_infop=0x7ffc00aaf2d8, argv_out=0x7ffc00aaf2e0, user_env_out=0x7ffc00aaf2e8) at ./policy.c:872
+#8  0x0000557e37499151 in policy_check (plugin=0x557e374b97a0 <policy_plugin>, user_env_out=0x7ffc00aaf2e8, argv_out=0x7ffc00aaf2e0, command_info=0x7ffc00aaf2d8, env_add=0x0, argv=0x7ffc00aaf558, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc00aaf578) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007fc67928dea0 in __dcigettext (domainname=domainname@entry=0x7fc6791dbce6 "sudoers", msgid1=msgid1@entry=0x7fc6791da410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fc67928c993 in __GI___dcgettext (domainname=domainname@entry=0x7fc6791dbce6 "sudoers", msgid=msgid@entry=0x7fc6791da410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fc6791a9080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fc6791a95c8 in check_user_interactive (closure=0x7fff213b87d0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fc6791c0edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff213b8c10, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff213b8920) at ./sudoers.c:418
+#7  0x00007fc6791ba12a in sudoers_policy_check (argc=0x3, argv=0x7fff213b8c10, env_add=0x0, command_infop=0x7fff213b8998, argv_out=0x7fff213b89a0, user_env_out=0x7fff213b89a8) at ./policy.c:872
+#8  0x000055b6787eb151 in policy_check (plugin=0x55b67880b7a0 <policy_plugin>, user_env_out=0x7fff213b89a8, argv_out=0x7fff213b89a0, command_info=0x7fff213b8998, env_add=0x0, argv=0x7fff213b8c10, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff213b8c30) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f0908204ea0 in __dcigettext (domainname=domainname@entry=0x7f0908152ce6 "sudoers", msgid1=msgid1@entry=0x7f0908151410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f0908203993 in __GI___dcgettext (domainname=domainname@entry=0x7f0908152ce6 "sudoers", msgid=msgid@entry=0x7f0908151410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f0908120080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f09081205c8 in check_user_interactive (closure=0x7ffe425f0500, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f0908137edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe425f0948, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe425f0650) at ./sudoers.c:418
+#7  0x00007f090813112a in sudoers_policy_check (argc=0x3, argv=0x7ffe425f0948, env_add=0x0, command_infop=0x7ffe425f06c8, argv_out=0x7ffe425f06d0, user_env_out=0x7ffe425f06d8) at ./policy.c:872
+#8  0x000055f774392151 in policy_check (plugin=0x55f7743b27a0 <policy_plugin>, user_env_out=0x7ffe425f06d8, argv_out=0x7ffe425f06d0, command_info=0x7ffe425f06c8, env_add=0x0, argv=0x7ffe425f0948, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe425f0968) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007efde25adea0 in __dcigettext (domainname=domainname@entry=0x7efde24fbce6 "sudoers", msgid1=msgid1@entry=0x7efde24fa410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007efde25ac993 in __GI___dcgettext (domainname=domainname@entry=0x7efde24fbce6 "sudoers", msgid=msgid@entry=0x7efde24fa410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007efde24c9080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007efde24c95c8 in check_user_interactive (closure=0x7ffc4193b6f0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007efde24e0edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc4193bb38, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc4193b840) at ./sudoers.c:418
+#7  0x00007efde24da12a in sudoers_policy_check (argc=0x3, argv=0x7ffc4193bb38, env_add=0x0, command_infop=0x7ffc4193b8b8, argv_out=0x7ffc4193b8c0, user_env_out=0x7ffc4193b8c8) at ./policy.c:872
+#8  0x000055d507ef4151 in policy_check (plugin=0x55d507f147a0 <policy_plugin>, user_env_out=0x7ffc4193b8c8, argv_out=0x7ffc4193b8c0, command_info=0x7ffc4193b8b8, env_add=0x0, argv=0x7ffc4193bb38, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc4193bb58) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fcb84bd0ea0 in __dcigettext (domainname=domainname@entry=0x7fcb84b1ece6 "sudoers", msgid1=msgid1@entry=0x7fcb84b1d410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fcb84bcf993 in __GI___dcgettext (domainname=domainname@entry=0x7fcb84b1ece6 "sudoers", msgid=msgid@entry=0x7fcb84b1d410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fcb84aec080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fcb84aec5c8 in check_user_interactive (closure=0x7ffdb2280b70, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fcb84b03edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffdb2280fb8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdb2280cc0) at ./sudoers.c:418
+#7  0x00007fcb84afd12a in sudoers_policy_check (argc=0x3, argv=0x7ffdb2280fb8, env_add=0x0, command_infop=0x7ffdb2280d38, argv_out=0x7ffdb2280d40, user_env_out=0x7ffdb2280d48) at ./policy.c:872
+#8  0x000055e2c765f151 in policy_check (plugin=0x55e2c767f7a0 <policy_plugin>, user_env_out=0x7ffdb2280d48, argv_out=0x7ffdb2280d40, command_info=0x7ffdb2280d38, env_add=0x0, argv=0x7ffdb2280fb8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdb2280fd8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fe54eb9dea0 in __dcigettext (domainname=domainname@entry=0x7fe54eaebce6 "sudoers", msgid1=msgid1@entry=0x7fe54eaea410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fe54eb9c993 in __GI___dcgettext (domainname=domainname@entry=0x7fe54eaebce6 "sudoers", msgid=msgid@entry=0x7fe54eaea410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fe54eab9080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fe54eab95c8 in check_user_interactive (closure=0x7fff4111af80, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fe54ead0edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff4111b3c8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff4111b0d0) at ./sudoers.c:418
+#7  0x00007fe54eaca12a in sudoers_policy_check (argc=0x3, argv=0x7fff4111b3c8, env_add=0x0, command_infop=0x7fff4111b148, argv_out=0x7fff4111b150, user_env_out=0x7fff4111b158) at ./policy.c:872
+#8  0x000055cc3e785151 in policy_check (plugin=0x55cc3e7a57a0 <policy_plugin>, user_env_out=0x7fff4111b158, argv_out=0x7fff4111b150, command_info=0x7fff4111b148, env_add=0x0, argv=0x7fff4111b3c8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff4111b3e8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fa9c1e2cea0 in __dcigettext (domainname=domainname@entry=0x7fa9c1d7ace6 "sudoers", msgid1=msgid1@entry=0x7fa9c1d79410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fa9c1e2b993 in __GI___dcgettext (domainname=domainname@entry=0x7fa9c1d7ace6 "sudoers", msgid=msgid@entry=0x7fa9c1d79410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fa9c1d48080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fa9c1d485c8 in check_user_interactive (closure=0x7ffcc2ab85c0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fa9c1d5fedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffcc2ab8a08, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcc2ab8710) at ./sudoers.c:418
+#7  0x00007fa9c1d5912a in sudoers_policy_check (argc=0x3, argv=0x7ffcc2ab8a08, env_add=0x0, command_infop=0x7ffcc2ab8788, argv_out=0x7ffcc2ab8790, user_env_out=0x7ffcc2ab8798) at ./policy.c:872
+#8  0x000055dbbaec4151 in policy_check (plugin=0x55dbbaee47a0 <policy_plugin>, user_env_out=0x7ffcc2ab8798, argv_out=0x7ffcc2ab8790, command_info=0x7ffcc2ab8788, env_add=0x0, argv=0x7ffcc2ab8a08, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcc2ab8a28) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f87a4606ea0 in __dcigettext (domainname=domainname@entry=0x7f87a4554ce6 "sudoers", msgid1=msgid1@entry=0x7f87a4553410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f87a4605993 in __GI___dcgettext (domainname=domainname@entry=0x7f87a4554ce6 "sudoers", msgid=msgid@entry=0x7f87a4553410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f87a4522080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f87a45225c8 in check_user_interactive (closure=0x7ffe4219ceb0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f87a4539edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe4219d2f0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe4219d000) at ./sudoers.c:418
+#7  0x00007f87a453312a in sudoers_policy_check (argc=0x3, argv=0x7ffe4219d2f0, env_add=0x0, command_infop=0x7ffe4219d078, argv_out=0x7ffe4219d080, user_env_out=0x7ffe4219d088) at ./policy.c:872
+#8  0x000055b90e382151 in policy_check (plugin=0x55b90e3a27a0 <policy_plugin>, user_env_out=0x7ffe4219d088, argv_out=0x7ffe4219d080, command_info=0x7ffe4219d078, env_add=0x0, argv=0x7ffe4219d2f0, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe4219d310) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f4523e74ea0 in __dcigettext (domainname=domainname@entry=0x7f4523dc2ce6 "sudoers", msgid1=msgid1@entry=0x7f4523dc1410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f4523e73993 in __GI___dcgettext (domainname=domainname@entry=0x7f4523dc2ce6 "sudoers", msgid=msgid@entry=0x7f4523dc1410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f4523d90080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f4523d905c8 in check_user_interactive (closure=0x7fff761eb020, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f4523da7edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff761eb460, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff761eb170) at ./sudoers.c:418
+#7  0x00007f4523da112a in sudoers_policy_check (argc=0x3, argv=0x7fff761eb460, env_add=0x0, command_infop=0x7fff761eb1e8, argv_out=0x7fff761eb1f0, user_env_out=0x7fff761eb1f8) at ./policy.c:872
+#8  0x0000559af6065151 in policy_check (plugin=0x559af60857a0 <policy_plugin>, user_env_out=0x7fff761eb1f8, argv_out=0x7fff761eb1f0, command_info=0x7fff761eb1e8, env_add=0x0, argv=0x7fff761eb460, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff761eb480) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__vasprintf_internal ___asprintf __tzfile_read tzset_internal __tzset main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f576d7dcea0 in __dcigettext (domainname=domainname@entry=0x7f576d72ace6 "sudoers", msgid1=msgid1@entry=0x7f576d729410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f576d7db993 in __GI___dcgettext (domainname=domainname@entry=0x7f576d72ace6 "sudoers", msgid=msgid@entry=0x7f576d729410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f576d6f8080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f576d6f85c8 in check_user_interactive (closure=0x7ffc327d2a50, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f576d70fedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc327d2e90, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc327d2ba0) at ./sudoers.c:418
+#7  0x00007f576d70912a in sudoers_policy_check (argc=0x3, argv=0x7ffc327d2e90, env_add=0x0, command_infop=0x7ffc327d2c18, argv_out=0x7ffc327d2c20, user_env_out=0x7ffc327d2c28) at ./policy.c:872
+#8  0x0000562deffc9151 in policy_check (plugin=0x562deffe97a0 <policy_plugin>, user_env_out=0x7ffc327d2c28, argv_out=0x7ffc327d2c20, command_info=0x7ffc327d2c18, env_add=0x0, argv=0x7ffc327d2e90, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc327d2eb0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007fab915e6ea0 in __dcigettext (domainname=domainname@entry=0x7fab91534ce6 "sudoers", msgid1=msgid1@entry=0x7fab91533410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fab915e5993 in __GI___dcgettext (domainname=domainname@entry=0x7fab91534ce6 "sudoers", msgid=msgid@entry=0x7fab91533410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fab91502080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fab915025c8 in check_user_interactive (closure=0x7ffd4ba63a30, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fab91519edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd4ba63e70, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd4ba63b80) at ./sudoers.c:418
+#7  0x00007fab9151312a in sudoers_policy_check (argc=0x3, argv=0x7ffd4ba63e70, env_add=0x0, command_infop=0x7ffd4ba63bf8, argv_out=0x7ffd4ba63c00, user_env_out=0x7ffd4ba63c08) at ./policy.c:872
+#8  0x000055be005aa151 in policy_check (plugin=0x55be005ca7a0 <policy_plugin>, user_env_out=0x7ffd4ba63c08, argv_out=0x7ffd4ba63c00, command_info=0x7ffd4ba63bf8, env_add=0x0, argv=0x7ffd4ba63e70, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd4ba63e90) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:839
+#1  0x00007f429e520ea0 in __dcigettext (domainname=domainname@entry=0x7f429e46ece6 "sudoers", msgid1=msgid1@entry=0x7f429e46d410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f429e51f993 in __GI___dcgettext (domainname=domainname@entry=0x7f429e46ece6 "sudoers", msgid=msgid@entry=0x7f429e46d410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f429e43c080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f429e43c5c8 in check_user_interactive (closure=0x7ffe488d3b10, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f429e453edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe488d3f58, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe488d3c60) at ./sudoers.c:418
+#7  0x00007f429e44d12a in sudoers_policy_check (argc=0x3, argv=0x7ffe488d3f58, env_add=0x0, command_infop=0x7ffe488d3cd8, argv_out=0x7ffe488d3ce0, user_env_out=0x7ffe488d3ce8) at ./policy.c:872
+#8  0x000055fadc7b4151 in policy_check (plugin=0x55fadc7d47a0 <policy_plugin>, user_env_out=0x7ffe488d3ce8, argv_out=0x7ffe488d3ce0, command_info=0x7ffe488d3cd8, env_add=0x0, argv=0x7ffe488d3f58, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe488d3f78) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f498660eea0 in __dcigettext (domainname=domainname@entry=0x7f498655cce6 "sudoers", msgid1=msgid1@entry=0x7f498655b410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f498660d993 in __GI___dcgettext (domainname=domainname@entry=0x7f498655cce6 "sudoers", msgid=msgid@entry=0x7f498655b410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f498652a080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f498652a5c8 in check_user_interactive (closure=0x7ffe14fa4aa0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f4986541edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe14fa4ee0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe14fa4bf0) at ./sudoers.c:418
+#7  0x00007f498653b12a in sudoers_policy_check (argc=0x3, argv=0x7ffe14fa4ee0, env_add=0x0, command_infop=0x7ffe14fa4c68, argv_out=0x7ffe14fa4c70, user_env_out=0x7ffe14fa4c78) at ./policy.c:872
+#8  0x00005601bb527151 in policy_check (plugin=0x5601bb5477a0 <policy_plugin>, user_env_out=0x7ffe14fa4c78, argv_out=0x7ffe14fa4c70, command_info=0x7ffe14fa4c68, env_add=0x0, argv=0x7ffe14fa4ee0, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe14fa4f00) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f45e9b92ea0 in __dcigettext (domainname=domainname@entry=0x7f45e9ae0ce6 "sudoers", msgid1=msgid1@entry=0x7f45e9adf410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f45e9b91993 in __GI___dcgettext (domainname=domainname@entry=0x7f45e9ae0ce6 "sudoers", msgid=msgid@entry=0x7f45e9adf410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f45e9aae080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f45e9aae5c8 in check_user_interactive (closure=0x7ffe901ceca0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f45e9ac5edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe901cf0e0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe901cedf0) at ./sudoers.c:418
+#7  0x00007f45e9abf12a in sudoers_policy_check (argc=0x2, argv=0x7ffe901cf0e0, env_add=0x0, command_infop=0x7ffe901cee68, argv_out=0x7ffe901cee70, user_env_out=0x7ffe901cee78) at ./policy.c:872
+#8  0x000055dbba63e151 in policy_check (plugin=0x55dbba65e7a0 <policy_plugin>, user_env_out=0x7ffe901cee78, argv_out=0x7ffe901cee70, command_info=0x7ffe901cee68, env_add=0x0, argv=0x7ffe901cf0e0, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe901cf0f8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007f0040890ea0 in __dcigettext (domainname=domainname@entry=0x7f00407dece6 "sudoers", msgid1=msgid1@entry=0x7f00407dd410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f004088f993 in __GI___dcgettext (domainname=domainname@entry=0x7f00407dece6 "sudoers", msgid=msgid@entry=0x7f00407dd410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f00407ac080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f00407ac5c8 in check_user_interactive (closure=0x7ffc05f5ecd0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f00407c3edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc05f5f118, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc05f5ee20) at ./sudoers.c:418
+#7  0x00007f00407bd12a in sudoers_policy_check (argc=0x3, argv=0x7ffc05f5f118, env_add=0x0, command_infop=0x7ffc05f5ee98, argv_out=0x7ffc05f5eea0, user_env_out=0x7ffc05f5eea8) at ./policy.c:872
+#8  0x0000556502c8f151 in policy_check (plugin=0x556502caf7a0 <policy_plugin>, user_env_out=0x7ffc05f5eea8, argv_out=0x7ffc05f5eea0, command_info=0x7ffc05f5ee98, env_add=0x0, argv=0x7ffc05f5f118, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc05f5f138) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f7b387a3ea0 in __dcigettext (domainname=domainname@entry=0x7f7b386f1ce6 "sudoers", msgid1=msgid1@entry=0x7f7b386f0410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f7b387a2993 in __GI___dcgettext (domainname=domainname@entry=0x7f7b386f1ce6 "sudoers", msgid=msgid@entry=0x7f7b386f0410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f7b386bf080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f7b386bf5c8 in check_user_interactive (closure=0x7ffdd55ecb10, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f7b386d6edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffdd55ecf50, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdd55ecc60) at ./sudoers.c:418
+#7  0x00007f7b386d012a in sudoers_policy_check (argc=0x3, argv=0x7ffdd55ecf50, env_add=0x0, command_infop=0x7ffdd55eccd8, argv_out=0x7ffdd55ecce0, user_env_out=0x7ffdd55ecce8) at ./policy.c:872
+#8  0x000055f79826d151 in policy_check (plugin=0x55f79828d7a0 <policy_plugin>, user_env_out=0x7ffdd55ecce8, argv_out=0x7ffdd55ecce0, command_info=0x7ffdd55eccd8, env_add=0x0, argv=0x7ffdd55ecf50, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdd55ecf70) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f964c445ea0 in __dcigettext (domainname=domainname@entry=0x7f964c393ce6 "sudoers", msgid1=msgid1@entry=0x7f964c392410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f964c444993 in __GI___dcgettext (domainname=domainname@entry=0x7f964c393ce6 "sudoers", msgid=msgid@entry=0x7f964c392410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f964c361080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f964c3615c8 in check_user_interactive (closure=0x7ffc15b74ed0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f964c378edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc15b75310, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc15b75020) at ./sudoers.c:418
+#7  0x00007f964c37212a in sudoers_policy_check (argc=0x3, argv=0x7ffc15b75310, env_add=0x0, command_infop=0x7ffc15b75098, argv_out=0x7ffc15b750a0, user_env_out=0x7ffc15b750a8) at ./policy.c:872
+#8  0x000055614f96e151 in policy_check (plugin=0x55614f98e7a0 <policy_plugin>, user_env_out=0x7ffc15b750a8, argv_out=0x7ffc15b750a0, command_info=0x7ffc15b75098, env_add=0x0, argv=0x7ffc15b75310, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc15b75330) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f9d2fa17ea0 in __dcigettext (domainname=domainname@entry=0x7f9d2f965ce6 "sudoers", msgid1=msgid1@entry=0x7f9d2f964410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f9d2fa16993 in __GI___dcgettext (domainname=domainname@entry=0x7f9d2f965ce6 "sudoers", msgid=msgid@entry=0x7f9d2f964410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f9d2f933080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f9d2f9335c8 in check_user_interactive (closure=0x7ffc74b8b4d0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f9d2f94aedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc74b8b910, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc74b8b620) at ./sudoers.c:418
+#7  0x00007f9d2f94412a in sudoers_policy_check (argc=0x3, argv=0x7ffc74b8b910, env_add=0x0, command_infop=0x7ffc74b8b698, argv_out=0x7ffc74b8b6a0, user_env_out=0x7ffc74b8b6a8) at ./policy.c:872
+#8  0x00005625c9528151 in policy_check (plugin=0x5625c95487a0 <policy_plugin>, user_env_out=0x7ffc74b8b6a8, argv_out=0x7ffc74b8b6a0, command_info=0x7ffc74b8b698, env_add=0x0, argv=0x7ffc74b8b910, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc74b8b930) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f16440bbea0 in __dcigettext (domainname=domainname@entry=0x7f1644009ce6 "sudoers", msgid1=msgid1@entry=0x7f1644008410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f16440ba993 in __GI___dcgettext (domainname=domainname@entry=0x7f1644009ce6 "sudoers", msgid=msgid@entry=0x7f1644008410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f1643fd7080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f1643fd75c8 in check_user_interactive (closure=0x7ffd47d1ef70, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f1643feeedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd47d1f3b0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd47d1f0c0) at ./sudoers.c:418
+#7  0x00007f1643fe812a in sudoers_policy_check (argc=0x3, argv=0x7ffd47d1f3b0, env_add=0x0, command_infop=0x7ffd47d1f138, argv_out=0x7ffd47d1f140, user_env_out=0x7ffd47d1f148) at ./policy.c:872
+#8  0x00005601d62da151 in policy_check (plugin=0x5601d62fa7a0 <policy_plugin>, user_env_out=0x7ffd47d1f148, argv_out=0x7ffd47d1f140, command_info=0x7ffd47d1f138, env_add=0x0, argv=0x7ffd47d1f3b0, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd47d1f3d0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fa3c0516ea0 in __dcigettext (domainname=domainname@entry=0x7fa3c0464ce6 "sudoers", msgid1=msgid1@entry=0x7fa3c0463410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fa3c0515993 in __GI___dcgettext (domainname=domainname@entry=0x7fa3c0464ce6 "sudoers", msgid=msgid@entry=0x7fa3c0463410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fa3c0432080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fa3c04325c8 in check_user_interactive (closure=0x7ffd8d13fd90, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fa3c0449edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd8d1401d8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd8d13fee0) at ./sudoers.c:418
+#7  0x00007fa3c044312a in sudoers_policy_check (argc=0x3, argv=0x7ffd8d1401d8, env_add=0x0, command_infop=0x7ffd8d13ff58, argv_out=0x7ffd8d13ff60, user_env_out=0x7ffd8d13ff68) at ./policy.c:872
+#8  0x0000563e409b9151 in policy_check (plugin=0x563e409d97a0 <policy_plugin>, user_env_out=0x7ffd8d13ff68, argv_out=0x7ffd8d13ff60, command_info=0x7ffd8d13ff58, env_add=0x0, argv=0x7ffd8d1401d8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd8d1401f8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fb3c6f68ea0 in __dcigettext (domainname=domainname@entry=0x7fb3c6eb6ce6 "sudoers", msgid1=msgid1@entry=0x7fb3c6eb5410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fb3c6f67993 in __GI___dcgettext (domainname=domainname@entry=0x7fb3c6eb6ce6 "sudoers", msgid=msgid@entry=0x7fb3c6eb5410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fb3c6e84080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fb3c6e845c8 in check_user_interactive (closure=0x7ffd51e280e0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fb3c6e9bedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd51e28528, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd51e28230) at ./sudoers.c:418
+#7  0x00007fb3c6e9512a in sudoers_policy_check (argc=0x3, argv=0x7ffd51e28528, env_add=0x0, command_infop=0x7ffd51e282a8, argv_out=0x7ffd51e282b0, user_env_out=0x7ffd51e282b8) at ./policy.c:872
+#8  0x0000563f517a0151 in policy_check (plugin=0x563f517c07a0 <policy_plugin>, user_env_out=0x7ffd51e282b8, argv_out=0x7ffd51e282b0, command_info=0x7ffd51e282a8, env_add=0x0, argv=0x7ffd51e28528, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd51e28548) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fbc4dfaaea0 in __dcigettext (domainname=domainname@entry=0x7fbc4def8ce6 "sudoers", msgid1=msgid1@entry=0x7fbc4def7410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fbc4dfa9993 in __GI___dcgettext (domainname=domainname@entry=0x7fbc4def8ce6 "sudoers", msgid=msgid@entry=0x7fbc4def7410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fbc4dec6080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fbc4dec65c8 in check_user_interactive (closure=0x7ffe8a579650, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fbc4deddedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe8a579a90, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe8a5797a0) at ./sudoers.c:418
+#7  0x00007fbc4ded712a in sudoers_policy_check (argc=0x3, argv=0x7ffe8a579a90, env_add=0x0, command_infop=0x7ffe8a579818, argv_out=0x7ffe8a579820, user_env_out=0x7ffe8a579828) at ./policy.c:872
+#8  0x000055fc1f7a6151 in policy_check (plugin=0x55fc1f7c67a0 <policy_plugin>, user_env_out=0x7ffe8a579828, argv_out=0x7ffe8a579820, command_info=0x7ffe8a579818, env_add=0x0, argv=0x7ffe8a579a90, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe8a579ab0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f13a3914ea0 in __dcigettext (domainname=domainname@entry=0x7f13a3862ce6 "sudoers", msgid1=msgid1@entry=0x7f13a3861410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f13a3913993 in __GI___dcgettext (domainname=domainname@entry=0x7f13a3862ce6 "sudoers", msgid=msgid@entry=0x7f13a3861410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f13a3830080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f13a38305c8 in check_user_interactive (closure=0x7ffe5802d6f0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f13a3847edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe5802db30, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe5802d840) at ./sudoers.c:418
+#7  0x00007f13a384112a in sudoers_policy_check (argc=0x2, argv=0x7ffe5802db30, env_add=0x0, command_infop=0x7ffe5802d8b8, argv_out=0x7ffe5802d8c0, user_env_out=0x7ffe5802d8c8) at ./policy.c:872
+#8  0x00005636978b1151 in policy_check (plugin=0x5636978d17a0 <policy_plugin>, user_env_out=0x7ffe5802d8c8, argv_out=0x7ffe5802d8c0, command_info=0x7ffe5802d8b8, env_add=0x0, argv=0x7ffe5802db30, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe5802db48) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f2f7d175ea0 in __dcigettext (domainname=domainname@entry=0x7f2f7d0c3ce6 "sudoers", msgid1=msgid1@entry=0x7f2f7d0c2410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f2f7d174993 in __GI___dcgettext (domainname=domainname@entry=0x7f2f7d0c3ce6 "sudoers", msgid=msgid@entry=0x7f2f7d0c2410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f2f7d091080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f2f7d0915c8 in check_user_interactive (closure=0x7ffec50f24c0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f2f7d0a8edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffec50f2908, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffec50f2610) at ./sudoers.c:418
+#7  0x00007f2f7d0a212a in sudoers_policy_check (argc=0x3, argv=0x7ffec50f2908, env_add=0x0, command_infop=0x7ffec50f2688, argv_out=0x7ffec50f2690, user_env_out=0x7ffec50f2698) at ./policy.c:872
+#8  0x000055dbb9036151 in policy_check (plugin=0x55dbb90567a0 <policy_plugin>, user_env_out=0x7ffec50f2698, argv_out=0x7ffec50f2690, command_info=0x7ffec50f2688, env_add=0x0, argv=0x7ffec50f2908, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffec50f2928) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f4af50dbea0 in __dcigettext (domainname=domainname@entry=0x7f4af5029ce6 "sudoers", msgid1=msgid1@entry=0x7f4af5028410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f4af50da993 in __GI___dcgettext (domainname=domainname@entry=0x7f4af5029ce6 "sudoers", msgid=msgid@entry=0x7f4af5028410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f4af4ff7080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f4af4ff75c8 in check_user_interactive (closure=0x7ffd110f5da0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f4af500eedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd110f61e8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd110f5ef0) at ./sudoers.c:418
+#7  0x00007f4af500812a in sudoers_policy_check (argc=0x3, argv=0x7ffd110f61e8, env_add=0x0, command_infop=0x7ffd110f5f68, argv_out=0x7ffd110f5f70, user_env_out=0x7ffd110f5f78) at ./policy.c:872
+#8  0x0000561dd0fff151 in policy_check (plugin=0x561dd101f7a0 <policy_plugin>, user_env_out=0x7ffd110f5f78, argv_out=0x7ffd110f5f70, command_info=0x7ffd110f5f68, env_add=0x0, argv=0x7ffd110f61e8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd110f6208) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+format_plugin_settings policy_open out>, 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007fef24631ea0 in __dcigettext (domainname=domainname@entry=0x7fef2457fce6 "sudoers", msgid1=msgid1@entry=0x7fef2457e410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fef24630993 in __GI___dcgettext (domainname=domainname@entry=0x7fef2457fce6 "sudoers", msgid=msgid@entry=0x7fef2457e410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fef2454d080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fef2454d5c8 in check_user_interactive (closure=0x7ffe6446f360, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fef24564edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe6446f7a8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe6446f4b0) at ./sudoers.c:418
+#7  0x00007fef2455e12a in sudoers_policy_check (argc=0x2, argv=0x7ffe6446f7a8, env_add=0x0, command_infop=0x7ffe6446f528, argv_out=0x7ffe6446f530, user_env_out=0x7ffe6446f538) at ./policy.c:872
+#8  0x000055912bcf4151 in policy_check (plugin=0x55912bd147a0 <policy_plugin>, user_env_out=0x7ffe6446f538, argv_out=0x7ffe6446f530, command_info=0x7ffe6446f528, env_add=0x0, argv=0x7ffe6446f7a8, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe6446f7c0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f13244daea0 in __dcigettext (domainname=domainname@entry=0x7f1324428ce6 "sudoers", msgid1=msgid1@entry=0x7f1324427410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f13244d9993 in __GI___dcgettext (domainname=domainname@entry=0x7f1324428ce6 "sudoers", msgid=msgid@entry=0x7f1324427410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f13243f6080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f13243f65c8 in check_user_interactive (closure=0x7ffff7ee3260, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f132440dedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffff7ee36a8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffff7ee33b0) at ./sudoers.c:418
+#7  0x00007f132440712a in sudoers_policy_check (argc=0x3, argv=0x7ffff7ee36a8, env_add=0x0, command_infop=0x7ffff7ee3428, argv_out=0x7ffff7ee3430, user_env_out=0x7ffff7ee3438) at ./policy.c:872
+#8  0x0000561e7a2ec151 in policy_check (plugin=0x561e7a30c7a0 <policy_plugin>, user_env_out=0x7ffff7ee3438, argv_out=0x7ffff7ee3430, command_info=0x7ffff7ee3428, env_add=0x0, argv=0x7ffff7ee36a8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffff7ee36c8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fc4e357bea0 in __dcigettext (domainname=domainname@entry=0x7fc4e34c9ce6 "sudoers", msgid1=msgid1@entry=0x7fc4e34c8410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fc4e357a993 in __GI___dcgettext (domainname=domainname@entry=0x7fc4e34c9ce6 "sudoers", msgid=msgid@entry=0x7fc4e34c8410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fc4e3497080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fc4e34975c8 in check_user_interactive (closure=0x7ffca2dacea0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fc4e34aeedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffca2dad2e8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffca2dacff0) at ./sudoers.c:418
+#7  0x00007fc4e34a812a in sudoers_policy_check (argc=0x2, argv=0x7ffca2dad2e8, env_add=0x0, command_infop=0x7ffca2dad068, argv_out=0x7ffca2dad070, user_env_out=0x7ffca2dad078) at ./policy.c:872
+#8  0x000055df22626151 in policy_check (plugin=0x55df226467a0 <policy_plugin>, user_env_out=0x7ffca2dad078, argv_out=0x7ffca2dad070, command_info=0x7ffca2dad068, env_add=0x0, argv=0x7ffca2dad2e8, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffca2dad300) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007f39ff0baea0 in __dcigettext (domainname=domainname@entry=0x7f39ff008ce6 "sudoers", msgid1=msgid1@entry=0x7f39ff007410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f39ff0b9993 in __GI___dcgettext (domainname=domainname@entry=0x7f39ff008ce6 "sudoers", msgid=msgid@entry=0x7f39ff007410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f39fefd6080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f39fefd65c8 in check_user_interactive (closure=0x7ffe788e1c60, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f39fefededf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe788e20a0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe788e1db0) at ./sudoers.c:418
+#7  0x00007f39fefe712a in sudoers_policy_check (argc=0x3, argv=0x7ffe788e20a0, env_add=0x0, command_infop=0x7ffe788e1e28, argv_out=0x7ffe788e1e30, user_env_out=0x7ffe788e1e38) at ./policy.c:872
+#8  0x0000559839fa6151 in policy_check (plugin=0x559839fc67a0 <policy_plugin>, user_env_out=0x7ffe788e1e38, argv_out=0x7ffe788e1e30, command_info=0x7ffe788e1e28, env_add=0x0, argv=0x7ffe788e20a0, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe788e20c0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007fa786307ea0 in __dcigettext (domainname=domainname@entry=0x7fa786255ce6 "sudoers", msgid1=msgid1@entry=0x7fa786254410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fa786306993 in __GI___dcgettext (domainname=domainname@entry=0x7fa786255ce6 "sudoers", msgid=msgid@entry=0x7fa786254410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fa786223080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fa7862235c8 in check_user_interactive (closure=0x7ffc87dac270, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fa78623aedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc87dac6b8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc87dac3c0) at ./sudoers.c:418
+#7  0x00007fa78623412a in sudoers_policy_check (argc=0x3, argv=0x7ffc87dac6b8, env_add=0x0, command_infop=0x7ffc87dac438, argv_out=0x7ffc87dac440, user_env_out=0x7ffc87dac448) at ./policy.c:872
+#8  0x0000559718805151 in policy_check (plugin=0x5597188257a0 <policy_plugin>, user_env_out=0x7ffc87dac448, argv_out=0x7ffc87dac440, command_info=0x7ffc87dac438, env_add=0x0, argv=0x7ffc87dac6b8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc87dac6d8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fc05112fea0 in __dcigettext (domainname=domainname@entry=0x7fc05107dce6 "sudoers", msgid1=msgid1@entry=0x7fc05107c410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fc05112e993 in __GI___dcgettext (domainname=domainname@entry=0x7fc05107dce6 "sudoers", msgid=msgid@entry=0x7fc05107c410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fc05104b080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fc05104b5c8 in check_user_interactive (closure=0x7fff6861dff0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fc051062edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff6861e430, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff6861e140) at ./sudoers.c:418
+#7  0x00007fc05105c12a in sudoers_policy_check (argc=0x3, argv=0x7fff6861e430, env_add=0x0, command_infop=0x7fff6861e1b8, argv_out=0x7fff6861e1c0, user_env_out=0x7fff6861e1c8) at ./policy.c:872
+#8  0x000055680b102151 in policy_check (plugin=0x55680b1227a0 <policy_plugin>, user_env_out=0x7fff6861e1c8, argv_out=0x7fff6861e1c0, command_info=0x7fff6861e1b8, env_add=0x0, argv=0x7fff6861e430, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff6861e450) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fcf68c6bea0 in __dcigettext (domainname=domainname@entry=0x7fcf68bb9ce6 "sudoers", msgid1=msgid1@entry=0x7fcf68bb8410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fcf68c6a993 in __GI___dcgettext (domainname=domainname@entry=0x7fcf68bb9ce6 "sudoers", msgid=msgid@entry=0x7fcf68bb8410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fcf68b87080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fcf68b875c8 in check_user_interactive (closure=0x7ffcf656cd20, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fcf68b9eedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffcf656d168, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcf656ce70) at ./sudoers.c:418
+#7  0x00007fcf68b9812a in sudoers_policy_check (argc=0x3, argv=0x7ffcf656d168, env_add=0x0, command_infop=0x7ffcf656cee8, argv_out=0x7ffcf656cef0, user_env_out=0x7ffcf656cef8) at ./policy.c:872
+#8  0x0000562d08980151 in policy_check (plugin=0x562d089a07a0 <policy_plugin>, user_env_out=0x7ffcf656cef8, argv_out=0x7ffcf656cef0, command_info=0x7ffcf656cee8, env_add=0x0, argv=0x7ffcf656d168, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcf656d188) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+format_plugin_settings policy_open out>, 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fdf800ceea0 in __dcigettext (domainname=domainname@entry=0x7fdf8001cce6 "sudoers", msgid1=msgid1@entry=0x7fdf8001b410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fdf800cd993 in __GI___dcgettext (domainname=domainname@entry=0x7fdf8001cce6 "sudoers", msgid=msgid@entry=0x7fdf8001b410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fdf7ffea080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fdf7ffea5c8 in check_user_interactive (closure=0x7ffe68ffe790, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fdf80001edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe68ffebd8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe68ffe8e0) at ./sudoers.c:418
+#7  0x00007fdf7fffb12a in sudoers_policy_check (argc=0x3, argv=0x7ffe68ffebd8, env_add=0x0, command_infop=0x7ffe68ffe958, argv_out=0x7ffe68ffe960, user_env_out=0x7ffe68ffe968) at ./policy.c:872
+#8  0x0000564d3fec4151 in policy_check (plugin=0x564d3fee47a0 <policy_plugin>, user_env_out=0x7ffe68ffe968, argv_out=0x7ffe68ffe960, command_info=0x7ffe68ffe958, env_add=0x0, argv=0x7ffe68ffebd8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe68ffebf8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f61c4262ea0 in __dcigettext (domainname=domainname@entry=0x7f61c41b0ce6 "sudoers", msgid1=msgid1@entry=0x7f61c41af410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f61c4261993 in __GI___dcgettext (domainname=domainname@entry=0x7f61c41b0ce6 "sudoers", msgid=msgid@entry=0x7f61c41af410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f61c417e080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f61c417e5c8 in check_user_interactive (closure=0x7ffc84598d80, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f61c4195edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffc845991c8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc84598ed0) at ./sudoers.c:418
+#7  0x00007f61c418f12a in sudoers_policy_check (argc=0x2, argv=0x7ffc845991c8, env_add=0x0, command_infop=0x7ffc84598f48, argv_out=0x7ffc84598f50, user_env_out=0x7ffc84598f58) at ./policy.c:872
+#8  0x0000559824084151 in policy_check (plugin=0x5598240a47a0 <policy_plugin>, user_env_out=0x7ffc84598f58, argv_out=0x7ffc84598f50, command_info=0x7ffc84598f48, env_add=0x0, argv=0x7ffc845991c8, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc845991e0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007f421810bea0 in __dcigettext (domainname=domainname@entry=0x7f4218059ce6 "sudoers", msgid1=msgid1@entry=0x7f4218058410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f421810a993 in __GI___dcgettext (domainname=domainname@entry=0x7f4218059ce6 "sudoers", msgid=msgid@entry=0x7f4218058410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f4218027080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f42180275c8 in check_user_interactive (closure=0x7ffdca27e8f0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f421803eedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffdca27ed38, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdca27ea40) at ./sudoers.c:418
+#7  0x00007f421803812a in sudoers_policy_check (argc=0x3, argv=0x7ffdca27ed38, env_add=0x0, command_infop=0x7ffdca27eab8, argv_out=0x7ffdca27eac0, user_env_out=0x7ffdca27eac8) at ./policy.c:872
+#8  0x000055706dff3151 in policy_check (plugin=0x55706e0137a0 <policy_plugin>, user_env_out=0x7ffdca27eac8, argv_out=0x7ffdca27eac0, command_info=0x7ffdca27eab8, env_add=0x0, argv=0x7ffdca27ed38, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdca27ed58) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f0fbc2a4ea0 in __dcigettext (domainname=domainname@entry=0x7f0fbc1f2ce6 "sudoers", msgid1=msgid1@entry=0x7f0fbc1f1410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f0fbc2a3993 in __GI___dcgettext (domainname=domainname@entry=0x7f0fbc1f2ce6 "sudoers", msgid=msgid@entry=0x7f0fbc1f1410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f0fbc1c0080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f0fbc1c05c8 in check_user_interactive (closure=0x7ffc1b3ad100, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f0fbc1d7edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc1b3ad540, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc1b3ad250) at ./sudoers.c:418
+#7  0x00007f0fbc1d112a in sudoers_policy_check (argc=0x3, argv=0x7ffc1b3ad540, env_add=0x0, command_infop=0x7ffc1b3ad2c8, argv_out=0x7ffc1b3ad2d0, user_env_out=0x7ffc1b3ad2d8) at ./policy.c:872
+#8  0x00005640a5016151 in policy_check (plugin=0x5640a50367a0 <policy_plugin>, user_env_out=0x7ffc1b3ad2d8, argv_out=0x7ffc1b3ad2d0, command_info=0x7ffc1b3ad2c8, env_add=0x0, argv=0x7ffc1b3ad540, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc1b3ad560) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007fe76b56dea0 in __dcigettext (domainname=domainname@entry=0x7fe76b4bbce6 "sudoers", msgid1=msgid1@entry=0x7fe76b4ba410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fe76b56c993 in __GI___dcgettext (domainname=domainname@entry=0x7fe76b4bbce6 "sudoers", msgid=msgid@entry=0x7fe76b4ba410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fe76b489080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fe76b4895c8 in check_user_interactive (closure=0x7ffc715ff090, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fe76b4a0edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc715ff4d0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc715ff1e0) at ./sudoers.c:418
+#7  0x00007fe76b49a12a in sudoers_policy_check (argc=0x3, argv=0x7ffc715ff4d0, env_add=0x0, command_infop=0x7ffc715ff258, argv_out=0x7ffc715ff260, user_env_out=0x7ffc715ff268) at ./policy.c:872
+#8  0x00005593e004b151 in policy_check (plugin=0x5593e006b7a0 <policy_plugin>, user_env_out=0x7ffc715ff268, argv_out=0x7ffc715ff260, command_info=0x7ffc715ff258, env_add=0x0, argv=0x7ffc715ff4d0, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc715ff4f0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f93605afea0 in __dcigettext (domainname=domainname@entry=0x7f93604fdce6 "sudoers", msgid1=msgid1@entry=0x7f93604fc410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f93605ae993 in __GI___dcgettext (domainname=domainname@entry=0x7f93604fdce6 "sudoers", msgid=msgid@entry=0x7f93604fc410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f93604cb080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f93604cb5c8 in check_user_interactive (closure=0x7ffcd2152040, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f93604e2edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffcd2152488, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffcd2152190) at ./sudoers.c:418
+#7  0x00007f93604dc12a in sudoers_policy_check (argc=0x3, argv=0x7ffcd2152488, env_add=0x0, command_infop=0x7ffcd2152208, argv_out=0x7ffcd2152210, user_env_out=0x7ffcd2152218) at ./policy.c:872
+#8  0x00005586f882c151 in policy_check (plugin=0x5586f884c7a0 <policy_plugin>, user_env_out=0x7ffcd2152218, argv_out=0x7ffcd2152210, command_info=0x7ffcd2152208, env_add=0x0, argv=0x7ffcd2152488, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffcd21524a8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007fd786e8bea0 in __dcigettext (domainname=domainname@entry=0x7fd786dd9ce6 "sudoers", msgid1=msgid1@entry=0x7fd786dd8410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fd786e8a993 in __GI___dcgettext (domainname=domainname@entry=0x7fd786dd9ce6 "sudoers", msgid=msgid@entry=0x7fd786dd8410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fd786da7080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fd786da75c8 in check_user_interactive (closure=0x7ffec990f850, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fd786dbeedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffec990fc90, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffec990f9a0) at ./sudoers.c:418
+#7  0x00007fd786db812a in sudoers_policy_check (argc=0x3, argv=0x7ffec990fc90, env_add=0x0, command_infop=0x7ffec990fa18, argv_out=0x7ffec990fa20, user_env_out=0x7ffec990fa28) at ./policy.c:872
+#8  0x0000561312ef4151 in policy_check (plugin=0x561312f147a0 <policy_plugin>, user_env_out=0x7ffec990fa28, argv_out=0x7ffec990fa20, command_info=0x7ffec990fa18, env_add=0x0, argv=0x7ffec990fc90, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffec990fcb0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f24e85c0ea0 in __dcigettext (domainname=domainname@entry=0x7f24e850ece6 "sudoers", msgid1=msgid1@entry=0x7f24e850d410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f24e85bf993 in __GI___dcgettext (domainname=domainname@entry=0x7f24e850ece6 "sudoers", msgid=msgid@entry=0x7f24e850d410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f24e84dc080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f24e84dc5c8 in check_user_interactive (closure=0x7fff15d4f0c0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f24e84f3edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff15d4f508, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff15d4f210) at ./sudoers.c:418
+#7  0x00007f24e84ed12a in sudoers_policy_check (argc=0x2, argv=0x7fff15d4f508, env_add=0x0, command_infop=0x7fff15d4f288, argv_out=0x7fff15d4f290, user_env_out=0x7fff15d4f298) at ./policy.c:872
+#8  0x000055836a1fc151 in policy_check (plugin=0x55836a21c7a0 <policy_plugin>, user_env_out=0x7fff15d4f298, argv_out=0x7fff15d4f290, command_info=0x7fff15d4f288, env_add=0x0, argv=0x7fff15d4f508, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff15d4f520) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f5306095ea0 in __dcigettext (domainname=domainname@entry=0x7f5305fe3ce6 "sudoers", msgid1=msgid1@entry=0x7f5305fe2410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f5306094993 in __GI___dcgettext (domainname=domainname@entry=0x7f5305fe3ce6 "sudoers", msgid=msgid@entry=0x7f5305fe2410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f5305fb1080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f5305fb15c8 in check_user_interactive (closure=0x7fff22ca40f0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f5305fc8edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff22ca4538, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff22ca4240) at ./sudoers.c:418
+#7  0x00007f5305fc212a in sudoers_policy_check (argc=0x3, argv=0x7fff22ca4538, env_add=0x0, command_infop=0x7fff22ca42b8, argv_out=0x7fff22ca42c0, user_env_out=0x7fff22ca42c8) at ./policy.c:872
+#8  0x0000558fed46a151 in policy_check (plugin=0x558fed48a7a0 <policy_plugin>, user_env_out=0x7fff22ca42c8, argv_out=0x7fff22ca42c0, command_info=0x7fff22ca42b8, env_add=0x0, argv=0x7fff22ca4538, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff22ca4558) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f436ff11ea0 in __dcigettext (domainname=domainname@entry=0x7f436fe5fce6 "sudoers", msgid1=msgid1@entry=0x7f436fe5e410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f436ff10993 in __GI___dcgettext (domainname=domainname@entry=0x7f436fe5fce6 "sudoers", msgid=msgid@entry=0x7f436fe5e410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f436fe2d080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f436fe2d5c8 in check_user_interactive (closure=0x7ffd8fcdac00, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f436fe44edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd8fcdb048, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd8fcdad50) at ./sudoers.c:418
+#7  0x00007f436fe3e12a in sudoers_policy_check (argc=0x3, argv=0x7ffd8fcdb048, env_add=0x0, command_infop=0x7ffd8fcdadc8, argv_out=0x7ffd8fcdadd0, user_env_out=0x7ffd8fcdadd8) at ./policy.c:872
+#8  0x000055984e1e9151 in policy_check (plugin=0x55984e2097a0 <policy_plugin>, user_env_out=0x7ffd8fcdadd8, argv_out=0x7ffd8fcdadd0, command_info=0x7ffd8fcdadc8, env_add=0x0, argv=0x7ffd8fcdb048, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd8fcdb068) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007f7e15f9dea0 in __dcigettext (domainname=domainname@entry=0x7f7e15eebce6 "sudoers", msgid1=msgid1@entry=0x7f7e15eea410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f7e15f9c993 in __GI___dcgettext (domainname=domainname@entry=0x7f7e15eebce6 "sudoers", msgid=msgid@entry=0x7f7e15eea410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f7e15eb9080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f7e15eb95c8 in check_user_interactive (closure=0x7ffee83bc7a0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f7e15ed0edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffee83bcbe0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffee83bc8f0) at ./sudoers.c:418
+#7  0x00007f7e15eca12a in sudoers_policy_check (argc=0x3, argv=0x7ffee83bcbe0, env_add=0x0, command_infop=0x7ffee83bc968, argv_out=0x7ffee83bc970, user_env_out=0x7ffee83bc978) at ./policy.c:872
+#8  0x0000558dfc44c151 in policy_check (plugin=0x558dfc46c7a0 <policy_plugin>, user_env_out=0x7ffee83bc978, argv_out=0x7ffee83bc970, command_info=0x7ffee83bc968, env_add=0x0, argv=0x7ffee83bcbe0, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffee83bcc00) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f78c1297ea0 in __dcigettext (domainname=domainname@entry=0x7f78c11e5ce6 "sudoers", msgid1=msgid1@entry=0x7f78c11e4410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f78c1296993 in __GI___dcgettext (domainname=domainname@entry=0x7f78c11e5ce6 "sudoers", msgid=msgid@entry=0x7f78c11e4410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f78c11b3080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f78c11b35c8 in check_user_interactive (closure=0x7ffe690f2bc0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f78c11caedf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe690f3008, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe690f2d10) at ./sudoers.c:418
+#7  0x00007f78c11c412a in sudoers_policy_check (argc=0x2, argv=0x7ffe690f3008, env_add=0x0, command_infop=0x7ffe690f2d88, argv_out=0x7ffe690f2d90, user_env_out=0x7ffe690f2d98) at ./policy.c:872
+#8  0x000056467ae61151 in policy_check (plugin=0x56467ae817a0 <policy_plugin>, user_env_out=0x7ffe690f2d98, argv_out=0x7ffe690f2d90, command_info=0x7ffe690f2d88, env_add=0x0, argv=0x7ffe690f3008, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe690f3020) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007f6ccb241ea0 in __dcigettext (domainname=domainname@entry=0x7f6ccb18fce6 "sudoers", msgid1=msgid1@entry=0x7f6ccb18e410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f6ccb240993 in __GI___dcgettext (domainname=domainname@entry=0x7f6ccb18fce6 "sudoers", msgid=msgid@entry=0x7f6ccb18e410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f6ccb15d080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f6ccb15d5c8 in check_user_interactive (closure=0x7ffe6a124c50, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f6ccb174edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe6a125090, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe6a124da0) at ./sudoers.c:418
+#7  0x00007f6ccb16e12a in sudoers_policy_check (argc=0x3, argv=0x7ffe6a125090, env_add=0x0, command_infop=0x7ffe6a124e18, argv_out=0x7ffe6a124e20, user_env_out=0x7ffe6a124e28) at ./policy.c:872
+#8  0x00005620b4e61151 in policy_check (plugin=0x5620b4e817a0 <policy_plugin>, user_env_out=0x7ffe6a124e28, argv_out=0x7ffe6a124e20, command_info=0x7ffe6a124e18, env_add=0x0, argv=0x7ffe6a125090, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe6a1250b0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f2ff090dea0 in __dcigettext (domainname=domainname@entry=0x7f2ff085bce6 "sudoers", msgid1=msgid1@entry=0x7f2ff085a410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f2ff090c993 in __GI___dcgettext (domainname=domainname@entry=0x7f2ff085bce6 "sudoers", msgid=msgid@entry=0x7f2ff085a410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f2ff0829080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f2ff08295c8 in check_user_interactive (closure=0x7ffdc457c740, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f2ff0840edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffdc457cb80, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdc457c890) at ./sudoers.c:418
+#7  0x00007f2ff083a12a in sudoers_policy_check (argc=0x3, argv=0x7ffdc457cb80, env_add=0x0, command_infop=0x7ffdc457c908, argv_out=0x7ffdc457c910, user_env_out=0x7ffdc457c918) at ./policy.c:872
+#8  0x000055de2f038151 in policy_check (plugin=0x55de2f0587a0 <policy_plugin>, user_env_out=0x7ffdc457c918, argv_out=0x7ffdc457c910, command_info=0x7ffdc457c908, env_add=0x0, argv=0x7ffdc457cb80, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdc457cba0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007facaf8baea0 in __dcigettext (domainname=domainname@entry=0x7facaf808ce6 "sudoers", msgid1=msgid1@entry=0x7facaf807410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007facaf8b9993 in __GI___dcgettext (domainname=domainname@entry=0x7facaf808ce6 "sudoers", msgid=msgid@entry=0x7facaf807410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007facaf7d6080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007facaf7d65c8 in check_user_interactive (closure=0x7fff22d48450, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007facaf7ededf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff22d48898, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff22d485a0) at ./sudoers.c:418
+#7  0x00007facaf7e712a in sudoers_policy_check (argc=0x2, argv=0x7fff22d48898, env_add=0x0, command_infop=0x7fff22d48618, argv_out=0x7fff22d48620, user_env_out=0x7fff22d48628) at ./policy.c:872
+#8  0x0000564efdb91151 in policy_check (plugin=0x564efdbb17a0 <policy_plugin>, user_env_out=0x7fff22d48628, argv_out=0x7fff22d48620, command_info=0x7fff22d48618, env_add=0x0, argv=0x7fff22d48898, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff22d488b0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fe358287ea0 in __dcigettext (domainname=domainname@entry=0x7fe3581d5ce6 "sudoers", msgid1=msgid1@entry=0x7fe3581d4410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fe358286993 in __GI___dcgettext (domainname=domainname@entry=0x7fe3581d5ce6 "sudoers", msgid=msgid@entry=0x7fe3581d4410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fe3581a3080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fe3581a35c8 in check_user_interactive (closure=0x7ffe72725870, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fe3581baedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe72725cb8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe727259c0) at ./sudoers.c:418
+#7  0x00007fe3581b412a in sudoers_policy_check (argc=0x3, argv=0x7ffe72725cb8, env_add=0x0, command_infop=0x7ffe72725a38, argv_out=0x7ffe72725a40, user_env_out=0x7ffe72725a48) at ./policy.c:872
+#8  0x000056421cd89151 in policy_check (plugin=0x56421cda97a0 <policy_plugin>, user_env_out=0x7ffe72725a48, argv_out=0x7ffe72725a40, command_info=0x7ffe72725a38, env_add=0x0, argv=0x7ffe72725cb8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe72725cd8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007f7484ef4ea0 in __dcigettext (domainname=domainname@entry=0x7f7484e42ce6 "sudoers", msgid1=msgid1@entry=0x7f7484e41410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f7484ef3993 in __GI___dcgettext (domainname=domainname@entry=0x7f7484e42ce6 "sudoers", msgid=msgid@entry=0x7f7484e41410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f7484e10080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f7484e105c8 in check_user_interactive (closure=0x7ffc32c0ec20, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f7484e27edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc32c0f068, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc32c0ed70) at ./sudoers.c:418
+#7  0x00007f7484e2112a in sudoers_policy_check (argc=0x3, argv=0x7ffc32c0f068, env_add=0x0, command_infop=0x7ffc32c0ede8, argv_out=0x7ffc32c0edf0, user_env_out=0x7ffc32c0edf8) at ./policy.c:872
+#8  0x000055f51650d151 in policy_check (plugin=0x55f51652d7a0 <policy_plugin>, user_env_out=0x7ffc32c0edf8, argv_out=0x7ffc32c0edf0, command_info=0x7ffc32c0ede8, env_add=0x0, argv=0x7ffc32c0f068, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc32c0f088) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fad83b2aea0 in __dcigettext (domainname=domainname@entry=0x7fad83a78ce6 "sudoers", msgid1=msgid1@entry=0x7fad83a77410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fad83b29993 in __GI___dcgettext (domainname=domainname@entry=0x7fad83a78ce6 "sudoers", msgid=msgid@entry=0x7fad83a77410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fad83a46080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fad83a465c8 in check_user_interactive (closure=0x7ffc332af890, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fad83a5dedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc332afcd8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc332af9e0) at ./sudoers.c:418
+#7  0x00007fad83a5712a in sudoers_policy_check (argc=0x3, argv=0x7ffc332afcd8, env_add=0x0, command_infop=0x7ffc332afa58, argv_out=0x7ffc332afa60, user_env_out=0x7ffc332afa68) at ./policy.c:872
+#8  0x0000557b2cfc1151 in policy_check (plugin=0x557b2cfe17a0 <policy_plugin>, user_env_out=0x7ffc332afa68, argv_out=0x7ffc332afa60, command_info=0x7ffc332afa58, env_add=0x0, argv=0x7ffc332afcd8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc332afcf8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f585febbea0 in __dcigettext (domainname=domainname@entry=0x7f585fe09ce6 "sudoers", msgid1=msgid1@entry=0x7f585fe08410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f585feba993 in __GI___dcgettext (domainname=domainname@entry=0x7f585fe09ce6 "sudoers", msgid=msgid@entry=0x7f585fe08410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f585fdd7080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f585fdd75c8 in check_user_interactive (closure=0x7ffd84fc8f40, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f585fdeeedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd84fc9388, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd84fc9090) at ./sudoers.c:418
+#7  0x00007f585fde812a in sudoers_policy_check (argc=0x3, argv=0x7ffd84fc9388, env_add=0x0, command_infop=0x7ffd84fc9108, argv_out=0x7ffd84fc9110, user_env_out=0x7ffd84fc9118) at ./policy.c:872
+#8  0x000055737f400151 in policy_check (plugin=0x55737f4207a0 <policy_plugin>, user_env_out=0x7ffd84fc9118, argv_out=0x7ffd84fc9110, command_info=0x7ffd84fc9108, env_add=0x0, argv=0x7ffd84fc9388, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd84fc93a8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+_IO_getdelim getline "user", internal_getgrouplist getgrouplist sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fd272164ea0 in __dcigettext (domainname=domainname@entry=0x7fd2720b2ce6 "sudoers", msgid1=msgid1@entry=0x7fd2720b1410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fd272163993 in __GI___dcgettext (domainname=domainname@entry=0x7fd2720b2ce6 "sudoers", msgid=msgid@entry=0x7fd2720b1410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fd272080080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fd2720805c8 in check_user_interactive (closure=0x7ffe871e3c80, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fd272097edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe871e40c8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe871e3dd0) at ./sudoers.c:418
+#7  0x00007fd27209112a in sudoers_policy_check (argc=0x2, argv=0x7ffe871e40c8, env_add=0x0, command_infop=0x7ffe871e3e48, argv_out=0x7ffe871e3e50, user_env_out=0x7ffe871e3e58) at ./policy.c:872
+#8  0x0000563589370151 in policy_check (plugin=0x5635893907a0 <policy_plugin>, user_env_out=0x7ffe871e3e58, argv_out=0x7ffe871e3e50, command_info=0x7ffe871e3e48, env_add=0x0, argv=0x7ffe871e40c8, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe871e40e0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f55376b2ea0 in __dcigettext (domainname=domainname@entry=0x7f5537600ce6 "sudoers", msgid1=msgid1@entry=0x7f55375ff410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f55376b1993 in __GI___dcgettext (domainname=domainname@entry=0x7f5537600ce6 "sudoers", msgid=msgid@entry=0x7f55375ff410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f55375ce080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f55375ce5c8 in check_user_interactive (closure=0x7ffedc324c20, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f55375e5edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffedc325060, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffedc324d70) at ./sudoers.c:418
+#7  0x00007f55375df12a in sudoers_policy_check (argc=0x3, argv=0x7ffedc325060, env_add=0x0, command_infop=0x7ffedc324de8, argv_out=0x7ffedc324df0, user_env_out=0x7ffedc324df8) at ./policy.c:872
+#8  0x000056242d072151 in policy_check (plugin=0x56242d0927a0 <policy_plugin>, user_env_out=0x7ffedc324df8, argv_out=0x7ffedc324df0, command_info=0x7ffedc324de8, env_add=0x0, argv=0x7ffedc325060, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffedc325080) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f267f253ea0 in __dcigettext (domainname=domainname@entry=0x7f267f1a1ce6 "sudoers", msgid1=msgid1@entry=0x7f267f1a0410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f267f252993 in __GI___dcgettext (domainname=domainname@entry=0x7f267f1a1ce6 "sudoers", msgid=msgid@entry=0x7f267f1a0410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f267f16f080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f267f16f5c8 in check_user_interactive (closure=0x7ffd82b18120, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f267f186edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd82b18568, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd82b18270) at ./sudoers.c:418
+#7  0x00007f267f18012a in sudoers_policy_check (argc=0x3, argv=0x7ffd82b18568, env_add=0x0, command_infop=0x7ffd82b182e8, argv_out=0x7ffd82b182f0, user_env_out=0x7ffd82b182f8) at ./policy.c:872
+#8  0x000055d4a4146151 in policy_check (plugin=0x55d4a41667a0 <policy_plugin>, user_env_out=0x7ffd82b182f8, argv_out=0x7ffd82b182f0, command_info=0x7ffd82b182e8, env_add=0x0, argv=0x7ffd82b18568, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd82b18588) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fbf3df93ea0 in __dcigettext (domainname=domainname@entry=0x7fbf3dee1ce6 "sudoers", msgid1=msgid1@entry=0x7fbf3dee0410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fbf3df92993 in __GI___dcgettext (domainname=domainname@entry=0x7fbf3dee1ce6 "sudoers", msgid=msgid@entry=0x7fbf3dee0410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fbf3deaf080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fbf3deaf5c8 in check_user_interactive (closure=0x7ffde42b6d60, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fbf3dec6edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffde42b71a8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffde42b6eb0) at ./sudoers.c:418
+#7  0x00007fbf3dec012a in sudoers_policy_check (argc=0x3, argv=0x7ffde42b71a8, env_add=0x0, command_infop=0x7ffde42b6f28, argv_out=0x7ffde42b6f30, user_env_out=0x7ffde42b6f38) at ./policy.c:872
+#8  0x000055b2ea4af151 in policy_check (plugin=0x55b2ea4cf7a0 <policy_plugin>, user_env_out=0x7ffde42b6f38, argv_out=0x7ffde42b6f30, command_info=0x7ffde42b6f28, env_add=0x0, argv=0x7ffde42b71a8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffde42b71c8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f8efc0a6ea0 in __dcigettext (domainname=domainname@entry=0x7f8efbff4ce6 "sudoers", msgid1=msgid1@entry=0x7f8efbff3410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f8efc0a5993 in __GI___dcgettext (domainname=domainname@entry=0x7f8efbff4ce6 "sudoers", msgid=msgid@entry=0x7f8efbff3410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f8efbfc2080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f8efbfc25c8 in check_user_interactive (closure=0x7ffeaf4e5ec0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f8efbfd9edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffeaf4e6300, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffeaf4e6010) at ./sudoers.c:418
+#7  0x00007f8efbfd312a in sudoers_policy_check (argc=0x3, argv=0x7ffeaf4e6300, env_add=0x0, command_infop=0x7ffeaf4e6088, argv_out=0x7ffeaf4e6090, user_env_out=0x7ffeaf4e6098) at ./policy.c:872
+#8  0x00005569584e8151 in policy_check (plugin=0x5569585087a0 <policy_plugin>, user_env_out=0x7ffeaf4e6098, argv_out=0x7ffeaf4e6090, command_info=0x7ffeaf4e6088, env_add=0x0, argv=0x7ffeaf4e6300, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffeaf4e6320) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007fdec702eea0 in __dcigettext (domainname=domainname@entry=0x7fdec6f7cce6 "sudoers", msgid1=msgid1@entry=0x7fdec6f7b410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fdec702d993 in __GI___dcgettext (domainname=domainname@entry=0x7fdec6f7cce6 "sudoers", msgid=msgid@entry=0x7fdec6f7b410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fdec6f4a080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fdec6f4a5c8 in check_user_interactive (closure=0x7fff72e5dd70, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fdec6f61edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff72e5e1b0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff72e5dec0) at ./sudoers.c:418
+#7  0x00007fdec6f5b12a in sudoers_policy_check (argc=0x3, argv=0x7fff72e5e1b0, env_add=0x0, command_infop=0x7fff72e5df38, argv_out=0x7fff72e5df40, user_env_out=0x7fff72e5df48) at ./policy.c:872
+#8  0x0000564c2073b151 in policy_check (plugin=0x564c2075b7a0 <policy_plugin>, user_env_out=0x7fff72e5df48, argv_out=0x7fff72e5df40, command_info=0x7fff72e5df38, env_add=0x0, argv=0x7fff72e5e1b0, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff72e5e1d0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f86197aeea0 in __dcigettext (domainname=domainname@entry=0x7f86196fcce6 "sudoers", msgid1=msgid1@entry=0x7f86196fb410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f86197ad993 in __GI___dcgettext (domainname=domainname@entry=0x7f86196fcce6 "sudoers", msgid=msgid@entry=0x7f86196fb410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f86196ca080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f86196ca5c8 in check_user_interactive (closure=0x7ffe8c6654e0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f86196e1edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7ffe8c665928, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe8c665630) at ./sudoers.c:418
+#7  0x00007f86196db12a in sudoers_policy_check (argc=0x2, argv=0x7ffe8c665928, env_add=0x0, command_infop=0x7ffe8c6656a8, argv_out=0x7ffe8c6656b0, user_env_out=0x7ffe8c6656b8) at ./policy.c:872
+#8  0x000056226419c151 in policy_check (plugin=0x5622641bc7a0 <policy_plugin>, user_env_out=0x7ffe8c6656b8, argv_out=0x7ffe8c6656b0, command_info=0x7ffe8c6656a8, env_add=0x0, argv=0x7ffe8c665928, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe8c665940) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f0f6edf5ea0 in __dcigettext (domainname=domainname@entry=0x7f0f6ed43ce6 "sudoers", msgid1=msgid1@entry=0x7f0f6ed42410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f0f6edf4993 in __GI___dcgettext (domainname=domainname@entry=0x7f0f6ed43ce6 "sudoers", msgid=msgid@entry=0x7f0f6ed42410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f0f6ed11080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f0f6ed115c8 in check_user_interactive (closure=0x7fffab25e280, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f0f6ed28edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffab25e6c0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffab25e3d0) at ./sudoers.c:418
+#7  0x00007f0f6ed2212a in sudoers_policy_check (argc=0x3, argv=0x7fffab25e6c0, env_add=0x0, command_infop=0x7fffab25e448, argv_out=0x7fffab25e450, user_env_out=0x7fffab25e458) at ./policy.c:872
+#8  0x000056495cc68151 in policy_check (plugin=0x56495cc887a0 <policy_plugin>, user_env_out=0x7fffab25e458, argv_out=0x7fffab25e450, command_info=0x7fffab25e448, env_add=0x0, argv=0x7fffab25e6c0, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffab25e6e0) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f1808792ea0 in __dcigettext (domainname=domainname@entry=0x7f18086e0ce6 "sudoers", msgid1=msgid1@entry=0x7f18086df410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f1808791993 in __GI___dcgettext (domainname=domainname@entry=0x7f18086e0ce6 "sudoers", msgid=msgid@entry=0x7f18086df410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f18086ae080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f18086ae5c8 in check_user_interactive (closure=0x7ffc3600c640, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f18086c5edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc3600ca88, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc3600c790) at ./sudoers.c:418
+#7  0x00007f18086bf12a in sudoers_policy_check (argc=0x3, argv=0x7ffc3600ca88, env_add=0x0, command_infop=0x7ffc3600c808, argv_out=0x7ffc3600c810, user_env_out=0x7ffc3600c818) at ./policy.c:872
+#8  0x0000558147dda151 in policy_check (plugin=0x558147dfa7a0 <policy_plugin>, user_env_out=0x7ffc3600c818, argv_out=0x7ffc3600c810, command_info=0x7ffc3600c808, env_add=0x0, argv=0x7ffc3600ca88, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc3600caa8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fc17141fea0 in __dcigettext (domainname=domainname@entry=0x7fc17136dce6 "sudoers", msgid1=msgid1@entry=0x7fc17136c410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fc17141e993 in __GI___dcgettext (domainname=domainname@entry=0x7fc17136dce6 "sudoers", msgid=msgid@entry=0x7fc17136c410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fc17133b080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fc17133b5c8 in check_user_interactive (closure=0x7fffd392f6a0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fc171352edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fffd392fae8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffd392f7f0) at ./sudoers.c:418
+#7  0x00007fc17134c12a in sudoers_policy_check (argc=0x3, argv=0x7fffd392fae8, env_add=0x0, command_infop=0x7fffd392f868, argv_out=0x7fffd392f870, user_env_out=0x7fffd392f878) at ./policy.c:872
+#8  0x000055e2adfac151 in policy_check (plugin=0x55e2adfcc7a0 <policy_plugin>, user_env_out=0x7fffd392f878, argv_out=0x7fffd392f870, command_info=0x7fffd392f868, env_add=0x0, argv=0x7fffd392fae8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffd392fb08) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:760
+#1  0x00007f56dee73ea0 in __dcigettext (domainname=domainname@entry=0x7f56dedc1ce6 "sudoers", msgid1=msgid1@entry=0x7f56dedc0410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f56dee72993 in __GI___dcgettext (domainname=domainname@entry=0x7f56dedc1ce6 "sudoers", msgid=msgid@entry=0x7f56dedc0410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f56ded8f080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f56ded8f5c8 in check_user_interactive (closure=0x7ffe577d5c10, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f56deda6edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe577d6058, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe577d5d60) at ./sudoers.c:418
+#7  0x00007f56deda012a in sudoers_policy_check (argc=0x3, argv=0x7ffe577d6058, env_add=0x0, command_infop=0x7ffe577d5dd8, argv_out=0x7ffe577d5de0, user_env_out=0x7ffe577d5de8) at ./policy.c:872
+#8  0x000055672c49e151 in policy_check (plugin=0x55672c4be7a0 <policy_plugin>, user_env_out=0x7ffe577d5de8, argv_out=0x7ffe577d5de0, command_info=0x7ffe577d5dd8, env_add=0x0, argv=0x7ffe577d6058, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe577d6078) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007efe6f66bea0 in __dcigettext (domainname=domainname@entry=0x7efe6f5b9ce6 "sudoers", msgid1=msgid1@entry=0x7efe6f5b8410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007efe6f66a993 in __GI___dcgettext (domainname=domainname@entry=0x7efe6f5b9ce6 "sudoers", msgid=msgid@entry=0x7efe6f5b8410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007efe6f587080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007efe6f5875c8 in check_user_interactive (closure=0x7ffc63f37ce0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007efe6f59eedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc63f38120, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc63f37e30) at ./sudoers.c:418
+#7  0x00007efe6f59812a in sudoers_policy_check (argc=0x3, argv=0x7ffc63f38120, env_add=0x0, command_infop=0x7ffc63f37ea8, argv_out=0x7ffc63f37eb0, user_env_out=0x7ffc63f37eb8) at ./policy.c:872
+#8  0x000055d012c76151 in policy_check (plugin=0x55d012c967a0 <policy_plugin>, user_env_out=0x7ffc63f37eb8, argv_out=0x7ffc63f37eb0, command_info=0x7ffc63f37ea8, env_add=0x0, argv=0x7ffc63f38120, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc63f38140) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f86b9ef6ea0 in __dcigettext (domainname=domainname@entry=0x7f86b9e44ce6 "sudoers", msgid1=msgid1@entry=0x7f86b9e43410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f86b9ef5993 in __GI___dcgettext (domainname=domainname@entry=0x7f86b9e44ce6 "sudoers", msgid=msgid@entry=0x7f86b9e43410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f86b9e12080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f86b9e125c8 in check_user_interactive (closure=0x7fff92655fa0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f86b9e29edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff926563e8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff926560f0) at ./sudoers.c:418
+#7  0x00007f86b9e2312a in sudoers_policy_check (argc=0x3, argv=0x7fff926563e8, env_add=0x0, command_infop=0x7fff92656168, argv_out=0x7fff92656170, user_env_out=0x7fff92656178) at ./policy.c:872
+#8  0x000055f6eca10151 in policy_check (plugin=0x55f6eca307a0 <policy_plugin>, user_env_out=0x7fff92656178, argv_out=0x7fff92656170, command_info=0x7fff92656168, env_add=0x0, argv=0x7fff926563e8, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff92656408) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f478506eea0 in __dcigettext (domainname=domainname@entry=0x7f4784fbcce6 "sudoers", msgid1=msgid1@entry=0x7f4784fbb410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f478506d993 in __GI___dcgettext (domainname=domainname@entry=0x7f4784fbcce6 "sudoers", msgid=msgid@entry=0x7f4784fbb410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f4784f8a080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f4784f8a5c8 in check_user_interactive (closure=0x7ffec56291d0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f4784fa1edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffec5629610, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffec5629320) at ./sudoers.c:418
+#7  0x00007f4784f9b12a in sudoers_policy_check (argc=0x3, argv=0x7ffec5629610, env_add=0x0, command_infop=0x7ffec5629398, argv_out=0x7ffec56293a0, user_env_out=0x7ffec56293a8) at ./policy.c:872
+#8  0x000056412429b151 in policy_check (plugin=0x5641242bb7a0 <policy_plugin>, user_env_out=0x7ffec56293a8, argv_out=0x7ffec56293a0, command_info=0x7ffec5629398, env_add=0x0, argv=0x7ffec5629610, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffec5629630) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fe4690f2ea0 in __dcigettext (domainname=domainname@entry=0x7fe469040ce6 "sudoers", msgid1=msgid1@entry=0x7fe46903f410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fe4690f1993 in __GI___dcgettext (domainname=domainname@entry=0x7fe469040ce6 "sudoers", msgid=msgid@entry=0x7fe46903f410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fe46900e080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fe46900e5c8 in check_user_interactive (closure=0x7fff30594f70, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fe469025edf in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fff305953b0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff305950c0) at ./sudoers.c:418
+#7  0x00007fe46901f12a in sudoers_policy_check (argc=0x2, argv=0x7fff305953b0, env_add=0x0, command_infop=0x7fff30595138, argv_out=0x7fff30595140, user_env_out=0x7fff30595148) at ./policy.c:872
+#8  0x0000557614c1a151 in policy_check (plugin=0x557614c3a7a0 <policy_plugin>, user_env_out=0x7fff30595148, argv_out=0x7fff30595140, command_info=0x7fff30595138, env_add=0x0, argv=0x7fff305953b0, argc=0x2) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff305953c8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fd9715eaea0 in __dcigettext (domainname=domainname@entry=0x7fd971538ce6 "sudoers", msgid1=msgid1@entry=0x7fd971537410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fd9715e9993 in __GI___dcgettext (domainname=domainname@entry=0x7fd971538ce6 "sudoers", msgid=msgid@entry=0x7fd971537410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fd971506080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007fd9715065c8 in check_user_interactive (closure=0x7ffe2222e050, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007fd97151dedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe2222e498, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe2222e1a0) at ./sudoers.c:418
+#7  0x00007fd97151712a in sudoers_policy_check (argc=0x3, argv=0x7ffe2222e498, env_add=0x0, command_infop=0x7ffe2222e218, argv_out=0x7ffe2222e220, user_env_out=0x7ffe2222e228) at ./policy.c:872
+#8  0x000055d4f7f2a151 in policy_check (plugin=0x55d4f7f4a7a0 <policy_plugin>, user_env_out=0x7ffe2222e228, argv_out=0x7ffe2222e220, command_info=0x7ffe2222e218, env_add=0x0, argv=0x7ffe2222e498, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe2222e4b8) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f3285881ea0 in __dcigettext (domainname=domainname@entry=0x7f32857cfce6 "sudoers", msgid1=msgid1@entry=0x7f32857ce410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f3285880993 in __GI___dcgettext (domainname=domainname@entry=0x7f32857cfce6 "sudoers", msgid=msgid@entry=0x7f32857ce410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f328579d080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f328579d5c8 in check_user_interactive (closure=0x7ffd8a644cf0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f32857b4edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd8a645138, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd8a644e40) at ./sudoers.c:418
+#7  0x00007f32857ae12a in sudoers_policy_check (argc=0x3, argv=0x7ffd8a645138, env_add=0x0, command_infop=0x7ffd8a644eb8, argv_out=0x7ffd8a644ec0, user_env_out=0x7ffd8a644ec8) at ./policy.c:872
+#8  0x0000563b4e6cf151 in policy_check (plugin=0x563b4e6ef7a0 <policy_plugin>, user_env_out=0x7ffd8a644ec8, argv_out=0x7ffd8a644ec0, command_info=0x7ffd8a644eb8, env_add=0x0, argv=0x7ffd8a645138, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd8a645158) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f75f312bea0 in __dcigettext (domainname=domainname@entry=0x7f75f3079ce6 "sudoers", msgid1=msgid1@entry=0x7f75f3078410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f75f312a993 in __GI___dcgettext (domainname=domainname@entry=0x7f75f3079ce6 "sudoers", msgid=msgid@entry=0x7f75f3078410 "\nWe trust you have received the usual lecture from the local System\nAdministrator. It usually boils down to these three things:\n\n    #1) Respect the privacy of others.\n    #2) Think before you type.\n    #3) With great power comes great responsibility.\n\n", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f75f3047080 in display_lecture (status=<optimized out>) at ./check.c:265
+#4  0x00007f75f30475c8 in check_user_interactive (closure=0x7fff836bcee0, mode=<optimized out>, validated=0x60) at ./check.c:141
+#5  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#6  0x00007f75f305eedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff836bd320, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff836bd030) at ./sudoers.c:418
+#7  0x00007f75f305812a in sudoers_policy_check (argc=0x3, argv=0x7fff836bd320, env_add=0x0, command_infop=0x7fff836bd0a8, argv_out=0x7fff836bd0b0, user_env_out=0x7fff836bd0b8) at ./policy.c:872
+#8  0x0000556c1c879151 in policy_check (plugin=0x556c1c8997a0 <policy_plugin>, user_env_out=0x7fff836bd0b8, argv_out=0x7fff836bd0b0, command_info=0x7fff836bd0a8, env_add=0x0, argv=0x7fff836bd320, argc=0x3) at ./sudo.c:1140
+#9  main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff836bd340) at ./sudo.c:254
+

@@ -1,0 +1,66 @@
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f018e4adea0 in __dcigettext (domainname=domainname@entry=0x7f018e3fbce6 "sudoers", msgid1=msgid1@entry=0x7f018e3fbd4b "a password is required", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f018e4ac993 in __GI___dcgettext (domainname=domainname@entry=0x7f018e3fbce6 "sudoers", msgid=msgid@entry=0x7f018e3fbd4b "a password is required", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f018e3d6cc0 in vlog_warning (flags=flags@entry=0x20, errnum=errnum@entry=0x0, fmt=fmt@entry=0x7f018e3fbd4b "a password is required", ap=ap@entry=0x7ffdf614fca0) at ./logging.c:529
+#4  0x00007f018e3d7222 in log_warningx (flags=0x20, fmt=fmt@entry=0x7f018e3fbd4b "a password is required") at ./logging.c:647
+#5  0x00007f018e3d7376 in log_auth_failure (status=<optimized out>, status@entry=0x160, tries=tries@entry=0x0) at ./logging.c:393
+#6  0x00007f018e3c9782 in check_user_interactive (closure=0x7ffdf614fdc0, mode=<optimized out>, validated=0x160) at ./check.c:136
+#7  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#8  0x00007f018e3e0edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffdf6150208, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffdf614ff10) at ./sudoers.c:418
+#9  0x00007f018e3da12a in sudoers_policy_check (argc=0x3, argv=0x7ffdf6150208, env_add=0x0, command_infop=0x7ffdf614ff88, argv_out=0x7ffdf614ff90, user_env_out=0x7ffdf614ff98) at ./policy.c:872
+#10 0x000055e2a4c3c151 in policy_check (plugin=0x55e2a4c5c7a0 <policy_plugin>, user_env_out=0x7ffdf614ff98, argv_out=0x7ffdf614ff90, command_info=0x7ffdf614ff88, env_add=0x0, argv=0x7ffdf6150208, argc=0x3) at ./sudo.c:1140
+#11 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffdf6150228) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007fde30faaea0 in __dcigettext (domainname=domainname@entry=0x7fde30ef8ce6 "sudoers", msgid1=msgid1@entry=0x7fde30ef8d4b "a password is required", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007fde30fa9993 in __GI___dcgettext (domainname=domainname@entry=0x7fde30ef8ce6 "sudoers", msgid=msgid@entry=0x7fde30ef8d4b "a password is required", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007fde30ed3cc0 in vlog_warning (flags=flags@entry=0x20, errnum=errnum@entry=0x0, fmt=fmt@entry=0x7fde30ef8d4b "a password is required", ap=ap@entry=0x7ffea8c87de0) at ./logging.c:529
+#4  0x00007fde30ed4222 in log_warningx (flags=0x20, fmt=fmt@entry=0x7fde30ef8d4b "a password is required") at ./logging.c:647
+#5  0x00007fde30ed4376 in log_auth_failure (status=<optimized out>, status@entry=0x160, tries=tries@entry=0x0) at ./logging.c:393
+#6  0x00007fde30ec6782 in check_user_interactive (closure=0x7ffea8c87f00, mode=<optimized out>, validated=0x160) at ./check.c:136
+#7  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#8  0x00007fde30eddedf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffea8c88348, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffea8c88050) at ./sudoers.c:418
+#9  0x00007fde30ed712a in sudoers_policy_check (argc=0x3, argv=0x7ffea8c88348, env_add=0x0, command_infop=0x7ffea8c880c8, argv_out=0x7ffea8c880d0, user_env_out=0x7ffea8c880d8) at ./policy.c:872
+#10 0x0000563bb605c151 in policy_check (plugin=0x563bb607c7a0 <policy_plugin>, user_env_out=0x7ffea8c880d8, argv_out=0x7ffea8c880d0, command_info=0x7ffea8c880c8, env_add=0x0, argv=0x7ffea8c88348, argc=0x3) at ./sudo.c:1140
+#11 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffea8c88368) at ./sudo.c:254
+
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+get_net_ifs parse_args main 
+
+
+backtrace:
+#0  __strcmp_avx2 () at ../sysdeps/x86_64/multiarch/strcmp-avx2.S:102
+#1  0x00007f0b89581ea0 in __dcigettext (domainname=domainname@entry=0x7f0b894cfce6 "sudoers", msgid1=msgid1@entry=0x7f0b894cfd4b "a password is required", msgid2=msgid2@entry=0x0, plural=plural@entry=0x0, n=n@entry=0x0, category=category@entry=0x5) at dcigettext.c:603
+#2  0x00007f0b89580993 in __GI___dcgettext (domainname=domainname@entry=0x7f0b894cfce6 "sudoers", msgid=msgid@entry=0x7f0b894cfd4b "a password is required", category=category@entry=0x5) at dcgettext.c:47
+#3  0x00007f0b894aacc0 in vlog_warning (flags=flags@entry=0x20, errnum=errnum@entry=0x0, fmt=fmt@entry=0x7f0b894cfd4b "a password is required", ap=ap@entry=0x7ffddd6c7340) at ./logging.c:529
+#4  0x00007f0b894ab222 in log_warningx (flags=0x20, fmt=fmt@entry=0x7f0b894cfd4b "a password is required") at ./logging.c:647
+#5  0x00007f0b894ab376 in log_auth_failure (status=<optimized out>, status@entry=0x160, tries=tries@entry=0x0) at ./logging.c:393
+#6  0x00007f0b8949d782 in check_user_interactive (closure=0x7ffddd6c7460, mode=<optimized out>, validated=0x160) at ./check.c:136
+#7  check_user (validated=validated@entry=0x60, mode=<optimized out>) at ./check.c:209
+#8  0x00007f0b894b4edf in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffddd6c78a8, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffddd6c75b0) at ./sudoers.c:418
+#9  0x00007f0b894ae12a in sudoers_policy_check (argc=0x3, argv=0x7ffddd6c78a8, env_add=0x0, command_infop=0x7ffddd6c7628, argv_out=0x7ffddd6c7630, user_env_out=0x7ffddd6c7638) at ./policy.c:872
+#10 0x0000561039b33151 in policy_check (plugin=0x561039b537a0 <policy_plugin>, user_env_out=0x7ffddd6c7638, argv_out=0x7ffddd6c7630, command_info=0x7ffddd6c7628, env_add=0x0, argv=0x7ffddd6c78a8, argc=0x3) at ./sudo.c:1140
+#11 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffddd6c78c8) at ./sudo.c:254
+

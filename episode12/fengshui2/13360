@@ -1,0 +1,20 @@
+----------------------------
+user_args < rbtree1
+distance: 0x3430
+0x000055d095e77a90 < 0x000055d095e7aec0
+args: sudoedit -s ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\
+
+
+user_details=0x55d0947a9720
+rbtree1=0x55d095e7a950
+rbtree2=0x55d095e7a950
+rbtree1=0x55d095e7aec0
+rbtree2=0x55d095e7aec0
+rbtree1=0x55d095e7a950
+rbtree2=0x55d095e7a950
+user_args=0x55d095e77a90
+rbtree1=0x55d095e7aec0
+rbtree2=0x55d095e7aec0
+
+{"arg": ["-s", "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\\"], "env": {}}
+

@@ -1,0 +1,29 @@
+----------------------------
+set_binding_values set_binding_values out>, main 
+__GI___strdup set_binding_values set_binding_values out>, main 
+__GI___strdup __textdomain main 
+__GI___strdup tzset_internal __tzset main 
+__GI___strdup sudo_conf_read_v1 main 
+
+
+backtrace:
+#0  __GI_raise (sig=sig@entry=0x6) at ../sysdeps/unix/sysv/linux/raise.c:50
+#1  0x00007f54fd6e1859 in __GI_abort () at abort.c:79
+#2  0x00007f54fd74c3ee in __libc_message (action=action@entry=do_abort, fmt=fmt@entry=0x7f54fd876285 "%s\n") at ../sysdeps/posix/libc_fatal.c:155
+#3  0x00007f54fd75447c in malloc_printerr (str=str@entry=0x7f54fd8781e0 "munmap_chunk(): invalid pointer") at malloc.c:5347
+#4  0x00007f54fd7546cc in munmap_chunk (p=<optimized out>) at malloc.c:2830
+#5  0x00007f54fd6a972b in _nss_files_initgroups_dyn (user=user@entry=0x561e1e6ef178 "root", group=group@entry=0x0, start=start@entry=0x7fffe20da3e0, size=size@entry=0x7fffe20da438, groupsp=groupsp@entry=0x7fffe20da440, limit=limit@entry=0xffffffffffffffff, errnop=0x7f54fd6b5200) at nss_files/files-initgroups.c:125
+#6  0x00007f54fd79e186 in internal_getgrouplist (user=user@entry=0x561e1e6ef178 "root", group=group@entry=0x0, size=size@entry=0x7fffe20da438, groupsp=groupsp@entry=0x7fffe20da440, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#7  0x00007f54fd79e3ed in getgrouplist (user=user@entry=0x561e1e6ef178 "root", group=group@entry=0x0, groups=groups@entry=0x561e1e6fdd70, ngroups=ngroups@entry=0x7fffe20da494) at initgroups.c:169
+#8  0x00007f54fd8da336 in sudo_getgrouplist2_v1 (name=0x561e1e6ef178 "root", basegid=0x0, groupsp=groupsp@entry=0x7fffe20da4f0, ngroupsp=ngroupsp@entry=0x7fffe20da4ec) at ./getgrouplist.c:105
+#9  0x00007f54fd63a683 in sudo_make_gidlist_item (pw=0x561e1e6ef148, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#10 0x00007f54fd63942e in sudo_get_gidlist (pw=0x561e1e6ef148, type=type@entry=0x1) at ./pwutil.c:932
+#11 0x00007f54fd63318d in runas_getgroups () at ./match.c:145
+#12 0x00007f54fd6248a2 in runas_setgroups () at ./set_perms.c:1714
+#13 set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#14 0x00007f54fd61ed7a in sudoers_lookup (snl=0x7f54fd65bd00 <snl>, pw=0x561e1e6eefa8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#15 0x00007f54fd627b0e in sudoers_policy_main (argc=argc@entry=0x2, argv=argv@entry=0x7fffe20dae80, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fffe20dab90) at ./sudoers.c:325
+#16 0x00007f54fd62112a in sudoers_policy_check (argc=0x2, argv=0x7fffe20dae80, env_add=0x0, command_infop=0x7fffe20dac08, argv_out=0x7fffe20dac10, user_env_out=0x7fffe20dac18) at ./policy.c:872
+#17 0x0000561e1d1af151 in policy_check (plugin=0x561e1d1cf7a0 <policy_plugin>, user_env_out=0x7fffe20dac18, argv_out=0x7fffe20dac10, command_info=0x7fffe20dac08, env_add=0x0, argv=0x7fffe20dae80, argc=0x2) at ./sudo.c:1140
+#18 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fffe20dae98) at ./sudo.c:254
+

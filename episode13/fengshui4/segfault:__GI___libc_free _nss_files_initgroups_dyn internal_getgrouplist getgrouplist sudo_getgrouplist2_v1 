@@ -1,0 +1,300 @@
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fd5456798a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007fd5455c972b in _nss_files_initgroups_dyn (user=user@entry=0x564b958f3238 "root", group=group@entry=0x0, start=start@entry=0x7fff26b3ee20, size=size@entry=0x7fff26b3ee78, groupsp=groupsp@entry=0x7fff26b3ee80, limit=limit@entry=0xffffffffffffffff, errnop=0x7fd5455d5200) at nss_files/files-initgroups.c:125
+#2  0x00007fd5456be186 in internal_getgrouplist (user=user@entry=0x564b958f3238 "root", group=group@entry=0x0, size=size@entry=0x7fff26b3ee78, groupsp=groupsp@entry=0x7fff26b3ee80, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007fd5456be3ed in getgrouplist (user=user@entry=0x564b958f3238 "root", group=group@entry=0x0, groups=groups@entry=0x564b95901e30, ngroups=ngroups@entry=0x7fff26b3eed4) at initgroups.c:169
+#4  0x00007fd5457fa336 in sudo_getgrouplist2_v1 (name=0x564b958f3238 "root", basegid=0x0, groupsp=groupsp@entry=0x7fff26b3ef30, ngroupsp=ngroupsp@entry=0x7fff26b3ef2c) at ./getgrouplist.c:105
+#5  0x00007fd54555a683 in sudo_make_gidlist_item (pw=0x564b958f3208, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007fd54555942e in sudo_get_gidlist (pw=0x564b958f3208, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007fd54555318d in runas_getgroups () at ./match.c:145
+#8  0x00007fd5455448a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007fd54553ed7a in sudoers_lookup (snl=0x7fd54557bd00 <snl>, pw=0x564b958f3068, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007fd545547b0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7fff26b3f8c0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7fff26b3f5d0) at ./sudoers.c:325
+#12 0x00007fd54554112a in sudoers_policy_check (argc=0x3, argv=0x7fff26b3f8c0, env_add=0x0, command_infop=0x7fff26b3f648, argv_out=0x7fff26b3f650, user_env_out=0x7fff26b3f658) at ./policy.c:872
+#13 0x0000564b94eac151 in policy_check (plugin=0x564b94ecc7a0 <policy_plugin>, user_env_out=0x7fff26b3f658, argv_out=0x7fff26b3f650, command_info=0x7fff26b3f648, env_add=0x0, argv=0x7fff26b3f8c0, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7fff26b3f8e0) at ./sudo.c:254
+
+----------------------------
+_IO_getdelim getline "user", internal_getgrouplist getgrouplist sudo_getgrouplist2_v1 fill_group_list <user_details>) <user_details>) main 
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f5df0ae48a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007f5df0a3472b in _nss_files_initgroups_dyn (user=user@entry=0x56380fe56568 "root", group=group@entry=0x0, start=start@entry=0x7ffc7d7d50a0, size=size@entry=0x7ffc7d7d50f8, groupsp=groupsp@entry=0x7ffc7d7d5100, limit=limit@entry=0xffffffffffffffff, errnop=0x7f5df0a40200) at nss_files/files-initgroups.c:125
+#2  0x00007f5df0b29186 in internal_getgrouplist (user=user@entry=0x56380fe56568 "root", group=group@entry=0x0, size=size@entry=0x7ffc7d7d50f8, groupsp=groupsp@entry=0x7ffc7d7d5100, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007f5df0b293ed in getgrouplist (user=user@entry=0x56380fe56568 "root", group=group@entry=0x0, groups=groups@entry=0x56380fe65160, ngroups=ngroups@entry=0x7ffc7d7d5154) at initgroups.c:169
+#4  0x00007f5df0c65336 in sudo_getgrouplist2_v1 (name=0x56380fe56568 "root", basegid=0x0, groupsp=groupsp@entry=0x7ffc7d7d51b0, ngroupsp=ngroupsp@entry=0x7ffc7d7d51ac) at ./getgrouplist.c:105
+#5  0x00007f5df09c5683 in sudo_make_gidlist_item (pw=0x56380fe56538, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007f5df09c442e in sudo_get_gidlist (pw=0x56380fe56538, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007f5df09be18d in runas_getgroups () at ./match.c:145
+#8  0x00007f5df09af8a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007f5df09a9d7a in sudoers_lookup (snl=0x7f5df09e6d00 <snl>, pw=0x56380fe56398, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007f5df09b2b0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc7d7d5b48, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc7d7d5850) at ./sudoers.c:325
+#12 0x00007f5df09ac12a in sudoers_policy_check (argc=0x3, argv=0x7ffc7d7d5b48, env_add=0x0, command_infop=0x7ffc7d7d58c8, argv_out=0x7ffc7d7d58d0, user_env_out=0x7ffc7d7d58d8) at ./policy.c:872
+#13 0x000056380f9c8151 in policy_check (plugin=0x56380f9e87a0 <policy_plugin>, user_env_out=0x7ffc7d7d58d8, argv_out=0x7ffc7d7d58d0, command_info=0x7ffc7d7d58c8, env_add=0x0, argv=0x7ffc7d7d5b48, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc7d7d5b68) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f28ab2c88a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007f28ab21872b in _nss_files_initgroups_dyn (user=user@entry=0x558e6a970228 "root", group=group@entry=0x0, start=start@entry=0x7ffc400dba90, size=size@entry=0x7ffc400dbae8, groupsp=groupsp@entry=0x7ffc400dbaf0, limit=limit@entry=0xffffffffffffffff, errnop=0x7f28ab224200) at nss_files/files-initgroups.c:125
+#2  0x00007f28ab30d186 in internal_getgrouplist (user=user@entry=0x558e6a970228 "root", group=group@entry=0x0, size=size@entry=0x7ffc400dbae8, groupsp=groupsp@entry=0x7ffc400dbaf0, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007f28ab30d3ed in getgrouplist (user=user@entry=0x558e6a970228 "root", group=group@entry=0x0, groups=groups@entry=0x558e6a97ee20, ngroups=ngroups@entry=0x7ffc400dbb44) at initgroups.c:169
+#4  0x00007f28ab449336 in sudo_getgrouplist2_v1 (name=0x558e6a970228 "root", basegid=0x0, groupsp=groupsp@entry=0x7ffc400dbba0, ngroupsp=ngroupsp@entry=0x7ffc400dbb9c) at ./getgrouplist.c:105
+#5  0x00007f28ab1a9683 in sudo_make_gidlist_item (pw=0x558e6a9701f8, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007f28ab1a842e in sudo_get_gidlist (pw=0x558e6a9701f8, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007f28ab1a218d in runas_getgroups () at ./match.c:145
+#8  0x00007f28ab1938a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007f28ab18dd7a in sudoers_lookup (snl=0x7f28ab1cad00 <snl>, pw=0x558e6a970058, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007f28ab196b0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffc400dc530, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffc400dc240) at ./sudoers.c:325
+#12 0x00007f28ab19012a in sudoers_policy_check (argc=0x3, argv=0x7ffc400dc530, env_add=0x0, command_infop=0x7ffc400dc2b8, argv_out=0x7ffc400dc2c0, user_env_out=0x7ffc400dc2c8) at ./policy.c:872
+#13 0x0000558e6a167151 in policy_check (plugin=0x558e6a1877a0 <policy_plugin>, user_env_out=0x7ffc400dc2c8, argv_out=0x7ffc400dc2c0, command_info=0x7ffc400dc2b8, env_add=0x0, argv=0x7ffc400dc530, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffc400dc550) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+getpwuid get_user_info main 
+nss_parse_service_list nss_getline "/etc/nsswitch.conf") "passwd", __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f5517c728a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007f5517bc272b in _nss_files_initgroups_dyn (user=user@entry=0x55ee2be5e3a8 "root", group=group@entry=0x0, start=start@entry=0x7ffe4b064f00, size=size@entry=0x7ffe4b064f58, groupsp=groupsp@entry=0x7ffe4b064f60, limit=limit@entry=0xffffffffffffffff, errnop=0x7f5517bce200) at nss_files/files-initgroups.c:125
+#2  0x00007f5517cb7186 in internal_getgrouplist (user=user@entry=0x55ee2be5e3a8 "root", group=group@entry=0x0, size=size@entry=0x7ffe4b064f58, groupsp=groupsp@entry=0x7ffe4b064f60, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007f5517cb73ed in getgrouplist (user=user@entry=0x55ee2be5e3a8 "root", group=group@entry=0x0, groups=groups@entry=0x55ee2be6cfa0, ngroups=ngroups@entry=0x7ffe4b064fb4) at initgroups.c:169
+#4  0x00007f5517df3336 in sudo_getgrouplist2_v1 (name=0x55ee2be5e3a8 "root", basegid=0x0, groupsp=groupsp@entry=0x7ffe4b065010, ngroupsp=ngroupsp@entry=0x7ffe4b06500c) at ./getgrouplist.c:105
+#5  0x00007f5517b53683 in sudo_make_gidlist_item (pw=0x55ee2be5e378, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007f5517b5242e in sudo_get_gidlist (pw=0x55ee2be5e378, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007f5517b4c18d in runas_getgroups () at ./match.c:145
+#8  0x00007f5517b3d8a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007f5517b37d7a in sudoers_lookup (snl=0x7f5517b74d00 <snl>, pw=0x55ee2be5e1d8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007f5517b40b0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe4b0659a0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe4b0656b0) at ./sudoers.c:325
+#12 0x00007f5517b3a12a in sudoers_policy_check (argc=0x3, argv=0x7ffe4b0659a0, env_add=0x0, command_infop=0x7ffe4b065728, argv_out=0x7ffe4b065730, user_env_out=0x7ffe4b065738) at ./policy.c:872
+#13 0x000055ee2a496151 in policy_check (plugin=0x55ee2a4b67a0 <policy_plugin>, user_env_out=0x7ffe4b065738, argv_out=0x7ffe4b065730, command_info=0x7ffe4b065728, env_add=0x0, argv=0x7ffe4b0659a0, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe4b0659c0) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f886da978a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007f886d9e772b in _nss_files_initgroups_dyn (user=user@entry=0x55f4b2283598 "root", group=group@entry=0x0, start=start@entry=0x7ffd931b74d0, size=size@entry=0x7ffd931b7528, groupsp=groupsp@entry=0x7ffd931b7530, limit=limit@entry=0xffffffffffffffff, errnop=0x7f886d9f3200) at nss_files/files-initgroups.c:125
+#2  0x00007f886dadc186 in internal_getgrouplist (user=user@entry=0x55f4b2283598 "root", group=group@entry=0x0, size=size@entry=0x7ffd931b7528, groupsp=groupsp@entry=0x7ffd931b7530, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007f886dadc3ed in getgrouplist (user=user@entry=0x55f4b2283598 "root", group=group@entry=0x0, groups=groups@entry=0x55f4b2292190, ngroups=ngroups@entry=0x7ffd931b7584) at initgroups.c:169
+#4  0x00007f886dc18336 in sudo_getgrouplist2_v1 (name=0x55f4b2283598 "root", basegid=0x0, groupsp=groupsp@entry=0x7ffd931b75e0, ngroupsp=ngroupsp@entry=0x7ffd931b75dc) at ./getgrouplist.c:105
+#5  0x00007f886d978683 in sudo_make_gidlist_item (pw=0x55f4b2283568, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007f886d97742e in sudo_get_gidlist (pw=0x55f4b2283568, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007f886d97118d in runas_getgroups () at ./match.c:145
+#8  0x00007f886d9628a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007f886d95cd7a in sudoers_lookup (snl=0x7f886d999d00 <snl>, pw=0x55f4b22833c8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007f886d965b0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd931b7f70, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd931b7c80) at ./sudoers.c:325
+#12 0x00007f886d95f12a in sudoers_policy_check (argc=0x3, argv=0x7ffd931b7f70, env_add=0x0, command_infop=0x7ffd931b7cf8, argv_out=0x7ffd931b7d00, user_env_out=0x7ffd931b7d08) at ./policy.c:872
+#13 0x000055f4b21f9151 in policy_check (plugin=0x55f4b22197a0 <policy_plugin>, user_env_out=0x7ffd931b7d08, argv_out=0x7ffd931b7d00, command_info=0x7ffd931b7cf8, env_add=0x0, argv=0x7ffd931b7f70, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd931b7f90) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007fc257a588a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007fc2579a872b in _nss_files_initgroups_dyn (user=user@entry=0x560bd37bb108 "root", group=group@entry=0x0, start=start@entry=0x7ffd4bbb5b80, size=size@entry=0x7ffd4bbb5bd8, groupsp=groupsp@entry=0x7ffd4bbb5be0, limit=limit@entry=0xffffffffffffffff, errnop=0x7fc2579b4200) at nss_files/files-initgroups.c:125
+#2  0x00007fc257a9d186 in internal_getgrouplist (user=user@entry=0x560bd37bb108 "root", group=group@entry=0x0, size=size@entry=0x7ffd4bbb5bd8, groupsp=groupsp@entry=0x7ffd4bbb5be0, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007fc257a9d3ed in getgrouplist (user=user@entry=0x560bd37bb108 "root", group=group@entry=0x0, groups=groups@entry=0x560bd37c9d00, ngroups=ngroups@entry=0x7ffd4bbb5c34) at initgroups.c:169
+#4  0x00007fc257bd9336 in sudo_getgrouplist2_v1 (name=0x560bd37bb108 "root", basegid=0x0, groupsp=groupsp@entry=0x7ffd4bbb5c90, ngroupsp=ngroupsp@entry=0x7ffd4bbb5c8c) at ./getgrouplist.c:105
+#5  0x00007fc257939683 in sudo_make_gidlist_item (pw=0x560bd37bb0d8, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007fc25793842e in sudo_get_gidlist (pw=0x560bd37bb0d8, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007fc25793218d in runas_getgroups () at ./match.c:145
+#8  0x00007fc2579238a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007fc25791dd7a in sudoers_lookup (snl=0x7fc25795ad00 <snl>, pw=0x560bd37baf38, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007fc257926b0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd4bbb6620, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd4bbb6330) at ./sudoers.c:325
+#12 0x00007fc25792012a in sudoers_policy_check (argc=0x3, argv=0x7ffd4bbb6620, env_add=0x0, command_infop=0x7ffd4bbb63a8, argv_out=0x7ffd4bbb63b0, user_env_out=0x7ffd4bbb63b8) at ./policy.c:872
+#13 0x0000560bd2cdf151 in policy_check (plugin=0x560bd2cff7a0 <policy_plugin>, user_env_out=0x7ffd4bbb63b8, argv_out=0x7ffd4bbb63b0, command_info=0x7ffd4bbb63a8, env_add=0x0, argv=0x7ffd4bbb6620, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd4bbb6640) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+nss_parse_service_list nss_getline "/etc/nsswitch.conf") "passwd", __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+_nl_make_l10nflist _nl_find_locale __GI_setlocale out>, main 
+
+
+backtrace:
+#0  0x00007f6d4dc448a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007f6d4db9472b in _nss_files_initgroups_dyn (user=user@entry=0x561a4632d3b8 "root", group=group@entry=0x0, start=start@entry=0x7ffd58e11a30, size=size@entry=0x7ffd58e11a88, groupsp=groupsp@entry=0x7ffd58e11a90, limit=limit@entry=0xffffffffffffffff, errnop=0x7f6d4dba0200) at nss_files/files-initgroups.c:125
+#2  0x00007f6d4dc89186 in internal_getgrouplist (user=user@entry=0x561a4632d3b8 "root", group=group@entry=0x0, size=size@entry=0x7ffd58e11a88, groupsp=groupsp@entry=0x7ffd58e11a90, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007f6d4dc893ed in getgrouplist (user=user@entry=0x561a4632d3b8 "root", group=group@entry=0x0, groups=groups@entry=0x561a4633bfb0, ngroups=ngroups@entry=0x7ffd58e11ae4) at initgroups.c:169
+#4  0x00007f6d4ddc5336 in sudo_getgrouplist2_v1 (name=0x561a4632d3b8 "root", basegid=0x0, groupsp=groupsp@entry=0x7ffd58e11b40, ngroupsp=ngroupsp@entry=0x7ffd58e11b3c) at ./getgrouplist.c:105
+#5  0x00007f6d4db25683 in sudo_make_gidlist_item (pw=0x561a4632d388, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007f6d4db2442e in sudo_get_gidlist (pw=0x561a4632d388, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007f6d4db1e18d in runas_getgroups () at ./match.c:145
+#8  0x00007f6d4db0f8a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007f6d4db09d7a in sudoers_lookup (snl=0x7f6d4db46d00 <snl>, pw=0x561a4632d1e8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007f6d4db12b0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffd58e124d0, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffd58e121e0) at ./sudoers.c:325
+#12 0x00007f6d4db0c12a in sudoers_policy_check (argc=0x3, argv=0x7ffd58e124d0, env_add=0x0, command_infop=0x7ffd58e12258, argv_out=0x7ffd58e12260, user_env_out=0x7ffd58e12268) at ./policy.c:872
+#13 0x0000561a44bb1151 in policy_check (plugin=0x561a44bd17a0 <policy_plugin>, user_env_out=0x7ffd58e12268, argv_out=0x7ffd58e12260, command_info=0x7ffd58e12258, env_add=0x0, argv=0x7ffd58e124d0, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffd58e124f0) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f79380978a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007f7937fe772b in _nss_files_initgroups_dyn (user=user@entry=0x55dd062ce188 "root", group=group@entry=0x0, start=start@entry=0x7ffef8013d60, size=size@entry=0x7ffef8013db8, groupsp=groupsp@entry=0x7ffef8013dc0, limit=limit@entry=0xffffffffffffffff, errnop=0x7f7937ff3200) at nss_files/files-initgroups.c:125
+#2  0x00007f79380dc186 in internal_getgrouplist (user=user@entry=0x55dd062ce188 "root", group=group@entry=0x0, size=size@entry=0x7ffef8013db8, groupsp=groupsp@entry=0x7ffef8013dc0, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007f79380dc3ed in getgrouplist (user=user@entry=0x55dd062ce188 "root", group=group@entry=0x0, groups=groups@entry=0x55dd062dcd80, ngroups=ngroups@entry=0x7ffef8013e14) at initgroups.c:169
+#4  0x00007f7938218336 in sudo_getgrouplist2_v1 (name=0x55dd062ce188 "root", basegid=0x0, groupsp=groupsp@entry=0x7ffef8013e70, ngroupsp=ngroupsp@entry=0x7ffef8013e6c) at ./getgrouplist.c:105
+#5  0x00007f7937f78683 in sudo_make_gidlist_item (pw=0x55dd062ce158, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007f7937f7742e in sudo_get_gidlist (pw=0x55dd062ce158, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007f7937f7118d in runas_getgroups () at ./match.c:145
+#8  0x00007f7937f628a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007f7937f5cd7a in sudoers_lookup (snl=0x7f7937f99d00 <snl>, pw=0x55dd062cdfb8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007f7937f65b0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffef8014800, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffef8014510) at ./sudoers.c:325
+#12 0x00007f7937f5f12a in sudoers_policy_check (argc=0x3, argv=0x7ffef8014800, env_add=0x0, command_infop=0x7ffef8014588, argv_out=0x7ffef8014590, user_env_out=0x7ffef8014598) at ./policy.c:872
+#13 0x000055dd043f8151 in policy_check (plugin=0x55dd044187a0 <policy_plugin>, user_env_out=0x7ffef8014598, argv_out=0x7ffef8014590, command_info=0x7ffef8014588, env_add=0x0, argv=0x7ffef8014800, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffef8014820) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f2d53bae8a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007f2d53afe72b in _nss_files_initgroups_dyn (user=user@entry=0x5555b6cf5658 "root", group=group@entry=0x0, start=start@entry=0x7ffda4c7ebb0, size=size@entry=0x7ffda4c7ec08, groupsp=groupsp@entry=0x7ffda4c7ec10, limit=limit@entry=0xffffffffffffffff, errnop=0x7f2d53b0a200) at nss_files/files-initgroups.c:125
+#2  0x00007f2d53bf3186 in internal_getgrouplist (user=user@entry=0x5555b6cf5658 "root", group=group@entry=0x0, size=size@entry=0x7ffda4c7ec08, groupsp=groupsp@entry=0x7ffda4c7ec10, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007f2d53bf33ed in getgrouplist (user=user@entry=0x5555b6cf5658 "root", group=group@entry=0x0, groups=groups@entry=0x5555b6d04250, ngroups=ngroups@entry=0x7ffda4c7ec64) at initgroups.c:169
+#4  0x00007f2d53d2f336 in sudo_getgrouplist2_v1 (name=0x5555b6cf5658 "root", basegid=0x0, groupsp=groupsp@entry=0x7ffda4c7ecc0, ngroupsp=ngroupsp@entry=0x7ffda4c7ecbc) at ./getgrouplist.c:105
+#5  0x00007f2d53a8f683 in sudo_make_gidlist_item (pw=0x5555b6cf5628, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007f2d53a8e42e in sudo_get_gidlist (pw=0x5555b6cf5628, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007f2d53a8818d in runas_getgroups () at ./match.c:145
+#8  0x00007f2d53a798a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007f2d53a73d7a in sudoers_lookup (snl=0x7f2d53ab0d00 <snl>, pw=0x5555b6cf5488, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007f2d53a7cb0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffda4c7f650, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffda4c7f360) at ./sudoers.c:325
+#12 0x00007f2d53a7612a in sudoers_policy_check (argc=0x3, argv=0x7ffda4c7f650, env_add=0x0, command_infop=0x7ffda4c7f3d8, argv_out=0x7ffda4c7f3e0, user_env_out=0x7ffda4c7f3e8) at ./policy.c:872
+#13 0x00005555b60e9151 in policy_check (plugin=0x5555b61097a0 <policy_plugin>, user_env_out=0x7ffda4c7f3e8, argv_out=0x7ffda4c7f3e0, command_info=0x7ffda4c7f3d8, env_add=0x0, argv=0x7ffda4c7f650, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffda4c7f670) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f5969e668a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007f5969db672b in _nss_files_initgroups_dyn (user=user@entry=0x55db2352a388 "root", group=group@entry=0x0, start=start@entry=0x7ffe4d33efc0, size=size@entry=0x7ffe4d33f018, groupsp=groupsp@entry=0x7ffe4d33f020, limit=limit@entry=0xffffffffffffffff, errnop=0x7f5969dc2200) at nss_files/files-initgroups.c:125
+#2  0x00007f5969eab186 in internal_getgrouplist (user=user@entry=0x55db2352a388 "root", group=group@entry=0x0, size=size@entry=0x7ffe4d33f018, groupsp=groupsp@entry=0x7ffe4d33f020, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007f5969eab3ed in getgrouplist (user=user@entry=0x55db2352a388 "root", group=group@entry=0x0, groups=groups@entry=0x55db23538f80, ngroups=ngroups@entry=0x7ffe4d33f074) at initgroups.c:169
+#4  0x00007f5969fe7336 in sudo_getgrouplist2_v1 (name=0x55db2352a388 "root", basegid=0x0, groupsp=groupsp@entry=0x7ffe4d33f0d0, ngroupsp=ngroupsp@entry=0x7ffe4d33f0cc) at ./getgrouplist.c:105
+#5  0x00007f5969d47683 in sudo_make_gidlist_item (pw=0x55db2352a358, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007f5969d4642e in sudo_get_gidlist (pw=0x55db2352a358, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007f5969d4018d in runas_getgroups () at ./match.c:145
+#8  0x00007f5969d318a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007f5969d2bd7a in sudoers_lookup (snl=0x7f5969d68d00 <snl>, pw=0x55db2352a1b8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007f5969d34b0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe4d33fa68, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe4d33f770) at ./sudoers.c:325
+#12 0x00007f5969d2e12a in sudoers_policy_check (argc=0x3, argv=0x7ffe4d33fa68, env_add=0x0, command_infop=0x7ffe4d33f7e8, argv_out=0x7ffe4d33f7f0, user_env_out=0x7ffe4d33f7f8) at ./policy.c:872
+#13 0x000055db21efb151 in policy_check (plugin=0x55db21f1b7a0 <policy_plugin>, user_env_out=0x7ffe4d33f7f8, argv_out=0x7ffe4d33f7f0, command_info=0x7ffe4d33f7e8, env_add=0x0, argv=0x7ffe4d33fa68, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe4d33fa88) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007faff5f178a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007faff5e6772b in _nss_files_initgroups_dyn (user=user@entry=0x555e4439a5c8 "root", group=group@entry=0x0, start=start@entry=0x7ffee8a2d690, size=size@entry=0x7ffee8a2d6e8, groupsp=groupsp@entry=0x7ffee8a2d6f0, limit=limit@entry=0xffffffffffffffff, errnop=0x7faff5e73200) at nss_files/files-initgroups.c:125
+#2  0x00007faff5f5c186 in internal_getgrouplist (user=user@entry=0x555e4439a5c8 "root", group=group@entry=0x0, size=size@entry=0x7ffee8a2d6e8, groupsp=groupsp@entry=0x7ffee8a2d6f0, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007faff5f5c3ed in getgrouplist (user=user@entry=0x555e4439a5c8 "root", group=group@entry=0x0, groups=groups@entry=0x555e443a91c0, ngroups=ngroups@entry=0x7ffee8a2d744) at initgroups.c:169
+#4  0x00007faff6098336 in sudo_getgrouplist2_v1 (name=0x555e4439a5c8 "root", basegid=0x0, groupsp=groupsp@entry=0x7ffee8a2d7a0, ngroupsp=ngroupsp@entry=0x7ffee8a2d79c) at ./getgrouplist.c:105
+#5  0x00007faff5df8683 in sudo_make_gidlist_item (pw=0x555e4439a598, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007faff5df742e in sudo_get_gidlist (pw=0x555e4439a598, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007faff5df118d in runas_getgroups () at ./match.c:145
+#8  0x00007faff5de28a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007faff5ddcd7a in sudoers_lookup (snl=0x7faff5e19d00 <snl>, pw=0x555e4439a3f8, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007faff5de5b0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffee8a2e130, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffee8a2de40) at ./sudoers.c:325
+#12 0x00007faff5ddf12a in sudoers_policy_check (argc=0x3, argv=0x7ffee8a2e130, env_add=0x0, command_infop=0x7ffee8a2deb8, argv_out=0x7ffee8a2dec0, user_env_out=0x7ffee8a2dec8) at ./policy.c:872
+#13 0x0000555e43bec151 in policy_check (plugin=0x555e43c0c7a0 <policy_plugin>, user_env_out=0x7ffee8a2dec8, argv_out=0x7ffee8a2dec0, command_info=0x7ffee8a2deb8, env_add=0x0, argv=0x7ffee8a2e130, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffee8a2e150) at ./sudo.c:254
+
+----------------------------
+__GI___strdup sudo_conf_read_v1 main 
+get_user_info main 
+__GI__IO_file_doallocate __GI__IO_doallocbuf _IO_new_file_overflow _IO_new_file_xsputn <_IO_2_1_stdout_>, __vfprintf_internal ___printf_chk printf <user_details>) main 
+getpwuid get_user_info main 
+__GI___tsearch __GI___nss_lookup_function __GI___nss_lookup __GI___nss_passwd_lookup2 __getpwuid_r getpwuid get_user_info main 
+
+
+backtrace:
+#0  0x00007f7200b618a2 in __GI___libc_free (mem=<optimized out>) at malloc.c:3124
+#1  0x00007f7200ab172b in _nss_files_initgroups_dyn (user=user@entry=0x5623075ae628 "root", group=group@entry=0x0, start=start@entry=0x7ffe0eb00ad0, size=size@entry=0x7ffe0eb00b28, groupsp=groupsp@entry=0x7ffe0eb00b30, limit=limit@entry=0xffffffffffffffff, errnop=0x7f7200abd200) at nss_files/files-initgroups.c:125
+#2  0x00007f7200ba6186 in internal_getgrouplist (user=user@entry=0x5623075ae628 "root", group=group@entry=0x0, size=size@entry=0x7ffe0eb00b28, groupsp=groupsp@entry=0x7ffe0eb00b30, limit=limit@entry=0xffffffffffffffff) at initgroups.c:111
+#3  0x00007f7200ba63ed in getgrouplist (user=user@entry=0x5623075ae628 "root", group=group@entry=0x0, groups=groups@entry=0x5623075bd220, ngroups=ngroups@entry=0x7ffe0eb00b84) at initgroups.c:169
+#4  0x00007f7200ce2336 in sudo_getgrouplist2_v1 (name=0x5623075ae628 "root", basegid=0x0, groupsp=groupsp@entry=0x7ffe0eb00be0, ngroupsp=ngroupsp@entry=0x7ffe0eb00bdc) at ./getgrouplist.c:105
+#5  0x00007f7200a42683 in sudo_make_gidlist_item (pw=0x5623075ae5f8, unused1=<optimized out>, type=0x1) at ./pwutil_impl.c:272
+#6  0x00007f7200a4142e in sudo_get_gidlist (pw=0x5623075ae5f8, type=type@entry=0x1) at ./pwutil.c:932
+#7  0x00007f7200a3b18d in runas_getgroups () at ./match.c:145
+#8  0x00007f7200a2c8a2 in runas_setgroups () at ./set_perms.c:1714
+#9  set_perms (perm=perm@entry=0x5) at ./set_perms.c:281
+#10 0x00007f7200a26d7a in sudoers_lookup (snl=0x7f7200a63d00 <snl>, pw=0x5623075ae458, validated=validated@entry=0x60, pwflag=pwflag@entry=0x0) at ./parse.c:299
+#11 0x00007f7200a2fb0e in sudoers_policy_main (argc=argc@entry=0x3, argv=argv@entry=0x7ffe0eb01578, pwflag=pwflag@entry=0x0, env_add=env_add@entry=0x0, verbose=verbose@entry=0x0, closure=closure@entry=0x7ffe0eb01280) at ./sudoers.c:325
+#12 0x00007f7200a2912a in sudoers_policy_check (argc=0x3, argv=0x7ffe0eb01578, env_add=0x0, command_infop=0x7ffe0eb012f8, argv_out=0x7ffe0eb01300, user_env_out=0x7ffe0eb01308) at ./policy.c:872
+#13 0x000056230630e151 in policy_check (plugin=0x56230632e7a0 <policy_plugin>, user_env_out=0x7ffe0eb01308, argv_out=0x7ffe0eb01300, command_info=0x7ffe0eb012f8, env_add=0x0, argv=0x7ffe0eb01578, argc=0x3) at ./sudo.c:1140
+#14 main (argc=<optimized out>, argv=<optimized out>, envp=0x7ffe0eb01598) at ./sudo.c:254
+
